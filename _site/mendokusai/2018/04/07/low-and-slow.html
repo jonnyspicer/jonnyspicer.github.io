@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Low and slow</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Volkhov" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+13px" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+  
+    <a href="/">
+      Home
+    </a>
+  
+    <a href="/about">
+      About
+    </a>
+  
+    <a href="/mendokusai">
+      Mendokusai
+    </a>
+  
+    <a href="/tartarus">
+      Tartarus
+    </a>
+  
+</nav>
+
+      <div class="post">
+  <h1>Low and slow</h1>
+
+  <p>
+    07 Apr 2018
+    
+    
+  </p>
+
+  <span >Today I learned a little about web security, and one of the things I read about which I thought were awesome, were low and slow attacks. These are almost the opposite of conventional DDoS attacks, but instead of sending as much data as possible to take up the entirety of the recipients bandwidth, they send a tiny amount of data - only bytes at a time - very slowly. Apache webservers are particularly vulnerable because they have a limited number of connections, so certain scripts, such as the slow loris attack or R U Dead Yet? (RUDY - named after the excellent Children of Bodom album) simply setup 200 sockets and then begin occupying the time of the server. They send over a tiny amount of data very slowly - this ensures the server doesn't close the connection. Because the attacker is only using a small amount of bandwidth, that computer will function entirely normally. Oh, and these scripts are small (most less than 100 lines of code), elegant, and very difficult to detect. Hilarious.</span>
+</div>
+
+    </div>
+    <footer>
+  Jonny Spicer &#169; 2018
+</footer>
+
+  </body>
+</html>
