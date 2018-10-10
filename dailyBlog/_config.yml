@@ -23,6 +23,10 @@ url: "http://jonnyspicer.com" # the base hostname & protocol for your site, e.g.
 twitter_username: junior_devloper
 github_username:  jonnyspicer
 
+sass:
+ sass_dir: _sass
+ style: compressed
+
 collections:
   authors:
     output: true
@@ -44,10 +48,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-
-sass:
- sass_dir: _sass
- style: compressed
 
 # Build settings
 markdown: kramdown
