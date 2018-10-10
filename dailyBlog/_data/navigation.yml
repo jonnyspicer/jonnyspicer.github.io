@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: About
+  link: /about
+- name: Mendokusai
+  link: /mendokusai
+- name: Tartarus
+  link: /tartarus

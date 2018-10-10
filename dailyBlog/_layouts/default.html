@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Volkhov" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+13px" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      {% include header.html %}
+      {{ content }}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

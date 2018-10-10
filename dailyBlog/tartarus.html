@@ -1,0 +1,21 @@
+---
+layout: default
+title: Thoughts from Tartarus
+permanlink: /tartarus
+---
+<h1>Thoughts from Tartarus</h1>
+<p>
+  This is my older, long-form blog
+  where I infrequently make essay-style posts. The name is a lame
+  twofold joke I have with myself - my poker screenname is "persephoney"
+  and my blog posts are usually self-absorbed complaints, as if I
+  feel like I am in a hell of mythological proportion. I promise
+  it's not all whiny though.
+</p>
+<ul class="archive-list">
+  {% for post in site.categories.tartarus %}
+    <li>
+      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+    </li>
+    {% endfor %}
+</ul>

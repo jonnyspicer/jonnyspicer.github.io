@@ -1,0 +1,20 @@
+---
+layout: default
+title: Mendokusai
+permalink: /mendokusai
+---
+<h1>{{ page.title }}</h1>
+<p>
+  This is my daily blog. Sometimes the posts are just a couple
+  of lines long, and sometimes I have a lot on my mind and write a
+  few pages. If you want to find something embarrassing about me, here is
+  a good place to start.
+</p>
+
+<ul class="archive-list">
+  {% for post in site.categories.mendokusai %}
+    <li>
+      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+    </li>
+    {% endfor %}
+</ul>

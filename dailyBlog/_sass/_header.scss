@@ -1,0 +1,9 @@
+nav{
+  padding-top: 10px;
+  a{
+    padding: 0 20px;
+    &:first-child{
+      padding-left: 0;
+    }
+  }
+}
