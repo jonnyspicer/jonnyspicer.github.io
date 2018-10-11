@@ -11,10 +11,16 @@ permalink: /mendokusai
   a good place to start.
 </p>
 
-<ul class="archive-list">
-  {% for post in site.categories.mendokusai %}
+<ul class="recent-posts">
+  {% for post in site.categories.mendokusai offset: 0 limit: 10 %}
     <li>
       <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      <span>{{ post.date | date_to_string }} | {{ post.tags }}</span>
     </li>
     {% endfor %}
 </ul>
+
+<p>
+  If you want to read more, check out the <a href="{{ base.url }}/mendokusai/archives">
+  archives.</a>
+</p>

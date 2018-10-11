@@ -1,6 +1,19 @@
-.archive-list{
+.archive-list, .recent-posts{
   padding: 20px 0;
   li{
     padding-bottom: 0;
+  }
+  h4{
+    margin-bottom: 5px;
+  }
+  span{
+    font-size: 12px;
+    font-style: italic;
+  }
+  a{
+    color: $color_grey_very_dark;
+    &:hover{
+      color: $color_grey_light;
+    }
   }
 }
