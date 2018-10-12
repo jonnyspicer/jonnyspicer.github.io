@@ -19,9 +19,13 @@ h3, h4, h5, h6 {
   color: $color_grey_dark;
 }
 
-p, a, footer, span, li {
+p, a, footer, span, li, blockquote {
   font-family: $font-stack-copy;
   color: $color_text;
+}
+
+blockquote{
+  font-style: italic;
 }
 
 .wrapper{

@@ -1,19 +1,16 @@
 ---
-title: Jonny Spicer | Thoughts from Tartarus
+title: Jonny Spicer | Technology and Mental Health
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<h4>The story of another guy trying really, really hard to come to terms with the fact that he had to get a job.</h4>
-
-<!-- Latest daily post
-Read more daily posts
-Latest Tartarus post
-Read more Tartarus posts -->
+<blockquote>The story of another guy trying really, really
+  hard to come to terms with the fact that he had to get a job.</blockquote>
 
 <ul class="recent-posts">
   {% for post in site.categories.mendokusai offset: 0 limit: 1 %}
+  <h2>Mendokusai</h2>
     <li>
-      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <p>{{ post.content | strip_html | truncatewords: 50 }}</p><br />
       <span>{{ post.date | date_to_string }} | {{ post.tags | sort | join: ", " }}</span>
     </li>
@@ -25,8 +22,9 @@ Read more Tartarus posts -->
 
 <ul class="recent-posts">
   {% for post in site.categories.tartarus offset: 0 limit: 1 %}
+  <h2>Thoughts from Tartarus</h2>
     <li>
-      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <p>{{ post.content | strip_html | truncatewords: 50 }}</p><br />
       <span>{{ post.date | date_to_string }} | {{ post.tags | sort | join: ", " }}</span>
     </li>
