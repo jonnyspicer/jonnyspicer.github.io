@@ -28,7 +28,7 @@ Read more Tartarus posts -->
     <li>
       <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
       <p>{{ post.content | strip_html | truncatewords: 50 }}</p><br />
-      <span>{{ post.date | date_to_string }} | {{ post.tags }}</span>
+      <span>{{ post.date | date_to_string }} | {{ post.tags | sort | join: ", " }}</span>
     </li>
     {% endfor %}
 </ul>
