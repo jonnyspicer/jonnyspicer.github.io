@@ -13,7 +13,11 @@
   a{
     color: $color_grey_very_dark;
     &:hover{
-      color: $color_grey_light;
+      color: $color_grey_dark;
+      transition: 0.1s;
+    }
+    &:after{
+      background-color: $color_grey_dark;
     }
   }
   p{
