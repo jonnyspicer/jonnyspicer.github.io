@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Jonny Spicer's personal website and blog, where he writes about
   mental health, technology, esports, but primarily trash.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jonnyspicer.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://jonnyspicer.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: junior_devloper
 github_username:  jonnyspicer
 
@@ -54,6 +54,8 @@ markdown: kramdown
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

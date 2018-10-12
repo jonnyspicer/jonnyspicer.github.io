@@ -4,4 +4,18 @@ blockquote {
 
 h2{
   font-family: $font-stack-subheader;
+  padding: 0;
+  margin: 0;
+}
+
+h4{
+  margin-bottom: 5px;
+}
+
+.recent-posts-tartarus{
+  margin-top: 50px;
+}
+
+.recent-posts-mendokusai{
+  margin-bottom: 50px;
 }

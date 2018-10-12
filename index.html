@@ -3,33 +3,32 @@ title: Jonny Spicer | Technology and Mental Health
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<blockquote>The story of another guy trying really, really
-  hard to come to terms with the fact that he had to get a job.</blockquote>
 
-<ul class="recent-posts">
-  {% for post in site.categories.mendokusai offset: 0 limit: 1 %}
-  <h2>Mendokusai</h2>
-    <li>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.content | strip_html | truncatewords: 50 }}</p><br />
-      <span>{{ post.date | date_to_string }} | {{ post.tags | sort | join: ", " }}</span>
-    </li>
-    {% endfor %}
-</ul>
 <p>
-  <a class="read-more" href="{{ base.url }}/mendokusai">Click here to read more daily posts</a>
+  Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor
+  Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor
+  Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor
+  Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor 
 </p>
 
-<ul class="recent-posts">
-  {% for post in site.categories.tartarus offset: 0 limit: 1 %}
-  <h2>Thoughts from Tartarus</h2>
-    <li>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.content | strip_html | truncatewords: 50 }}</p><br />
+<div class="recent-posts recent-posts-mendokusai">
+  <h2>Latest post on Mendokusai:</h2>
+    {% for post in site.categories.mendokusai offset: 0 limit: 1 %}
+      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
       <span>{{ post.date | date_to_string }} | {{ post.tags | sort | join: ", " }}</span>
-    </li>
     {% endfor %}
-</ul>
-<p>
-  <a class="read-more" href="{{ base.url }}/tartarus">Click here to read more essay-style posts</a>
-</p>
+  <p>
+    <a class="read-more" href="{{ base.url }}/mendokusai">Click here to read more daily posts</a>
+  </p>
+</div>
+<hr />
+<div class="recent-posts recent-posts-tartarus">
+  <h2>Latest post on Thoughts from Tartarus:</h2>
+    {% for post in site.categories.tartarus offset: 0 limit: 1 %}
+      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      <span>{{ post.date | date_to_string }} | {{ post.tags | sort | join: ", " }}</span>
+    {% endfor %}
+  <p>
+    <a class="read-more" href="{{ base.url }}/tartarus">Click here to read more essay-style posts</a>
+  </p>
+</div>
