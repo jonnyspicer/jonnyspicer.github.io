@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egos at the Door</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Volkhov" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+13px" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="desktop-nav">
+  
+  <div>
+    <a href="/">
+      Home
+    </a>
+  </div>
+
+  
+  <div>
+    <a href="/about">
+      About
+    </a>
+  </div>
+
+  
+  <div>
+    <a href="/mendokusai">
+      Mendokusai
+    </a>
+  </div>
+
+  
+  <div>
+    <a href="/tartarus">
+      Tartarus
+    </a>
+  </div>
+
+  
+</nav>
+
+      <div class="post">
+  <h1>Egos at the Door</h1>
+
+  <p>
+    13 Oct 2018
+    
+    
+  </p>
+
+  <p>
+  Today was another perfect example of why having an ego and being
+  a programmer seem completely incompatible. This site is built
+  only really using HTML and CSS - admittedly there is some templating
+  and preprocessing done with Sass/Liquid etc - but it should still
+  be easy enough.
+</p>
+<p>
+  I spent maybe two hours today staring at the mobile styling
+  for this page. I had a regular desktop browser set to 375px
+  wide, but everything was too small, and the DOM elements
+  were telling me that there were bigger than they demonstrably were.
+  <code>console.log(screen.width);</code> returned 375px - what we'd
+  expect. <code>console.log(document.querySelector('body').screenWidth);</code>
+  however, returned 980px, despite it clearly being visually
+  less than the width of the device. I even hooked up an old
+  android phone to my PC and <a href="https://developer.android.com/studio/debug/dev-options">
+  installed developer options by tapping the build number 7 times.</a> I had no joy whatsoever.
+  What. The. Fuck.
+</p>
+<p>
+  Except not really what the fuck, because anyone who would so
+  brazenly call themselves a web developer, as I have, would
+  know that the first thing to check would be whether or not
+  a meta value had been set for the viewport. I'm a clown.
+</p>
+<hr />
+<p>
+  At least I am a clown who learned something, and I suspect
+  this is the last time I make this mistake again - at the very
+  least I hope it is the last time I waste nearly 2 hours trying
+  to correct it. The relief when I could finally get media queries
+  working correctly was palpable.
+</p>
+
+</div>
+
+    </div>
+    <footer>
+  &#169; Jonny Spicer
+</footer>
+
+  </body>
+</html>

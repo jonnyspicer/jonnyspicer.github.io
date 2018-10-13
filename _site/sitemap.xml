@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/authors/jonny.html</loc>
-<lastmod>2018-10-13T17:40:54+01:00</lastmod>
+<lastmod>2018-10-13T18:43:38+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/tartarus/2017/02/20/the-depths-of-the-blog.html</loc>
@@ -943,6 +943,10 @@
 <url>
 <loc>http://localhost:4000/mendokusai/2018/10/12/beautility.html</loc>
 <lastmod>2018-10-12T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/mendokusai/2018/10/13/egos-at-the-door.html</loc>
+<lastmod>2018-10-13T00:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
