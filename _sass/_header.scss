@@ -9,10 +9,5 @@ nav{
     &:last-child{
       border-right: solid 1px $color_grey_dark;
     }
-    a{
-      @media screen and (max-width: 600px){
-        font-size: 24px;
-      }
-    }
   }
 }
