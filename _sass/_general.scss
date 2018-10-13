@@ -33,6 +33,9 @@ blockquote{
   margin: 0 auto;
   flex: 1 0 auto;
   padding: 20px;
+  @media screen and (max-width: 600px){
+    max-width: none;
+  }
 }
 
 footer{
