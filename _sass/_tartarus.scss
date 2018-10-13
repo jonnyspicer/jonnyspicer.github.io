@@ -1,0 +1,11 @@
+.tartarus{
+  a{
+    color: #666;
+    &:after{
+      color:$color_grey_very_dark;
+    }
+    &:hover{
+      color:$color_grey_very_dark
+    }
+  }
+}

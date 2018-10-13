@@ -12,10 +12,24 @@ h4{
   margin-bottom: 5px;
 }
 
+.recent-posts-tartarus, .recent-posts-mendokusai{
+  p{
+    margin-top: 0;
+  }
+}
+
 .recent-posts-tartarus{
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .recent-posts-mendokusai{
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+.post-snippet{
+  padding: 30px 0;
+}
+
+.read-more{
+  font-size: 18px;
 }
