@@ -24,6 +24,10 @@ p, a, footer, span, li, blockquote {
   color: $color_text;
 }
 
+label{
+  display:none;
+}
+
 blockquote{
   font-style: italic;
 }
