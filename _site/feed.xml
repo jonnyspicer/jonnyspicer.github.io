@@ -1,4 +1,154 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-19T19:41:12+01:00</updated><id>http://localhost:4000/</id><title type="html">Jonny Spicer | Thoughts From Tartarus</title><subtitle>Jonny Spicer's personal website and blog, where he writes about mental health, technology, esports, but primarily trash.</subtitle><entry><title type="html">DEFCON</title><link href="http://localhost:4000/mendokusai/2018/10/19/defcon.html" rel="alternate" type="text/html" title="DEFCON" /><published>2018-10-19T00:00:00+01:00</published><updated>2018-10-19T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2018/10/19/defcon</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/19/defcon.html">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-20T20:09:56+01:00</updated><id>http://localhost:4000/</id><title type="html">Jonny Spicer | Thoughts From Tartarus</title><subtitle>Jonny Spicer's personal website and blog, where he writes about mental health, technology, esports, but primarily trash.</subtitle><entry><title type="html">Experiences with Jekyll</title><link href="http://localhost:4000/tartarus/2018/10/20/experiences-with-jekyll.html" rel="alternate" type="text/html" title="Experiences with Jekyll" /><published>2018-10-20T00:00:00+01:00</published><updated>2018-10-20T00:00:00+01:00</updated><id>http://localhost:4000/tartarus/2018/10/20/experiences-with-jekyll</id><content type="html" xml:base="http://localhost:4000/tartarus/2018/10/20/experiences-with-jekyll.html">&lt;p&gt;
+  Having (finally) got round to rebuilding this site, I thought it would
+  be nice to talk a little bit about the process of doing so, from learning
+  Jekyll, to design, to development and deployment. All of them are,
+  in the case of this site, pretty basic, given the basic nature of the
+  site, but hey, I'm still fairly new at this.
+&lt;/p&gt;
+&lt;p&gt;
+  My old site was Wordpress-hosted, which was frankly embarrassing. Aside
+  from the limitations of this, not knowing that I'd written all of the
+  code (in fact, having written none of the code whatsoever), didn't
+  really make me feel like it was &lt;strong&gt;my&lt;/strong&gt; website. Sure,
+  I could self-host Wordpress or some other PHP-based CMS and get my hands
+  dirty in the source code if I wanted to, but a CMS would be overkill
+  for this kind of site, and besides, I'm supposedly a developer, I ought
+  not to need some shiny UI to manage my content.
+&lt;/p&gt;
+&lt;p&gt;
+  Jekyll seemed like the obvious choice, mostly because of free hosting
+  on Github Pages. I'm 90% sure I could host this site for free on AWS,
+  but I haven't bothered to actually figure it out yet, so Pages is
+  our home now, and Pages pushes Jekyll. I'd never used any SSG before,
+  and seeing as Jekyll is #1 on &lt;a href=&quot;https://staticgen.com&quot;&gt;
+  Staticgen,&lt;/a&gt; it seemed like a relatively easy choice. In retrospect,
+  maybe I should've used a Javascript-based SSG rather than one which
+  uses Ruby, which I know nothing about and in fact had to install
+  on my home machine at the start of the project, but I don't have too
+  much bad to say about Jekyll.
+&lt;/p&gt;
+&lt;p&gt;
+  There were a few hiccoughs - I was pretty skeptical when installing the
+  aforementioned Ruby for the first time, as I am growing increasingly wary of package
+  managers exacerbating the problems they are supposedly meant to solve.
+  The documentation for Jekyll isn't tooooo bad (nb, being a Drupal developer
+  has forever changed the way I think about documentation. In my view,
+  any documentation is good documentation...), and there is a decent
+  enough SE community too. The two issues I ran into were kinda funny
+  in the end - firstly I broke the automatic rerender on the local
+  environment, and I still don't know how. For some reason, running
+  &lt;code&gt;bundle update&lt;/code&gt; fixed it, but I am fairly sure I hadn't
+  pulled or made any changes from the network at all between it working
+  and it breaking... maybe I am just dumb. I also kept getting build
+  errors when I deployed to Pages, despite my build working just fine
+  locally. I know Pages builds in super-strict mode or whatever, but
+  I had the &lt;code&gt;github-pages&lt;/code&gt; gem which is supposed to keep
+  all your packages in-line with the ones on Pages. Turns out, having
+  everything in a single directory underneath the repo root was breaking
+  everything - lol.
+&lt;/p&gt;
+&lt;p&gt;
+  Templating is obviously pretty natural for anyone who has ever done
+  anything with a CMS before, so that bit was quite easy, and the syntax
+  wasn't too hard. Liquid mostly makes sense too, it isn't immediately
+  obvious that it's actually quite useful, but with some well placed
+  search queries, you can dig up some nice how-tos for things like
+  better excerpts (the default is a bit shit) and proper navigation.
+  I am still curious as to why they call it &quot;front matter&quot;, but regardless
+  of its name, fortunately I found it relatively intuitive also.
+&lt;/p&gt;
+&lt;p&gt;
+  With regards to design, I am obviously no designer. In fact, not only
+  am I &quot;no designer&quot;, I have no knowledge, no training, no experience -
+  no nothing - of design. All I really have is reference points, and the ability
+  as a user to say &quot;that's cool&quot; or &quot;that's kinda ugly&quot;. I wanted to focus
+  on readability and good typesetting, inspired a little by iOS Safari's
+  reader view, and the Kindle app. The content is meant to be the focus,
+  and the rest of the page should not be distracting - take your time,
+  read what is in front of you. I also wanted to fit in with what seems
+  to be the trend in personal tech blogs - they have a minimalist feel,
+  often with few or no images, default fonts, and generally they look
+  like late 90s sites, even if the author clearly has the ability to
+  bring them in line with 21st century trends. &lt;a href=&quot;http://paulgraham.com/lisp.html&quot; rel=&quot;noreferrer&quot;&gt;
+  Paul Graham's site&lt;/a&gt; is a great example of this, and I love visiting it.
+&lt;/p&gt;
+&lt;p&gt;
+  Part of the reason this site is monochrome is because I like it,
+  but a much large part of the reason is that I was too scared to add
+  colours. If I was going to have a primary colour for this site,
+  it would have to represent my personality... which colour represents
+  my personality (I'm a Scorpio if it helps)?
+&lt;/p&gt;
+&lt;p&gt;
+  Trick question, the answer is black, the colour on the site.
+&lt;/p&gt;
+&lt;p&gt;
+  There aren't any images (yet) either, despite the old site having
+  a featured image on every post, and quite a few on the other pages.
+  Part of this was due to the horrible way whichever Wordpress theme
+  I was using would style images - it would left-align and then crop
+  so they were less than the width-wrapper, I mean what the fuck - and
+  a more important part is that now I see how much the quality of imagery
+  has an effect on the quality of the site itself. So, no more shitty
+  iPhone pictures. There will maybe be images at some point, if I can
+  get some nice ones off &lt;a href=&quot;https://unsplash.com&quot; rel=&quot;noreferrer&quot;&gt;
+  Unsplash&lt;/a&gt; or something.
+&lt;/p&gt;
+&lt;p&gt;
+  The final piece of the puzzle that was deciding how to build this site
+  was the one I actually think is coolest. You see... this site has no Javascript.
+  Animated link underline? CSS. Accordions? CSS. Hamburger menu on mobile? CSS. Trackers?
+  Don't have any. (If you want me to know you've read my post, you can find
+  my email on the &lt;a href=&quot;//about/&quot;&gt;
+  about page.&lt;/a&gt;) Admittedly, these are somewhat hack-y, Javascript
+  could definitely do them better, and they are terrible for accessibility,
+  but the tradeoff is better performance and a fully functioning website even
+  with scripts disabled. I think a lot of developers ignore accessibility
+  and that is a big problem, however I think a lot of developers also
+  put far too much JS on all their pages and &lt;strong&gt;that killing the internet.&lt;/strong&gt;
+  So, in the end, I think it is a trade worth making - perhaps in the future
+  I could look at alternative ways of navigating the site, that would be
+  more accessible.
+&lt;/p&gt;
+&lt;p&gt;
+  It was fun to pick up a new technology, and I think the biggest takeaway
+  I have from this site is that learning something new &lt;i&gt;should&lt;/i&gt; be fun,
+  and in the process, expect to do badly, to write horrible code, to throw
+  code away and start again. The SASS for this site is a fucking &lt;strong&gt;
+  mess&lt;/strong&gt;, because I started writing it not even knowing what the
+  file structure was going to look like, as I was learning on the fly. Sure,
+  in a sense, that's bad, but spending 2 hours trying to map out my site
+  without really even understanding the templating or page generation
+  of sites, would've been worse. I definitely get struck by overplanning-paralysis
+  as much as the next guy, but I am glad I didn't get too emotionally attached
+  to anything I wrote at the beginning of this project (it's only SASS after all),
+  so I had no problem ripping it out and starting again. To be honest it still
+  needs ripping out and starting again, so I am going to put my refactoring
+  hat on at some point this week.
+&lt;/p&gt;
+&lt;p&gt;
+  I would say Jekyll is pretty neat overall. Of course it has some drawbacks,
+  it cannot do some things you would expect or want it to do, for example
+  there isn't an especially easy way to group or show posts by date, and
+  the only way I have found of filtering by tag is to manually create a page
+  for every tag and then link to it - I may have not been trying hard
+  enough to find the solution though. If you're a developer, it's a pretty nice
+  way to write a blog, it is relatively pain free and the flexibility is nice -
+  just don't expect to expand too much or add any extra features.
+&lt;/p&gt;
+&lt;p&gt;
+  In the future, I am hoping I can be constantly improving the site, be it
+  the design, the performance or the content. I have a tonne of things left
+  on my to do list for the site, such as adding blockquote element styling,
+  better code element styling, and configuring the SEO tag module properly.
+  I am hoping to write more entries for Thoughts from Tartarus, and I know I
+  say that every time, but I have found writing daily especially cathartic
+  recently, and I think I am slowly &quot;finding my voice&quot; again, so perhaps
+  I will make good on my promise of more posts this time.
+&lt;/p&gt;
+&lt;p&gt;
+  Who am I kidding. If you don't read Mendokusai, see you next year!
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Web Development" /><category term="Jekyll" /><summary type="html">Having (finally) got round to rebuilding this site, I thought it would be nice to talk a little bit about the process of doing so, from learning Jekyll, to design, to development and deployment. All of them are, in the case of this site, pretty basic, given the basic nature of the site, but hey, I'm still fairly new at this. My old site was Wordpress-hosted, which was frankly embarrassing. Aside from the limitations of this, not knowing that I'd written all of the code (in fact, having written none of the code whatsoever), didn't really make me feel like it was my website. Sure, I could self-host Wordpress or some other PHP-based CMS and get my hands dirty in the source code if I wanted to, but a CMS would be overkill for this kind of site, and besides, I'm supposedly a developer, I ought not to need some shiny UI to manage my content. Jekyll seemed like the obvious choice, mostly because of free hosting on Github Pages. I'm 90% sure I could host this site for free on AWS, but I haven't bothered to actually figure it out yet, so Pages is our home now, and Pages pushes Jekyll. I'd never used any SSG before, and seeing as Jekyll is #1 on Staticgen, it seemed like a relatively easy choice. In retrospect, maybe I should've used a Javascript-based SSG rather than one which uses Ruby, which I know nothing about and in fact had to install on my home machine at the start of the project, but I don't have too much bad to say about Jekyll. There were a few hiccoughs - I was pretty skeptical when installing the aforementioned Ruby for the first time, as I am growing increasingly wary of package managers exacerbating the problems they are supposedly meant to solve. The documentation for Jekyll isn't tooooo bad (nb, being a Drupal developer has forever changed the way I think about documentation. In my view, any documentation is good documentation...), and there is a decent enough SE community too. The two issues I ran into were kinda funny in the end - firstly I broke the automatic rerender on the local environment, and I still don't know how. For some reason, running bundle update fixed it, but I am fairly sure I hadn't pulled or made any changes from the network at all between it working and it breaking... maybe I am just dumb. I also kept getting build errors when I deployed to Pages, despite my build working just fine locally. I know Pages builds in super-strict mode or whatever, but I had the github-pages gem which is supposed to keep all your packages in-line with the ones on Pages. Turns out, having everything in a single directory underneath the repo root was breaking everything - lol. Templating is obviously pretty natural for anyone who has ever done anything with a CMS before, so that bit was quite easy, and the syntax wasn't too hard. Liquid mostly makes sense too, it isn't immediately obvious that it's actually quite useful, but with some well placed search queries, you can dig up some nice how-tos for things like better excerpts (the default is a bit shit) and proper navigation. I am still curious as to why they call it &quot;front matter&quot;, but regardless of its name, fortunately I found it relatively intuitive also. With regards to design, I am obviously no designer. In fact, not only am I &quot;no designer&quot;, I have no knowledge, no training, no experience - no nothing - of design. All I really have is reference points, and the ability as a user to say &quot;that's cool&quot; or &quot;that's kinda ugly&quot;. I wanted to focus on readability and good typesetting, inspired a little by iOS Safari's reader view, and the Kindle app. The content is meant to be the focus, and the rest of the page should not be distracting - take your time, read what is in front of you. I also wanted to fit in with what seems to be the trend in personal tech blogs - they have a minimalist feel, often with few or no images, default fonts, and generally they look like late 90s sites, even if the author clearly has the ability to bring them in line with 21st century trends. Paul Graham's site is a great example of this, and I love visiting it. Part of the reason this site is monochrome is because I like it, but a much large part of the reason is that I was too scared to add colours. If I was going to have a primary colour for this site, it would have to represent my personality... which colour represents my personality (I'm a Scorpio if it helps)? Trick question, the answer is black, the colour on the site. There aren't any images (yet) either, despite the old site having a featured image on every post, and quite a few on the other pages. Part of this was due to the horrible way whichever Wordpress theme I was using would style images - it would left-align and then crop so they were less than the width-wrapper, I mean what the fuck - and a more important part is that now I see how much the quality of imagery has an effect on the quality of the site itself. So, no more shitty iPhone pictures. There will maybe be images at some point, if I can get some nice ones off Unsplash or something. The final piece of the puzzle that was deciding how to build this site was the one I actually think is coolest. You see... this site has no Javascript. Animated link underline? CSS. Accordions? CSS. Hamburger menu on mobile? CSS. Trackers? Don't have any. (If you want me to know you've read my post, you can find my email on the about page.) Admittedly, these are somewhat hack-y, Javascript could definitely do them better, and they are terrible for accessibility, but the tradeoff is better performance and a fully functioning website even with scripts disabled. I think a lot of developers ignore accessibility and that is a big problem, however I think a lot of developers also put far too much JS on all their pages and that killing the internet. So, in the end, I think it is a trade worth making - perhaps in the future I could look at alternative ways of navigating the site, that would be more accessible. It was fun to pick up a new technology, and I think the biggest takeaway I have from this site is that learning something new should be fun, and in the process, expect to do badly, to write horrible code, to throw code away and start again. The SASS for this site is a fucking mess, because I started writing it not even knowing what the file structure was going to look like, as I was learning on the fly. Sure, in a sense, that's bad, but spending 2 hours trying to map out my site without really even understanding the templating or page generation of sites, would've been worse. I definitely get struck by overplanning-paralysis as much as the next guy, but I am glad I didn't get too emotionally attached to anything I wrote at the beginning of this project (it's only SASS after all), so I had no problem ripping it out and starting again. To be honest it still needs ripping out and starting again, so I am going to put my refactoring hat on at some point this week. I would say Jekyll is pretty neat overall. Of course it has some drawbacks, it cannot do some things you would expect or want it to do, for example there isn't an especially easy way to group or show posts by date, and the only way I have found of filtering by tag is to manually create a page for every tag and then link to it - I may have not been trying hard enough to find the solution though. If you're a developer, it's a pretty nice way to write a blog, it is relatively pain free and the flexibility is nice - just don't expect to expand too much or add any extra features. In the future, I am hoping I can be constantly improving the site, be it the design, the performance or the content. I have a tonne of things left on my to do list for the site, such as adding blockquote element styling, better code element styling, and configuring the SEO tag module properly. I am hoping to write more entries for Thoughts from Tartarus, and I know I say that every time, but I have found writing daily especially cathartic recently, and I think I am slowly &quot;finding my voice&quot; again, so perhaps I will make good on my promise of more posts this time. Who am I kidding. If you don't read Mendokusai, see you next year!</summary></entry><entry><title type="html">DEFCON</title><link href="http://localhost:4000/mendokusai/2018/10/19/defcon.html" rel="alternate" type="text/html" title="DEFCON" /><published>2018-10-19T00:00:00+01:00</published><updated>2018-10-19T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2018/10/19/defcon</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/19/defcon.html">&lt;p&gt;
   My out of office is on for the next week. Knowing this is an &lt;i&gt;
   excellent&lt;/i&gt; feeling. To celebrate, I decided to have a couple of
   beers and enjoy an evening of watching Youtube videos and doing nothing
@@ -232,45 +382,4 @@
   Drupal is nuts to me. My weekend homework (once this site is finished)
   is going to be researching the best way to start my open source journey -
   hopefully it is a long one.
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Open Source" /><category term="Web Development" /><category term="Technology" /><summary type="html">I was inspired today by this Medium article. I know inspiration will fade quickly, but I am hoping I can hold onto at least one thing from this article - it is never to late to start contributing to open source. One of the reasons I am a web developer is because I care a lot about the internet - I want it to be fast, accessible, to connect people and to improve our lives. Contributing to open source technology might seem sinful to some people, particularly in other professions. Giving up my time and expertise, for free? Volunteering, but not for those in need, for other developers? Well, in my infinite ignorance, I think it's a noble cause. To have the opportunity to contribute to a large, growing, evolving codebase would feel amazing, and I am hoping I will have that opportunity soon. Imagine when I get my first patch in a big project... It's going to feel like a huge achievement. The article linked above says it's never to early to start contributing, and I suspect this is true, especially given I don't actually have to contribute code, nor do I have to contribute to a major library. There are some pretty massive projects out there with terrible documentation - Drupal, I am looking at you - so something like that seems like a natural place to start. Obviously I am not going to try to write documentation for Drupal though, because that would require understanding it, and honestly Drupal is nuts to me. My weekend homework (once this site is finished) is going to be researching the best way to start my open source journey - hopefully it is a long one.</summary></entry><entry><title type="html">We are Live - ish</title><link href="http://localhost:4000/mendokusai/2018/10/10/we-are-live-ish.html" rel="alternate" type="text/html" title="We are Live - ish" /><published>2018-10-10T00:00:00+01:00</published><updated>2018-10-10T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2018/10/10/we-are-live-ish</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/10/we-are-live-ish.html">&lt;p&gt;
-  This is the first daily post which is going to be uploaded to this new
-  Jekyll site on the same day it was published! The URL is currently
-  jonnyspicer.github.io but assuming I get everything finished by the
-  end of the weekend, I'll swap the domain over to jonnyspicer.com -
-  an exciting time. It has taken a long time for me to even start this project
-  and in the end, it didn't even require that many hours, &amp;lt;20 so far,
-  including having to learn Jekyll.
-&lt;/p&gt;
-&lt;p&gt;
-  Overall I am pretty happy, I like the minimal look, Jekyll has not been
-  painless but it hasn't been excruciating either. There is a bit more
-  effort involed in actually generating a blog post then there would be
-  with a CMS, as evidenced by the fact I am writing this in my text editor
-  - there's no wysiwyg to catch any embarrassing spelling mistakes. I also
-  have to manually generate the post file with a specific date/name convention
-  but after the site is complete I'll write a script to do that for me.
-&lt;/p&gt;
-&lt;p&gt;
-  Left to do as of 10th Oct 2018:
-  &lt;ul&gt;
-    &lt;li&gt;
-      Set up home page with excerpts of last post in each blog;
-    &lt;/li&gt;
-    &lt;li&gt;
-      Change blog pages to just show last 5-10 posts for each blog,
-      with dates;
-    &lt;/li&gt;
-    &lt;li&gt;
-      Add full archive pages, grouped by date;
-    &lt;/li&gt;
-    &lt;li&gt;
-      Review mobile/tablet styling (should just be changing font size...);
-    &lt;/li&gt;
-    &lt;li&gt;
-      Add CNAME file to repo;
-    &lt;/li&gt;
-    &lt;li&gt;
-      Change DNS for jonnyspicer.com to point to this site.
-    &lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Technology" /><category term="Jekyll" /><category term="Web Development" /><summary type="html">This is the first daily post which is going to be uploaded to this new Jekyll site on the same day it was published! The URL is currently jonnyspicer.github.io but assuming I get everything finished by the end of the weekend, I'll swap the domain over to jonnyspicer.com - an exciting time. It has taken a long time for me to even start this project and in the end, it didn't even require that many hours, &amp;lt;20 so far, including having to learn Jekyll. Overall I am pretty happy, I like the minimal look, Jekyll has not been painless but it hasn't been excruciating either. There is a bit more effort involed in actually generating a blog post then there would be with a CMS, as evidenced by the fact I am writing this in my text editor - there's no wysiwyg to catch any embarrassing spelling mistakes. I also have to manually generate the post file with a specific date/name convention but after the site is complete I'll write a script to do that for me. Left to do as of 10th Oct 2018: Set up home page with excerpts of last post in each blog; Change blog pages to just show last 5-10 posts for each blog, with dates; Add full archive pages, grouped by date; Review mobile/tablet styling (should just be changing font size...); Add CNAME file to repo; Change DNS for jonnyspicer.com to point to this site.</summary></entry></feed>
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Open Source" /><category term="Web Development" /><category term="Technology" /><summary type="html">I was inspired today by this Medium article. I know inspiration will fade quickly, but I am hoping I can hold onto at least one thing from this article - it is never to late to start contributing to open source. One of the reasons I am a web developer is because I care a lot about the internet - I want it to be fast, accessible, to connect people and to improve our lives. Contributing to open source technology might seem sinful to some people, particularly in other professions. Giving up my time and expertise, for free? Volunteering, but not for those in need, for other developers? Well, in my infinite ignorance, I think it's a noble cause. To have the opportunity to contribute to a large, growing, evolving codebase would feel amazing, and I am hoping I will have that opportunity soon. Imagine when I get my first patch in a big project... It's going to feel like a huge achievement. The article linked above says it's never to early to start contributing, and I suspect this is true, especially given I don't actually have to contribute code, nor do I have to contribute to a major library. There are some pretty massive projects out there with terrible documentation - Drupal, I am looking at you - so something like that seems like a natural place to start. Obviously I am not going to try to write documentation for Drupal though, because that would require understanding it, and honestly Drupal is nuts to me. My weekend homework (once this site is finished) is going to be researching the best way to start my open source journey - hopefully it is a long one.</summary></entry></feed>
