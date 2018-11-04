@@ -100,3 +100,37 @@ h4{
 hr{
   width: 50%;
 }
+
+code{
+  background-color: #fbfaf8;
+  border: 1px solid rgba(0,0,0, .4);
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 2px 4px;
+}
+
+blockquote{
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  line-height: 0.1em;
+  &:before{
+    color: $color_grey_light;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  &:after{
+    color: $color_grey_light;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  p{
+    display: inline;
+  }
+}

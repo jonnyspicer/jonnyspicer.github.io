@@ -1,385 +1,494 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-20T20:09:56+01:00</updated><id>http://localhost:4000/</id><title type="html">Jonny Spicer | Thoughts From Tartarus</title><subtitle>Jonny Spicer's personal website and blog, where he writes about mental health, technology, esports, but primarily trash.</subtitle><entry><title type="html">Experiences with Jekyll</title><link href="http://localhost:4000/tartarus/2018/10/20/experiences-with-jekyll.html" rel="alternate" type="text/html" title="Experiences with Jekyll" /><published>2018-10-20T00:00:00+01:00</published><updated>2018-10-20T00:00:00+01:00</updated><id>http://localhost:4000/tartarus/2018/10/20/experiences-with-jekyll</id><content type="html" xml:base="http://localhost:4000/tartarus/2018/10/20/experiences-with-jekyll.html">&lt;p&gt;
-  Having (finally) got round to rebuilding this site, I thought it would
-  be nice to talk a little bit about the process of doing so, from learning
-  Jekyll, to design, to development and deployment. All of them are,
-  in the case of this site, pretty basic, given the basic nature of the
-  site, but hey, I'm still fairly new at this.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-04T20:22:23+00:00</updated><id>http://localhost:4000/</id><title type="html">Jonny Spicer | Thoughts From Tartarus</title><subtitle>Jonny Spicer's personal website and blog, where he writes about mental health, technology, esports, but primarily trash.</subtitle><entry><title type="html">Serral</title><link href="http://localhost:4000/mendokusai/2018/11/04/serral.html" rel="alternate" type="text/html" title="Serral" /><published>2018-11-04T00:00:00+00:00</published><updated>2018-11-04T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/11/04/serral</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/11/04/serral.html">&lt;p&gt;
+  Last night, Joona &quot;Serral&quot; Sotala made esports history. He was the first non-Korean
+  player to reach the world championship final in the 20 years the game has had one -
+  but not only that, the Finnish Zerg won, becoming the first world champion
+  not to carry the Korean flag.
 &lt;/p&gt;
 &lt;p&gt;
-  My old site was Wordpress-hosted, which was frankly embarrassing. Aside
-  from the limitations of this, not knowing that I'd written all of the
-  code (in fact, having written none of the code whatsoever), didn't
-  really make me feel like it was &lt;strong&gt;my&lt;/strong&gt; website. Sure,
-  I could self-host Wordpress or some other PHP-based CMS and get my hands
-  dirty in the source code if I wanted to, but a CMS would be overkill
-  for this kind of site, and besides, I'm supposedly a developer, I ought
-  not to need some shiny UI to manage my content.
+  For some context - in Starcraft, Koreans are so dominant that any player who
+  is not Korean is simply referred to as a &quot;foreigner&quot;. It's been a running joke
+  in the Starcraft community for years, that even mediocre Koreans will always
+  outshine foreign players. When any passionate fans are debating the greatest
+  foreigners of all time, it will always come down to the very small handful
+  who have been able to compete with Koreans and come out roughly equal. But none of them
+  have achieved what Serral has achieved - on top of winning the world championship,
+  he won all four major non-Korean tournaments this year, and GSL vs the World,
+  the clash of the two regions (GSL is the top Korean league). he was also the first
+  foreigner to take the crown in that tournament, and is one of a select few foreigners
+  to have won a major tournament on Korean soil.
 &lt;/p&gt;
 &lt;p&gt;
-  Jekyll seemed like the obvious choice, mostly because of free hosting
-  on Github Pages. I'm 90% sure I could host this site for free on AWS,
-  but I haven't bothered to actually figure it out yet, so Pages is
-  our home now, and Pages pushes Jekyll. I'd never used any SSG before,
-  and seeing as Jekyll is #1 on &lt;a href=&quot;https://staticgen.com&quot;&gt;
-  Staticgen,&lt;/a&gt; it seemed like a relatively easy choice. In retrospect,
-  maybe I should've used a Javascript-based SSG rather than one which
-  uses Ruby, which I know nothing about and in fact had to install
-  on my home machine at the start of the project, but I don't have too
-  much bad to say about Jekyll.
+  Before the world championships, there were whispers that the gap was closing.
+  Reddit was unusually optimistic. The Korean players, usually dismissive of
+  foreigners in interviews, didn't want to get drawn against Serral. They were scared -
+  they didn't want to be the ones to lose to a foreigner. But they all did:
+  Serral defeated an all-star lineup of the best players Seoul has to offer,
+  having faced a Korean player in every single match he played in the tournament.
 &lt;/p&gt;
 &lt;p&gt;
-  There were a few hiccoughs - I was pretty skeptical when installing the
-  aforementioned Ruby for the first time, as I am growing increasingly wary of package
-  managers exacerbating the problems they are supposedly meant to solve.
-  The documentation for Jekyll isn't tooooo bad (nb, being a Drupal developer
-  has forever changed the way I think about documentation. In my view,
-  any documentation is good documentation...), and there is a decent
-  enough SE community too. The two issues I ran into were kinda funny
-  in the end - firstly I broke the automatic rerender on the local
-  environment, and I still don't know how. For some reason, running
-  &lt;code&gt;bundle update&lt;/code&gt; fixed it, but I am fairly sure I hadn't
-  pulled or made any changes from the network at all between it working
-  and it breaking... maybe I am just dumb. I also kept getting build
-  errors when I deployed to Pages, despite my build working just fine
-  locally. I know Pages builds in super-strict mode or whatever, but
-  I had the &lt;code&gt;github-pages&lt;/code&gt; gem which is supposed to keep
-  all your packages in-line with the ones on Pages. Turns out, having
-  everything in a single directory underneath the repo root was breaking
-  everything - lol.
+  The first time I watched Serral play Starcraft, it was at Dreamhack Valencia 2013,
+  when he was 14. He took a game off Life, who would go on to be the world champion
+  next year, and is considered one of the best players of the modern era.
+  I remember thinking Serral was promising for his age, but I never
+  imagined he would achieve what he has this year. Before, fans would talk about
+  which player would be the &quot;foreign hope&quot;. Serral has made our hope a reality,
+  in one of the most inspiring and emotional displays of skill I've ever seen on an esports
+  stage.
 &lt;/p&gt;
 &lt;p&gt;
-  Templating is obviously pretty natural for anyone who has ever done
-  anything with a CMS before, so that bit was quite easy, and the syntax
-  wasn't too hard. Liquid mostly makes sense too, it isn't immediately
-  obvious that it's actually quite useful, but with some well placed
-  search queries, you can dig up some nice how-tos for things like
-  better excerpts (the default is a bit shit) and proper navigation.
-  I am still curious as to why they call it &quot;front matter&quot;, but regardless
-  of its name, fortunately I found it relatively intuitive also.
+  Thank you Serral, for making me proud to be a fan of Starcraft, esports and gaming.
 &lt;/p&gt;
 &lt;p&gt;
-  With regards to design, I am obviously no designer. In fact, not only
-  am I &quot;no designer&quot;, I have no knowledge, no training, no experience -
-  no nothing - of design. All I really have is reference points, and the ability
-  as a user to say &quot;that's cool&quot; or &quot;that's kinda ugly&quot;. I wanted to focus
-  on readability and good typesetting, inspired a little by iOS Safari's
-  reader view, and the Kindle app. The content is meant to be the focus,
-  and the rest of the page should not be distracting - take your time,
-  read what is in front of you. I also wanted to fit in with what seems
-  to be the trend in personal tech blogs - they have a minimalist feel,
-  often with few or no images, default fonts, and generally they look
-  like late 90s sites, even if the author clearly has the ability to
-  bring them in line with 21st century trends. &lt;a href=&quot;http://paulgraham.com/lisp.html&quot; rel=&quot;noreferrer&quot;&gt;
-  Paul Graham's site&lt;/a&gt; is a great example of this, and I love visiting it.
-&lt;/p&gt;
-&lt;p&gt;
-  Part of the reason this site is monochrome is because I like it,
-  but a much large part of the reason is that I was too scared to add
-  colours. If I was going to have a primary colour for this site,
-  it would have to represent my personality... which colour represents
-  my personality (I'm a Scorpio if it helps)?
-&lt;/p&gt;
-&lt;p&gt;
-  Trick question, the answer is black, the colour on the site.
-&lt;/p&gt;
-&lt;p&gt;
-  There aren't any images (yet) either, despite the old site having
-  a featured image on every post, and quite a few on the other pages.
-  Part of this was due to the horrible way whichever Wordpress theme
-  I was using would style images - it would left-align and then crop
-  so they were less than the width-wrapper, I mean what the fuck - and
-  a more important part is that now I see how much the quality of imagery
-  has an effect on the quality of the site itself. So, no more shitty
-  iPhone pictures. There will maybe be images at some point, if I can
-  get some nice ones off &lt;a href=&quot;https://unsplash.com&quot; rel=&quot;noreferrer&quot;&gt;
-  Unsplash&lt;/a&gt; or something.
-&lt;/p&gt;
-&lt;p&gt;
-  The final piece of the puzzle that was deciding how to build this site
-  was the one I actually think is coolest. You see... this site has no Javascript.
-  Animated link underline? CSS. Accordions? CSS. Hamburger menu on mobile? CSS. Trackers?
-  Don't have any. (If you want me to know you've read my post, you can find
-  my email on the &lt;a href=&quot;//about/&quot;&gt;
-  about page.&lt;/a&gt;) Admittedly, these are somewhat hack-y, Javascript
-  could definitely do them better, and they are terrible for accessibility,
-  but the tradeoff is better performance and a fully functioning website even
-  with scripts disabled. I think a lot of developers ignore accessibility
-  and that is a big problem, however I think a lot of developers also
-  put far too much JS on all their pages and &lt;strong&gt;that killing the internet.&lt;/strong&gt;
-  So, in the end, I think it is a trade worth making - perhaps in the future
-  I could look at alternative ways of navigating the site, that would be
-  more accessible.
-&lt;/p&gt;
-&lt;p&gt;
-  It was fun to pick up a new technology, and I think the biggest takeaway
-  I have from this site is that learning something new &lt;i&gt;should&lt;/i&gt; be fun,
-  and in the process, expect to do badly, to write horrible code, to throw
-  code away and start again. The SASS for this site is a fucking &lt;strong&gt;
-  mess&lt;/strong&gt;, because I started writing it not even knowing what the
-  file structure was going to look like, as I was learning on the fly. Sure,
-  in a sense, that's bad, but spending 2 hours trying to map out my site
-  without really even understanding the templating or page generation
-  of sites, would've been worse. I definitely get struck by overplanning-paralysis
-  as much as the next guy, but I am glad I didn't get too emotionally attached
-  to anything I wrote at the beginning of this project (it's only SASS after all),
-  so I had no problem ripping it out and starting again. To be honest it still
-  needs ripping out and starting again, so I am going to put my refactoring
-  hat on at some point this week.
-&lt;/p&gt;
-&lt;p&gt;
-  I would say Jekyll is pretty neat overall. Of course it has some drawbacks,
-  it cannot do some things you would expect or want it to do, for example
-  there isn't an especially easy way to group or show posts by date, and
-  the only way I have found of filtering by tag is to manually create a page
-  for every tag and then link to it - I may have not been trying hard
-  enough to find the solution though. If you're a developer, it's a pretty nice
-  way to write a blog, it is relatively pain free and the flexibility is nice -
-  just don't expect to expand too much or add any extra features.
-&lt;/p&gt;
-&lt;p&gt;
-  In the future, I am hoping I can be constantly improving the site, be it
-  the design, the performance or the content. I have a tonne of things left
-  on my to do list for the site, such as adding blockquote element styling,
-  better code element styling, and configuring the SEO tag module properly.
-  I am hoping to write more entries for Thoughts from Tartarus, and I know I
-  say that every time, but I have found writing daily especially cathartic
-  recently, and I think I am slowly &quot;finding my voice&quot; again, so perhaps
-  I will make good on my promise of more posts this time.
-&lt;/p&gt;
-&lt;p&gt;
-  Who am I kidding. If you don't read Mendokusai, see you next year!
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Web Development" /><category term="Jekyll" /><summary type="html">Having (finally) got round to rebuilding this site, I thought it would be nice to talk a little bit about the process of doing so, from learning Jekyll, to design, to development and deployment. All of them are, in the case of this site, pretty basic, given the basic nature of the site, but hey, I'm still fairly new at this. My old site was Wordpress-hosted, which was frankly embarrassing. Aside from the limitations of this, not knowing that I'd written all of the code (in fact, having written none of the code whatsoever), didn't really make me feel like it was my website. Sure, I could self-host Wordpress or some other PHP-based CMS and get my hands dirty in the source code if I wanted to, but a CMS would be overkill for this kind of site, and besides, I'm supposedly a developer, I ought not to need some shiny UI to manage my content. Jekyll seemed like the obvious choice, mostly because of free hosting on Github Pages. I'm 90% sure I could host this site for free on AWS, but I haven't bothered to actually figure it out yet, so Pages is our home now, and Pages pushes Jekyll. I'd never used any SSG before, and seeing as Jekyll is #1 on Staticgen, it seemed like a relatively easy choice. In retrospect, maybe I should've used a Javascript-based SSG rather than one which uses Ruby, which I know nothing about and in fact had to install on my home machine at the start of the project, but I don't have too much bad to say about Jekyll. There were a few hiccoughs - I was pretty skeptical when installing the aforementioned Ruby for the first time, as I am growing increasingly wary of package managers exacerbating the problems they are supposedly meant to solve. The documentation for Jekyll isn't tooooo bad (nb, being a Drupal developer has forever changed the way I think about documentation. In my view, any documentation is good documentation...), and there is a decent enough SE community too. The two issues I ran into were kinda funny in the end - firstly I broke the automatic rerender on the local environment, and I still don't know how. For some reason, running bundle update fixed it, but I am fairly sure I hadn't pulled or made any changes from the network at all between it working and it breaking... maybe I am just dumb. I also kept getting build errors when I deployed to Pages, despite my build working just fine locally. I know Pages builds in super-strict mode or whatever, but I had the github-pages gem which is supposed to keep all your packages in-line with the ones on Pages. Turns out, having everything in a single directory underneath the repo root was breaking everything - lol. Templating is obviously pretty natural for anyone who has ever done anything with a CMS before, so that bit was quite easy, and the syntax wasn't too hard. Liquid mostly makes sense too, it isn't immediately obvious that it's actually quite useful, but with some well placed search queries, you can dig up some nice how-tos for things like better excerpts (the default is a bit shit) and proper navigation. I am still curious as to why they call it &quot;front matter&quot;, but regardless of its name, fortunately I found it relatively intuitive also. With regards to design, I am obviously no designer. In fact, not only am I &quot;no designer&quot;, I have no knowledge, no training, no experience - no nothing - of design. All I really have is reference points, and the ability as a user to say &quot;that's cool&quot; or &quot;that's kinda ugly&quot;. I wanted to focus on readability and good typesetting, inspired a little by iOS Safari's reader view, and the Kindle app. The content is meant to be the focus, and the rest of the page should not be distracting - take your time, read what is in front of you. I also wanted to fit in with what seems to be the trend in personal tech blogs - they have a minimalist feel, often with few or no images, default fonts, and generally they look like late 90s sites, even if the author clearly has the ability to bring them in line with 21st century trends. Paul Graham's site is a great example of this, and I love visiting it. Part of the reason this site is monochrome is because I like it, but a much large part of the reason is that I was too scared to add colours. If I was going to have a primary colour for this site, it would have to represent my personality... which colour represents my personality (I'm a Scorpio if it helps)? Trick question, the answer is black, the colour on the site. There aren't any images (yet) either, despite the old site having a featured image on every post, and quite a few on the other pages. Part of this was due to the horrible way whichever Wordpress theme I was using would style images - it would left-align and then crop so they were less than the width-wrapper, I mean what the fuck - and a more important part is that now I see how much the quality of imagery has an effect on the quality of the site itself. So, no more shitty iPhone pictures. There will maybe be images at some point, if I can get some nice ones off Unsplash or something. The final piece of the puzzle that was deciding how to build this site was the one I actually think is coolest. You see... this site has no Javascript. Animated link underline? CSS. Accordions? CSS. Hamburger menu on mobile? CSS. Trackers? Don't have any. (If you want me to know you've read my post, you can find my email on the about page.) Admittedly, these are somewhat hack-y, Javascript could definitely do them better, and they are terrible for accessibility, but the tradeoff is better performance and a fully functioning website even with scripts disabled. I think a lot of developers ignore accessibility and that is a big problem, however I think a lot of developers also put far too much JS on all their pages and that killing the internet. So, in the end, I think it is a trade worth making - perhaps in the future I could look at alternative ways of navigating the site, that would be more accessible. It was fun to pick up a new technology, and I think the biggest takeaway I have from this site is that learning something new should be fun, and in the process, expect to do badly, to write horrible code, to throw code away and start again. The SASS for this site is a fucking mess, because I started writing it not even knowing what the file structure was going to look like, as I was learning on the fly. Sure, in a sense, that's bad, but spending 2 hours trying to map out my site without really even understanding the templating or page generation of sites, would've been worse. I definitely get struck by overplanning-paralysis as much as the next guy, but I am glad I didn't get too emotionally attached to anything I wrote at the beginning of this project (it's only SASS after all), so I had no problem ripping it out and starting again. To be honest it still needs ripping out and starting again, so I am going to put my refactoring hat on at some point this week. I would say Jekyll is pretty neat overall. Of course it has some drawbacks, it cannot do some things you would expect or want it to do, for example there isn't an especially easy way to group or show posts by date, and the only way I have found of filtering by tag is to manually create a page for every tag and then link to it - I may have not been trying hard enough to find the solution though. If you're a developer, it's a pretty nice way to write a blog, it is relatively pain free and the flexibility is nice - just don't expect to expand too much or add any extra features. In the future, I am hoping I can be constantly improving the site, be it the design, the performance or the content. I have a tonne of things left on my to do list for the site, such as adding blockquote element styling, better code element styling, and configuring the SEO tag module properly. I am hoping to write more entries for Thoughts from Tartarus, and I know I say that every time, but I have found writing daily especially cathartic recently, and I think I am slowly &quot;finding my voice&quot; again, so perhaps I will make good on my promise of more posts this time. Who am I kidding. If you don't read Mendokusai, see you next year!</summary></entry><entry><title type="html">DEFCON</title><link href="http://localhost:4000/mendokusai/2018/10/19/defcon.html" rel="alternate" type="text/html" title="DEFCON" /><published>2018-10-19T00:00:00+01:00</published><updated>2018-10-19T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2018/10/19/defcon</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/19/defcon.html">&lt;p&gt;
-  My out of office is on for the next week. Knowing this is an &lt;i&gt;
-  excellent&lt;/i&gt; feeling. To celebrate, I decided to have a couple of
-  beers and enjoy an evening of watching Youtube videos and doing nothing
-  productive (apart from writing the post), totally guilt-free.
-&lt;/p&gt;
-&lt;p&gt;
-  After catching up with my boy &lt;a href=&quot;https://www.youtube.com/user/gustoonz&quot;&gt;
-  Gus Johnson,&lt;/a&gt; the infamous algorithm recommended by a video from
-  &lt;a href=&quot;https://www.youtube.com/channel/UC6Om9kAkl32dWlDSNlDS9Iw&quot;&gt;DEFCON,&lt;/a&gt;
-  the hacker conference in Las Vegas. Back when I was 14, I thought it would
-  be amazing to be a h4x0r, and so I knew the general schtick behind the event.
-  The title was suitably clickbait-y, and like any dutiful millenial, click I did.
-&lt;/p&gt;
-&lt;p&gt;
-  And it was excellent. A few hours later, and I am firmly down the rabbit
-  hole. I now want to hack every single IoT device I can find. I want to
-  script a twitter bot. I want to script that script, so I have an army
-  of twitter bots. Having recently learned that Chrome 70 is implementing
-  the Web Bluetooth API, I want to do the most obnoxious things possible with it.
-&lt;/p&gt;
-&lt;p&gt;
-  I don't think I have really earned the right to comment on &quot;hacker culture&quot;
-  or &quot;the hacker mentality&quot;, but I have huge admiration for the way in
-  which the speakers at DEFCON went about solving their problems.
-  They tried anything and everything, inside and outside the box, reshaping
-  the box, redefining the box, heating and freezing the box, calling
-  the box a cuboid just to see if it made any difference. They never
-  gave up, even in the face of seemingly unsurmountable difficulties.
-  In the end, they often did some good, in a roundabout way. And the
-  whole process seemed a lot of fun.
-&lt;/p&gt;
-&lt;p&gt;
-  BRB, rooting my brother's old Android...
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Hacking" /><category term="Technology" /><summary type="html">My out of office is on for the next week. Knowing this is an excellent feeling. To celebrate, I decided to have a couple of beers and enjoy an evening of watching Youtube videos and doing nothing productive (apart from writing the post), totally guilt-free. After catching up with my boy Gus Johnson, the infamous algorithm recommended by a video from DEFCON, the hacker conference in Las Vegas. Back when I was 14, I thought it would be amazing to be a h4x0r, and so I knew the general schtick behind the event. The title was suitably clickbait-y, and like any dutiful millenial, click I did. And it was excellent. A few hours later, and I am firmly down the rabbit hole. I now want to hack every single IoT device I can find. I want to script a twitter bot. I want to script that script, so I have an army of twitter bots. Having recently learned that Chrome 70 is implementing the Web Bluetooth API, I want to do the most obnoxious things possible with it. I don't think I have really earned the right to comment on &quot;hacker culture&quot; or &quot;the hacker mentality&quot;, but I have huge admiration for the way in which the speakers at DEFCON went about solving their problems. They tried anything and everything, inside and outside the box, reshaping the box, redefining the box, heating and freezing the box, calling the box a cuboid just to see if it made any difference. They never gave up, even in the face of seemingly unsurmountable difficulties. In the end, they often did some good, in a roundabout way. And the whole process seemed a lot of fun. BRB, rooting my brother's old Android...</summary></entry><entry><title type="html">Things that give me hope</title><link href="http://localhost:4000/mendokusai/2018/10/18/things-that-give-me-hope.html" rel="alternate" type="text/html" title="Things that give me hope" /><published>2018-10-18T00:00:00+01:00</published><updated>2018-10-18T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2018/10/18/things-that-give-me-hope</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/18/things-that-give-me-hope.html">&lt;p&gt;
-  Today I started a new Trello list, one that I'm excited about. It's
-  titled &quot;Things that give me hope&quot;. It sounds a little intense, implying
-  that I have very little hope outside of these few things, but given
-  the current social climate, can you really blame me? I'm sure I will share
-  more of the list in the future, but here is what I have so far;
+  Torille.
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="esports" /><summary type="html">Last night, Joona &quot;Serral&quot; Sotala made esports history. He was the first non-Korean player to reach the world championship final in the 20 years the game has had one - but not only that, the Finnish Zerg won, becoming the first world champion not to carry the Korean flag. For some context - in Starcraft, Koreans are so dominant that any player who is not Korean is simply referred to as a &quot;foreigner&quot;. It's been a running joke in the Starcraft community for years, that even mediocre Koreans will always outshine foreign players. When any passionate fans are debating the greatest foreigners of all time, it will always come down to the very small handful who have been able to compete with Koreans and come out roughly equal. But none of them have achieved what Serral has achieved - on top of winning the world championship, he won all four major non-Korean tournaments this year, and GSL vs the World, the clash of the two regions (GSL is the top Korean league). he was also the first foreigner to take the crown in that tournament, and is one of a select few foreigners to have won a major tournament on Korean soil. Before the world championships, there were whispers that the gap was closing. Reddit was unusually optimistic. The Korean players, usually dismissive of foreigners in interviews, didn't want to get drawn against Serral. They were scared - they didn't want to be the ones to lose to a foreigner. But they all did: Serral defeated an all-star lineup of the best players Seoul has to offer, having faced a Korean player in every single match he played in the tournament. The first time I watched Serral play Starcraft, it was at Dreamhack Valencia 2013, when he was 14. He took a game off Life, who would go on to be the world champion next year, and is considered one of the best players of the modern era. I remember thinking Serral was promising for his age, but I never imagined he would achieve what he has this year. Before, fans would talk about which player would be the &quot;foreign hope&quot;. Serral has made our hope a reality, in one of the most inspiring and emotional displays of skill I've ever seen on an esports stage. Thank you Serral, for making me proud to be a fan of Starcraft, esports and gaming. Torille.</summary></entry><entry><title type="html">I expect myself to have more than 24 hours in a day</title><link href="http://localhost:4000/mendokusai/2018/11/03/i-expect-myself-to-have-more-than-24-hours-in-a-day.html" rel="alternate" type="text/html" title="I expect myself to have more than 24 hours in a day" /><published>2018-11-03T00:00:00+00:00</published><updated>2018-11-03T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/11/03/i-expect-myself-to-have-more-than-24-hours-in-a-day</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/11/03/i-expect-myself-to-have-more-than-24-hours-in-a-day.html">&lt;p&gt;
+  For a few years now, I have been a fan of the idea that your happiness is
+  your reality minus your expectations. It seems to make a lot of sense to me,
+  but I have never been very happy, despite having what I thought were low
+  expectations. Having thought about it a little more recently, with some help
+  from my therapist... I actually have insane, wholly unrealistic expectations.
+  Here are some of them:
 &lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;a href=&quot;https://thecorrespondent.com&quot; rel=&quot;noreferrer&quot;&gt;The Correspondent&lt;/a&gt;
-    - a new way of thinking about news journalism, with less corporate greed and
-    more honesty and transparency. The English version is not yet live,
-    but I am excited about it nonetheless, and I hope it lives up to its
-    not unsubstantial promises.
+    I expect to improve my front end web dev skills very rapidly, across multiple
+    languages and frameworks;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a href=&quot;https://80000hours.org&quot; rel=&quot;noreferrer&quot;&gt;80000 Hours&lt;/a&gt; -
-    research and evidence based career advice for people who want to
-    have more job satisfaction and change the world for the better in
-    the process.
+    I expect to improve my back end web dev skills very rapidly, across multiple
+    languages and frameworks;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a href=&quot;https://opensource.org&quot; rel=&quot;noreferrer&quot;&gt;Open Source&lt;/a&gt; -
-    I have linked to the Open Source Initiative page, but OS is far more
-    than that, it is a movement, and something that gives me a lot of hope
-    in general. The fact that cyber-charity is such a big deal, and
-    &quot;donating&quot; time and effort to it has very tangible career benefits,
-    is one of the great advantages the computing industry has over others.
+    I expect to pick up other software development skills and programming languages,
+    including machine learning in python, native app development, c++ development,
+    unit testing, scalable database management...;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jonny Spicer</name></author><category term="Personal" /><category term="Mental Health" /><summary type="html">Today I started a new Trello list, one that I'm excited about. It's titled &quot;Things that give me hope&quot;. It sounds a little intense, implying that I have very little hope outside of these few things, but given the current social climate, can you really blame me? I'm sure I will share more of the list in the future, but here is what I have so far; The Correspondent - a new way of thinking about news journalism, with less corporate greed and more honesty and transparency. The English version is not yet live, but I am excited about it nonetheless, and I hope it lives up to its not unsubstantial promises. 80000 Hours - research and evidence based career advice for people who want to have more job satisfaction and change the world for the better in the process. Open Source - I have linked to the Open Source Initiative page, but OS is far more than that, it is a movement, and something that gives me a lot of hope in general. The fact that cyber-charity is such a big deal, and &quot;donating&quot; time and effort to it has very tangible career benefits, is one of the great advantages the computing industry has over others.</summary></entry><entry><title type="html">Open Source Baby Steps</title><link href="http://localhost:4000/mendokusai/2018/10/17/open-source-baby-steps.html" rel="alternate" type="text/html" title="Open Source Baby Steps" /><published>2018-10-17T00:00:00+01:00</published><updated>2018-10-17T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2018/10/17/open-source-baby-steps</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/17/open-source-baby-steps.html">&lt;p&gt;
-  Today I am happy to announce I made my first open source contribution!
-  Admittedly all I did was correct a handful of typos in the project docs,
-  but nonetheless it felt good when my pull request got accepted. Even if
-  this was not a contribution of any serious significance or skill, I am
-  hoping that it marks the first of many, and will serve as a stepping stone
-  towards making meaningful additions to bigger projects.
+  &lt;li&gt;
+    I expect to improve my computer science knowledge, and pass CS50 as quickly
+    as possible;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect to improve at basic maths, including linear algebra and algorithms;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect to learn about the world, and keep up to date with the latest news
+    in technology and science;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect to learn about penetration, be able to secure bug bounties, and
+    keep up with CVEs for all major platforms and devices;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect to be working on multiple coding side-projects, be building useful
+    applications and growing my portfolio;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect to be completely comfortable using the Linux command line to do anything,
+    as well as having an excellent knowledge of Windows and MacOS;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect to be able to understand every stage of deployment and scaling for an
+    app on an Apache server, and have a thorough understanding of Apache in general;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect to go to the gym 5-6 times a week, and see an improvement in my
+    cardiovascular fitness and all three main lifts;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect to eat less and lose weight;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect to get better at chess;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect to maintain a group of friends, spend time with them,
+    and get closer to some of them;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect to be likeable, unawkward, and easily form a rapport with new people
+    I meet;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect to spend more time with my brother, give him good advice and help him
+    be happier and maximise his life experience;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect not to upset, anger or disappoint my friends, family or coworkers;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect myself to have other hobbies and interests outside of tech, chess
+    and the gym, and I expect myself to try and be open to trying new things;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect to get 8+ hours of sleep every night;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect my career to progress rapidly;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect myself to overcome my anxiety and depression;
+  &lt;/li&gt;
+  &lt;li&gt;
+    I expect to be able to do this, with only 24 hours in a day, without succumbing
+    to stress, while being able to balance relaxation that doesn't contribute to
+    my personal growth, eg following esports.
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  Why I expect all this is a story for another day. But, I think I figured out
+  why I'm sad all the time.
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Mental Health" /><category term="Wellbeing" /><summary type="html">For a few years now, I have been a fan of the idea that your happiness is your reality minus your expectations. It seems to make a lot of sense to me, but I have never been very happy, despite having what I thought were low expectations. Having thought about it a little more recently, with some help from my therapist... I actually have insane, wholly unrealistic expectations. Here are some of them: I expect to improve my front end web dev skills very rapidly, across multiple languages and frameworks; I expect to improve my back end web dev skills very rapidly, across multiple languages and frameworks; I expect to pick up other software development skills and programming languages, including machine learning in python, native app development, c++ development, unit testing, scalable database management...; I expect to improve my computer science knowledge, and pass CS50 as quickly as possible; I expect to improve at basic maths, including linear algebra and algorithms; I expect to learn about the world, and keep up to date with the latest news in technology and science; I expect to learn about penetration, be able to secure bug bounties, and keep up with CVEs for all major platforms and devices; I expect to be working on multiple coding side-projects, be building useful applications and growing my portfolio; I expect to be completely comfortable using the Linux command line to do anything, as well as having an excellent knowledge of Windows and MacOS; I expect to be able to understand every stage of deployment and scaling for an app on an Apache server, and have a thorough understanding of Apache in general; I expect to go to the gym 5-6 times a week, and see an improvement in my cardiovascular fitness and all three main lifts; I expect to eat less and lose weight; I expect to get better at chess; I expect to maintain a group of friends, spend time with them, and get closer to some of them; I expect to be likeable, unawkward, and easily form a rapport with new people I meet; I expect to spend more time with my brother, give him good advice and help him be happier and maximise his life experience; I expect not to upset, anger or disappoint my friends, family or coworkers; I expect myself to have other hobbies and interests outside of tech, chess and the gym, and I expect myself to try and be open to trying new things; I expect to get 8+ hours of sleep every night; I expect my career to progress rapidly; I expect myself to overcome my anxiety and depression; I expect to be able to do this, with only 24 hours in a day, without succumbing to stress, while being able to balance relaxation that doesn't contribute to my personal growth, eg following esports. Why I expect all this is a story for another day. But, I think I figured out why I'm sad all the time.</summary></entry><entry><title type="html">Money Makes Me Sad</title><link href="http://localhost:4000/mendokusai/2018/11/02/money-makes-me-sad.html" rel="alternate" type="text/html" title="Money Makes Me Sad" /><published>2018-11-02T00:00:00+00:00</published><updated>2018-11-02T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/11/02/money-makes-me-sad</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/11/02/money-makes-me-sad.html">&lt;p&gt;
+  In another post I mentioned &lt;a href=&quot;https://80000hours.org&quot; rel=&quot;noreferrer&quot;&gt;
+  80000 hours,&lt;/a&gt; and today I read the &lt;a href=&quot;https://80000hours.org/career-guide/anyone-make-a-difference/&quot; rel=&quot;noreferrer&quot;&gt;
+  third chapter&lt;/a&gt; in their career guide,
+  &quot;No matter your job, here's 3 evidence-based ways anyone can have a real impact&quot;.
+  The number one way involves effective altruism, ie donating to charities that
+  have been shown to have the biggest impact on human life per dollar donated, or
+  bang for your buck if you will.
 &lt;/p&gt;
 &lt;p&gt;
-  Thank you so much to David Pinheiro for being so kind with me and my
-  first pull request. Check out &lt;a href=&quot;https://davrodpin.github.io/mole/&quot;&gt;
-  Mole,&lt;/a&gt; a nifty CLI tool that allows easy creation of SSH tunnels.
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Open Source" /><category term="Web Development" /><summary type="html">Today I am happy to announce I made my first open source contribution! Admittedly all I did was correct a handful of typos in the project docs, but nonetheless it felt good when my pull request got accepted. Even if this was not a contribution of any serious significance or skill, I am hoping that it marks the first of many, and will serve as a stepping stone towards making meaningful additions to bigger projects. Thank you so much to David Pinheiro for being so kind with me and my first pull request. Check out Mole, a nifty CLI tool that allows easy creation of SSH tunnels.</summary></entry><entry><title type="html">Chess Players</title><link href="http://localhost:4000/mendokusai/2018/10/16/chess-players.html" rel="alternate" type="text/html" title="Chess Players" /><published>2018-10-16T00:00:00+01:00</published><updated>2018-10-16T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2018/10/16/chess-players</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/16/chess-players.html">&lt;p&gt;
-  Chess players are infuriating. Trying to organise them is like trying to
-  herd cats. Trying to converse with them is like trying to draw blood from a
-  stone. For a bunch of people capable of playing an immensely complex and
-  nuanced game to a high level, they are almost universally idiots.
+  The reasoning employed is approximately as follows:
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    Past a certain income threshold, any additional income provides you with
+    proportionally less additional happiness and life satisfaction;
+  &lt;/li&gt;
+  &lt;li&gt;
+    By participating in effective altruism and donating to high-impact charities,
+    you can make a substantial, tangible difference to the lives of a meaningful
+    number of people by donating, for example, 10% of you income;
+  &lt;/li&gt;
+  &lt;li&gt;
+    The happiness and satisfaction you will get from making these donations will
+    significantly outweigh the happiness you would get from keeping this money,
+    and this has been quantifiably proven in studies.
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  I think intuitively this makes a lot of sense and is very likely to be true, without delving
+  too much into the studies that are referenced. Before I continue, I am admittedly
+  below the income/happiness threshold, but it is not inconceivable that I reach it
+  in the next few years - I think I am likely to do so by the time I am 30. I also
+  don't think it's inconceivable that I would be happier donating 10% of my salary now
+  than not doing so. &lt;i&gt;But...&lt;/i&gt;
 &lt;/p&gt;
 &lt;p&gt;
-  I am absolutely one of said idiots.
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Chess" /><summary type="html">Chess players are infuriating. Trying to organise them is like trying to herd cats. Trying to converse with them is like trying to draw blood from a stone. For a bunch of people capable of playing an immensely complex and nuanced game to a high level, they are almost universally idiots. I am absolutely one of said idiots.</summary></entry><entry><title type="html">Late Nights</title><link href="http://localhost:4000/mendokusai/2018/10/15/late-nights.html" rel="alternate" type="text/html" title="Late Nights" /><published>2018-10-15T00:00:00+01:00</published><updated>2018-10-15T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2018/10/15/late-nights</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/15/late-nights.html">&lt;p&gt;
-  Sleep is undoubtedly one of the most +EV things in life, and one which
-  we all seem to wilfully disregard far too often. Tonight, I stayed up
-  &quot;past my bedtime&quot; as it were, but did I achieve something meaningful
-  because of it? I hope so...
+  When I think about making a commitment to donating a significant portion of my salary,
+  I think about the following:
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    What if I need to support my parents financially in the future?
+  &lt;/li&gt;
+  &lt;li&gt;
+    What if I need to support my brother financially in the future?
+  &lt;/li&gt;
+  &lt;li&gt;
+    What if I get made redundant and am unable to find work in the future?
+  &lt;/li&gt;
+  &lt;li&gt;
+    What if I want to have kids in the future?
+  &lt;/li&gt;
+  &lt;li&gt;
+    What if I want to own my own property in the future?
+  &lt;/li&gt;
+  &lt;li&gt;
+    What if I get seriously ill in the future?
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  And on a perhaps less critical but still arguably equally valid note:
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    What if I want to go travelling in the future?
+  &lt;/li&gt;
+  &lt;li&gt;
+    What if I want to buy x, y or z nice thing in the future?
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;i&gt;Can I use the entirety of my income to maximise my own human experience in my lifetime?&lt;/i&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  And that... made me kinda sad. I would imagine my mindset if very similar to
+  a lot of people in Western society - we have a lot of different pressures driving
+  us to try to generate as much wealth as possible. It contributes a lot to my anxiety,
+  a vague sense of fear of not having accrued enough capital at some arbitrary point
+  in the future. I don't think I spend recklessly, but I could definitely be more
+  frugal or save more aggressively, and sometimes that leads me to feel guilty
+  about a bunch of really small things that I don't need to be feeling guilty
+  about at this point in my life.
 &lt;/p&gt;
 &lt;p&gt;
-  On one hand, I finally managed to boot Ubuntu on my old laptop, after
-  thinking I'd bricked the entire thing multiple times during the process.
-  It's slow, but it's light and portable, and will make a nice machine
-  to code on-the-go without shelling out a grand for a Macbook.
+  As always, I don't know what the answer is. Perhaps I'll start small. I'm considering
+  giving up alcohol - if I do, maybe I'll donate the money I would've spent on beer
+  to an effective cause every month. And then I'll blog about it and tell everyone
+  about it all the time, and be a real self-righteous prick about the whole thing,
+  and if being that prick feels as good as I suspect it might, then I'll donate
+  more and be an even greater prick about it.
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Personal Finance" /><category term="Effective Altruism" /><category term="Wellbeing" /><summary type="html">In another post I mentioned 80000 hours, and today I read the third chapter in their career guide, &quot;No matter your job, here's 3 evidence-based ways anyone can have a real impact&quot;. The number one way involves effective altruism, ie donating to charities that have been shown to have the biggest impact on human life per dollar donated, or bang for your buck if you will. The reasoning employed is approximately as follows: Past a certain income threshold, any additional income provides you with proportionally less additional happiness and life satisfaction; By participating in effective altruism and donating to high-impact charities, you can make a substantial, tangible difference to the lives of a meaningful number of people by donating, for example, 10% of you income; The happiness and satisfaction you will get from making these donations will significantly outweigh the happiness you would get from keeping this money, and this has been quantifiably proven in studies. I think intuitively this makes a lot of sense and is very likely to be true, without delving too much into the studies that are referenced. Before I continue, I am admittedly below the income/happiness threshold, but it is not inconceivable that I reach it in the next few years - I think I am likely to do so by the time I am 30. I also don't think it's inconceivable that I would be happier donating 10% of my salary now than not doing so. But... When I think about making a commitment to donating a significant portion of my salary, I think about the following: What if I need to support my parents financially in the future? What if I need to support my brother financially in the future? What if I get made redundant and am unable to find work in the future? What if I want to have kids in the future? What if I want to own my own property in the future? What if I get seriously ill in the future? And on a perhaps less critical but still arguably equally valid note: What if I want to go travelling in the future? What if I want to buy x, y or z nice thing in the future? Can I use the entirety of my income to maximise my own human experience in my lifetime? And that... made me kinda sad. I would imagine my mindset if very similar to a lot of people in Western society - we have a lot of different pressures driving us to try to generate as much wealth as possible. It contributes a lot to my anxiety, a vague sense of fear of not having accrued enough capital at some arbitrary point in the future. I don't think I spend recklessly, but I could definitely be more frugal or save more aggressively, and sometimes that leads me to feel guilty about a bunch of really small things that I don't need to be feeling guilty about at this point in my life. As always, I don't know what the answer is. Perhaps I'll start small. I'm considering giving up alcohol - if I do, maybe I'll donate the money I would've spent on beer to an effective cause every month. And then I'll blog about it and tell everyone about it all the time, and be a real self-righteous prick about the whole thing, and if being that prick feels as good as I suspect it might, then I'll donate more and be an even greater prick about it.</summary></entry><entry><title type="html">Reflecting On: Gambling and Catharsis</title><link href="http://localhost:4000/mendokusai/2018/11/01/reflecting-on-gambling-and-catharsis.html" rel="alternate" type="text/html" title="Reflecting On&amp;#58; Gambling and Catharsis" /><published>2018-11-01T00:00:00+00:00</published><updated>2018-11-01T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/11/01/reflecting-on-gambling-and-catharsis</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/11/01/reflecting-on-gambling-and-catharsis.html">&lt;p&gt;
+  When I first started this blog, it was solely to win a bet. The idea
+  behind our blog-a-day last longer was in part that we could go back
+  and read our old blogs, and see how our ideas had changed and how
+  we'd grown as people.
 &lt;/p&gt;
 &lt;p&gt;
-  On another hand, I had a bizarre conversation with a girl... I have
-  no idea if I really learned anything or if this was +EV. Relating
-  to people and not PCs is definitely something I need to practise though,
-  so I'll call this one a win.
+  I totally won the bet.
 &lt;/p&gt;
 &lt;p&gt;
-  Despite going to bed late, I still plan on getting up early tomorrow
-  to try to smash through some more CS50. g0g0g0g0 me
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Wellbeing" /><summary type="html">Sleep is undoubtedly one of the most +EV things in life, and one which we all seem to wilfully disregard far too often. Tonight, I stayed up &quot;past my bedtime&quot; as it were, but did I achieve something meaningful because of it? I hope so... On one hand, I finally managed to boot Ubuntu on my old laptop, after thinking I'd bricked the entire thing multiple times during the process. It's slow, but it's light and portable, and will make a nice machine to code on-the-go without shelling out a grand for a Macbook. On another hand, I had a bizarre conversation with a girl... I have no idea if I really learned anything or if this was +EV. Relating to people and not PCs is definitely something I need to practise though, so I'll call this one a win. Despite going to bed late, I still plan on getting up early tomorrow to try to smash through some more CS50. g0g0g0g0 me</summary></entry><entry><title type="html">CS50</title><link href="http://localhost:4000/mendokusai/2018/10/14/cs50.html" rel="alternate" type="text/html" title="CS50" /><published>2018-10-14T00:00:00+01:00</published><updated>2018-10-14T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2018/10/14/cs50</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/14/cs50.html">&lt;p&gt;
-  Today I enrolled in Harvard's CS50x, the online version of its Introduction
-  to Computer Science module. From what I can tell, CS50 basically covers
-  all the actual computer science necessary for being a software engineer,
-  and as such it is well respected within the industry.
+  But recently, I have come to see the value in reflecting on some of
+  my old posts, which was the motivation for the bet itself. So I wanted
+  to write some posts where I revisit old writing, ideas, outlooks on life.
+  These are obviously all relatively recent (unless I can dig out some old
+  bits and pieces off since-deleted social media or similar), but I am surprised
+  at some of the things I wrote mere months ago.
 &lt;/p&gt;
 &lt;p&gt;
-  I have heard the course is fairly hard, and knowing myself, I am
-  somewhat worried that I will burn out, however I shelled out $90
-  for a certificate at the end, so hopefully that will motivate me.
+  Where better to start then with the first post on this blog, &lt;a href=&quot;https://jonnyspicer.com/mendokusai/2017/10/16/gambling-and-catharsis.html&quot;&gt;
+  Gambling and Catharsis,&lt;/a&gt; posted on 16th October 2017, a little over
+  a year ago now.
 &lt;/p&gt;
 &lt;p&gt;
-  I completed problem set 0 today, which involved making a programme in
-  Scratch, coincidentally enough the same language we use to teach
-  10 year olds at Code Club. It was pretty fun, and I made something
-  with some basic logic in, but the amount of repeating myself I did
-  was pretty gross - if anyone has any suggestions for refactoring,
-  they'd be greatly appreciated! You can see the project
-  &lt;a href=&quot;https://scratch.mit.edu/projects/252383243/&quot;&gt;here.&lt;/a&gt;
+  There isn't much that I say in that post that I haven't already said
+  in this one, but the one thing that stands out to me is that I still
+  obviously consider myself a poker player/gambler at the time. There is
+  still hope there that I will make it work and be successful in that arena,
+  which I have since abandoned. I'm not sure if it was naïveté, if I was
+  putting on a front, if I knew I was doomed already or what. It's tough to
+  say whether or not I miss that feeling, or want it back, or wish I was still
+  playing poker, if I could swap my current &quot;career&quot; for another shot at it,
+  if I wish I had had more success with the game.
 &lt;/p&gt;
 &lt;p&gt;
-  Problem set 1 is based around C, somewhat at the other end of the
-  spectrum to Scratch. Fortunately the basics at least vaguely resemble
-  PHP, so I am not completely at sea (pun wholeheartedly intended), but
-  I think it's going to ramp up pretty quickly. GL me.
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Computer Science" /><category term="Software Engineering" /><category term="CS50" /><summary type="html">Today I enrolled in Harvard's CS50x, the online version of its Introduction to Computer Science module. From what I can tell, CS50 basically covers all the actual computer science necessary for being a software engineer, and as such it is well respected within the industry. I have heard the course is fairly hard, and knowing myself, I am somewhat worried that I will burn out, however I shelled out $90 for a certificate at the end, so hopefully that will motivate me. I completed problem set 0 today, which involved making a programme in Scratch, coincidentally enough the same language we use to teach 10 year olds at Code Club. It was pretty fun, and I made something with some basic logic in, but the amount of repeating myself I did was pretty gross - if anyone has any suggestions for refactoring, they'd be greatly appreciated! You can see the project here. Problem set 1 is based around C, somewhat at the other end of the spectrum to Scratch. Fortunately the basics at least vaguely resemble PHP, so I am not completely at sea (pun wholeheartedly intended), but I think it's going to ramp up pretty quickly. GL me.</summary></entry><entry><title type="html">Egos at the Door</title><link href="http://localhost:4000/mendokusai/2018/10/13/egos-at-the-door.html" rel="alternate" type="text/html" title="Egos at the Door" /><published>2018-10-13T00:00:00+01:00</published><updated>2018-10-13T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2018/10/13/egos-at-the-door</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/13/egos-at-the-door.html">&lt;p&gt;
-  Today was another perfect example of why having an ego and being
-  a programmer seem completely incompatible. This site is built
-  only really using HTML and CSS - admittedly there is some templating
-  and preprocessing done with Sass/Liquid etc - but it should still
-  be easy enough.
+  Either way - I learned a lot, about myself, about the world, and about life.
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Gambling" /><category term="Blogging" /><summary type="html">When I first started this blog, it was solely to win a bet. The idea behind our blog-a-day last longer was in part that we could go back and read our old blogs, and see how our ideas had changed and how we'd grown as people. I totally won the bet. But recently, I have come to see the value in reflecting on some of my old posts, which was the motivation for the bet itself. So I wanted to write some posts where I revisit old writing, ideas, outlooks on life. These are obviously all relatively recent (unless I can dig out some old bits and pieces off since-deleted social media or similar), but I am surprised at some of the things I wrote mere months ago. Where better to start then with the first post on this blog, Gambling and Catharsis, posted on 16th October 2017, a little over a year ago now. There isn't much that I say in that post that I haven't already said in this one, but the one thing that stands out to me is that I still obviously consider myself a poker player/gambler at the time. There is still hope there that I will make it work and be successful in that arena, which I have since abandoned. I'm not sure if it was naïveté, if I was putting on a front, if I knew I was doomed already or what. It's tough to say whether or not I miss that feeling, or want it back, or wish I was still playing poker, if I could swap my current &quot;career&quot; for another shot at it, if I wish I had had more success with the game. Either way - I learned a lot, about myself, about the world, and about life.</summary></entry><entry><title type="html">OGLAF</title><link href="http://localhost:4000/mendokusai/2018/10/31/oglaf.html" rel="alternate" type="text/html" title="OGLAF" /><published>2018-10-31T00:00:00+00:00</published><updated>2018-10-31T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/10/31/oglaf</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/31/oglaf.html">&lt;p&gt;
+  I often worry I am too open on this blog. This post, doubly so.
 &lt;/p&gt;
 &lt;p&gt;
-  I spent maybe two hours today staring at the mobile styling
-  for this page. I had a regular desktop browser set to 375px
-  wide, but everything was too small, and the DOM elements
-  were telling me that there were bigger than they demonstrably were.
-  &lt;code&gt;console.log(screen.width);&lt;/code&gt; returned 375px - what we'd
-  expect. &lt;code&gt;console.log(document.querySelector('body').screenWidth);&lt;/code&gt;
-  however, returned 980px, despite it clearly being visually
-  less than the width of the device. I even hooked up an old
-  android phone to my PC and &lt;a href=&quot;https://developer.android.com/studio/debug/dev-options&quot;&gt;
-  installed developer options by tapping the build number 7 times.&lt;/a&gt; I had no joy whatsoever.
-  What. The. Fuck.
+  I've been having a rough time lately, but one of the things that has been
+  cheering me up lately is... &lt;a href=&quot;https://oglaf.com&quot; rel=&quot;noreferrer&quot;&gt;OGLAF.&lt;/a&gt;
+  Is it a webcomic? Kinda. Is it porn? Well, it is certainly &lt;i&gt;pornographic&lt;/i&gt; in
+  parts at least, so I guess... maybe.
 &lt;/p&gt;
 &lt;p&gt;
-  Except not really what the fuck, because anyone who would so
-  brazenly call themselves a web developer, as I have, would
-  know that the first thing to check would be whether or not
-  a meta value had been set for the viewport. I'm a clown.
+  Am I recommending you porn? I hope not.
+&lt;/p&gt;
+&lt;p&gt;
+  It's funny, in a slightly outrageous way. It just also happens to have a lot of
+  genitals in it too. If you can suspend judgment and read it with an open mind...
+  I think it is pretty good.
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Comedy" /><category term="Sex" /><summary type="html">I often worry I am too open on this blog. This post, doubly so. I've been having a rough time lately, but one of the things that has been cheering me up lately is... OGLAF. Is it a webcomic? Kinda. Is it porn? Well, it is certainly pornographic in parts at least, so I guess... maybe. Am I recommending you porn? I hope not. It's funny, in a slightly outrageous way. It just also happens to have a lot of genitals in it too. If you can suspend judgment and read it with an open mind... I think it is pretty good.</summary></entry><entry><title type="html">Julien Baker</title><link href="http://localhost:4000/mendokusai/2018/10/30/julien-baker.html" rel="alternate" type="text/html" title="Julien Baker" /><published>2018-10-30T00:00:00+00:00</published><updated>2018-10-30T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/10/30/julien-baker</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/30/julien-baker.html">&lt;p&gt;
+  In my recent quest for sad songs, I have rediscovered Julien Baker, affectionately
+  known to her fans as the Sad Queen. She is definitely worth of that moniker,
+  her music is haunting and sombre, but with a purity and beauty that make it
+  more than worth listening to.
+&lt;/p&gt;
+&lt;p&gt;
+  She has a great &lt;a href=&quot;https://youtu.be/GiNPcLwSeME&quot; rel=&quot;noreferrer&quot;&gt;set on KEXP,&lt;/a&gt; 10/10 heartily recommending.
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Music" /><summary type="html">In my recent quest for sad songs, I have rediscovered Julien Baker, affectionately known to her fans as the Sad Queen. She is definitely worth of that moniker, her music is haunting and sombre, but with a purity and beauty that make it more than worth listening to. She has a great set on KEXP, 10/10 heartily recommending.</summary></entry><entry><title type="html">Attrition 2</title><link href="http://localhost:4000/mendokusai/2018/10/29/attrition-2.html" rel="alternate" type="text/html" title="Attrition 2" /><published>2018-10-29T00:00:00+00:00</published><updated>2018-10-29T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/10/29/attrition-2</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/29/attrition-2.html">&lt;p&gt;
+  They say, 'the feeling will come to pass' - it is allegedly comforting. Perhaps it
+  actually &lt;i&gt;is&lt;/i&gt; comforting, the first few times you hear it, and believe it.
+  but the problem is not that the feeling will not pass. The problem is that once it
+  has passed, it will return.
+&lt;/p&gt;
+&lt;p&gt;
+  I am not afraid that this feeling will never pass. But I am afraid that once it passes,
+  it will never stop coming back, again and again and again and again. 
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Mental Health" /><category term="Wellbeing" /><summary type="html">They say, 'the feeling will come to pass' - it is allegedly comforting. Perhaps it actually is comforting, the first few times you hear it, and believe it. but the problem is not that the feeling will not pass. The problem is that once it has passed, it will return. I am not afraid that this feeling will never pass. But I am afraid that once it passes, it will never stop coming back, again and again and again and again.</summary></entry><entry><title type="html">Attrition</title><link href="http://localhost:4000/mendokusai/2018/10/28/attrition.html" rel="alternate" type="text/html" title="Attrition" /><published>2018-10-28T00:00:00+01:00</published><updated>2018-10-28T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2018/10/28/attrition</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/28/attrition.html">&lt;p&gt;
+  People talk a lot these days about dealing with depression, anxiety, and other
+  mental health problems in a very micro sense. If you are feeling particularly low
+  one evening, reach out to a friend and tell them how you feel. If you're
+  especially anxious about something, try mindfulness meditation for 15 minutes
+  and focus only on your breath.
+&lt;/p&gt;
+&lt;p&gt;
+  People talk a lot less about what to do when you feel ground down over months,
+  years, decades by your mental illness. It can be relentless, and the strategies
+  above can feel like they no longer work, or that they will only postpone the
+  inevitable return of the black cloud.
+&lt;/p&gt;
+&lt;p&gt;
+  I don't really know where I'm going with this. I'm not really sure what the
+  right strategy is, or what big change needs to take place to break the cycle.
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Mental Health" /><category term="Wellbeing" /><summary type="html">People talk a lot these days about dealing with depression, anxiety, and other mental health problems in a very micro sense. If you are feeling particularly low one evening, reach out to a friend and tell them how you feel. If you're especially anxious about something, try mindfulness meditation for 15 minutes and focus only on your breath. People talk a lot less about what to do when you feel ground down over months, years, decades by your mental illness. It can be relentless, and the strategies above can feel like they no longer work, or that they will only postpone the inevitable return of the black cloud. I don't really know where I'm going with this. I'm not really sure what the right strategy is, or what big change needs to take place to break the cycle.</summary></entry><entry><title type="html">Baby You're A Haunted House</title><link href="http://localhost:4000/mendokusai/2018/10/27/baby-youre-a-haunted-house.html" rel="alternate" type="text/html" title="Baby You&amp;#39;re A Haunted House" /><published>2018-10-27T00:00:00+01:00</published><updated>2018-10-27T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2018/10/27/baby-youre-a-haunted-house</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/27/baby-youre-a-haunted-house.html">&lt;p&gt;
+  Today Gerard Way released a new song titled &lt;a href=&quot;https://www.youtube.com/watch?v=TaxHIYOzMUQ&quot;
+  rel=&quot;noreferrer&quot;&gt;Baby You're A Haunted House&lt;/a&gt;, his first release in two years,
+  with pretty much no warning. It's quite Hallo-meme-y, but I like it a lot.
+&lt;/p&gt;
+&lt;p&gt;
+  Like everyone else who experienced teenage angst in the mid to late oughties,
+  I love Gerard's music, it got me through some tough times and went on to shape
+  my now (hopefully) more refined music tastes. As an artist he has clearly grown a lot,
+  from literally screaming out the lyrics, &quot;I'm not OK&quot;, to a much more mature sound
+  on his later solo work, and generally seeming at peace, something I think a lot
+  of his fanbase, drawn to his music because he sang about struggles they identified with,
+  should try to emulate. Cheers, Gerard.
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Music" /><summary type="html">Today Gerard Way released a new song titled Baby You're A Haunted House, his first release in two years, with pretty much no warning. It's quite Hallo-meme-y, but I like it a lot. Like everyone else who experienced teenage angst in the mid to late oughties, I love Gerard's music, it got me through some tough times and went on to shape my now (hopefully) more refined music tastes. As an artist he has clearly grown a lot, from literally screaming out the lyrics, &quot;I'm not OK&quot;, to a much more mature sound on his later solo work, and generally seeming at peace, something I think a lot of his fanbase, drawn to his music because he sang about struggles they identified with, should try to emulate. Cheers, Gerard.</summary></entry><entry><title type="html">An open letter to all my friends, ever</title><link href="http://localhost:4000/tartarus/2018/10/26/an-open-letter-to-all-my-friends-ever.html" rel="alternate" type="text/html" title="An open letter to all my friends&amp;#44; ever" /><published>2018-10-26T00:00:00+01:00</published><updated>2018-10-26T00:00:00+01:00</updated><id>http://localhost:4000/tartarus/2018/10/26/an-open-letter-to-all-my-friends-ever</id><content type="html" xml:base="http://localhost:4000/tartarus/2018/10/26/an-open-letter-to-all-my-friends-ever.html">&lt;p&gt;
+  Recently my therapist pointed out to me that part of the reason I struggle with relationships might be because of a sense of shame, and I think she was absolutely right. There is a lot which I don’t tell people that I want to, partially out of anxiety, but largely because I’m ashamed of my feelings, often towards the person in question. Having feelings is unmanly and weak in our culture, and even shame itself is a taboo subject, but it’s not even like other taboo subjects. Everyone says “we must end the stigma around talking about dying/mental health/sex”, but nobody says anything about shame.
 &lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;
-  At least I am a clown who learned something, and I suspect
-  this is the last time I make this mistake again - at the very
-  least I hope it is the last time I waste nearly 2 hours trying
-  to correct it. The relief when I could finally get media queries
-  working correctly was palpable.
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Web Development" /><category term="Responsive Web Design" /><category term="Imposter Syndrome" /><summary type="html">Today was another perfect example of why having an ego and being a programmer seem completely incompatible. This site is built only really using HTML and CSS - admittedly there is some templating and preprocessing done with Sass/Liquid etc - but it should still be easy enough. I spent maybe two hours today staring at the mobile styling for this page. I had a regular desktop browser set to 375px wide, but everything was too small, and the DOM elements were telling me that there were bigger than they demonstrably were. console.log(screen.width); returned 375px - what we'd expect. console.log(document.querySelector('body').screenWidth); however, returned 980px, despite it clearly being visually less than the width of the device. I even hooked up an old android phone to my PC and installed developer options by tapping the build number 7 times. I had no joy whatsoever. What. The. Fuck. Except not really what the fuck, because anyone who would so brazenly call themselves a web developer, as I have, would know that the first thing to check would be whether or not a meta value had been set for the viewport. I'm a clown. At least I am a clown who learned something, and I suspect this is the last time I make this mistake again - at the very least I hope it is the last time I waste nearly 2 hours trying to correct it. The relief when I could finally get media queries working correctly was palpable.</summary></entry><entry><title type="html">Beautility</title><link href="http://localhost:4000/mendokusai/2018/10/12/beautility.html" rel="alternate" type="text/html" title="Beautility" /><published>2018-10-12T00:00:00+01:00</published><updated>2018-10-12T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2018/10/12/beautility</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/12/beautility.html">&lt;p&gt;
-  I have had a pretty ambivalent relationship with my phone for quite
-  a while now. On one hand, all of us would struggle to forgo
-  one altogether, given it is now a primary driver in almost all of
-  our social and professional lives. Having the seemingly infinite
-  wealth of human knowledge at my fingertips seems invaluable a lot of
-  the time, especially when I'm trying to impress at dinner parties.
+  Anyway. Rather than get anything off my chest individually to anyone, I thought I’d do it all in one place, where I can maintain some kind of idea that this is some kind of experiment for me, and I’m not just being super fucking weird. Here is an open letter to all of my friends, ever:
 &lt;/p&gt;
-&lt;p&gt;
-  That was a joke. Obviously I don't get invited to parties, dinner
-  or otherwise.
-&lt;/p&gt;
-&lt;p&gt;
-  The point remains though - it is not exactly a hot take to suggest
-  we are &quot;enslaved&quot; to our phones, or some other suitably sensational
-  choice of phrase. I spend a decent amount of time on my phone, and
-  quite a lot of that time I suspect does not really benefit me, often
-  making me experience things negatively, eg the increasing-less-mild sense
-  of nihilism I have whenever I read the news. So overall is my phone
-  +EV for me, I should I, ever the contrarian-wannabe-hipster-douchebag,
-  stop using me phone (and then immediately proceed to brag about it to everyone
-  who'll listen)?
-&lt;/p&gt;
-&lt;p&gt;
-  No. I am trying not to be &quot;that guy&quot;, and just admitting that I am
-  millenial trash and that my iPhone dictates my life at this point.
-  In the unending and naive quest to improve my life though, I discovered
-  &lt;a href=&quot;https://betterhumans.coach.me/beautility-my-ultimate-iphone-setup-1b3dd0c588a0&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;
-  this&lt;/a&gt;, a simple post with a few relatively straightforward ideas to
-  change one's iOS habits, with big promises about how it would impact
-  my use of the device. I set everything up tonight and it was about as
-  easy as advertised - only 15 minutes or so in total. So far I am
-  enjoying the new layout a lot more than the old one, although of course
-  it is early days yet. Unlocking my phone to see basically nothing is
-  a pretty good reminder that I should probably just lock my phone
-  again and get on with something.
-&lt;/p&gt;
-&lt;p&gt;
-  I'll report back next weekend with how I feel after a week in this
-  new bleak, minimalistic mobile landscape.
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="iOS" /><category term="Technology" /><summary type="html">I have had a pretty ambivalent relationship with my phone for quite a while now. On one hand, all of us would struggle to forgo one altogether, given it is now a primary driver in almost all of our social and professional lives. Having the seemingly infinite wealth of human knowledge at my fingertips seems invaluable a lot of the time, especially when I'm trying to impress at dinner parties. That was a joke. Obviously I don't get invited to parties, dinner or otherwise. The point remains though - it is not exactly a hot take to suggest we are &quot;enslaved&quot; to our phones, or some other suitably sensational choice of phrase. I spend a decent amount of time on my phone, and quite a lot of that time I suspect does not really benefit me, often making me experience things negatively, eg the increasing-less-mild sense of nihilism I have whenever I read the news. So overall is my phone +EV for me, I should I, ever the contrarian-wannabe-hipster-douchebag, stop using me phone (and then immediately proceed to brag about it to everyone who'll listen)? No. I am trying not to be &quot;that guy&quot;, and just admitting that I am millenial trash and that my iPhone dictates my life at this point. In the unending and naive quest to improve my life though, I discovered this, a simple post with a few relatively straightforward ideas to change one's iOS habits, with big promises about how it would impact my use of the device. I set everything up tonight and it was about as easy as advertised - only 15 minutes or so in total. So far I am enjoying the new layout a lot more than the old one, although of course it is early days yet. Unlocking my phone to see basically nothing is a pretty good reminder that I should probably just lock my phone again and get on with something. I'll report back next weekend with how I feel after a week in this new bleak, minimalistic mobile landscape.</summary></entry><entry><title type="html">Open Source</title><link href="http://localhost:4000/mendokusai/2018/10/11/open-source.html" rel="alternate" type="text/html" title="Open Source" /><published>2018-10-11T00:00:00+01:00</published><updated>2018-10-11T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2018/10/11/open-source</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/10/11/open-source.html">&lt;p&gt;
-  I was inspired today by &lt;a href=&quot;https://medium.freecodecamp.org/how-i-went-from-newbie-to-software-engineer-in-9-months-while-working-full-time-460bd8485847&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;
-  this&lt;/a&gt; Medium article. I know inspiration will fade quickly, but
-  I am hoping I can hold onto at least one thing from this article -
-  it is never to late to start contributing to open source.
-&lt;/p&gt;
-&lt;p&gt;
-  One of the reasons I am a web developer is because I care a lot
-  about the internet - I want it to be fast, accessible, to connect
-  people and to improve our lives. Contributing to open source
-  technology might seem sinful to some people, particularly in
-  other professions. Giving up my time and expertise, for free?
-  Volunteering, but not for those in need, for other developers?
-&lt;/p&gt;
-&lt;p&gt;
-  Well, in my infinite ignorance, I think it's a noble cause. To have
-  the opportunity to contribute to a large, growing, evolving codebase
-  would feel amazing, and I am hoping I will have that opportunity soon.
-  Imagine when I get my first patch in a big project... It's going to feel
-  like a huge achievement.
-&lt;/p&gt;
-&lt;p&gt;
-  The article linked above says it's never to early to start contributing,
-  and I suspect this is true, especially given I don't actually have to
-  contribute code, nor do I have to contribute to a major library.
-  There are some pretty massive projects out there with terrible documentation -
-  Drupal, I am looking at you - so something like that seems like a natural
-  place to start. Obviously I am not going to try to write documentation
-  for Drupal though, because that would require understanding it, and honestly
-  Drupal is nuts to me. My weekend homework (once this site is finished)
-  is going to be researching the best way to start my open source journey -
-  hopefully it is a long one.
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Open Source" /><category term="Web Development" /><category term="Technology" /><summary type="html">I was inspired today by this Medium article. I know inspiration will fade quickly, but I am hoping I can hold onto at least one thing from this article - it is never to late to start contributing to open source. One of the reasons I am a web developer is because I care a lot about the internet - I want it to be fast, accessible, to connect people and to improve our lives. Contributing to open source technology might seem sinful to some people, particularly in other professions. Giving up my time and expertise, for free? Volunteering, but not for those in need, for other developers? Well, in my infinite ignorance, I think it's a noble cause. To have the opportunity to contribute to a large, growing, evolving codebase would feel amazing, and I am hoping I will have that opportunity soon. Imagine when I get my first patch in a big project... It's going to feel like a huge achievement. The article linked above says it's never to early to start contributing, and I suspect this is true, especially given I don't actually have to contribute code, nor do I have to contribute to a major library. There are some pretty massive projects out there with terrible documentation - Drupal, I am looking at you - so something like that seems like a natural place to start. Obviously I am not going to try to write documentation for Drupal though, because that would require understanding it, and honestly Drupal is nuts to me. My weekend homework (once this site is finished) is going to be researching the best way to start my open source journey - hopefully it is a long one.</summary></entry></feed>
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Fleur.&lt;/strong&gt; It must’ve been almost 10 years at this point, but I really miss talking to you - how are things? I hope you’re still as cynical as ever, but I hope you’re happy too. I loved talking to you back in the day, you’re so smart and funny. I’m sure that whatever you’re doing, you’re killing it.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Anna.&lt;/strong&gt; I wish we talked more, I have always found you wonderfully easy to talk to, and in the last few years it seems like you’ve really come a long way. I’d love to hangout and be ‘proper’ friends again, but I don’t want to tread on your boyfriend’s toes or anything, if he does leave you to go live in a slum somewhere he’s a fucking idiot.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Emily.&lt;/strong&gt; I’m sorry I said all that weird stuff to you last year, I hope it wasn’t too uncomfortable for you. I’m grateful for the good things we had and I learned a lot about myself because of you. I hope you’ve found happiness, and if you’re ever in Guernsey, I’d love to go for a coffee and catch up one day.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Holly.&lt;/strong&gt; I can count the amount of times we actually talked on my fingers, but you changed my life, as weird as that might sound. You were the first person who seemed to be really into me for being a reasonably authentic version of myself, and that helped me a lot, and in a way it still does. Also, you’re gorgeous and I love your tattoos.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Ellie.&lt;/strong&gt; You helped me so much, probably without realising it. I felt like we had a tacit understanding and you are one of the only people I’ve talked to who I felt completely unjudged by. I also think you’re hilarious and super talented, and I really hope you find happiness, because you absolutely deserve it.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Lisa.&lt;/strong&gt; I wish we talked more, every time I get down I think about messaging you, or any time I’m really happy or anything even remotely interesting happens to me. I don’t want to pester you though, I know you’re super busy all the time, I don’t want you to get sick of me complaining or being down all the time. I’m also worried about treading on your boyfriend’s toes - I can’t imagine he’d exactly see me as a “threat” but still. TBH I only really ‘got over you’ when you started dating him, so perhaps that makes me less likely to confess my undying romantic love for you? You’ve changed my life so much for the better and I love you.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Mancini.&lt;/strong&gt; Are you alright man? I hope you are, I don’t want your job to grind you down. I think you’re fucking hilarious, you crack me up every single time we hang out, which is something we should do more of. Hit me up, let’s get a beer and complain about how we can’t get laid.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;JAG.&lt;/strong&gt; I don’t want to dislike you, but yikes, your walls are higher than mine. I feel like you’re always putting on a show, trying to fit yourself into some mould you have in your mind of how you should be. Life isn’t like that, you don’t have to pretend… try and be authentic, even if it feels impossible and overwhelming. Also don’t listen to me, I’m in no position to give advice to anyone else.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Myles.&lt;/strong&gt; I am so sorry about being a giant prick last NYE! But I am so happy for you that you have a girlfriend and you managed to escape the rock. I think you’re hilarious and down to earth and generally a lot of fun to chill with - let’s get a beer when you’re back.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Nick.&lt;/strong&gt; I think uni changed you a lot, and I didn’t like a lot of that change, but I still love you like a brother. I am incredibly jealous of your will to do what it is you love and to not care what anyone thinks. I only hope you don’t lose too much perspective - go and talk to some people that aren’t rich and white, I think you’d learn a lot. But also, don’t listen to me, and just do whatever makes me happy, you deserve it, and thank you for everything you’ve done for me.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Laura B.&lt;/strong&gt; I wish we talked/hung out more! It feels like things have been a bit weird between us this year and I’m not really sure why. I love that even if we don’t talk for a few months at a time, once we do I feel comfortable telling you about what I’m struggling with and can be open about my mental health with you. I have no doubt that you’ll find happiness and success in anything you put your mind to.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Fiona.&lt;/strong&gt; I really miss you being more involved in my life - I feel like I never appreciated you as much as I should have and I’m sorry for that. You’re the only person who I have close to no anxiety about being around, and that’s amazing. I wish we talked more, but I don’t want things to be weird with your boyfriend. I hope we get to hang out more in the future, and I hope you are happy.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Jodie.&lt;/strong&gt; I’m so sorry I’m so awkward and weird with you, I wish I could just articulate my feelings like an adult but they’re a weird mess. I feel like I’m really awful at communicating, especially in certain situations, and you seem to have been on the receiving end of that lack of aptitude. Things have obviously been kind of weird with us this year but I think you’re great and I wish we could get them back on track - your heart is really in the right place and that puts you exceptionally high up in my eyes.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Lesley.&lt;/strong&gt; I think we have a very typical “manly” relationship where we don’t ever really acknowledge our feelings much, but I appreciate you a lot, and you have helped me greatly this year. It’s thanks to you that I even got into poker, which gave rise to some of the greatest opportunities and friendships of my life. Since coming back to Guernsey you’ve been incredibly kind to me while knowing I have been struggling with my mental health, without ever needing an explanation, and that means a lot. It’s so comforting to know that I can always send you the classic “pub?” text and we can be playing pool 30 minutes later. You’re way more intelligent than I have previously given you credit for, and I’m super excited to be living with you soon.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Vicky.&lt;/strong&gt; I am especially bad at telling you how I feel about you. Last summer when we got close was the first time in years I had felt really, really into someone, and before that I wasn’t sure if I’d ever have that feeling again. I was desperate to say something to you but terrified of rejection. Things were obviously pretty weird between us while you were with Will, and I was confused about the whole thing, but I still felt largely the same about you. This summer was weird too, and I’m sorry I didn’t say something about how I felt sooner. I think you’d benefit from a bit of perspective sometimes, and you could maybe not worry about Instagram so much, but we’re all flawed. I’m glad you care about me, I really want to get to know you better and I’m still really, really attracted to you.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Jem.&lt;/strong&gt; Your honesty is so refreshing, and I love talking to you. I would love to do some kind of programming side-project with you, but I’m worried I’m not proficient or intelligent enough to keep up with you, and you’d end up just doing all the work. Sometimes I worry that you’re lonely but you never show it, and I hope you’re not, and that you’re happy, and that you love yourself.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Charlie.&lt;/strong&gt; I love you more than anything in the world. I worry about you all the time and worry that I am not a good enough brother, that I could and should be doing more to help you and be a bigger part of my life. Sometimes you annoy the fuck out of me and I want to kick you down the stairs. But I care about you far more than myself or anyone else, and if there is ever anything I can do to make you happy then I’ll do it.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Polly.&lt;/strong&gt; I honestly think you might be the perfect human being - I really hope we talk more and get closer in the future. You’re obviously really intelligent, hilarious, easy to talk to, I love your sense of self-awareness and of altruism, and to top it off you’re gorgeous, how is that fair? If you ever move back here then I would absolutely love to take you on an awkward, terrible, emotionally unfulfilling date.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;James F.&lt;/strong&gt; I’m glad we seem to have finally buried our various hatchets. I compared myself negatively to you for years. In the end, I think we are more similar than perhaps we’d both like to admit. I hope you’re holding up alright, and if you ever want to get a beer and talk about literally anything other than our feelings, then I’m down.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Josh.&lt;/strong&gt; It’s been forever! Thanks for being there for me in my awkward teenage years while I was trying to figure everything out. I have made minimal progress in that department, but still. You were very kind to me when I was younger and I appreciate that. You also got me into TF2, which changed my entire life and led me to discovering esports as a whole which I grew to become deeply passionate about, and I owe you greatly for that.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Tom.&lt;/strong&gt; You might be the funniest person on this list. There’s very few people I can think of who could just look at me a certain way and I’d crack up laughing. I love the way you present yourself and your relaxed, don’t-take-it-too-seriously outlook on life, and I hope that is how you truly feel. I’m not even entirely sure where you live or what you do these days… but I would to find out, message me for a drink if/when you’re back in Guernsey next!
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Ollie.&lt;/strong&gt; I miss you a lot man. We were close at one point, you have seen me at absolute rock bottom, and you’re one of the few male friends I ever managed to begin opening up to. It feels like we’ve barely spoken in the past couple of years and I hope it wasn’t because I was a negative influence on your life - I know I was something of a burden to live with. Your girlfriend is awesome and I’m super jealous. I know you’re busy getting that bread in some fancy law firm somewhere, but I’d love to hear about it sometime.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Rozelle.&lt;/strong&gt; I really hope we can laugh sometime about how incredibly weird and awkward that night I stayed at yours in Edinburgh was… I was just too scared to do anything, you’re so pretty! It made for an amusing, if pitiful story at least. You were the first girl I was ever completely infatuated with as a teenager, and you handled it pretty well, even though I was super fucking weird, you even reciprocated a little, so thank you! I hope you’re doing well and enjoying your life, and that we can catch up again sometime soon.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Ted.&lt;/strong&gt; Seeing as you are one of the very few people on this list who I think will actually read this, I am tempted to rein it in… but nah. I feel like I was a terrible horse, and I’m sorry about that - there was something wrong with my mindset that I never really acknowledged enough to attempt to fix. I’m sorry I bailed so early on the meditation retreat, I wish I could have stuck it out. I’m sorry I went completely AWOL on the dapp, I felt super burned out and depressed but didn’t do a good job of communicating that at all, in part because I already felt like I’d let you down as a horse and didn’t want to do the same on this. I do really want to finish my share of it though, if you have not already done so on your own - let me know what the status of the project is. Also apologise to Mica for me, I don’t think I ever gave her enough credit. She’s kind and inquisitive and her passion for everything is something I admire greatly. You have inspired me a lot and I love your way of looking at the world, every day I try to make my own worldview more like yours.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Matt M.&lt;/strong&gt; In my eyes you are the biggest success story from GTO Club, when you joined I remember we talked about mental game and mindset for hours a day, and you struggled a lot with it. Now you seem to embody the balanced path better than any of us - eat well, in great shape, crush your job, got a solid partner, play poker for fun - I am very jealous. You taught me a tonne in those early GTO Club days, not just about poker but about life, and I think through your example you are still teaching me a lot about life. Gary Vaynerchuk is full of shit - I don’t wanna work 16 hours a day for some vague promise of future riches and success. I wanna live like you, and do simple things that make me happy every day, and enjoy it for what it is - you should write a book, because I’d read it.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Matt Ha.&lt;/strong&gt; I miss training with you so badly - your “it doesn’t matter if I’m bad, I’m still going to try” attitude, combined with the way you could mix hard work and having a laugh made me look forward to fencing with you every week. How many pushups can you do these days? You were kind, genuine, funny and fun-loving. I’d love to know what you’re doing with your life.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Higgs.&lt;/strong&gt; I give you a lot of shit for not being intelligent, but you are succeeding at something I failed at in your career so I have no right to do so. You have the worst taste in partners of any person I’ve ever met, with the possible exception of myself. On the other hand, you have excellent taste in roommates. You have the hugely underrated ability to laugh at yourself in every situation, and have been far kinder to me than I have deserved, so thank you. If you still play SC2 at all then send me a message and let’s play some co-op.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Sammy.&lt;/strong&gt; I feel like I did a horrible job of communicating with you, and potentially hurt you in the process, and I’m really sorry for that. You were far more patient with me than you should have been, and I’m grateful for you putting up with my anxiety when it was at its peak. To be honest, I was kind of taken aback by how into me you seemed to be, whereas in reality I probably should’ve been flattered. I hope you’re enjoying Hungary and you’ve found happiness in yourself
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Molly.&lt;/strong&gt; It’s been forever, but I miss you! Your sense of humour and upbeat attitude got me through so many Friday afternoons at jazz. I think you’re hilarious and beautiful, and I hope you’re doing well - I’d love to hear about the last 5 years of your life over a drink at some point.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Brendan.&lt;/strong&gt; So, in the spirit of confession… my brother actually never got hit by a car. My anxiety was unbearable on that trip, I knew I had to go home but I was too scared to tell you the truth. I’m really sorry, it was pretty much the ultimate dick move, and I feel like a shitty person for it, especially because I know you were so excited for that trip and were so kind to me about it. I learned a lot from talking to you and I think we have a lot in common, but sometimes I felt like you had to slow down and enjoy the moment. I am sure you are successful in whatever it is you are doing right now, and I hope it’s making you happy.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Ongun.&lt;/strong&gt; You inspired me a lot, and I don’t think I made enough effort to talk to you or be friends with you - in part because I viewed you as being infinitely better at both poker and life than I was. Talking to you made me realise that happiness was a much more nuanced path that lay within my own consciousness, rather than money or success or sex. I love your honesty and your willingness to share what you know with others and give them your time, with no expectations in return.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Rifhan.&lt;/strong&gt; Rif, I’m so sorry for everything that happened between us. The way I dealt with things is one of the biggest regrets of my life and one of my greatest shames. You were sweet and lovely to me and what I did was horrific. I don’t want to make excuses, but I was scared and in a bad place. I really, truly hope you are happy and that you have discovered who you are. I’d love to catch up - message me or email me!
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Laura S.&lt;/strong&gt; I’m really sorry for how I treated you, I was in a really rough place and took it out on you somewhat. I admired your adventurous spirit and lack of desire for conformity, and you were far sweeter to me than you should’ve been. I hope you’ve found happiness and you’re enjoying whatever it is you’re doing with life these days.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Chris.&lt;/strong&gt; My favourite gentle giant - I think I have just about forgiven you for trying to get me sectioned. I know it came from a place of love, so I’ll let you off. I was always surprised at how well we got on given my nerdy, effeminate tendencies and your love of rugby, beer, the gym and other manly things. I miss living with you and dicking around all the time, it was a lot of fun. I especially miss some of the nights we had out in Dalton Rooms, or at least what little I can remember of them. I hope you’re doing well, and I’d love to know how your academic career is progressing - are you still at uni? Did you ever decide on if you were going to try and become a surgeon? What can you bench these days?
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;John.&lt;/strong&gt; Thank you for making me feel so included at university, it was something I was really lacking at the time and fencing became the way I got through my weeks. I never talked to you or Pat about my mental health struggles, which were why I was sometimes really weird, because I was scared you guys would judge me or I wouldn’t be as welcome on the team as I was, but I suspect that Claire knew and told you anyway. You were nicer to me about my fencing ability to me than you needed to have been, and thank you for trying to teach me how to drink properly.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Pat.&lt;/strong&gt; One thing you said to me has really stuck with me in a way you probably wouldn’t guess and don’t remember. I can’t remember when or why, but in reference to Alina (or whatever her name was), you said “she likes you because &lt;i&gt;you’re one of us&lt;/i&gt;”. Being “one of you” stuck with me so much, and gave me a huge sense of belonging at a time when I had none. I’m sorry I never told you about my mental health issues either, and thank you making training so much fun, and the socials afterwards even more fun.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Wai Yu.&lt;/strong&gt; Thank you for giving me someone to talk to about anime and video games in an environment when I was scared of even admitting to liking those things for fear of judgment. You were a great training partner and were far too harsh on yourself, you were also hilarious. I hope whatever you’re doing these days is going well for you.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Claire.&lt;/strong&gt; You were so, so kind to me and I appreciated it so much. I think you’re funny and sweet and intelligent and gorgeous and that John was (/is?) majorly punching. I hope you’re enjoying the BBC and I’d love to catch up one day.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Matt Hu.&lt;/strong&gt; According to my Dotabuff, you’re the person I’ve played the most games with - almost 500. That’s a lot of memories! I loved having your positive attitude in those insanely toxic games. You’re so sweet and genuine and I’d love to know what you’re up to these days and catch up.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Tabby.&lt;/strong&gt; I miss when you used to ironically call me baby - it made me so happy, in a very pathetic, lonely teenage kinda way. You were always far, far too lovely to me and I apologise you were on the receiving end of so much of my teen angst, but thank you for being patient with it and being so kind to me despite all that. I hope you’re doing well and enjoying your life.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Jack M.&lt;/strong&gt; I miss the days of us all playing Dota together. You’re clearly a smart kid, and I hope you’re putting it to use somewhere that’s not an accountancy firm, and that you’ve realised you don’t need to live up to your brothers, but can be your own person.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;James W.&lt;/strong&gt; Honestly I’m never going to forget the sight of you eating an entire raw onion - you’re more of a man than you’ll ever be. You had far too much respect for my shitty opinions and were generally far too kind for me. Even if you never really talked about it, I know you weren’t always at peace with things, but I hope you are now.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Jack W.&lt;/strong&gt; I miss playing Dota with you and your weird sense of humour. I’d love to know what you’re doing with your life these days - I see you queuing sometimes still, send me an invite sometime.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Garrard.&lt;/strong&gt; The most dependable support there ever was! I miss playing with you, and your dancing is legendary enough that it might even rival Jem’s. I listened to your Soundcloud recently and was really impressed, I hope you keep that up and try and make something of it. What’re you up to these days? Always down to return the favour and support you in DuoQ sometimes, or play some co-op SC2.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Cam P.&lt;/strong&gt; I’ve never been so inspired by someone’s weight loss transformation as I have been with yours, and I am hope that eventually I will follow in your footsteps. I loved spending many long hours grinding with you at LANs and eating Subways for breakfast, lunch and dinner. Carry me at Dota sometime maybe?
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Cam D.&lt;/strong&gt; You have the most amazing work ethic of anyone I’ve ever met, and I am incredibly envious of it. I love your attitude, your humility, and the way in which you don’t make excuses and give it your all to fix a problem. I hope you succeed in poker - you deserve it far more than I ever did. I’d love to talk hands or shoot the shit sometime, perhaps you can teach me a thing or two about NL.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Damien.&lt;/strong&gt; When you said that you’d love to have me at your wedding, I know it may have been an offhand comment that I somewhat forced on you, but it made so happy, and it was so sweet. I love how little you give a shit about what people think and your total lack of filter, it helps me feel at ease when talking to you and I know you’re not going to judge me for anything. I’m excited to finally meet you IRL and get very, very drunk.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Lottie.&lt;/strong&gt; Honestly I think you’re the most attractive person I know, you’re a solid 11/10, how is that even possible, are you even real? I think you’re incredibly smart, funny, kind, self-aware and beautiful… if you ever want a mildly unattractive nerdy guy who’ll treat you right in your life, hit me up.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;James S.&lt;/strong&gt; I’m sorry I was so awkward when we met up at Reading that time, sadly it’s in my blood it seems. Fencing with you was a lot of fun and I still can’t believe you managed to pull on a night out while wearing your mum’s sports bra, you should put that on your CV. Are you still playing the drums? I hope whatever you’re doing, it’s going well.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Luke LM.&lt;/strong&gt; You taught me that a lot of traditional masculine gender roles are fucking dumb, and that I didn’t need them to be a man, and I appreciate that a lot. I was far harsher to you than I should’ve been, but you were so sweet and I hope you’re doing great with whatever it is you’re doing those days. I’m guessing you’re rarely in Guernsey but if you ever are, I’d love to go for a drink sometime.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Laura O.&lt;/strong&gt; I feel bad for how I treated you, I lead you on a lot and it wasn’t really fair. Thank you for being so kind to me during that time though - I’m not sure if you ever realised, but I was really struggling, and it was nice to escape in your car in the evenings when things were bad.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Laura C.&lt;/strong&gt; You got me into alexisonfire and Brand New, two bands which changed (and saved) my life, and shaped who I am today. Thank you so much for that and for at least attempting to beat some of the angst out of me, I feel like being friends with you helped me grow up a lot, something I desperately needed at the time. I’m so happy that you managed to follow your passion and make music your career, and I really hope you’re happy.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Jo.&lt;/strong&gt; It's been years since we last spoke, but I saw you in the pub the other day and it made me think how much I'd love to catch up and get to know you again. You were so sweet and kind to me when I was a weird, awkward teenager, and I appreciated that a tonne.
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jonny Spicer</name></author><category term="Personal" /><summary type="html">Recently my therapist pointed out to me that part of the reason I struggle with relationships might be because of a sense of shame, and I think she was absolutely right. There is a lot which I don’t tell people that I want to, partially out of anxiety, but largely because I’m ashamed of my feelings, often towards the person in question. Having feelings is unmanly and weak in our culture, and even shame itself is a taboo subject, but it’s not even like other taboo subjects. Everyone says “we must end the stigma around talking about dying/mental health/sex”, but nobody says anything about shame. Anyway. Rather than get anything off my chest individually to anyone, I thought I’d do it all in one place, where I can maintain some kind of idea that this is some kind of experiment for me, and I’m not just being super fucking weird. Here is an open letter to all of my friends, ever: Fleur. It must’ve been almost 10 years at this point, but I really miss talking to you - how are things? I hope you’re still as cynical as ever, but I hope you’re happy too. I loved talking to you back in the day, you’re so smart and funny. I’m sure that whatever you’re doing, you’re killing it. Anna. I wish we talked more, I have always found you wonderfully easy to talk to, and in the last few years it seems like you’ve really come a long way. I’d love to hangout and be ‘proper’ friends again, but I don’t want to tread on your boyfriend’s toes or anything, if he does leave you to go live in a slum somewhere he’s a fucking idiot. Emily. I’m sorry I said all that weird stuff to you last year, I hope it wasn’t too uncomfortable for you. I’m grateful for the good things we had and I learned a lot about myself because of you. I hope you’ve found happiness, and if you’re ever in Guernsey, I’d love to go for a coffee and catch up one day. Holly. I can count the amount of times we actually talked on my fingers, but you changed my life, as weird as that might sound. You were the first person who seemed to be really into me for being a reasonably authentic version of myself, and that helped me a lot, and in a way it still does. Also, you’re gorgeous and I love your tattoos. Ellie. You helped me so much, probably without realising it. I felt like we had a tacit understanding and you are one of the only people I’ve talked to who I felt completely unjudged by. I also think you’re hilarious and super talented, and I really hope you find happiness, because you absolutely deserve it. Lisa. I wish we talked more, every time I get down I think about messaging you, or any time I’m really happy or anything even remotely interesting happens to me. I don’t want to pester you though, I know you’re super busy all the time, I don’t want you to get sick of me complaining or being down all the time. I’m also worried about treading on your boyfriend’s toes - I can’t imagine he’d exactly see me as a “threat” but still. TBH I only really ‘got over you’ when you started dating him, so perhaps that makes me less likely to confess my undying romantic love for you? You’ve changed my life so much for the better and I love you. Mancini. Are you alright man? I hope you are, I don’t want your job to grind you down. I think you’re fucking hilarious, you crack me up every single time we hang out, which is something we should do more of. Hit me up, let’s get a beer and complain about how we can’t get laid. JAG. I don’t want to dislike you, but yikes, your walls are higher than mine. I feel like you’re always putting on a show, trying to fit yourself into some mould you have in your mind of how you should be. Life isn’t like that, you don’t have to pretend… try and be authentic, even if it feels impossible and overwhelming. Also don’t listen to me, I’m in no position to give advice to anyone else. Myles. I am so sorry about being a giant prick last NYE! But I am so happy for you that you have a girlfriend and you managed to escape the rock. I think you’re hilarious and down to earth and generally a lot of fun to chill with - let’s get a beer when you’re back. Nick. I think uni changed you a lot, and I didn’t like a lot of that change, but I still love you like a brother. I am incredibly jealous of your will to do what it is you love and to not care what anyone thinks. I only hope you don’t lose too much perspective - go and talk to some people that aren’t rich and white, I think you’d learn a lot. But also, don’t listen to me, and just do whatever makes me happy, you deserve it, and thank you for everything you’ve done for me. Laura B. I wish we talked/hung out more! It feels like things have been a bit weird between us this year and I’m not really sure why. I love that even if we don’t talk for a few months at a time, once we do I feel comfortable telling you about what I’m struggling with and can be open about my mental health with you. I have no doubt that you’ll find happiness and success in anything you put your mind to. Fiona. I really miss you being more involved in my life - I feel like I never appreciated you as much as I should have and I’m sorry for that. You’re the only person who I have close to no anxiety about being around, and that’s amazing. I wish we talked more, but I don’t want things to be weird with your boyfriend. I hope we get to hang out more in the future, and I hope you are happy. Jodie. I’m so sorry I’m so awkward and weird with you, I wish I could just articulate my feelings like an adult but they’re a weird mess. I feel like I’m really awful at communicating, especially in certain situations, and you seem to have been on the receiving end of that lack of aptitude. Things have obviously been kind of weird with us this year but I think you’re great and I wish we could get them back on track - your heart is really in the right place and that puts you exceptionally high up in my eyes. Lesley. I think we have a very typical “manly” relationship where we don’t ever really acknowledge our feelings much, but I appreciate you a lot, and you have helped me greatly this year. It’s thanks to you that I even got into poker, which gave rise to some of the greatest opportunities and friendships of my life. Since coming back to Guernsey you’ve been incredibly kind to me while knowing I have been struggling with my mental health, without ever needing an explanation, and that means a lot. It’s so comforting to know that I can always send you the classic “pub?” text and we can be playing pool 30 minutes later. You’re way more intelligent than I have previously given you credit for, and I’m super excited to be living with you soon. Vicky. I am especially bad at telling you how I feel about you. Last summer when we got close was the first time in years I had felt really, really into someone, and before that I wasn’t sure if I’d ever have that feeling again. I was desperate to say something to you but terrified of rejection. Things were obviously pretty weird between us while you were with Will, and I was confused about the whole thing, but I still felt largely the same about you. This summer was weird too, and I’m sorry I didn’t say something about how I felt sooner. I think you’d benefit from a bit of perspective sometimes, and you could maybe not worry about Instagram so much, but we’re all flawed. I’m glad you care about me, I really want to get to know you better and I’m still really, really attracted to you. Jem. Your honesty is so refreshing, and I love talking to you. I would love to do some kind of programming side-project with you, but I’m worried I’m not proficient or intelligent enough to keep up with you, and you’d end up just doing all the work. Sometimes I worry that you’re lonely but you never show it, and I hope you’re not, and that you’re happy, and that you love yourself. Charlie. I love you more than anything in the world. I worry about you all the time and worry that I am not a good enough brother, that I could and should be doing more to help you and be a bigger part of my life. Sometimes you annoy the fuck out of me and I want to kick you down the stairs. But I care about you far more than myself or anyone else, and if there is ever anything I can do to make you happy then I’ll do it. Polly. I honestly think you might be the perfect human being - I really hope we talk more and get closer in the future. You’re obviously really intelligent, hilarious, easy to talk to, I love your sense of self-awareness and of altruism, and to top it off you’re gorgeous, how is that fair? If you ever move back here then I would absolutely love to take you on an awkward, terrible, emotionally unfulfilling date. James F. I’m glad we seem to have finally buried our various hatchets. I compared myself negatively to you for years. In the end, I think we are more similar than perhaps we’d both like to admit. I hope you’re holding up alright, and if you ever want to get a beer and talk about literally anything other than our feelings, then I’m down. Josh. It’s been forever! Thanks for being there for me in my awkward teenage years while I was trying to figure everything out. I have made minimal progress in that department, but still. You were very kind to me when I was younger and I appreciate that. You also got me into TF2, which changed my entire life and led me to discovering esports as a whole which I grew to become deeply passionate about, and I owe you greatly for that. Tom. You might be the funniest person on this list. There’s very few people I can think of who could just look at me a certain way and I’d crack up laughing. I love the way you present yourself and your relaxed, don’t-take-it-too-seriously outlook on life, and I hope that is how you truly feel. I’m not even entirely sure where you live or what you do these days… but I would to find out, message me for a drink if/when you’re back in Guernsey next! Ollie. I miss you a lot man. We were close at one point, you have seen me at absolute rock bottom, and you’re one of the few male friends I ever managed to begin opening up to. It feels like we’ve barely spoken in the past couple of years and I hope it wasn’t because I was a negative influence on your life - I know I was something of a burden to live with. Your girlfriend is awesome and I’m super jealous. I know you’re busy getting that bread in some fancy law firm somewhere, but I’d love to hear about it sometime. Rozelle. I really hope we can laugh sometime about how incredibly weird and awkward that night I stayed at yours in Edinburgh was… I was just too scared to do anything, you’re so pretty! It made for an amusing, if pitiful story at least. You were the first girl I was ever completely infatuated with as a teenager, and you handled it pretty well, even though I was super fucking weird, you even reciprocated a little, so thank you! I hope you’re doing well and enjoying your life, and that we can catch up again sometime soon. Ted. Seeing as you are one of the very few people on this list who I think will actually read this, I am tempted to rein it in… but nah. I feel like I was a terrible horse, and I’m sorry about that - there was something wrong with my mindset that I never really acknowledged enough to attempt to fix. I’m sorry I bailed so early on the meditation retreat, I wish I could have stuck it out. I’m sorry I went completely AWOL on the dapp, I felt super burned out and depressed but didn’t do a good job of communicating that at all, in part because I already felt like I’d let you down as a horse and didn’t want to do the same on this. I do really want to finish my share of it though, if you have not already done so on your own - let me know what the status of the project is. Also apologise to Mica for me, I don’t think I ever gave her enough credit. She’s kind and inquisitive and her passion for everything is something I admire greatly. You have inspired me a lot and I love your way of looking at the world, every day I try to make my own worldview more like yours. Matt M. In my eyes you are the biggest success story from GTO Club, when you joined I remember we talked about mental game and mindset for hours a day, and you struggled a lot with it. Now you seem to embody the balanced path better than any of us - eat well, in great shape, crush your job, got a solid partner, play poker for fun - I am very jealous. You taught me a tonne in those early GTO Club days, not just about poker but about life, and I think through your example you are still teaching me a lot about life. Gary Vaynerchuk is full of shit - I don’t wanna work 16 hours a day for some vague promise of future riches and success. I wanna live like you, and do simple things that make me happy every day, and enjoy it for what it is - you should write a book, because I’d read it. Matt Ha. I miss training with you so badly - your “it doesn’t matter if I’m bad, I’m still going to try” attitude, combined with the way you could mix hard work and having a laugh made me look forward to fencing with you every week. How many pushups can you do these days? You were kind, genuine, funny and fun-loving. I’d love to know what you’re doing with your life. Higgs. I give you a lot of shit for not being intelligent, but you are succeeding at something I failed at in your career so I have no right to do so. You have the worst taste in partners of any person I’ve ever met, with the possible exception of myself. On the other hand, you have excellent taste in roommates. You have the hugely underrated ability to laugh at yourself in every situation, and have been far kinder to me than I have deserved, so thank you. If you still play SC2 at all then send me a message and let’s play some co-op. Sammy. I feel like I did a horrible job of communicating with you, and potentially hurt you in the process, and I’m really sorry for that. You were far more patient with me than you should have been, and I’m grateful for you putting up with my anxiety when it was at its peak. To be honest, I was kind of taken aback by how into me you seemed to be, whereas in reality I probably should’ve been flattered. I hope you’re enjoying Hungary and you’ve found happiness in yourself Molly. It’s been forever, but I miss you! Your sense of humour and upbeat attitude got me through so many Friday afternoons at jazz. I think you’re hilarious and beautiful, and I hope you’re doing well - I’d love to hear about the last 5 years of your life over a drink at some point. Brendan. So, in the spirit of confession… my brother actually never got hit by a car. My anxiety was unbearable on that trip, I knew I had to go home but I was too scared to tell you the truth. I’m really sorry, it was pretty much the ultimate dick move, and I feel like a shitty person for it, especially because I know you were so excited for that trip and were so kind to me about it. I learned a lot from talking to you and I think we have a lot in common, but sometimes I felt like you had to slow down and enjoy the moment. I am sure you are successful in whatever it is you are doing right now, and I hope it’s making you happy. Ongun. You inspired me a lot, and I don’t think I made enough effort to talk to you or be friends with you - in part because I viewed you as being infinitely better at both poker and life than I was. Talking to you made me realise that happiness was a much more nuanced path that lay within my own consciousness, rather than money or success or sex. I love your honesty and your willingness to share what you know with others and give them your time, with no expectations in return. Rifhan. Rif, I’m so sorry for everything that happened between us. The way I dealt with things is one of the biggest regrets of my life and one of my greatest shames. You were sweet and lovely to me and what I did was horrific. I don’t want to make excuses, but I was scared and in a bad place. I really, truly hope you are happy and that you have discovered who you are. I’d love to catch up - message me or email me! Laura S. I’m really sorry for how I treated you, I was in a really rough place and took it out on you somewhat. I admired your adventurous spirit and lack of desire for conformity, and you were far sweeter to me than you should’ve been. I hope you’ve found happiness and you’re enjoying whatever it is you’re doing with life these days. Chris. My favourite gentle giant - I think I have just about forgiven you for trying to get me sectioned. I know it came from a place of love, so I’ll let you off. I was always surprised at how well we got on given my nerdy, effeminate tendencies and your love of rugby, beer, the gym and other manly things. I miss living with you and dicking around all the time, it was a lot of fun. I especially miss some of the nights we had out in Dalton Rooms, or at least what little I can remember of them. I hope you’re doing well, and I’d love to know how your academic career is progressing - are you still at uni? Did you ever decide on if you were going to try and become a surgeon? What can you bench these days? John. Thank you for making me feel so included at university, it was something I was really lacking at the time and fencing became the way I got through my weeks. I never talked to you or Pat about my mental health struggles, which were why I was sometimes really weird, because I was scared you guys would judge me or I wouldn’t be as welcome on the team as I was, but I suspect that Claire knew and told you anyway. You were nicer to me about my fencing ability to me than you needed to have been, and thank you for trying to teach me how to drink properly. Pat. One thing you said to me has really stuck with me in a way you probably wouldn’t guess and don’t remember. I can’t remember when or why, but in reference to Alina (or whatever her name was), you said “she likes you because you’re one of us”. Being “one of you” stuck with me so much, and gave me a huge sense of belonging at a time when I had none. I’m sorry I never told you about my mental health issues either, and thank you making training so much fun, and the socials afterwards even more fun. Wai Yu. Thank you for giving me someone to talk to about anime and video games in an environment when I was scared of even admitting to liking those things for fear of judgment. You were a great training partner and were far too harsh on yourself, you were also hilarious. I hope whatever you’re doing these days is going well for you. Claire. You were so, so kind to me and I appreciated it so much. I think you’re funny and sweet and intelligent and gorgeous and that John was (/is?) majorly punching. I hope you’re enjoying the BBC and I’d love to catch up one day. Matt Hu. According to my Dotabuff, you’re the person I’ve played the most games with - almost 500. That’s a lot of memories! I loved having your positive attitude in those insanely toxic games. You’re so sweet and genuine and I’d love to know what you’re up to these days and catch up. Tabby. I miss when you used to ironically call me baby - it made me so happy, in a very pathetic, lonely teenage kinda way. You were always far, far too lovely to me and I apologise you were on the receiving end of so much of my teen angst, but thank you for being patient with it and being so kind to me despite all that. I hope you’re doing well and enjoying your life. Jack M. I miss the days of us all playing Dota together. You’re clearly a smart kid, and I hope you’re putting it to use somewhere that’s not an accountancy firm, and that you’ve realised you don’t need to live up to your brothers, but can be your own person. James W. Honestly I’m never going to forget the sight of you eating an entire raw onion - you’re more of a man than you’ll ever be. You had far too much respect for my shitty opinions and were generally far too kind for me. Even if you never really talked about it, I know you weren’t always at peace with things, but I hope you are now. Jack W. I miss playing Dota with you and your weird sense of humour. I’d love to know what you’re doing with your life these days - I see you queuing sometimes still, send me an invite sometime. Garrard. The most dependable support there ever was! I miss playing with you, and your dancing is legendary enough that it might even rival Jem’s. I listened to your Soundcloud recently and was really impressed, I hope you keep that up and try and make something of it. What’re you up to these days? Always down to return the favour and support you in DuoQ sometimes, or play some co-op SC2. Cam P. I’ve never been so inspired by someone’s weight loss transformation as I have been with yours, and I am hope that eventually I will follow in your footsteps. I loved spending many long hours grinding with you at LANs and eating Subways for breakfast, lunch and dinner. Carry me at Dota sometime maybe? Cam D. You have the most amazing work ethic of anyone I’ve ever met, and I am incredibly envious of it. I love your attitude, your humility, and the way in which you don’t make excuses and give it your all to fix a problem. I hope you succeed in poker - you deserve it far more than I ever did. I’d love to talk hands or shoot the shit sometime, perhaps you can teach me a thing or two about NL. Damien. When you said that you’d love to have me at your wedding, I know it may have been an offhand comment that I somewhat forced on you, but it made so happy, and it was so sweet. I love how little you give a shit about what people think and your total lack of filter, it helps me feel at ease when talking to you and I know you’re not going to judge me for anything. I’m excited to finally meet you IRL and get very, very drunk. Lottie. Honestly I think you’re the most attractive person I know, you’re a solid 11/10, how is that even possible, are you even real? I think you’re incredibly smart, funny, kind, self-aware and beautiful… if you ever want a mildly unattractive nerdy guy who’ll treat you right in your life, hit me up. James S. I’m sorry I was so awkward when we met up at Reading that time, sadly it’s in my blood it seems. Fencing with you was a lot of fun and I still can’t believe you managed to pull on a night out while wearing your mum’s sports bra, you should put that on your CV. Are you still playing the drums? I hope whatever you’re doing, it’s going well. Luke LM. You taught me that a lot of traditional masculine gender roles are fucking dumb, and that I didn’t need them to be a man, and I appreciate that a lot. I was far harsher to you than I should’ve been, but you were so sweet and I hope you’re doing great with whatever it is you’re doing those days. I’m guessing you’re rarely in Guernsey but if you ever are, I’d love to go for a drink sometime. Laura O. I feel bad for how I treated you, I lead you on a lot and it wasn’t really fair. Thank you for being so kind to me during that time though - I’m not sure if you ever realised, but I was really struggling, and it was nice to escape in your car in the evenings when things were bad. Laura C. You got me into alexisonfire and Brand New, two bands which changed (and saved) my life, and shaped who I am today. Thank you so much for that and for at least attempting to beat some of the angst out of me, I feel like being friends with you helped me grow up a lot, something I desperately needed at the time. I’m so happy that you managed to follow your passion and make music your career, and I really hope you’re happy. Jo. It's been years since we last spoke, but I saw you in the pub the other day and it made me think how much I'd love to catch up and get to know you again. You were so sweet and kind to me when I was a weird, awkward teenager, and I appreciated that a tonne.</summary></entry></feed>

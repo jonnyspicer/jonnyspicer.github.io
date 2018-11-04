@@ -1,7 +1,10 @@
 .post{
   ul{
     padding-inline-end:40px;
+    list-style-type: lower-greek;
+    padding-inline-start: 20px;
     li{
+      padding-left: 5px;
       span{
         font-size: 18px;
       }
