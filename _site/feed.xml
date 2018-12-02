@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-02T20:00:05+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jonny Spicer | Thoughts From Tartarus</title><subtitle>Jonny Spicer's personal website and blog, where he writes about mental health, technology, esports, but primarily trash.</subtitle><entry><title type="html">Too Fast</title><link href="http://localhost:4000/mendokusai/2018/12/01/too-fast" rel="alternate" type="text/html" title="Too Fast" /><published>2018-12-01T00:00:00+00:00</published><updated>2018-12-01T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/12/01/too-fast</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/12/01/too-fast">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-02T20:42:32+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jonny Spicer | Thoughts From Tartarus</title><subtitle>Jonny Spicer's personal website and blog, where he writes about mental health, technology, esports, but primarily trash.</subtitle><entry><title type="html">Upgrade and Compromise</title><link href="http://localhost:4000/mendokusai/2018/12/02/upgrade-and-compromise" rel="alternate" type="text/html" title="Upgrade and Compromise" /><published>2018-12-02T00:00:00+00:00</published><updated>2018-12-02T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/12/02/upgrade-and-compromise</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/12/02/upgrade-and-compromise">&lt;p&gt;
+  As I'm sure you have noticed, today the site has an exciting new feature - colour!
+  There is actually a slightly less obvious, but equally exciting, new feature that
+  I have added today as well, which is a JavaScript file. I'd like to talk
+  a bit about why I decided to add these two things to my site.
+&lt;/p&gt;
+&lt;p&gt;
+  Both new additions actually have a common objective, that of improving accessibility.
+  In my opinion, accessibility is overlooked by a very large number of web devs,
+  and there isn't really a good excuse for it. All that is required to make a site
+  accessible is some education and a tiny amount of time, and if a site is built
+  with accessibility in mind, the extra effort is negligible.
+&lt;/p&gt;
+&lt;p&gt;
+  The problem with my lovely CSS-only hamburger menus and accordions was that they
+  were completely un-navigable with only a keyboard. Their current JavaScript-enhanced
+  iterations aren't much better, but when I next have some time to work on the site,
+  the improvements will allow full, and hopefully easy, keyboard navigation of
+  the site.
+&lt;/p&gt;
+&lt;p&gt;
+  My monochrome design choices may have fit my minimalist &lt;span style=&quot;white-space:nowrap;&quot;&gt;【﻿ａｅｓｔｈｅｔｉｃ】&lt;/span&gt; but
+  a lot of the greys had poor colour-contrast, and my link styles were confusing and
+  inconsistent. Now, with only a primary and alternate colour,
+  every link on the site should look the same &lt;i&gt;and&lt;/i&gt; they are suitably
+  different from regular text.
+&lt;/p&gt;
+&lt;p&gt;
+  There is an element of compromise here - any JavaScript added will slow the
+  performance of my site (although I have only added 15 or so lines so far, so
+  the degradation will be infinitesimal), and I can no longer say the site is a
+  no-JS-zone. With regards to the colours, I am not entirely sold on the actual
+  hues I picked, at least not yet. It was a pretty tough decision, I wanted to pick ones
+  that had solid contrast and were complementary, and avoid blue because everything
+  on the internet is blue... Perhaps they will grow on me.
+&lt;/p&gt;
+&lt;p&gt;
+  The next wave of upgrades for this site will be to make it compliant with the &lt;a href=&quot;https://www.w3.org/TR/WCAG20/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;
+  WCAG 2.0 AA&lt;/a&gt; standard. I am hopefully most of the way there already, but I
+  am quite excited for the additional challenge, and I think I will learn a lot
+  on the way.
+&lt;/p&gt;
+&lt;p&gt;
+  I have made these changes to the site because I believe the web should be for
+  everyone, and developers have a responsibility to cater for anyone who wants
+  or needs to use their site.
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Web Development" /><summary type="html">As I'm sure you have noticed, today the site has an exciting new feature - colour! There is actually a slightly less obvious, but equally exciting, new feature that I have added today as well, which is a JavaScript file. I'd like to talk a bit about why I decided to add these two things to my site. Both new additions actually have a common objective, that of improving accessibility. In my opinion, accessibility is overlooked by a very large number of web devs, and there isn't really a good excuse for it. All that is required to make a site accessible is some education and a tiny amount of time, and if a site is built with accessibility in mind, the extra effort is negligible. The problem with my lovely CSS-only hamburger menus and accordions was that they were completely un-navigable with only a keyboard. Their current JavaScript-enhanced iterations aren't much better, but when I next have some time to work on the site, the improvements will allow full, and hopefully easy, keyboard navigation of the site. My monochrome design choices may have fit my minimalist 【﻿ａｅｓｔｈｅｔｉｃ】 but a lot of the greys had poor colour-contrast, and my link styles were confusing and inconsistent. Now, with only a primary and alternate colour, every link on the site should look the same and they are suitably different from regular text. There is an element of compromise here - any JavaScript added will slow the performance of my site (although I have only added 15 or so lines so far, so the degradation will be infinitesimal), and I can no longer say the site is a no-JS-zone. With regards to the colours, I am not entirely sold on the actual hues I picked, at least not yet. It was a pretty tough decision, I wanted to pick ones that had solid contrast and were complementary, and avoid blue because everything on the internet is blue... Perhaps they will grow on me. The next wave of upgrades for this site will be to make it compliant with the WCAG 2.0 AA standard. I am hopefully most of the way there already, but I am quite excited for the additional challenge, and I think I will learn a lot on the way. I have made these changes to the site because I believe the web should be for everyone, and developers have a responsibility to cater for anyone who wants or needs to use their site.</summary></entry><entry><title type="html">Too Fast</title><link href="http://localhost:4000/mendokusai/2018/12/01/too-fast" rel="alternate" type="text/html" title="Too Fast" /><published>2018-12-01T00:00:00+00:00</published><updated>2018-12-01T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/12/01/too-fast</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/12/01/too-fast">&lt;p&gt;
   Today has gone by too fast... I had so much I wanted to do. And I haven't spent
   any time frivously I don't think, no games, no Youtube videos, just productivity, the gym
   and socialising out with a friend, something that seems important for my health.
@@ -154,41 +200,4 @@
   and am so immersed in my character of somebody-who's-fine, that most people
   can't tell the difference. I'm glad I still have the ability to fool people,
   if necessary.
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Mental Health" /><summary type="html">Today I talked a little to one of my remote coworkers about my mental health issues. I've deliberately tried to hide it as much as possible at work, for fear it could affect my employability or my status within the company, but I trust the guy I talked to, and I don't think he'll say anything to anyone. It's not especially enjoyable to have to hide it, and I am relatively open to talking about things these days, so it was something of a relief to tell him, and have one fewer person to have to hide it from. One of the things he said really tickled me though - he had no idea, and wouldn't have pegged me as someone with any kind of problem at all. It's somewhat reassuring - I have, for the most part, stopped putting much effort into covering up my 'secret' (which I talk about somewhat candid about on this blog). But it seems, I am a good actor, and am so immersed in my character of somebody-who's-fine, that most people can't tell the difference. I'm glad I still have the ability to fool people, if necessary.</summary></entry><entry><title type="html">World Chess Championships</title><link href="http://localhost:4000/mendokusai/2018/11/22/world-chess-championships" rel="alternate" type="text/html" title="World Chess Championships" /><published>2018-11-22T00:00:00+00:00</published><updated>2018-11-22T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/11/22/world-chess-championships</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/11/22/world-chess-championships">&lt;p&gt;
-  After the first 10 games of the Open World Chess Championships, it's 5 points all,
-  with every game having been a draw. There has been a lot of criticism in public media
-  for these games all being ended peacefully - which is a little odd, seeing as
-  the world seems more interested in this match than usual. It's a little depressing
-  that people still don't see beauty in the draws - they just want blood over the board.
-  And, to be fair there has been blood - there have been thrills and spills, mistakes,
-  opening novelties, and sacrifices. It just so happens that all of these have
-  balanced out thusfar. I wish people would stop complaining and enjoy the game.
-  There hasn't even been a single Berlin Defence yet - how can you say that's boring?!
-&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;
-  On a related note, today was game 4 of the final of the Women's World Chess Championship.
-  I was super happy that one of my favourite players, reigning champ Ju Wenjun managed
-  to secure a win with black in a scenario where she had to secure the full point
-  not to concede the title altogether. I'm hopeful she can overcome her opponent,
-  Kateryna Lagno in the rapid tiebreaks.
-&lt;/p&gt;
-&lt;p&gt;
-  However... the waya lot of people talk about womens' chess is disgusting. Everyone is eager
-  to jump on any minor inaccuracy, only discoverable to humans with the aid of a
-  supercomputer, and slander the combatants as bad, the games as a comedy of errors.
-  These players are top grandmasters, regardless of what gender their opposition may be,
-  they are undeniably experts in their field. Their ratings are invariably much, much
-  higher than the majority of their detractors (although I was upset to see some strong
-  male players also disparage the match).
-&lt;/p&gt;
-&lt;p&gt;
-  It reminds me a lot of &lt;a href=&quot;https://en.wikipedia.org/wiki/Monty_Hall_problem#Vos_Savant_and_the_media_furor&quot;
-  target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Marilyn vos Savant and the Monty Hall Problem.&lt;/a&gt;
-  I had hoped that society had progressed meaningfully in the brief 30 or so years
-  since that happened, but it seems not, and that misogyny is still deep-rooted
-  in our collective consciousness.
-&lt;/p&gt;
-&lt;p&gt;
-  People fucking suck.
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Chess" /><summary type="html">After the first 10 games of the Open World Chess Championships, it's 5 points all, with every game having been a draw. There has been a lot of criticism in public media for these games all being ended peacefully - which is a little odd, seeing as the world seems more interested in this match than usual. It's a little depressing that people still don't see beauty in the draws - they just want blood over the board. And, to be fair there has been blood - there have been thrills and spills, mistakes, opening novelties, and sacrifices. It just so happens that all of these have balanced out thusfar. I wish people would stop complaining and enjoy the game. There hasn't even been a single Berlin Defence yet - how can you say that's boring?! On a related note, today was game 4 of the final of the Women's World Chess Championship. I was super happy that one of my favourite players, reigning champ Ju Wenjun managed to secure a win with black in a scenario where she had to secure the full point not to concede the title altogether. I'm hopeful she can overcome her opponent, Kateryna Lagno in the rapid tiebreaks. However... the waya lot of people talk about womens' chess is disgusting. Everyone is eager to jump on any minor inaccuracy, only discoverable to humans with the aid of a supercomputer, and slander the combatants as bad, the games as a comedy of errors. These players are top grandmasters, regardless of what gender their opposition may be, they are undeniably experts in their field. Their ratings are invariably much, much higher than the majority of their detractors (although I was upset to see some strong male players also disparage the match). It reminds me a lot of Marilyn vos Savant and the Monty Hall Problem. I had hoped that society had progressed meaningfully in the brief 30 or so years since that happened, but it seems not, and that misogyny is still deep-rooted in our collective consciousness. People fucking suck.</summary></entry></feed>
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Mental Health" /><summary type="html">Today I talked a little to one of my remote coworkers about my mental health issues. I've deliberately tried to hide it as much as possible at work, for fear it could affect my employability or my status within the company, but I trust the guy I talked to, and I don't think he'll say anything to anyone. It's not especially enjoyable to have to hide it, and I am relatively open to talking about things these days, so it was something of a relief to tell him, and have one fewer person to have to hide it from. One of the things he said really tickled me though - he had no idea, and wouldn't have pegged me as someone with any kind of problem at all. It's somewhat reassuring - I have, for the most part, stopped putting much effort into covering up my 'secret' (which I talk about somewhat candid about on this blog). But it seems, I am a good actor, and am so immersed in my character of somebody-who's-fine, that most people can't tell the difference. I'm glad I still have the ability to fool people, if necessary.</summary></entry></feed>
