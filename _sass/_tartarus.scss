@@ -1,11 +1,11 @@
-.tartarus{
+.mendokusai{
   a{
-    color: #666;
+    color: $color_link;
     &:after{
-      color:$color_grey_very_dark;
+      color:$color_secondary;
     }
     &:hover{
-      color:$color_grey_very_dark
+      color:$color_secondary;
     }
   }
 }

@@ -12,10 +12,8 @@ permalink: /mendokusai/archives
       {% if currentdate != date %}
         {% unless forloop.first %}</ul>{% endunless %}
         <li>
-          <input type="checkbox" checked />
-          <i></i>
-          <h2 class="linkish" id="y{{post.date | date: "%B %Y"}}">{{ currentdate }}</h2>
-          <ul>
+          <h2 class="accordion-title" id="y{{post.date | date: "%B %Y"}}">{{ currentdate }}</h2>
+          <ul class="accordion-leaf">
           {% assign date = currentdate %}
             {% endif %}
             <li>

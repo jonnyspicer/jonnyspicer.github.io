@@ -1,26 +1,16 @@
+<button class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
 <nav class="desktop-nav">
   {% for item in site.data.navigation %}
-  <div>
     <a href="{{ item.link }}">
-      {{ item.name }}
+      <div>
+        <p>
+          {{ item.name }}
+        </p>
+      </div>
     </a>
-  </div>
-
   {% endfor %}
 </nav>
-<div id="menuToggle">
-    <input id="invisible" type="checkbox" />
-    <label for="invisible">Invisible</label>
-    <span></span>
-    <span></span>
-    <span></span>
-    <ul id="menu">
-      {% for item in site.data.navigation %}
-      <li>
-        <a href="{{ item.link }}">
-          {{ item.name }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>

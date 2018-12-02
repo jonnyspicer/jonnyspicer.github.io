@@ -28,71 +28,46 @@
   </head>
   <body>
     <div class="wrapper">
-      <nav class="desktop-nav">
+      <button class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+<nav class="desktop-nav">
   
-  <div>
     <a href="/">
-      Home
+      <div>
+        <p>
+          Home
+        </p>
+      </div>
     </a>
-  </div>
-
   
-  <div>
     <a href="/about">
-      About
+      <div>
+        <p>
+          About
+        </p>
+      </div>
     </a>
-  </div>
-
   
-  <div>
     <a href="/mendokusai">
-      Mendokusai
+      <div>
+        <p>
+          Mendokusai
+        </p>
+      </div>
     </a>
-  </div>
-
   
-  <div>
     <a href="/tartarus">
-      Tartarus
+      <div>
+        <p>
+          Tartarus
+        </p>
+      </div>
     </a>
-  </div>
-
   
 </nav>
-<div id="menuToggle">
-    <input id="invisible" type="checkbox" />
-    <label for="invisible">Invisible</label>
-    <span></span>
-    <span></span>
-    <span></span>
-    <ul id="menu">
-      
-      <li>
-        <a href="/">
-          Home
-        </a>
-      </li>
-      
-      <li>
-        <a href="/about">
-          About
-        </a>
-      </li>
-      
-      <li>
-        <a href="/mendokusai">
-          Mendokusai
-        </a>
-      </li>
-      
-      <li>
-        <a href="/tartarus">
-          Tartarus
-        </a>
-      </li>
-      
-    </ul>
-  </div>
 
       <div class="archives">
   <h1>Tartarus Archives</h1>
@@ -103,10 +78,8 @@
       
         
         <li>
-          <input type="checkbox" checked />
-          <i></i>
-          <h2 class="linkish" id="y2018">2018</h2>
-          <ul>
+          <h2 class="accordion-title" id="y2018">2018</h2>
+          <ul class="accordion-leaf">
           
             
             <li>
@@ -165,10 +138,8 @@
       
         </ul>
         <li>
-          <input type="checkbox" checked />
-          <i></i>
-          <h2 class="linkish" id="y2017">2017</h2>
-          <ul>
+          <h2 class="accordion-title" id="y2017">2017</h2>
+          <ul class="accordion-leaf">
           
             
             <li>
@@ -295,5 +266,6 @@
   &#169; Jonny Spicer 2018 | Licensed under GPL-3.0
 </footer>
 
+    <script type="text/javascript" src="/assets/js/global.js"></script>
   </body>
 </html>

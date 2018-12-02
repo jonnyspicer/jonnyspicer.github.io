@@ -1,12 +1,50 @@
+.hamburger{
+  display: none;
+  &:focus{
+    outline: none;
+  }
+  @media only screen and (max-width: 540px){
+    display:inline-block;
+    position:absolute;
+    top: 3px;
+    right: -3px;
+  }
+}
 nav.desktop-nav{
   padding-top: 10px;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(4,1fr);
+  a{
+    background-image: none;
+  }
   div{
     text-align: center;
     border-left: solid 1px $color_grey_dark;
-    &:last-child{
+    p{
+      display: inline-block;
+      color: $color_link;
+      font-size: 16px;
+      padding: 0;
+      margin: 0;
+      line-height: normal;
+      text-decoration: none;
+      background-image: linear-gradient(to bottom, transparent 20%, currentColor 21%);
+      background-position: 0 1em;
+      background-repeat: no-repeat;
+      background-size: 0% 4px;
+      transition: background-size 0.8s ease-in-out 0.2s;
+    }
+    &:hover, &:focus{
+      p{
+        color: $color_secondary;
+        background-size: 100% 4px;
+        transition-delay: 0s;
+      }
+    }
+  }
+  a:last-child{
+    div{
       border-right: solid 1px $color_grey_dark;
     }
   }
@@ -14,118 +52,53 @@ nav.desktop-nav{
     display:none;
   }
 }
-
-// CSS only hamburger menu by Christopher Schulz.
-// Check out the demo here https://codepen.io/chr1s1202/pen/sJBkD
-
-#menuToggle{
-  display:none;
-}
-
 @media only screen and (max-width: 540px){
-  #menuToggle
-  {
-    display: block;
-    position: relative;
-
-    z-index: 1;
-
-    -webkit-user-select: none;
-    user-select: none;
-  }
-
-  #menuToggle input
-  {
-    display: block;
-    width: 40px;
-    height: 32px;
-    position: absolute;
-    top: -7px;
-    left: -5px;
-
-    cursor: pointer;
-
-    opacity: 0;
-    z-index: 2;
-
-    -webkit-touch-callout: none;
-  }
-
-  #menuToggle span
-  {
-    padding: 0;
-    display: block;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-
-    background: $color_grey_very_dark;
-    border-radius: 3px;
-
-    z-index: 1;
-
-    transform-origin: 4px 0px;
-
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                opacity 0.55s ease;
-  }
-
-  #menuToggle span:first-child
-  {
-    transform-origin: 0% 0%;
-  }
-
-  #menuToggle span:nth-last-child(2)
-  {
-    transform-origin: 0% 100%;
-  }
-
-  #menuToggle input:checked ~ span
-  {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: $color_grey_very_dark;
-  }
-
-  #menuToggle input:checked ~ span:nth-last-child(3)
-  {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-  }
-
-  #menuToggle input:checked ~ span:nth-last-child(2)
-  {
-    transform: rotate(-45deg) translate(0, -1px);
-  }
-
-  #menu
-  {
-    position: absolute;
-    width: 100%;
-    margin: -100px 0 0 -50px;
-    padding: 50px;
-    padding-top: 125px;
-
-    background: #ededed;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
-
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-  }
-
-  #menu li
-  {
-    padding: 10px 0;
-    font-size: 22px;
-  }
-
-  #menuToggle input:checked ~ ul
-  {
-    transform: none;
+  nav.desktop-nav{
+    display:none;
+    a:first-child{
+      div{
+        border-top: solid 1px $color_grey_dark;
+      }
+    }
+    div{
+      text-align: center;
+      border-left: none;
+      display: block;
+      padding: 10px 20px;
+      margin-left: -20px;
+      border-bottom: solid 1px $color_grey_dark;
+      background-color: $color_white;
+      width: 100%;
+      &:last-child{
+        border-right: none;
+      }
+    }
+    &.expanded{
+      float:none;
+      clear:both;
+      display: block;
+      padding-top: 40px;
+      margin: 0 0 -20px;
+      z-index: 100;
+      width: 100%;
+      ul{
+        li {
+          display: block;
+          padding: 10px 20px;
+          margin-left: -20px;
+          border-bottom: solid 1px $color_grey_dark;
+          background-color: $color_grey_light;
+          width: 100%;
+          color: $color_white;
+          &:hover{
+            background-color: #aaa;
+            transition: 0.1s;
+          }
+        }
+        a:first-child > li{
+          border-top: solid 1px $color_grey_dark;
+        }
+      }
+    }
   }
 }

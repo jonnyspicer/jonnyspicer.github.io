@@ -1,11 +1,22 @@
+$color_primary: #297A4A;
+$color_primary_lighter: #4C996B;
+$color_primary_lightest: #7AB793;
+$color_primary_darker: #0F5C2E;
+$color_primary_darkest: #003D19;
+$color_secondary: #AA4F39;
+$color_secondary_lighter: #D47E6A;
+$color_secondary_lightest: #FEBAAA;
+$color_secondary_darker: #802A16;
+$color_secondary_darkest: #551200;
 $color_white:#fff;
 $color_black:#000;
 $color_grey_light: #999;
 $color_grey_medium: #777;
 $color_grey_dark: #555;
 $color_grey_very_dark: #333;
-$color_link: $color_grey_light;
+$color_link: $color_primary;
 $color_text: $color_grey_very_dark;
+
 
 $breakpoint_menu: 768px;
 
