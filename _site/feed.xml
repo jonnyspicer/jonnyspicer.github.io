@@ -1,4 +1,131 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-02T20:42:32+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jonny Spicer | Thoughts From Tartarus</title><subtitle>Jonny Spicer's personal website and blog, where he writes about mental health, technology, esports, but primarily trash.</subtitle><entry><title type="html">Upgrade and Compromise</title><link href="http://localhost:4000/mendokusai/2018/12/02/upgrade-and-compromise" rel="alternate" type="text/html" title="Upgrade and Compromise" /><published>2018-12-02T00:00:00+00:00</published><updated>2018-12-02T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/12/02/upgrade-and-compromise</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/12/02/upgrade-and-compromise">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-05T17:47:10+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jonny Spicer | Thoughts From Tartarus</title><subtitle>Jonny Spicer's personal website and blog, where he writes about mental health, technology, esports, but primarily trash.</subtitle><entry><title type="html">Build All The Things II</title><link href="http://localhost:4000/mendokusai/2018/12/05/build-all-the-things-ii" rel="alternate" type="text/html" title="Build All The Things II" /><published>2018-12-05T00:00:00+00:00</published><updated>2018-12-05T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/12/05/build-all-the-things-ii</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/12/05/build-all-the-things-ii">&lt;p&gt;
+  First small Python programme written! It is pretty easy to output just 'hello
+  world', so I did it three different ways. I learned about:
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    Importing modules;
+  &lt;/li&gt;
+  &lt;li&gt;
+    Tuples, lists and sets;
+  &lt;/li&gt;
+  &lt;li&gt;
+    How to sort and remove duplicates from a list;
+  &lt;/li&gt;
+  &lt;li&gt;
+    Using sys.stdout.write vs print().
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  Personally I think this is a good start, especially for half an hour's work.
+  Here's the code, check it works!
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;pre&gt;
+    &lt;code&gt;import sys
+
+      print('hello world')
+
+      characters = [ 'h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
+      for x in characters:
+          sys.stdout.write(x)
+
+      sorted_characters = list(set(characters))
+      sorted_characters.sort()
+      print(&quot;&quot;)
+      sys.stdout.write(sorted_characters[3])
+      sys.stdout.write(sorted_characters[2])
+      sys.stdout.write(sorted_characters[4])
+      sys.stdout.write(sorted_characters[4])
+      sys.stdout.write(sorted_characters[5])
+      sys.stdout.write(sorted_characters[0])
+      sys.stdout.write(sorted_characters[7])
+      sys.stdout.write(sorted_characters[5])
+      sys.stdout.write(sorted_characters[6])
+      sys.stdout.write(sorted_characters[4])
+      sys.stdout.write(sorted_characters[1])
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Web Development" /><category term="Software Engineering" /><summary type="html">First small Python programme written! It is pretty easy to output just 'hello world', so I did it three different ways. I learned about: Importing modules; Tuples, lists and sets; How to sort and remove duplicates from a list; Using sys.stdout.write vs print(). Personally I think this is a good start, especially for half an hour's work. Here's the code, check it works! import sys</summary></entry><entry><title type="html">Build All The Things</title><link href="http://localhost:4000/mendokusai/2018/12/04/build-all-the-things" rel="alternate" type="text/html" title="Build All The Things" /><published>2018-12-04T00:00:00+00:00</published><updated>2018-12-04T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/12/04/build-all-the-things</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/12/04/build-all-the-things">&lt;p&gt;
+  I want to learn Python. I am bored of putting it off and saying to myself that
+  I will learn it at some unspecified point in the future. So, I want to learn Python
+  now.
+&lt;/p&gt;
+&lt;p&gt;
+  There are two problems with this. Firstly, my attention span and concentration
+  are both awful at the moment. Watching video tutorials and learning anything from them
+  is going to be nearly impossible. Secondly, I have no time. I used to say that
+  as a kind of excuse, really I had plenty of time, I just chose to spend it playing
+  video games (which I still think is a perfectly valid way of spending one's time,
+  if you make the active choice to prioritise it over other things). Now, I really
+  do have no time - my entire week is divided into sleeping, the gym, working,
+  and enough self-care time to stop me losing my mind. There's virtually no wiggle
+  room. So, again, even if I could make myself absorb videos - I don't have the time
+  to sit and watch them.
+&lt;/p&gt;
+&lt;p&gt;
+  So... the solution I'm going to attempt to use to solve the problem is 'just in time
+  learning'. I am going to try and build as many things as possible in Python, each
+  one hopefully adding more complexity or exploring a new aspect of the language.
+  Rather than learn any of it beforehand, I am going to try to learn exactly
+  as much as I need to solve each problem as it arises, meaning I get to immediately
+  apply anything and everything I learn to a practical coding scenario. Naturally
+  I will have to try to reduce every problem down to its smallest possible constituent
+  parts, a skill that will have a meaningful crossover to other languages.
+&lt;/p&gt;
+&lt;p&gt;
+  Honestly, this might be a terrible way to learn a language, it's something
+  that I don't feel gets advocated for very much. But maybe it'll be fun, and
+  maybe it'll be better than the traditional way. Tomorrow I'll post my &lt;code&gt;hello_world&lt;/code&gt;
+  programme.
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Web Development" /><category term="Software Engineering" /><summary type="html">I want to learn Python. I am bored of putting it off and saying to myself that I will learn it at some unspecified point in the future. So, I want to learn Python now. There are two problems with this. Firstly, my attention span and concentration are both awful at the moment. Watching video tutorials and learning anything from them is going to be nearly impossible. Secondly, I have no time. I used to say that as a kind of excuse, really I had plenty of time, I just chose to spend it playing video games (which I still think is a perfectly valid way of spending one's time, if you make the active choice to prioritise it over other things). Now, I really do have no time - my entire week is divided into sleeping, the gym, working, and enough self-care time to stop me losing my mind. There's virtually no wiggle room. So, again, even if I could make myself absorb videos - I don't have the time to sit and watch them. So... the solution I'm going to attempt to use to solve the problem is 'just in time learning'. I am going to try and build as many things as possible in Python, each one hopefully adding more complexity or exploring a new aspect of the language. Rather than learn any of it beforehand, I am going to try to learn exactly as much as I need to solve each problem as it arises, meaning I get to immediately apply anything and everything I learn to a practical coding scenario. Naturally I will have to try to reduce every problem down to its smallest possible constituent parts, a skill that will have a meaningful crossover to other languages. Honestly, this might be a terrible way to learn a language, it's something that I don't feel gets advocated for very much. But maybe it'll be fun, and maybe it'll be better than the traditional way. Tomorrow I'll post my hello_world programme.</summary></entry><entry><title type="html">David Goggins</title><link href="http://localhost:4000/mendokusai/2018/12/03/david-goggins" rel="alternate" type="text/html" title="David Goggins" /><published>2018-12-03T00:00:00+00:00</published><updated>2018-12-03T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/12/03/david-goggins</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/12/03/david-goggins">&lt;p&gt;
+  This weekend I decided I should try and catch up on some &lt;a href=&quot;https://www.youtube.com/channel/UCzQUP1qoWDoEbmsQxvdjxgQ&quot; rel=&quot;noreferrer&quot; target=&quot;_blank&quot;&gt;
+  JRE episodes,&lt;/a&gt; and I wound up watching &lt;a href=&quot;https://youtu.be/5tSTk1083VY&quot; rel=&quot;noreferrer&quot; target=&quot;_blank&quot;&gt;
+  this one,&lt;/a&gt; with David Goggins.
+&lt;/p&gt;
+&lt;p&gt;
+  His story is obviously incredible - a complete 'nobody' who turned his life wholly
+  around to become an accomplished ultramarathon runner, one of the military's elite,
+  and the world record holder for most pull-ups in 24 hours. He claims he isn't
+  a genetic freak, he is simply someone who worked incredibly hard and was able
+  to mentally push himself far past his perceived limit - in fact he coined the now-famous
+  '40% rule', the idea that you believe you're 'done' when you're actually at about
+  40% of your maximum. He is certainly motivational, and anyone who watches the
+  podcast will inevitably be inspired to go for a run immediately afterwards.
+&lt;/p&gt;
+&lt;p&gt;
+  But... is there anything meaningful I can actually glean from this? If we assume
+  our common goal is maximumising our own happiness (using that word in a fairly
+  broad context, to include content, fulfillment, self-worth etc), what can I apply
+  from his story to mine? I don't think becoming an ultra runner is going to provide
+  a good payoff in terms of effort to reward for me. Everyone around him had no
+  expectations of him, and he was determined to prove them wrong, however I feel
+  like people around me have high expectations of me, and I am terrified of not
+  meeting them. Would achieving or even surpassing those expectations be that
+  satisfying? I don't want to dedicate my time to someone else's goals.
+&lt;/p&gt;
+&lt;p&gt;
+  Should I throw myself into working, pushing through the mental anguish of burnout
+  and stress the same way he pushed through the pain of broken bones and internal
+  bleeding? If I ascend to becoming a god-tier programmer one day, on Linus Torvalds'
+  speed dial, would I look back and be proud of what I had accomplished in the
+  same way that he is? Knowing that I did it, purely to prove to myself that I could?
+  I'm not sure. Would I sacrifice other things in my life for this, that could potentially
+  make me happy? How am I meant to prioritise? Can I still live a noble, worthy life
+  by pursuing balance?
+&lt;/p&gt;
+&lt;p&gt;
+  That's only really the start of the questions I have been asking myself in the wake
+  of the podcast. Is his story nothing but inspiration porn? Is he perpetuating
+  toxic masculinity? Because if so, then he is very convincing, and I am compelled
+  to pursue mental and physical fortitude, to outdo my peers, to fight my demons
+  alone and win.
+&lt;/p&gt;
+&lt;p&gt;
+  I don't really know. I think if there is one thing I am going to take away from
+  it, it's this: fuck my comfort zone. I need to leave it more often, and wander
+  as far off into the horizon as I can.
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Personal" /><summary type="html">This weekend I decided I should try and catch up on some JRE episodes, and I wound up watching this one, with David Goggins. His story is obviously incredible - a complete 'nobody' who turned his life wholly around to become an accomplished ultramarathon runner, one of the military's elite, and the world record holder for most pull-ups in 24 hours. He claims he isn't a genetic freak, he is simply someone who worked incredibly hard and was able to mentally push himself far past his perceived limit - in fact he coined the now-famous '40% rule', the idea that you believe you're 'done' when you're actually at about 40% of your maximum. He is certainly motivational, and anyone who watches the podcast will inevitably be inspired to go for a run immediately afterwards. But... is there anything meaningful I can actually glean from this? If we assume our common goal is maximumising our own happiness (using that word in a fairly broad context, to include content, fulfillment, self-worth etc), what can I apply from his story to mine? I don't think becoming an ultra runner is going to provide a good payoff in terms of effort to reward for me. Everyone around him had no expectations of him, and he was determined to prove them wrong, however I feel like people around me have high expectations of me, and I am terrified of not meeting them. Would achieving or even surpassing those expectations be that satisfying? I don't want to dedicate my time to someone else's goals. Should I throw myself into working, pushing through the mental anguish of burnout and stress the same way he pushed through the pain of broken bones and internal bleeding? If I ascend to becoming a god-tier programmer one day, on Linus Torvalds' speed dial, would I look back and be proud of what I had accomplished in the same way that he is? Knowing that I did it, purely to prove to myself that I could? I'm not sure. Would I sacrifice other things in my life for this, that could potentially make me happy? How am I meant to prioritise? Can I still live a noble, worthy life by pursuing balance? That's only really the start of the questions I have been asking myself in the wake of the podcast. Is his story nothing but inspiration porn? Is he perpetuating toxic masculinity? Because if so, then he is very convincing, and I am compelled to pursue mental and physical fortitude, to outdo my peers, to fight my demons alone and win. I don't really know. I think if there is one thing I am going to take away from it, it's this: fuck my comfort zone. I need to leave it more often, and wander as far off into the horizon as I can.</summary></entry><entry><title type="html">Upgrade and Compromise</title><link href="http://localhost:4000/mendokusai/2018/12/02/upgrade-and-compromise" rel="alternate" type="text/html" title="Upgrade and Compromise" /><published>2018-12-02T00:00:00+00:00</published><updated>2018-12-02T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/12/02/upgrade-and-compromise</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/12/02/upgrade-and-compromise">&lt;p&gt;
   As I'm sure you have noticed, today the site has an exciting new feature - colour!
   There is actually a slightly less obvious, but equally exciting, new feature that
   I have added today as well, which is a JavaScript file. I'd like to talk
@@ -139,65 +266,4 @@
   in a long time. Angry - but determined to do something about. Not content
   to do nothing. Spurred to act, to facilitate the changes that I want to see, rather
   than merely whine about them on a blog that nobody reads. Go listen to it.
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Music" /><summary type="html">Twice this year, I have listened to an album for the first time, and the message it contained was exactly what I needed to hear in the moment. The first was Graduating Life's nearly-eponymous 'Grad Life', a semi-underground emo-punk album filled with wall to wall bangers. The second was IDLES' 'Joy as an Act of Resistance', the British punk powerhouse's followup to 2017 breakout success 'Brutalism'. After seeing it crop up a couple of times in some early 'album of the year' lists I finally decided to give it a listen, despite having been fairly dismissive of the recent British punk resurgence in favour of their moodier, more introspective American counterparts. Even though the band rejecting the 'punk' label, I am firmly slapping it on them - the album is a proper punk album, with the righteous anger of the movement's founders in the 70s, but updated for the 2018 British public dealing with Brexit, racism and a society rife with division. The song 'Never Fight a Man with a Perm' features one of my favourite lyrics possibly ever: Me, oh me, oh my, Roy You look like a walking thyroid You're not a man, you're a gland You're one big neck with sausage hands I can't really describe how good it is. It made me feel a way I haven't felt in a long time. Angry - but determined to do something about. Not content to do nothing. Spurred to act, to facilitate the changes that I want to see, rather than merely whine about them on a blog that nobody reads. Go listen to it.</summary></entry><entry><title type="html">Everyone is totally winging it</title><link href="http://localhost:4000/mendokusai/2018/11/25/everyone-is-totally-winging-it" rel="alternate" type="text/html" title="Everyone is totally winging it" /><published>2018-11-25T00:00:00+00:00</published><updated>2018-11-25T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/11/25/everyone-is-totally-winging-it</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/11/25/everyone-is-totally-winging-it">&lt;p&gt;
-  I absolutely do not have my shit together. Every day is a constant struggle to
-  stave off the impending threat of an existential meltdown. I am perpetually
-  fighting the feeling that I am not x, y or z enough, for practically every
-  combination of those three letters. Somedays, it really gets me down.
-&lt;/p&gt;
-&lt;p&gt;
-  Today, I read &lt;a href=&quot;https://www.theguardian.com/news/oliver-burkeman-s-blog/2014/may/21/everyone-is-totally-just-winging-it&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;this&lt;/a&gt; wonderful,
-  uplifting (and short, in case you were getting worried) article from 2014 in The Guardian,
-  entitled 'Everyone is totally just winging it, all the time'. It is an idea
-  that on some level, of course I know, and I think everybody knows, we are just
-  exceptionally bad at remembering it.
-&lt;/p&gt;
-&lt;p&gt;
-  Nobody knows if they are on the 'right' career path, if their current relationship
-  is the One (with a capital 'O'), or if and when they might meet the One, if they
-  should go back to school, drop out of school, perservere with school, start a school.
-  Nobody is completely content with their relationships, with the way they look,
-  with their job, or with their life.
-&lt;/p&gt;
-&lt;p&gt;
-  BUT you fuckers try so hard to pretend like you &lt;i&gt;are&lt;/i&gt; on top of all of that
-  shit. And it makes everyone around you believe it, and feel like they should be
-  cruising down life's highway too. But they're not, their engine's spluttering,
-  there's smoke coming out of the hood and they're 90% sure that smell is burning.
-  Please, &lt;i&gt;please&lt;/i&gt; can we collectively agree to drop this facade. Yes, I know
-  it will be difficult, that it is deeply ingrained, and you are scared. But we've got
-  to stop this, before we're all fucking miserable, despite posting smiling selfies
-  with 'live laugh love' captions.
-&lt;/p&gt;
-&lt;p&gt;
-  Your move.
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Wellbeing" /><category term="Mental Health" /><summary type="html">I absolutely do not have my shit together. Every day is a constant struggle to stave off the impending threat of an existential meltdown. I am perpetually fighting the feeling that I am not x, y or z enough, for practically every combination of those three letters. Somedays, it really gets me down. Today, I read this wonderful, uplifting (and short, in case you were getting worried) article from 2014 in The Guardian, entitled 'Everyone is totally just winging it, all the time'. It is an idea that on some level, of course I know, and I think everybody knows, we are just exceptionally bad at remembering it. Nobody knows if they are on the 'right' career path, if their current relationship is the One (with a capital 'O'), or if and when they might meet the One, if they should go back to school, drop out of school, perservere with school, start a school. Nobody is completely content with their relationships, with the way they look, with their job, or with their life. BUT you fuckers try so hard to pretend like you are on top of all of that shit. And it makes everyone around you believe it, and feel like they should be cruising down life's highway too. But they're not, their engine's spluttering, there's smoke coming out of the hood and they're 90% sure that smell is burning. Please, please can we collectively agree to drop this facade. Yes, I know it will be difficult, that it is deeply ingrained, and you are scared. But we've got to stop this, before we're all fucking miserable, despite posting smiling selfies with 'live laugh love' captions. Your move.</summary></entry><entry><title type="html">Whining</title><link href="http://localhost:4000/mendokusai/2018/11/24/whining" rel="alternate" type="text/html" title="Whining" /><published>2018-11-24T00:00:00+00:00</published><updated>2018-11-24T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/11/24/whining</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/11/24/whining">&lt;p&gt;
-  Somedays, you just need to have a good whine, and today is one of those days.
-&lt;/p&gt;
-&lt;p&gt;
-  My wrists hurt, my gym session today felt lethargic and weak and I think I
-  hurt my shoulder, driving to and from the gym was as frustrating and terrifying
-  as ever, I feel like I've eaten too much the past two days, I have done virtually
-  nothing productive today, I haven't made any real effort to talk to anyone today
-  even though I wanted to do, I have felt super anxious all day, and I'm exhausted.
-&lt;/p&gt;
-&lt;p&gt;
-  Time to go to bed and try again tomorrow.
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Mental Health" /><summary type="html">Somedays, you just need to have a good whine, and today is one of those days. My wrists hurt, my gym session today felt lethargic and weak and I think I hurt my shoulder, driving to and from the gym was as frustrating and terrifying as ever, I feel like I've eaten too much the past two days, I have done virtually nothing productive today, I haven't made any real effort to talk to anyone today even though I wanted to do, I have felt super anxious all day, and I'm exhausted. Time to go to bed and try again tomorrow.</summary></entry><entry><title type="html">I'm a convincing actor</title><link href="http://localhost:4000/mendokusai/2018/11/23/im-a-convincing-actor" rel="alternate" type="text/html" title="I&amp;#39;m a convincing actor" /><published>2018-11-23T00:00:00+00:00</published><updated>2018-11-23T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/11/23/im-a-convincing-actor</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/11/23/im-a-convincing-actor">&lt;p&gt;
-  Today I talked a little to one of my remote coworkers about my mental health
-  issues. I've deliberately tried to hide it as much as possible at work, for
-  fear it could affect my employability or my status within the company, but
-  I trust the guy I talked to, and I don't think he'll say anything to anyone.
-&lt;/p&gt;
-&lt;p&gt;
-  It's not especially enjoyable to have to hide it, and I am relatively open
-  to talking about things these days, so it was something of a relief to tell
-  him, and have one fewer person to have to hide it from. One of the things he
-  said really tickled me though - he had no idea, and wouldn't have pegged me
-  as someone with any kind of problem at all. It's somewhat reassuring - I have,
-  for the most part, stopped putting much effort into covering up my 'secret' (which
-  I talk about somewhat candid about on this blog). But it seems, I am a good actor,
-  and am so immersed in my character of somebody-who's-fine, that most people
-  can't tell the difference. I'm glad I still have the ability to fool people,
-  if necessary.
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Mental Health" /><summary type="html">Today I talked a little to one of my remote coworkers about my mental health issues. I've deliberately tried to hide it as much as possible at work, for fear it could affect my employability or my status within the company, but I trust the guy I talked to, and I don't think he'll say anything to anyone. It's not especially enjoyable to have to hide it, and I am relatively open to talking about things these days, so it was something of a relief to tell him, and have one fewer person to have to hide it from. One of the things he said really tickled me though - he had no idea, and wouldn't have pegged me as someone with any kind of problem at all. It's somewhat reassuring - I have, for the most part, stopped putting much effort into covering up my 'secret' (which I talk about somewhat candid about on this blog). But it seems, I am a good actor, and am so immersed in my character of somebody-who's-fine, that most people can't tell the difference. I'm glad I still have the ability to fool people, if necessary.</summary></entry></feed>
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Music" /><summary type="html">Twice this year, I have listened to an album for the first time, and the message it contained was exactly what I needed to hear in the moment. The first was Graduating Life's nearly-eponymous 'Grad Life', a semi-underground emo-punk album filled with wall to wall bangers. The second was IDLES' 'Joy as an Act of Resistance', the British punk powerhouse's followup to 2017 breakout success 'Brutalism'. After seeing it crop up a couple of times in some early 'album of the year' lists I finally decided to give it a listen, despite having been fairly dismissive of the recent British punk resurgence in favour of their moodier, more introspective American counterparts. Even though the band rejecting the 'punk' label, I am firmly slapping it on them - the album is a proper punk album, with the righteous anger of the movement's founders in the 70s, but updated for the 2018 British public dealing with Brexit, racism and a society rife with division. The song 'Never Fight a Man with a Perm' features one of my favourite lyrics possibly ever: Me, oh me, oh my, Roy You look like a walking thyroid You're not a man, you're a gland You're one big neck with sausage hands I can't really describe how good it is. It made me feel a way I haven't felt in a long time. Angry - but determined to do something about. Not content to do nothing. Spurred to act, to facilitate the changes that I want to see, rather than merely whine about them on a blog that nobody reads. Go listen to it.</summary></entry></feed>
