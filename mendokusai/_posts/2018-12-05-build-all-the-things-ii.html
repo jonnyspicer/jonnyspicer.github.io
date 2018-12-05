@@ -1,0 +1,53 @@
+---
+layout: mendokusai
+author: Jonny Spicer
+title: Build All The Things II
+tags: [ Web Development, Software Engineering ]
+---
+<p>
+  First small Python programme written! It is pretty easy to output just 'hello
+  world', so I did it three different ways. I learned about:
+</p>
+<ul>
+  <li>
+    Importing modules;
+  </li>
+  <li>
+    Tuples, lists and sets;
+  </li>
+  <li>
+    How to sort and remove duplicates from a list;
+  </li>
+  <li>
+    Using sys.stdout.write vs print().
+  </li>
+</ul>
+<p>
+  Personally I think this is a good start, especially for half an hour's work.
+  Here's the code, check it works!
+</p>
+<p>
+  <code>import sys
+
+    print('hello world')
+
+    characters = [ 'h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
+    for x in characters:
+        sys.stdout.write(x)
+
+    sorted_characters = list(set(characters))
+    sorted_characters.sort()
+    print("")
+    sys.stdout.write(sorted_characters[3])
+    sys.stdout.write(sorted_characters[2])
+    sys.stdout.write(sorted_characters[4])
+    sys.stdout.write(sorted_characters[4])
+    sys.stdout.write(sorted_characters[5])
+    sys.stdout.write(sorted_characters[0])
+    sys.stdout.write(sorted_characters[7])
+    sys.stdout.write(sorted_characters[5])
+    sys.stdout.write(sorted_characters[6])
+    sys.stdout.write(sorted_characters[4])
+    sys.stdout.write(sorted_characters[1])
+  </code>
+</p>
