@@ -92,12 +92,15 @@ hr{
 }
 
 code{
-  display: block;
   background-color: #fbfaf8;
   border: 1px solid rgba(0,0,0, .4);
   border-radius: 4px;
   box-sizing: border-box;
   padding: 2px 4px;
+}
+
+pre code{
+  display: block;
 }
 
 blockquote{
