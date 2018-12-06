@@ -1,4 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-05T17:59:10+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jonny Spicer | Thoughts From Tartarus</title><subtitle>Jonny Spicer's personal website and blog, where he writes about mental health, technology, esports, but primarily trash.</subtitle><entry><title type="html">Build All The Things II</title><link href="http://localhost:4000/mendokusai/2018/12/05/build-all-the-things-ii" rel="alternate" type="text/html" title="Build All The Things II" /><published>2018-12-05T00:00:00+00:00</published><updated>2018-12-05T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/12/05/build-all-the-things-ii</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/12/05/build-all-the-things-ii">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-06T20:31:47+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jonny Spicer | Thoughts From Tartarus</title><subtitle>Jonny Spicer's personal website and blog, where he writes about mental health, technology, esports, but primarily trash.</subtitle><entry><title type="html">Spotify 2018</title><link href="http://localhost:4000/mendokusai/2018/12/06/spotify-2018" rel="alternate" type="text/html" title="Spotify 2018" /><published>2018-12-06T00:00:00+00:00</published><updated>2018-12-06T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/12/06/spotify-2018</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/12/06/spotify-2018">&lt;p&gt;
+  Today I saw my 'Your Top Songs 2018' playlist in my Discover for the first time,
+  which (I assume) is a curation of the 100 songs I have listened to most this year.
+  I am going to try and feed them all into a Python script and see if I can do
+  some fun analysis on them at the weekend, but today I don't have even close to
+  enough time. Instead, here are my 100 most listened to songs of 2018 in artist - song
+  format:
+&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Mom Jeans. - Shred Cruz (Audiotree Live Version)&lt;/li&gt;
+  &lt;li&gt;The New Law - Sang Noir and the Nightbringer&lt;/li&gt;
+  &lt;li&gt;King Gizzard &amp; The Lizard Wizard - Crumbling Castle&lt;/li&gt;
+  &lt;li&gt;Epica - Crimson Bow and Arrow&lt;/li&gt;
+  &lt;li&gt;Moe Shop, MYLK - Magic&lt;/li&gt;
+  &lt;li&gt;Blue Sky Black Death - Our Hearts Of Ruin&lt;/li&gt;
+  &lt;li&gt;McCafferty - Dead-bird&lt;/li&gt;
+  &lt;li&gt;Graduating Life - An Introduction&lt;/li&gt;
+  &lt;li&gt;Car Seat Headrest - My Boy (Twin Fantasy)&lt;/li&gt;
+  &lt;li&gt;Joji - Yeah Right&lt;/li&gt;
+  &lt;li&gt;Totorro - Brocolissimo&lt;/li&gt;
+  &lt;li&gt;Alexisonfire - 44. Caliber Love Letter&lt;/li&gt;
+  &lt;li&gt;The New Law - Death Another Day&lt;/li&gt;
+  &lt;li&gt;Mom Jeans. - Poor Boxer Shorts (Audiotree Live Version)&lt;/li&gt;
+  &lt;li&gt;tricot - Pool Side&lt;/li&gt;
+  &lt;li&gt;Stromae - tous les mêmes&lt;/li&gt;
+  &lt;li&gt;Metronomy - Nights Out&lt;/li&gt;
+  &lt;li&gt;Moe Shop, Puniden - Virtual&lt;/li&gt;
+  &lt;li&gt;Mitski - Geyser&lt;/li&gt;
+  &lt;li&gt;McCafferty - Trailer Trash&lt;/li&gt;
+  &lt;li&gt;Graduating Life - Cold Raviolis&lt;/li&gt;
+  &lt;li&gt;Totorro - Yaaaago&lt;/li&gt;
+  &lt;li&gt;Bring Me The Horizon - Pray For Plagues&lt;/li&gt;
+  &lt;li&gt;King Gizzard &amp; The Lizard Wizard - Polygondwanaland&lt;/li&gt;
+  &lt;li&gt;Mom Jeans. - Edward 40hands (Audiotree Live Version)&lt;/li&gt;
+  &lt;li&gt;Epica - Edge of the Blade&lt;/li&gt;
+  &lt;li&gt;Car Seat Headrest - Cute Thing&lt;/li&gt;
+  &lt;li&gt;Prince Daddy &amp; the Hyena - I thought You Didn't Even Like Leaving&lt;/li&gt;
+  &lt;li&gt;Death Grips - Get Got&lt;/li&gt;
+  &lt;li&gt;Blue Sky Black Death - And Stars, Ringed&lt;/li&gt;
+  &lt;li&gt;McCafferty - Becky&lt;/li&gt;
+  &lt;li&gt;REOL - 宵々古今&lt;/li&gt;
+  &lt;li&gt;Bent Knee - Terror Bird&lt;/li&gt;
+  &lt;li&gt;Julien Baker - Blacktop&lt;/li&gt;
+  &lt;li&gt;Joji - Will He&lt;/li&gt;
+  &lt;li&gt;Totorro - Saveur Cheveux&lt;/li&gt;
+  &lt;li&gt;Epica - Universal Death Squad&lt;/li&gt;
+  &lt;li&gt;Car Seat Headrest - Nervous Young Humans&lt;/li&gt;
+  &lt;li&gt;Graduating Life - There's Only One Way&lt;/li&gt;
+  &lt;li&gt;Alice Merton - No Roots&lt;/li&gt;
+  &lt;li&gt;tricot - Tobe&lt;/li&gt;
+  &lt;li&gt;McCafferty - Real Adult&lt;/li&gt;
+  &lt;li&gt;Sorority Noise - No Halo&lt;/li&gt;
+  &lt;li&gt;Alexisonfire - Accidents&lt;/li&gt;
+  &lt;li&gt;Modern Baseball - The Waterboy Returns&lt;/li&gt;
+  &lt;li&gt;Metronomy - Radio Ladio&lt;/li&gt;
+  &lt;li&gt;Biffy Clyro - Glitter And Trauma&lt;/li&gt;
+  &lt;li&gt;Epica - Wings of Freedom&lt;/li&gt;
+  &lt;li&gt;Death Grips - I Break Mirrors With My Face&lt;/li&gt;
+  &lt;li&gt;Graduating Life - Kill Me&lt;/li&gt;
+  &lt;li&gt;The New Law - End World&lt;/li&gt;
+  &lt;li&gt;88rising, Joji, Rich Brian, Higher Brothers, AUGUST 08 - Midsummer Madness&lt;/li&gt;
+  &lt;li&gt;Mom Jeans. - near death fail comp (must watch til end)&lt;/li&gt;
+  &lt;li&gt;Fall Out Boy - Saturday&lt;/li&gt;
+  &lt;li&gt;Hobo Johnson - Sex in the City&lt;/li&gt;
+  &lt;li&gt;Prince Daddy &amp; the Hyena - Clever Girl&lt;/li&gt;
+  &lt;li&gt;Mitski - Why Didn't You Stop Me?&lt;/li&gt;
+  &lt;li&gt;Veil Of Maya - Lull&lt;/li&gt;
+  &lt;li&gt;Alexisonfire - A Dagger Through The Heart of St Angeles&lt;/li&gt;
+  &lt;li&gt;Cap'n Jazz - Basil's Kite&lt;/li&gt;
+  &lt;li&gt;Elephant Gym - 中途&lt;/li&gt;
+  &lt;li&gt;mouse on the keys - leviathan&lt;/li&gt;
+  &lt;li&gt;REOL - コノヨ Loading...&lt;/li&gt;
+  &lt;li&gt;Mom Jeans. - sponsor me tape&lt;/li&gt;
+  &lt;li&gt;tricot - Pool&lt;/li&gt;
+  &lt;li&gt;Moe Shop, YUC'e - Baby Pink&lt;/li&gt;
+  &lt;li&gt;Blue Sky Black Death - Sleeping Children Are Still Flying&lt;/li&gt;
+  &lt;li&gt;King Gizzard &amp; The Lizard Wizard - The Castle in the Air&lt;/li&gt;
+  &lt;li&gt;Prince Daddy &amp; the Hyena - Thrashville 1/3&lt;/li&gt;
+  &lt;li&gt;McCafferty - Beachboy&lt;/li&gt;
+  &lt;li&gt;Mitski - Old Friend&lt;/li&gt;
+  &lt;li&gt;Elijah Who - crush on you&lt;/li&gt;
+  &lt;li&gt;Save Us from the Archon - All I Want Is Sleep&lt;/li&gt;
+  &lt;li&gt;REOL - ギミアブレスタッナウ&lt;/li&gt;
+  &lt;li&gt;Snowing - I Tink We're in Minsk&lt;/li&gt;
+  &lt;li&gt;Bring Me The Horizon - (I Used To Make Out With) Medusa&lt;/li&gt;
+  &lt;li&gt;Car Seat Headrest - We Can't Afford (Your Depression Anymore)&lt;/li&gt;
+  &lt;li&gt;mouse on the keys - i shut my eyes in order to see&lt;/li&gt;
+  &lt;li&gt;Kanye West - I Thought About Killing You&lt;/li&gt;
+  &lt;li&gt;Glocca Morra - Ya'll Boots Hats? (Die Angry)&lt;/li&gt;
+  &lt;li&gt;McCafferty - Skeleton Bones&lt;/li&gt;
+  &lt;li&gt;Epica - A Phantasmic Paraae&lt;/li&gt;
+  &lt;li&gt;Totorro - Chevalier Bulltoe&lt;/li&gt;
+  &lt;li&gt;Infected Mushroom - Flamingo&lt;/li&gt;
+  &lt;li&gt;Modern Baseball - ...And Beyond&lt;/li&gt;
+  &lt;li&gt;Julien Baker - Sprained Ankle&lt;/li&gt;
+  &lt;li&gt;Mom Jeans., Graduating Life - Shred Cruz&lt;/li&gt;
+  &lt;li&gt;Starcrawler - I Love LA&lt;/li&gt;
+  &lt;li&gt;Veil Of Maya - Doublespeak&lt;/li&gt;
+  &lt;li&gt;Pictures of Vernon - The Sunshine Bus&lt;/li&gt;
+  &lt;li&gt;Death Grips - The Fever (Aye Aye)&lt;/li&gt;
+  &lt;li&gt;McCafferty - Bottles and Cans&lt;/li&gt;
+  &lt;li&gt;Bent Knee - Hole&lt;/li&gt;
+  &lt;li&gt;Totorro - Home Alone&lt;/li&gt;
+  &lt;li&gt;tricot - On the boom (Audiotree Live Version)&lt;/li&gt;
+  &lt;li&gt;Alexisonfire - Counterparts And Number Them&lt;/li&gt;
+  &lt;li&gt;Car Seat Headrest - Fill in the Blank&lt;/li&gt;
+  &lt;li&gt;88rising, Joji, BlocBoy JB - Peach Jam&lt;/li&gt;
+  &lt;li&gt;Microwave - Homebody&lt;/li&gt;
+  &lt;li&gt;Taking Back Sunday - Cute Without The 'E' (Cut From The Team)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+  Shoutout to Mom Jeans./Graduating Life for making Shred Cruz, a song that got
+  on the list twice!
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Music" /><summary type="html">Today I saw my 'Your Top Songs 2018' playlist in my Discover for the first time, which (I assume) is a curation of the 100 songs I have listened to most this year. I am going to try and feed them all into a Python script and see if I can do some fun analysis on them at the weekend, but today I don't have even close to enough time. Instead, here are my 100 most listened to songs of 2018 in artist - song format: Mom Jeans. - Shred Cruz (Audiotree Live Version) The New Law - Sang Noir and the Nightbringer King Gizzard &amp; The Lizard Wizard - Crumbling Castle Epica - Crimson Bow and Arrow Moe Shop, MYLK - Magic Blue Sky Black Death - Our Hearts Of Ruin McCafferty - Dead-bird Graduating Life - An Introduction Car Seat Headrest - My Boy (Twin Fantasy) Joji - Yeah Right Totorro - Brocolissimo Alexisonfire - 44. Caliber Love Letter The New Law - Death Another Day Mom Jeans. - Poor Boxer Shorts (Audiotree Live Version) tricot - Pool Side Stromae - tous les mêmes Metronomy - Nights Out Moe Shop, Puniden - Virtual Mitski - Geyser McCafferty - Trailer Trash Graduating Life - Cold Raviolis Totorro - Yaaaago Bring Me The Horizon - Pray For Plagues King Gizzard &amp; The Lizard Wizard - Polygondwanaland Mom Jeans. - Edward 40hands (Audiotree Live Version) Epica - Edge of the Blade Car Seat Headrest - Cute Thing Prince Daddy &amp; the Hyena - I thought You Didn't Even Like Leaving Death Grips - Get Got Blue Sky Black Death - And Stars, Ringed McCafferty - Becky REOL - 宵々古今 Bent Knee - Terror Bird Julien Baker - Blacktop Joji - Will He Totorro - Saveur Cheveux Epica - Universal Death Squad Car Seat Headrest - Nervous Young Humans Graduating Life - There's Only One Way Alice Merton - No Roots tricot - Tobe McCafferty - Real Adult Sorority Noise - No Halo Alexisonfire - Accidents Modern Baseball - The Waterboy Returns Metronomy - Radio Ladio Biffy Clyro - Glitter And Trauma Epica - Wings of Freedom Death Grips - I Break Mirrors With My Face Graduating Life - Kill Me The New Law - End World 88rising, Joji, Rich Brian, Higher Brothers, AUGUST 08 - Midsummer Madness Mom Jeans. - near death fail comp (must watch til end) Fall Out Boy - Saturday Hobo Johnson - Sex in the City Prince Daddy &amp; the Hyena - Clever Girl Mitski - Why Didn't You Stop Me? Veil Of Maya - Lull Alexisonfire - A Dagger Through The Heart of St Angeles Cap'n Jazz - Basil's Kite Elephant Gym - 中途 mouse on the keys - leviathan REOL - コノヨ Loading... Mom Jeans. - sponsor me tape tricot - Pool Moe Shop, YUC'e - Baby Pink Blue Sky Black Death - Sleeping Children Are Still Flying King Gizzard &amp; The Lizard Wizard - The Castle in the Air Prince Daddy &amp; the Hyena - Thrashville 1/3 McCafferty - Beachboy Mitski - Old Friend Elijah Who - crush on you Save Us from the Archon - All I Want Is Sleep REOL - ギミアブレスタッナウ Snowing - I Tink We're in Minsk Bring Me The Horizon - (I Used To Make Out With) Medusa Car Seat Headrest - We Can't Afford (Your Depression Anymore) mouse on the keys - i shut my eyes in order to see Kanye West - I Thought About Killing You Glocca Morra - Ya'll Boots Hats? (Die Angry) McCafferty - Skeleton Bones Epica - A Phantasmic Paraae Totorro - Chevalier Bulltoe Infected Mushroom - Flamingo Modern Baseball - ...And Beyond Julien Baker - Sprained Ankle Mom Jeans., Graduating Life - Shred Cruz Starcrawler - I Love LA Veil Of Maya - Doublespeak Pictures of Vernon - The Sunshine Bus Death Grips - The Fever (Aye Aye) McCafferty - Bottles and Cans Bent Knee - Hole Totorro - Home Alone tricot - On the boom (Audiotree Live Version) Alexisonfire - Counterparts And Number Them Car Seat Headrest - Fill in the Blank 88rising, Joji, BlocBoy JB - Peach Jam Microwave - Homebody Taking Back Sunday - Cute Without The 'E' (Cut From The Team) Shoutout to Mom Jeans./Graduating Life for making Shred Cruz, a song that got on the list twice!</summary></entry><entry><title type="html">Build All The Things II</title><link href="http://localhost:4000/mendokusai/2018/12/05/build-all-the-things-ii" rel="alternate" type="text/html" title="Build All The Things II" /><published>2018-12-05T00:00:00+00:00</published><updated>2018-12-05T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/12/05/build-all-the-things-ii</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/12/05/build-all-the-things-ii">&lt;p&gt;
   First small Python programme written! It is pretty easy to output just 'hello
   world', so I did it three different ways. I learned about:
 &lt;/p&gt;
@@ -232,39 +345,4 @@
   some meaningful progress. I am a little scared though - there is a &lt;strong&gt;lot&lt;/strong&gt;
   more volume in my upcoming weeks then I have been doing in the past few months!
   There's gonna be a lot of sore mornings this winter.
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Diet and Fitness" /><summary type="html">This week I have finally started a proper powerlifting programme, rather than totally winging it when I work out. It is a little different to your average programme though, it is in fact the Juggernaut 'AI' Coaching programme. I put 'AI' in well-deserved quotes, because as far as I can tell, the only intelligence involved in its creation is purely organic, and the rest is done by a (presumably complicated) spreadsheet. If there is any truth in the meme that machine learning is just a massive tree of if{} statements... this really is a massive tree of if{} statements. With that being said, it is supposed to be a good compromise between a cookie cutter programme and one-on-one coaching in terms of customisation and price. I am very impressed with the number of factors it takes into account and how well it seems to handle each input. It seems to be a very good price for what it is ($27/month), in my opinion at least. I am very excited to get back into training 'properly' and hopefully start seeing some meaningful progress. I am a little scared though - there is a lot more volume in my upcoming weeks then I have been doing in the past few months! There's gonna be a lot of sore mornings this winter.</summary></entry><entry><title type="html">Joy as an act of resistance</title><link href="http://localhost:4000/mendokusai/2018/11/26/joy-as-an-act-of-resistance" rel="alternate" type="text/html" title="Joy as an act of resistance" /><published>2018-11-26T00:00:00+00:00</published><updated>2018-11-26T00:00:00+00:00</updated><id>http://localhost:4000/mendokusai/2018/11/26/joy-as-an-act-of-resistance</id><content type="html" xml:base="http://localhost:4000/mendokusai/2018/11/26/joy-as-an-act-of-resistance">&lt;p&gt;
-  Twice this year, I have listened to an album for the first time, and the
-  message it contained was exactly what I needed to hear in the moment.
-  The first was Graduating Life's nearly-eponymous 'Grad Life', a semi-underground
-  emo-punk album filled with wall to wall bangers. The second was IDLES'
-  'Joy as an Act of Resistance', the British punk powerhouse's followup
-  to 2017 breakout success 'Brutalism'.
-&lt;/p&gt;
-&lt;p&gt;
-  After seeing it crop up a couple of times in some early 'album of the year'
-  lists I finally decided to give it a listen, despite having been fairly
-  dismissive of the recent British punk resurgence in favour of their moodier,
-  more introspective American counterparts. Even though the band rejecting the 'punk'
-  label, I am firmly slapping it on them - the album is a proper punk album,
-  with the righteous anger of the movement's founders in the 70s, but updated
-  for the 2018 British public dealing with Brexit, racism and a society rife
-  with division.
-&lt;/p&gt;
-&lt;p&gt;
-  The song 'Never Fight a Man with a Perm' features one of my favourite lyrics possibly
-  ever:
-&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;
-    Me, oh me, oh my, Roy&lt;br /&gt;
-    You look like a walking thyroid&lt;br /&gt;
-    You're not a man, you're a gland&lt;br /&gt;
-    You're one big neck with sausage hands
-  &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-  I can't really describe how good it is. It made me feel a way I haven't felt
-  in a long time. Angry - but determined to do something about. Not content
-  to do nothing. Spurred to act, to facilitate the changes that I want to see, rather
-  than merely whine about them on a blog that nobody reads. Go listen to it.
-&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Music" /><summary type="html">Twice this year, I have listened to an album for the first time, and the message it contained was exactly what I needed to hear in the moment. The first was Graduating Life's nearly-eponymous 'Grad Life', a semi-underground emo-punk album filled with wall to wall bangers. The second was IDLES' 'Joy as an Act of Resistance', the British punk powerhouse's followup to 2017 breakout success 'Brutalism'. After seeing it crop up a couple of times in some early 'album of the year' lists I finally decided to give it a listen, despite having been fairly dismissive of the recent British punk resurgence in favour of their moodier, more introspective American counterparts. Even though the band rejecting the 'punk' label, I am firmly slapping it on them - the album is a proper punk album, with the righteous anger of the movement's founders in the 70s, but updated for the 2018 British public dealing with Brexit, racism and a society rife with division. The song 'Never Fight a Man with a Perm' features one of my favourite lyrics possibly ever: Me, oh me, oh my, Roy You look like a walking thyroid You're not a man, you're a gland You're one big neck with sausage hands I can't really describe how good it is. It made me feel a way I haven't felt in a long time. Angry - but determined to do something about. Not content to do nothing. Spurred to act, to facilitate the changes that I want to see, rather than merely whine about them on a blog that nobody reads. Go listen to it.</summary></entry></feed>
+&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Diet and Fitness" /><summary type="html">This week I have finally started a proper powerlifting programme, rather than totally winging it when I work out. It is a little different to your average programme though, it is in fact the Juggernaut 'AI' Coaching programme. I put 'AI' in well-deserved quotes, because as far as I can tell, the only intelligence involved in its creation is purely organic, and the rest is done by a (presumably complicated) spreadsheet. If there is any truth in the meme that machine learning is just a massive tree of if{} statements... this really is a massive tree of if{} statements. With that being said, it is supposed to be a good compromise between a cookie cutter programme and one-on-one coaching in terms of customisation and price. I am very impressed with the number of factors it takes into account and how well it seems to handle each input. It seems to be a very good price for what it is ($27/month), in my opinion at least. I am very excited to get back into training 'properly' and hopefully start seeing some meaningful progress. I am a little scared though - there is a lot more volume in my upcoming weeks then I have been doing in the past few months! There's gonna be a lot of sore mornings this winter.</summary></entry></feed>
