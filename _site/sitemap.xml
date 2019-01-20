@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/authors/jonny</loc>
-<lastmod>2019-01-18T20:23:36+00:00</lastmod>
+<lastmod>2019-01-20T12:12:57+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/tartarus/2017/02/20/the-depths-of-the-blog</loc>
@@ -1347,6 +1347,14 @@
 <url>
 <loc>http://localhost:4000/mendokusai/2019/01/18/sex-education-review</loc>
 <lastmod>2019-01-18T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/mendokusai/2019/01/19/trial-and-error</loc>
+<lastmod>2019-01-19T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/mendokusai/2019/01/20/book-reviews-notes-from-underground-by-fyodor-dostoevsky</loc>
+<lastmod>2019-01-20T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/404</loc>
