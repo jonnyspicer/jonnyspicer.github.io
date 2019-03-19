@@ -1,0 +1,45 @@
+---
+layout: mendokusai
+author: Jonny Spicer
+title: Evolution vs Design in Software
+tags: [ Software Development ]
+---
+<p>
+  I am finally nearing delivery of my largest project to date at my day job, so
+  it seems appropriate to share some of what I learned during its course. The
+  topic today is that of software design vs software evolution, a fine balance
+  which I didn't get totally right with the application we were building.
+</p>
+<p>
+  By software design, I essentially mean planning the high level structure of the
+  section of the codebase in question - likely by writing something akin to a
+  <a href="https://en.wikipedia.org/wiki/Software_design_description" rel="noreferrer" target="_blank">
+  software design description,</a> although in our case it would've been significantly
+  less formal. In all likelihood, we would've just written down a bunch of classes
+  and methods and wrote down what each one would need to do to get them to work.
+  By software evolution, I mean eschewing that step, and simply mashing away
+  at your keyboard with reckless abandon, with your code <i>evolving</i> into
+  something with the functionality you want over time.
+</p>
+<p>
+  The former option might sound like a no-brainer, but I think there are two
+  important points to note in favour of the latter, particularly from the point of view of a
+  relatively inexperienced developer such as myself. Firstly, when you are writing
+  your SDD, there are things that you don't know you don't know - so it is difficult
+  to account for them in your skeleton code. There are inevitably going to be challenges
+  that you didn't foresee that mean you have to make changes to your SDD, and perhaps
+  your code architecture has to change as a result. Secondly, I am a big believer
+  in the <i>'all code is garbage'</i> mantra. With the evolutionary approach,
+  you acknowledge and even expect to have to rewrite most of your code. Your
+  first attempt is essentially a reconnaissance mission, to be replaced by
+  the full army of your programming prowess once the lay of the land has been
+  appropriately surveyed. The SDD approach imposes some rigidity which could hinder
+  the outcome, as well as a certain reluctance to refactor or remove anything.
+</p>
+<p>
+  I think the advantages of the software design approach are much more intuitive,
+  although perhaps I will talk about them another day. The takeaway from this project
+  was that it is at least a choice that must be considered, rather than simply
+  rushing into the evolutionary method, as in the end I suspect the two often take
+  an appreciably similar amount of time.
+</p>
