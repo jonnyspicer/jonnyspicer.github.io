@@ -1,6 +1,8 @@
 import datetime
 import re
 import os
+import sys
+import subprocess
 
 date = datetime.date.today().strftime('%Y-%m-%d')
 
@@ -27,14 +29,14 @@ tags = input('What topics are you writing about today (separated by a comma)?')
 title_name = re.sub('[^a-zA-Z\s\d]', '', name)
 title_name = re.sub('\s', '-', title_name).lower()
 
-title = date + '-' + title_name + '.html'
+title = date + '-' + title_name + '.md'
 
 if flavour == 'mendokusai':
-    path = os.getcwd() + '\\mendokusai\\_posts\\' + title
+    path = os.getcwd() + '/mendokusai/_posts/' + title
     if not os.path.exists(path):
         open(path, 'w')
 elif flavour == 'tartarus':
-    path = os.getcwd() + '\\tartarus\\_posts\\' + title
+    path = os.getcwd() + '/tartarus/_posts/' + title
     if not os.path.exists(path):
         open(path, 'w')
 
@@ -46,4 +48,8 @@ if os.path.exists(path):
     f.write('title: ' + name + '\n')
     f.write('tags: [ ' + tags + ' ]\n')
     f.write('---\n')
-    os.startfile(path, 'open')
+    if sys.platform == "win32":
+        os.startfile(path, 'open')
+    else:
+        opener = "open" if sys.platform == "darwin" else "xdg-open"
+        subprocess.call([opener, path])
