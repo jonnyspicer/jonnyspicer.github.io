@@ -6,7 +6,7 @@ tags: [ Web Development ]
 ---
 By which I mean, I'm inheriting a website and I'm pretty excited.
 
-It is the [Guernsey Chess Club Website](guernseychessclub.org.gg) and yes, it
+It is the [Guernsey Chess Club Website](https://www.guernseychessclub.org.gg) and yes, it
 is old AF. The URL was registered in 1997 and I think it's reasonable to assume
 that the site has undergone minimal work since, which in a way I actually love -
 it is a relic of sorts.
