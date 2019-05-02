@@ -1,7 +1,7 @@
 ---
 layout: mendokusai
 author: Jonny Spicer
-title: Guernsey Literary Festival: Adam Kay
+title: Guernsey Literary Festival&#58; Adam Kay
 tags: [ Books ]
 ---
 Today I had the pleasure of going to watch Adam Kay talk as part of the 7th edition of the Guernsey Literary Festival. It's the first time 
