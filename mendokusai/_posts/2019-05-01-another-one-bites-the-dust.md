@@ -5,7 +5,7 @@ title: Another One Bites The Dust
 tags: [ Social Media ]
 ---
 So long, auf Wiedersehen, and goodnight to Snapchat, by some definitions the
-vestigial social media app on my iPhone. Long gone on the days when you would
+vestigial social media app on my iPhone. Long gone are the days when you would
 ferry me personalised pictures of women's bodies and therefor, much of your
 lustre has waned. My primary usage of you in the past couple of months has been twofold.
 Firstly, you're the last app with infinite scroll I had left, and whenever I
