@@ -7,12 +7,12 @@ tags: [ Social Media ]
 So long, auf Wiedersehen, and goodnight to Snapchat, by some definitions the
 vestigial social media app on my iPhone. Long gone on the days when you would
 ferry me personalised pictures of women's bodies and therefor, much of your
-lustre has waned. My primary usage of you in the past couple has been twofold.
-Firstly, you're the last app with infinite scroll I have left, and whenever I
-need that glorious dopamine hit that comes from wasting my valuable time with
+lustre has waned. My primary usage of you in the past couple of months has been twofold.
+Firstly, you're the last app with infinite scroll I had left, and whenever I
+needed that glorious dopamine hit that comes from wasting my valuable time with
 flashing lights and pretty colours, I will happily trawl through the sensationalist
-pop culture garbage that is your discover section. The second is that this girl
-that rejected me still keeps unilaterally sending me snaps of her complaining about
+pop culture garbage that is your discover section. The second is that a particular girl
+who rejected me still keeps unilaterally sending me snaps of her complaining about
 her work laptop being slow or running Windows updates or whatever. Is there some
 social convention that I don't understand? I have no qualms with you not wanting
 to date me, in fact I think it's laudable, it displays good decision making skills.
@@ -32,4 +32,4 @@ ripping it out of my phone is not all I had hoped it would be. Hopefully saying
 goodbye to Snapchat won't create any additional FOMO, and will further my
 drive to have more meaningful interactions with the people that matter to me, but
 in anxious, troubled moments, perhaps flicking through it's neverending stream
-of garbage was actually rather comforting.
+of trash was actually rather comforting.
