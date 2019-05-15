@@ -1,20 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-08T20:05:26+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jonny Spicer | Thoughts From Tartarus</title><subtitle>Jonny Spicer's personal website and blog, where he writes about mental health, technology, esports, but primarily trash.</subtitle><entry><title type="html">Personality</title><link href="http://localhost:4000/mendokusai/2019/05/08/running-ii" rel="alternate" type="text/html" title="Personality" /><published>2019-05-08T00:00:00+01:00</published><updated>2019-05-08T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/08/running-ii</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/08/running-ii">&lt;p&gt;After reading &lt;a href=&quot;https://digest.bps.org.uk/2017/01/19/a-little-discussed-effect-of-therapy-it-changes-your-personality/&quot;&gt;this article&lt;/a&gt; today 
-I was reminded &lt;a href=&quot;https://www.understandmyself.com/&quot;&gt;Lobsterboy’s personality test&lt;/a&gt; last year, but I don’t think I ever wrote about the results. 
-The self reported test measures the ‘Big Five’ personality taits, each of which are split into two sub-traits. All numbers relate to percentiles.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-15T19:33:08+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jonny Spicer | Thoughts From Tartarus</title><subtitle>Jonny Spicer's personal website and blog, where he writes about mental health, technology, esports, but primarily trash.</subtitle><entry><title type="html">The Joy of Starting Over</title><link href="http://localhost:4000/mendokusai/2019/05/15/the-joy-of-starting-over" rel="alternate" type="text/html" title="The Joy of Starting Over" /><published>2019-05-15T00:00:00+01:00</published><updated>2019-05-15T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/15/the-joy-of-starting-over</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/15/the-joy-of-starting-over">&lt;p&gt;Starting from an entirely new tech stack this week has been challenging for reasons both numerous and obvious, but thusfar I am 
+relishing the opportunity. Switching from *nix-like to Windows, PHP to C#, functional to object-oriented, AWS to Azure, jQuery to 
+React, etc etc, all require adaptation and a huge volume of learning in order to be able to contribute meaningfully to new projects.
+With that being said, one of my commits got merged into the master branch on day two of my new position, which I think deserves at 
+least a tepid round of applause.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Agreeableness - 57
-    &lt;ul&gt;
-      &lt;li&gt;Compassion - 48&lt;/li&gt;
-      &lt;li&gt;Politness - 65&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Conscientiousness - 0
-    &lt;ul&gt;
-      &lt;li&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jonny Spicer</name></author><category term="Personal" /><category term="Mental Health and Wellbeing" /><summary type="html">After reading this article today I was reminded Lobsterboy’s personality test last year, but I don’t think I ever wrote about the results. The self reported test measures the ‘Big Five’ personality taits, each of which are split into two sub-traits. All numbers relate to percentiles.</summary></entry><entry><title type="html">Should I Call Myself a Feminist II</title><link href="http://localhost:4000/mendokusai/2019/05/07/should-i-call-myself-a-feminist-ii" rel="alternate" type="text/html" title="Should I Call Myself a Feminist II" /><published>2019-05-07T00:00:00+01:00</published><updated>2019-05-07T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/07/should-i-call-myself-a-feminist-ii</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/07/should-i-call-myself-a-feminist-ii">&lt;p&gt;Yesterday I may have inadvertently outed myself as a bit of a basement dweller. If any of my opinion around feminism is informed 
+&lt;p&gt;The enormity of unacquired knowledge being dangled in front of me has left me feeling enthused about learning, and eager to catch up 
+with my colleagues, and the fact that I get to write interesting programmes during the process is the cherry on the cake. Now if you’ll 
+excuse me, I have to spend the rest of my evening figuring out how the fuck MVC works.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Career" /><category term="Technology" /><category term="Software Engineering" /><summary type="html">Starting from an entirely new tech stack this week has been challenging for reasons both numerous and obvious, but thusfar I am relishing the opportunity. Switching from *nix-like to Windows, PHP to C#, functional to object-oriented, AWS to Azure, jQuery to React, etc etc, all require adaptation and a huge volume of learning in order to be able to contribute meaningfully to new projects. With that being said, one of my commits got merged into the master branch on day two of my new position, which I think deserves at least a tepid round of applause.</summary></entry><entry><title type="html">Fake It Until You Make It</title><link href="http://localhost:4000/mendokusai/2019/05/14/fake-it-until-you-make-it" rel="alternate" type="text/html" title="Fake It Until You Make It" /><published>2019-05-14T00:00:00+01:00</published><updated>2019-05-14T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/14/fake-it-until-you-make-it</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/14/fake-it-until-you-make-it">&lt;p&gt;We’ve all heard the phrase ‘fake it ‘til you make it’, and I hope we have all
+regarded it with at least some modicum of suspicion. Faking anything is inherently
+repressing some element of the truth, and in my personal experience, that hasn’t
+gone so great for me. The FITYMI slogan is something I hear a lot though, primarily
+in the context of social confidence, and during the past week I’ve revisited it
+to see if I still think it’s a dangerous idea.&lt;/p&gt;
+
+&lt;p&gt;When selectively applied, I think there may be some merit to it. During my usual
+ennui-fuelled Hacker News trawlings, I’ve read a little about changing one’s personality,
+and while intuitively the notion invokes a slight sense of fear, it is something
+I certainly want to (continue to) do. From my exceptionally limited understanding,
+talking and writing using a more upbeat tone can actually influence you to
+think more positively. And maybe there is some iota of wisdom in simply pretending
+to be confident - it will be a challenge to learn how to pretend, but if I can overcome
+it, then it might lead the way for meaningfully less anxiety in my life, something
+that I would relish.&lt;/p&gt;
+
+&lt;p&gt;The balance between being truthful when things aren’t going so great, but still
+remaining resolute and framing things in a favourable light is going to be a tough
+one to strike, but follow along dear reader, for you will get to see my attempts
+at such a balancing act right before your very eyes in the weeks to come.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Wellbeing" /><category term="Mental Health" /><summary type="html">We’ve all heard the phrase ‘fake it ‘til you make it’, and I hope we have all regarded it with at least some modicum of suspicion. Faking anything is inherently repressing some element of the truth, and in my personal experience, that hasn’t gone so great for me. The FITYMI slogan is something I hear a lot though, primarily in the context of social confidence, and during the past week I’ve revisited it to see if I still think it’s a dangerous idea.</summary></entry><entry><title type="html">First Day of a New Era</title><link href="http://localhost:4000/mendokusai/2019/05/13/first-day-of-a-new-era" rel="alternate" type="text/html" title="First Day of a New Era" /><published>2019-05-13T00:00:00+01:00</published><updated>2019-05-13T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/13/first-day-of-a-new-era</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/13/first-day-of-a-new-era">&lt;p&gt;As one epoch comes to an end, so must a new one begin, which is precisely the case for my career as I began a new job today. 
+My job title has contracted down to a worryingly vague ‘developer’, but I now share that with every single one of my colleagues, 
+and it is nice to feel equal in title if not in knowledge or ability. I certainly do not feel equal in either of those two things, 
+but that is immensely refreshing - being acutely aware of my own lack of understanding of a new tech stack has filled me with a 
+rejuvenated sense of excitement.&lt;/p&gt;
+
+&lt;p&gt;I am looking forward to the new challenges and new opportunities that come along with new employment. Hopefully this will be my era
+of Reiwa as well.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Career" /><summary type="html">As one epoch comes to an end, so must a new one begin, which is precisely the case for my career as I began a new job today. My job title has contracted down to a worryingly vague ‘developer’, but I now share that with every single one of my colleagues, and it is nice to feel equal in title if not in knowledge or ability. I certainly do not feel equal in either of those two things, but that is immensely refreshing - being acutely aware of my own lack of understanding of a new tech stack has filled me with a rejuvenated sense of excitement.</summary></entry><entry><title type="html">Terry A Davis</title><link href="http://localhost:4000/mendokusai/2019/05/12/terry-a-davis" rel="alternate" type="text/html" title="Terry A Davis" /><published>2019-05-12T00:00:00+01:00</published><updated>2019-05-12T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/12/terry-a-davis</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/12/terry-a-davis">&lt;p&gt;This afternoon I watched &lt;a href=&quot;https://www.youtube.com/watch?v=UCgoxQCf5Jg&quot;&gt;this intriguing documentary&lt;/a&gt; on TempleOS and its creator, 
+Terry A Davis. Davis’ story is remarkable; a genius programmer who single-handedly created a complex operating system, who was 
+also plagued by crippling mental illness that left him further and further out of touch with the real world, all documented on 
+the internet for anyone to see.&lt;/p&gt;
+
+&lt;p&gt;On one hand, Davis was a delusion narcissist, unrepentant racist and all round asshole, and it easy to be disgusted by him or 
+to pity him as a victim of schizophrenia and dismiss him altogether. But his talent for software cannot be overstated, and despite 
+the obvious and deep flaws in TempleOS - ie that he believed it allowed him to commune with God - in many ways it is a borderline 
+miraculous achievement (see what I did there?). Had he been mentally healthy, who knows what innovations he may have been able to 
+bring to the tech community - it seems reasonable to assume that he could’ve had a meaningful impact on the operating system landscape 
+today as we know it, all on his own.&lt;/p&gt;
+
+&lt;p&gt;The video also offers some interesting reflections on the relationship between mental illness on the internet; both that it can enable 
+those who are struggling, as well as leave them vulnerable to harrassment, but also that it can document their story, and give the 
+world at large an insight into their lives that they might not otherwise have been afforded. In some ways, Davis deserved the following 
+he had, and there was certainly some segment of it that was unironic and respectul in the interest they took in his life and work. I 
+almost wish I had been aware of him before the fact, so that I could also have followed him, although I suspect I would’ve written 
+him off too quickly as just another crazy person on the internet - the crystallisation of information presented in the documentary 
+has made me think that perhaps I should reconsider not just Davis, but similar people in future situations.&lt;/p&gt;
+
+&lt;p&gt;My favourite piece of potentially accidental wisdom from Davis during the video:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;That bird has no idea what he’s looking at, and yet, what does the bird do? Does he panic? No, he just does the best he can.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Jonny Spicer</name></author><category term="Mental Health" /><category term="Computer Science" /><summary type="html">This afternoon I watched this intriguing documentary on TempleOS and its creator, Terry A Davis. Davis’ story is remarkable; a genius programmer who single-handedly created a complex operating system, who was also plagued by crippling mental illness that left him further and further out of touch with the real world, all documented on the internet for anyone to see.</summary></entry><entry><title type="html">Chess Inter Insular</title><link href="http://localhost:4000/mendokusai/2019/05/11/chess-inter-insular" rel="alternate" type="text/html" title="Chess Inter Insular" /><published>2019-05-11T00:00:00+01:00</published><updated>2019-05-11T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/11/chess-inter-insular</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/11/chess-inter-insular">&lt;p&gt;Today was the 82nd installation of the Channel Islands Inter-Insular; the annual chess match between Guernsey and Jersey, in recent years played 
+across 16 boards. Jersey could only field a weakend side, with many of their top players regrettably absent, which paved the way for a historic 
+occasion (for me at least) - my first time being part of a winning team since 2010, our board two getting his 2nd individual win since his debut 
+in 1983, and Guernsey’s biggest margin of victory since 1965.&lt;/p&gt;
+
+&lt;p&gt;I only managed a draw against my opponent who I would consider myself a favourite against, but as things transpired a loss would’ve been a fairer 
+result so I am glad I was able to salvage a vital half a point, and furthermore do a job for the team.&lt;/p&gt;
+
+&lt;p&gt;After last year’s particularly upsetting loss where I felt somewhat responsible for Guernsey’s overall loss, I was immensely grateful to be able 
+to redeem myself this year, and the pride I feel at the drubbing we have handed our island counterparts is one I will not soon forget. All that remains 
+is to slowly crawl up the board order for the next few years until I have a shot at becoming Channel Island champion.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Chess" /><summary type="html">Today was the 82nd installation of the Channel Islands Inter-Insular; the annual chess match between Guernsey and Jersey, in recent years played across 16 boards. Jersey could only field a weakend side, with many of their top players regrettably absent, which paved the way for a historic occasion (for me at least) - my first time being part of a winning team since 2010, our board two getting his 2nd individual win since his debut in 1983, and Guernsey’s biggest margin of victory since 1965.</summary></entry><entry><title type="html">The End of a Short Era</title><link href="http://localhost:4000/mendokusai/2019/05/10/the-end-of-a-short-era" rel="alternate" type="text/html" title="The End of a Short Era" /><published>2019-05-10T00:00:00+01:00</published><updated>2019-05-10T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/10/the-end-of-a-short-era</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/10/the-end-of-a-short-era">&lt;p&gt;Today was my last day as a web dev for the small company that I’ve worked for over the past year and a bit. I deliberately 
+don’t talk much about my job on here, but I would be remiss not devote one of these daily posts to some of the amazing 
+people that I have had the opportunity to work alongside. After leaving my first full time job at the end of 2016 
+relatively straightforwardly, in fact barely even saying goodbye for anyone, I was not prepared to for some of the 
+emotional farewells I had to face this time round.&lt;/p&gt;
+
+&lt;p&gt;It was a great reminder both of my own ability to form meaningful connections with others, and of people’s general wondrousness 
+that I felt such a strong bond to some of my colleagues despite us never necessarily talking much about our personal lives. 
+Evidently the shared experience of solving problems together, overcoming issues large and small, bouncing back from failure 
+and celebrating success was enough to make me feel very strongly. I really was not expecting to find myself feeling as sad 
+as I did to say goodbye to my colleagues. It was a very humbling experience, but I am immensely grateful for it.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Career" /><category term="Personal" /><summary type="html">Today was my last day as a web dev for the small company that I’ve worked for over the past year and a bit. I deliberately don’t talk much about my job on here, but I would be remiss not devote one of these daily posts to some of the amazing people that I have had the opportunity to work alongside. After leaving my first full time job at the end of 2016 relatively straightforwardly, in fact barely even saying goodbye for anyone, I was not prepared to for some of the emotional farewells I had to face this time round.</summary></entry><entry><title type="html">Being Called Out</title><link href="http://localhost:4000/mendokusai/2019/05/09/being-called-out" rel="alternate" type="text/html" title="Being Called Out" /><published>2019-05-09T00:00:00+01:00</published><updated>2019-05-09T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/09/being-called-out</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/09/being-called-out">&lt;p&gt;Being called out, especially when you immediately realise you are wrong, is an especially
+unpleasant feeling. It’s also a curious one - my gut instinct is always to be defensive,
+to argue that there has been no wrongdoing on my part, even when my gut instinct is
+very much that I have made a mistake (or furthermore that I have made the mistake
+as a result of a repeated pattern of behaviour), and simply apologising and saying
+that I will reconsider my thoughts and words in the future seems all but impossible.&lt;/p&gt;
+
+&lt;p&gt;Swallowing one’s pride is a painful experience, especially when one’s whole
+life they have been raised to be proud. Casting off that fuzzy wall of excuses
+and actually admitting culpability is intuitively unthinkable, but, to really
+grow as a person it is clearly necessary. My other gut reaction is to be self-deprecating,
+to simply say that I’m a sub-par human being and so of course I embody undesirable
+traits, but that is not going to help me either - and frankly it is this pattern
+of thinking in general that I am keen to carve out of my own brain.&lt;/p&gt;
+
+&lt;p&gt;Sometimes I think or say or do stupid things. And that’s absolutely fine, I think -
+what is not fine is to continue to do them despite having been confronted with their
+inherent stupidity. That is what would truly make me a shitty person.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Personal" /><summary type="html">Being called out, especially when you immediately realise you are wrong, is an especially unpleasant feeling. It’s also a curious one - my gut instinct is always to be defensive, to argue that there has been no wrongdoing on my part, even when my gut instinct is very much that I have made a mistake (or furthermore that I have made the mistake as a result of a repeated pattern of behaviour), and simply apologising and saying that I will reconsider my thoughts and words in the future seems all but impossible.</summary></entry><entry><title type="html">Running II</title><link href="http://localhost:4000/mendokusai/2019/05/08/running-ii" rel="alternate" type="text/html" title="Running II" /><published>2019-05-08T00:00:00+01:00</published><updated>2019-05-08T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/08/running-ii</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/08/running-ii">&lt;p&gt;After covering 17km in 3 days, surely a massive personal best for me, my body &lt;em&gt;hurts&lt;/em&gt;. My calves are aching and tight, and my 
+feet have been pummeled, my arches ache even to walk and my blisters are truly vile. Today I took the day off, and I will likely 
+take the next two days off as well, getting injured right at the start of my illustrious racing career seems unwise.&lt;/p&gt;
+
+&lt;p&gt;Still, I hope this necessary R&amp;amp;R time doesn’t cause my newfound enthusiasm to wane. If the calorie counter on Strava is to be even 
+vaguely believed, running could be the final piece of the e’er-mysterious weight loss puzzle. As much as it pains me to say it, 
+running is kind of great - it gets you out of the house, you get fitter and healthier, you get to feel better about yourself, it 
+can have a certain meditative quality - I already feel like I have learned a lot about myself during the tail end of some of routes.&lt;/p&gt;
+
+&lt;p&gt;And also there’s a certain someone that I have to annihilate at park run in June.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Health and Fitness" /><summary type="html">After covering 17km in 3 days, surely a massive personal best for me, my body hurts. My calves are aching and tight, and my feet have been pummeled, my arches ache even to walk and my blisters are truly vile. Today I took the day off, and I will likely take the next two days off as well, getting injured right at the start of my illustrious racing career seems unwise.</summary></entry><entry><title type="html">Should I Call Myself a Feminist II</title><link href="http://localhost:4000/mendokusai/2019/05/07/should-i-call-myself-a-feminist-ii" rel="alternate" type="text/html" title="Should I Call Myself a Feminist II" /><published>2019-05-07T00:00:00+01:00</published><updated>2019-05-07T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/07/should-i-call-myself-a-feminist-ii</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/07/should-i-call-myself-a-feminist-ii">&lt;p&gt;Yesterday I may have inadvertently outed myself as a bit of a basement dweller. If any of my opinion around feminism is informed 
 by consuming whatever I read on Reddit, I ought to re-evaluate.  I’ve seen it hypothesized that 1% of Redditors generate 99% of 
 comments and posts, and intuitively I believe it - clearly that kind of system is not going to foster a healthy environment for 
 discussion. It’s also a conversation in which I participate in very passively - I’ve only commented on anything across the entirety 
@@ -53,114 +142,4 @@ confrontation, and it would seem that I am too much of a coward to be willing to
 &lt;p&gt;Lastly, I don’t feel as if I have earned the right to call myself a feminist. While it’s a dirty word in certain dark, unpleasant smelling corners of the web, all 
 the women I know who staunchly avow the cause are strong, passionate, intelligent and inspirational. They are the ones who are suffering the great many injustices of 
 modern society, not myself, and who are still resilient enough to fight tooth and nail to change things. I simply don’t deserve to ride on their 
-coattails until I have actually done something meaningful to bring about change, and so until that happens, my reticence to call myself a feminist shall remain.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Social Issues" /><summary type="html">The Oxford English Dictionary defines femini- just kidding, fuck that.</summary></entry><entry><title type="html">Running</title><link href="http://localhost:4000/mendokusai/2019/05/05/running" rel="alternate" type="text/html" title="Running" /><published>2019-05-05T00:00:00+01:00</published><updated>2019-05-05T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/05/running</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/05/running">&lt;p&gt;I’m a runner now. I bought some shoes, I downloaded Strava and smashed out a 5k training run - my first ever 5k not on a treadmill. I’m not really sure if I find 
-it fun yet, especially because the last 2km were determined much more by psychological rather than physical factors, but the satisfaction of being in significantly 
-better shape than I thought I was has spurred me on to go again tomorrow.&lt;/p&gt;
-
-&lt;p&gt;Kipchoge here I come.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Health and Fitness" /><summary type="html">I’m a runner now. I bought some shoes, I downloaded Strava and smashed out a 5k training run - my first ever 5k not on a treadmill. I’m not really sure if I find it fun yet, especially because the last 2km were determined much more by psychological rather than physical factors, but the satisfaction of being in significantly better shape than I thought I was has spurred me on to go again tomorrow.</summary></entry><entry><title type="html">Guernsey Literary Festival: Lionel Shriver</title><link href="http://localhost:4000/mendokusai/2019/05/04/guernsey-literary-festival58-lionel-shriver" rel="alternate" type="text/html" title="Guernsey Literary Festival&amp;#58; Lionel Shriver" /><published>2019-05-04T00:00:00+01:00</published><updated>2019-05-04T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/04/guernsey-literary-festival58-lionel-shriver</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/04/guernsey-literary-festival58-lionel-shriver">&lt;p&gt;In my second visit to a Guernsey Literary Festival event this week, I had the pleasure of watching Lionel Shriver in conversation with Libby Purves. 
-Unfortunately for Ms Purves, I was less than blown away by her performance, although I regard Ms Shriver as something of an intellectual juggernaut 
-so perhaps it was also going to be difficult to come off well by comparison.&lt;/p&gt;
-
-&lt;p&gt;Nevertheless, Shriver came across as articulate, funny, wise and wholly unafraid to have her voice heard, arguably her most admirable quality. 
-Known for expressing her views in spite of the prospect of meaningful backlash, she did the same here, even giving her stance as a Leave supporter 
-(to the rapturous and spectacularly childish applause of approximately three members of the audience). Listening to her talk candidly about her process, her 
-characters, her views on topics such as cultural appropriation, and her feelings towards her body of work was an enlightening and inspiring 
-experience and one which I would highly recommend.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Books" /><summary type="html">In my second visit to a Guernsey Literary Festival event this week, I had the pleasure of watching Lionel Shriver in conversation with Libby Purves. Unfortunately for Ms Purves, I was less than blown away by her performance, although I regard Ms Shriver as something of an intellectual juggernaut so perhaps it was also going to be difficult to come off well by comparison.</summary></entry><entry><title type="html">I love you II</title><link href="http://localhost:4000/mendokusai/2019/05/03/i-love-you-ii" rel="alternate" type="text/html" title="I love you II" /><published>2019-05-03T00:00:00+01:00</published><updated>2019-05-03T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/03/i-love-you-ii</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/03/i-love-you-ii">&lt;p&gt;Two years after &lt;a href=&quot;https://intothepalta.wordpress.com/2017/10/19/me-too/&quot;&gt;Mica posted this&lt;/a&gt;, and while the title certainly hasn’t stood the test of time, I think 
-I recently came to feel differently about what she wrote. While she longed for her boyfriend to reciprocate her verbal affection, she gave it anyway, knowing 
-that he was unlikely to give her what she so desired in return. While I previously &lt;a href=&quot;/mendokusai/2017/10/20/yesterday-my-roommate-posted-this-and&quot;&gt;mused about how weird the phrase itself is&lt;/a&gt;,
-I wanted to add a little to that, and update my stance on saying ‘I love you’.&lt;/p&gt;
-
-&lt;p&gt;I am better at saying it now then I was back in October 2017 (which was not exactly a time in my life that was full of life). If you give me a beer, I’ll probably tell you 
-I love you, for example. But now I have realised when &lt;em&gt;saying&lt;/em&gt; the phrase, rather than hearing it, can bring me the most joy - when I have no expectations to hear it in return. 
-When I simply don’t care what the other person’s response is, when I am saying it purely to inform or remind them of the fact and ‘speak my truth’ (a phrase I am growing to loathe more 
-and more) three words at a time. Obviously it’s not easy, but when I previously talked of other times in my life I had said those words, they were almost always uttered for the purpose 
-of being on the receiving end of it immediately afterwards. And now, they are not, and I like that.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Dating and Relationships" /><summary type="html">Two years after Mica posted this, and while the title certainly hasn’t stood the test of time, I think I recently came to feel differently about what she wrote. While she longed for her boyfriend to reciprocate her verbal affection, she gave it anyway, knowing that he was unlikely to give her what she so desired in return. While I previously mused about how weird the phrase itself is, I wanted to add a little to that, and update my stance on saying ‘I love you’.</summary></entry><entry><title type="html">Guernsey Literary Festival: Adam Kay</title><link href="http://localhost:4000/mendokusai/2019/05/02/guernsey-literary-festival-adam-kay" rel="alternate" type="text/html" title="Guernsey Literary Festival&amp;#58; Adam Kay" /><published>2019-05-02T00:00:00+01:00</published><updated>2019-05-02T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/02/guernsey-literary-festival-adam-kay</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/02/guernsey-literary-festival-adam-kay">&lt;p&gt;Today I had the pleasure of going to watch Adam Kay talk as part of the 7th edition of the Guernsey Literary Festival. It’s the first time 
-I’ve actually attended one of these events, so I wasn’t entirely sure what to expect, but I hoped that the experience would make me feel cultured, 
-and it was a great excuse to take a two hour lunchbreak.&lt;/p&gt;
-
-&lt;p&gt;Mr Kay (or Dr Kay, as he was formerly referred to) was speaking about his recent bestseller, “This is Going to Hurt” which recounts his experiences 
-as a junior doctor in the NHS. Given that after he left medicine, he became a very successful comedian - repeatedly selling out a Fringe show and writing 
-for Mitchell and Webb amongst others - it is no surprise that he was a funny guy and the book is marketed as being largely comedic. While I didn’t share
-the crowds enthusiasm for all of his jokes, some of them did ellicit a genuine chuckle from me, so kudos to Mr Kay, and I am assured the book is definitely hilarious.&lt;/p&gt;
-
-&lt;p&gt;The talk, and I suspect the book, have a message that is far from comical, and indeed the things I took away from the venue this lunchtime were the brutal, harrowing 
-personal stories that Kay shared. His expressed aim was to give the public at large an understanding of what doctors go through in their everyday lives, the toll it 
-takes on their interpersonal relationships, the relentlessness of it all, the culture of suffering in silence and the lack of vital support networks.&lt;/p&gt;
-
-&lt;p&gt;While there was a very much political component to his final, impassioned plea to the audience (which involved stressing the necessity of the NHS receiving more funding), 
-I walked away with a change view of doctors and our healthcare system as a whole. They are every bit as human and mortal as the rest of us, but are frequently called on to 
-perform superhuman tasks, without any of the recognition or admiration that comicbook heroes get. I feel incredibly privileged that I work in technology, that I will never have 
-to do with anything as traumatising in my professional life as every healthcare professional does, and next time I visit my GP, I will have a far deeper level of respect for her than 
-I previously held.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Books" /><summary type="html">Today I had the pleasure of going to watch Adam Kay talk as part of the 7th edition of the Guernsey Literary Festival. It’s the first time I’ve actually attended one of these events, so I wasn’t entirely sure what to expect, but I hoped that the experience would make me feel cultured, and it was a great excuse to take a two hour lunchbreak.</summary></entry><entry><title type="html">Another One Bites The Dust</title><link href="http://localhost:4000/mendokusai/2019/05/01/another-one-bites-the-dust" rel="alternate" type="text/html" title="Another One Bites The Dust" /><published>2019-05-01T00:00:00+01:00</published><updated>2019-05-01T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/05/01/another-one-bites-the-dust</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/05/01/another-one-bites-the-dust">&lt;p&gt;So long, auf Wiedersehen, and goodnight to Snapchat, by some definitions the
-vestigial social media app on my iPhone. Long gone are the days when you would
-ferry me personalised pictures of women’s bodies and therefor, much of your
-lustre has waned. My primary usage of you in the past couple of months has been twofold.
-Firstly, you’re the last app with infinite scroll I had left, and whenever I
-needed that glorious dopamine hit that comes from wasting my valuable time with
-flashing lights and pretty colours, I will happily trawl through the sensationalist
-pop culture garbage that is your discover section. The second is that a particular girl
-who rejected me still keeps unilaterally sending me snaps of her complaining about
-her work laptop being slow or running Windows updates or whatever. Is there some
-social convention that I don’t understand? I have no qualms with you not wanting
-to date me, in fact I think it’s laudable, it displays good decision making skills.
-But don’t keep contacting me with your inane whining - isn’t that just socialisation 101?
-Am I missing something?&lt;/p&gt;
-
-&lt;p&gt;I am reminded of my boy Torvalds’ &lt;a href=&quot;https://www.linuxjournal.com/content/25-years-later-interview-linus-torvalds&quot;&gt;recent and now much-quoted interview&lt;/a&gt; where he bluntly described modern social media as a disease. I am
-reluctant to even bring it up really, because I read the original interview first
-and he makes multiple salient, relevant points, and the next day every tech media
-outlet picked up on exactly that turn of phrase. He went on to elaborate that
-they “encourage bad behaviour” and I think he is absolutely right, they have
-encouraged my own personal bad behaviour, and even built whole new bad habits
-into my psyche.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/mendokusai/2018/11/21/missing-social-media&quot;&gt;As discussed previously however,&lt;/a&gt;
-ripping it out of my phone is not all I had hoped it would be. Hopefully saying
-goodbye to Snapchat won’t create any additional FOMO, and will further my
-drive to have more meaningful interactions with the people that matter to me, but
-in anxious, troubled moments, perhaps flicking through it’s neverending stream
-of trash was actually rather comforting.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Social Media" /><summary type="html">So long, auf Wiedersehen, and goodnight to Snapchat, by some definitions the vestigial social media app on my iPhone. Long gone are the days when you would ferry me personalised pictures of women’s bodies and therefor, much of your lustre has waned. My primary usage of you in the past couple of months has been twofold. Firstly, you’re the last app with infinite scroll I had left, and whenever I needed that glorious dopamine hit that comes from wasting my valuable time with flashing lights and pretty colours, I will happily trawl through the sensationalist pop culture garbage that is your discover section. The second is that a particular girl who rejected me still keeps unilaterally sending me snaps of her complaining about her work laptop being slow or running Windows updates or whatever. Is there some social convention that I don’t understand? I have no qualms with you not wanting to date me, in fact I think it’s laudable, it displays good decision making skills. But don’t keep contacting me with your inane whining - isn’t that just socialisation 101? Am I missing something?</summary></entry><entry><title type="html">Playing at Being an Adult II</title><link href="http://localhost:4000/mendokusai/2019/04/30/playing-at-being-an-adult-ii" rel="alternate" type="text/html" title="Playing at Being an Adult II" /><published>2019-04-30T00:00:00+01:00</published><updated>2019-04-30T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/04/30/playing-at-being-an-adult-ii</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/04/30/playing-at-being-an-adult-ii">&lt;p&gt;After some thinking and a couple of interesting conversations following &lt;a href=&quot;/mendokusai/2019/04/12/playing-at-being-an-adult&quot;&gt;my first post on playing at being an adult&lt;/a&gt;,
-I am quite seriously reconsidering my position. I missed out one key advantage of being an adult, although admittedly it is something of a double edged sword.
-Adults have to accept the burden of responsibility over their own lives, but their reward for doing so is greater autonomy, and the chance to be the masters of their own
-destiny.&lt;/p&gt;
-
-&lt;p&gt;Perhaps now is the time for me to transition into adulthood. I feel primed to cast off &lt;a href=&quot;/mendokusai/2019/02/07/reflecting-on-a-deleted-blog&quot;&gt;the notion that I’m a victim&lt;/a&gt;,
-to accept that something doesn’t have to be my fault to be my responsibility, and to stop waxing lyrical in this blog about the changes I’m going to make in my life, and actually start
-making them.&lt;/p&gt;
-
-&lt;p&gt;I’ve never felt particularly in control of my own fate, and perhaps that is why I have historically felt so uneasy in my hometown, or in academia, or at the prospect of getting a desk job.
-It very much feels like there’s been a path laid out before me, constituted primarily of those things, and part of me was resistant to that idea - not resistant enough to
-change it much though. Maybe that was my life as a child, and my life as an adult will be to stand up for what I believe in, to take ownership of my future, and to ultimately
-do what I want to do, rather than what I feel obligated to do.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Personal" /><summary type="html">After some thinking and a couple of interesting conversations following my first post on playing at being an adult, I am quite seriously reconsidering my position. I missed out one key advantage of being an adult, although admittedly it is something of a double edged sword. Adults have to accept the burden of responsibility over their own lives, but their reward for doing so is greater autonomy, and the chance to be the masters of their own destiny.</summary></entry><entry><title type="html">Expectations Revisited</title><link href="http://localhost:4000/mendokusai/2019/04/29/expectations-revisited" rel="alternate" type="text/html" title="Expectations Revisited" /><published>2019-04-29T00:00:00+01:00</published><updated>2019-04-29T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/04/29/expectations-revisited</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/04/29/expectations-revisited">&lt;p&gt;I am a big believe in the idea that &lt;a href=&quot;https://www.solveforhappy.com&quot;&gt;one’s happiness is the difference between one’s expectations and one’s reality&lt;/a&gt;.
-I’ve also &lt;a href=&quot;/mendokusai/2018/11/03/i-expect-myself-to-have-more-than-24-hours-in-a-day&quot;&gt;previously hypothesized&lt;/a&gt; that one of the biggest causes of my 
-historical unhappiness is my unrealisticly high expectations of myself and my life, and that I might be happier were I able to lower those expectations. 
-That might sound easy, but in practice it has turned out to be substantially harder than I had expected.&lt;/p&gt;
-
-&lt;p&gt;As much as I am enjoying this wave of newfound contentment, I am not so naive to think it will last forever, and it seems prescient to plan for one when 
-things inevitably venture south once more. A good first step seems to be to try to internalise some new expectations.&lt;/p&gt;
-
-&lt;p&gt;The first trap is to think that if you set your expectations very, very low then you will be incredibly happy. If I repeat to myself 5x in the mirror every 
-morning that my sole expectation is to wake up roughly once a day and respire consistently, then I’d be the happiest guy on earth. In actuality, our expectations run 
-much deeper than that and are far more conditioner than at least I had initially realised. In all honesty, I’m not sure what the best way to change these 
-internal settings is - but I think a good start would be to write them down, so here goes.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I expect to wake up roughly once a day and respire consistently;&lt;/li&gt;
-  &lt;li&gt;I expect to make enough money to maintain my existing lifestyle;&lt;/li&gt;
-  &lt;li&gt;I expect myself to go to the gym at least 3x a week on average, unless I’m sick or travelling;&lt;/li&gt;
-  &lt;li&gt;I expect myself to eat less than 3000 calories a day, unless it’s a special occasion or I am particularly emotional that day;&lt;/li&gt;
-  &lt;li&gt;I expect myself to have no zero days;&lt;/li&gt;
-  &lt;li&gt;I expect myself to catch up with at least one friend a week;&lt;/li&gt;
-  &lt;li&gt;I expect myself to catch up with my brother at least every other week;&lt;/li&gt;
-  &lt;li&gt;I expect myself to learn at least one new thing about technology or my job every week;&lt;/li&gt;
-  &lt;li&gt;I expect myself to leave the house at least once a day;&lt;/li&gt;
-  &lt;li&gt;I expect to make slow but continuous progress in my career;&lt;/li&gt;
-  &lt;li&gt;I expect to make slow but continuous progress in the gym;&lt;/li&gt;
-  &lt;li&gt;I expect to make slow but continuous progress at chess;&lt;/li&gt;
-  &lt;li&gt;I expect myself to continuously try to express myself more openly and more honestly;&lt;/li&gt;
-  &lt;li&gt;I expect myself to continuously work on loving myself more;&lt;/li&gt;
-  &lt;li&gt;I expect myself to continuously try to learn more about the world and try to be a better person in general;&lt;/li&gt;
-  &lt;li&gt;I expect myself to write in this dumb blog every dumb day.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These seem like they are still fairly lofty goals, but perhaps I will have to come down slowly. Good luck me.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Mental Health" /><category term="Wellbeing" /><summary type="html">I am a big believe in the idea that one’s happiness is the difference between one’s expectations and one’s reality. I’ve also previously hypothesized that one of the biggest causes of my historical unhappiness is my unrealisticly high expectations of myself and my life, and that I might be happier were I able to lower those expectations. That might sound easy, but in practice it has turned out to be substantially harder than I had expected.</summary></entry></feed>
+coattails until I have actually done something meaningful to bring about change, and so until that happens, my reticence to call myself a feminist shall remain.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Social Issues" /><summary type="html">The Oxford English Dictionary defines femini- just kidding, fuck that.</summary></entry></feed>
