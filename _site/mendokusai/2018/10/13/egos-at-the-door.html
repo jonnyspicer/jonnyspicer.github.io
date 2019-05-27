@@ -25,53 +25,54 @@
 {"description":"Today was another perfect example of why having an ego and being a programmer seem completely incompatible. This site is built only really using HTML and CSS - admittedly there is some templating and preprocessing done with Sass/Liquid etc - but it should still be easy enough. I spent maybe two hours today staring at the mobile styling for this page. I had a regular desktop browser set to 375px wide, but everything was too small, and the DOM elements were telling me that there were bigger than they demonstrably were. console.log(screen.width); returned 375px - what we&#39;d expect. console.log(document.querySelector(&#39;body&#39;).screenWidth); however, returned 980px, despite it clearly being visually less than the width of the device. I even hooked up an old android phone to my PC and installed developer options by tapping the build number 7 times. I had no joy whatsoever. What. The. Fuck. Except not really what the fuck, because anyone who would so brazenly call themselves a web developer, as I have, would know that the first thing to check would be whether or not a meta value had been set for the viewport. I&#39;m a clown. At least I am a clown who learned something, and I suspect this is the last time I make this mistake again - at the very least I hope it is the last time I waste nearly 2 hours trying to correct it. The relief when I could finally get media queries working correctly was palpable.","author":{"@type":"Person","name":"Jonny Spicer"},"@type":"BlogPosting","url":"http://localhost:4000/mendokusai/2018/10/13/egos-at-the-door","headline":"Egos at the Door","dateModified":"2018-10-13T00:00:00+01:00","datePublished":"2018-10-13T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/mendokusai/2018/10/13/egos-at-the-door"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link href="https://fonts.googleapis.com/css?family=Volkhov" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Slabo+13px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Taviraj&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   </head>
   <body>
+    <header>
+  <button class="hamburger hamburger--slider" type="button" name="expand-menu-button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+  <nav class="desktop-nav">
+    
+      <a href="/">
+        <div>
+          <p>
+            Home
+          </p>
+        </div>
+      </a>
+    
+      <a href="/about">
+        <div>
+          <p>
+            About
+          </p>
+        </div>
+      </a>
+    
+      <a href="/mendokusai">
+        <div>
+          <p>
+            Mendokusai
+          </p>
+        </div>
+      </a>
+    
+      <a href="/tartarus">
+        <div>
+          <p>
+            Tartarus
+          </p>
+        </div>
+      </a>
+    
+  </nav>
+</header>
     <div class="wrapper">
-      <button class="hamburger hamburger--slider" type="button">
-  <span class="hamburger-box">
-    <span class="hamburger-inner"></span>
-  </span>
-</button>
-<nav class="desktop-nav">
-  
-    <a href="/">
-      <div>
-        <p>
-          Home
-        </p>
-      </div>
-    </a>
-  
-    <a href="/about">
-      <div>
-        <p>
-          About
-        </p>
-      </div>
-    </a>
-  
-    <a href="/mendokusai">
-      <div>
-        <p>
-          Mendokusai
-        </p>
-      </div>
-    </a>
-  
-    <a href="/tartarus">
-      <div>
-        <p>
-          Tartarus
-        </p>
-      </div>
-    </a>
-  
-</nav>
-
       <div class="post post-mendokusai">
   <h1>Egos at the Door</h1>
 
@@ -116,6 +117,14 @@
   working correctly was palpable.
 </p>
 
+  <div class="PageNavigation">
+    
+      <a class="prev" href="/mendokusai/2018/10/12/beautility">&laquo; Beautility</a>
+    
+    
+      <a class="next" href="/mendokusai/2018/10/14/cs50">CS50 &raquo;</a>
+    
+  </div>
 </div>
 
     </div>

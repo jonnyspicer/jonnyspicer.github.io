@@ -10,8 +10,7 @@ body{
 
 h1, h2{
   font-family: $font-stack-header;
-  color: $color_text;
-  padding: 20px 0;
+  color: $color_black;
 }
 
 h3, h4, h5, h6 {
@@ -21,7 +20,7 @@ h3, h4, h5, h6 {
 
 p, a, footer, span, li, blockquote {
   font-family: $font-stack-copy;
-  color: $color_text;
+  color: $color_black;
 }
 
 label{
@@ -45,30 +44,17 @@ footer{
 }
 
 a{
-  color: $color_link;
-  text-decoration: none;
-  position:relative;
-  background-image: linear-gradient(to bottom, transparent 20%, currentColor 21%);
-  background-position: 0 1em;
-  background-repeat: no-repeat;
-  background-size: 0% 4px;
-  transition: background-size 0.8s ease-in-out 0.2s;
+  color: $color_black;
+  text-decoration: underline;
+  text-decoration-color: $color_pink;
   &:hover, &:focus{
-    background-size: 100% 4px;
-    transition-delay: 0s;
+    color: $color_pink;
   }
-  &:hover, &:after{
-    color: $color_secondary;
-  }
-}
-
-.read-more{
-  color: $color_link;
 }
 
 p, span{
-  padding: 20px 0;
-  font-size: 20px;
+  padding: 10px 0;
+  font-size: 18px;
   line-height: 1.4;
   &:first-of-type{
     padding: 0;

@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/authors/jonny</loc>
-<lastmod>2019-05-22T20:50:50+01:00</lastmod>
+<lastmod>2019-05-27T11:52:39+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/tartarus/2017/02/20/the-depths-of-the-blog</loc>
@@ -1843,6 +1843,22 @@
 <url>
 <loc>http://localhost:4000/mendokusai/2019/05/22/adventures-in-online-dating-ii</loc>
 <lastmod>2019-05-22T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/mendokusai/2019/05/23/feeling-overwhelmed</loc>
+<lastmod>2019-05-23T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/mendokusai/2019/05/24/ding-dong-the-witch-is-dead</loc>
+<lastmod>2019-05-24T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/mendokusai/2019/05/25/park-run</loc>
+<lastmod>2019-05-25T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/mendokusai/2019/05/26/oatmeal-and-the-blerch</loc>
+<lastmod>2019-05-26T00:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/404</loc>
