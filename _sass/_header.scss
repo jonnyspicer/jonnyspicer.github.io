@@ -18,9 +18,7 @@ header{
     display: grid;
     grid-template-rows: minmax(50px, 1fr);
     grid-template-columns: repeat(4,1fr);
-    a{
-      background-image: none;
-    }
+    
     div{
       text-align: center;
       height: 100%;
@@ -35,6 +33,11 @@ header{
       &:hover, &:focus, &:active{
         p{
           color: $color_yellow;
+        }
+      }
+      a{
+        &:active div p{
+          color:$color_yellow;
         }
       }
     }
