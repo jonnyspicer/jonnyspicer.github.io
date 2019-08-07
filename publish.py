@@ -39,7 +39,7 @@ else:
 
 print("Waiting for Github Pages to build...")
 
-time.sleep(60)
+time.sleep(30)
 
 def LastPostDate():
     frontpage = urlopen('https://jonnyspicer.com').read()
