@@ -5,7 +5,8 @@ import datetime
 import subprocess
 PIPE = subprocess.PIPE
 now = datetime.datetime.now()
-commitMessage = 'dp' + now.strftime(%y%m%d)
+commitMessage = "\"" + 'dp' + now.strftime('%y%m%d') + "\""
+print(commitMessage)
 
 pull = subprocess.Popen(["git", "pull"], stdout=PIPE, stderr=PIPE)
 stdoutput, stderroutput = pull.communicate()
@@ -16,15 +17,17 @@ if b'fatal' in stdoutput:
 else:
     print("Pull successful")
 
-subprocess.Popen(["git", "add -A"])
+add = subprocess.Popen(["git", "add", "-A"])
+stdoutput, stderroutput = add.communicate()
 
-commit = subprocess.Popen(["git", "commit -m" + commitMessage], stdout=PIPE, stderr=PIPE)
+commit = subprocess.Popen(["git", "commit", "-m", commitMessage], shell=True, stdout=PIPE, stderr=PIPE)
 stdoutput, stderroutput = commit.communicate()
 
 if b'fatal' in stdoutput:
     print("Fatal error in commit, aborting script")
     sys.exit()
 else:
+    print(stderroutput)
     print("Commit successful")
 
 push = subprocess.Popen(["git", "push"], stdout=PIPE, stderr=PIPE)
@@ -34,7 +37,7 @@ if b'fatal' in stdoutput:
     print("Fatal error in push, aborting script")
     sys.exit()
 else:
-    print("push successful")
+    print("Push successful")
 
 print("Waiting for Github Pages to build...")
 
