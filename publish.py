@@ -5,7 +5,7 @@ import datetime
 import subprocess
 PIPE = subprocess.PIPE
 now = datetime.datetime.now()
-commitMessage = "\"" + 'dp' + now.strftime('%y%m%d') + "\""
+commitMessage = 'dp' + now.strftime('%y%m%d')
 
 pull = subprocess.Popen(["git", "pull"], stdout=PIPE, stderr=PIPE)
 stdoutput, stderroutput = pull.communicate()
