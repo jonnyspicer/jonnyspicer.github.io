@@ -6,7 +6,6 @@ import subprocess
 PIPE = subprocess.PIPE
 now = datetime.datetime.now()
 commitMessage = "\"" + 'dp' + now.strftime('%y%m%d') + "\""
-print(commitMessage)
 
 pull = subprocess.Popen(["git", "pull"], stdout=PIPE, stderr=PIPE)
 stdoutput, stderroutput = pull.communicate()
@@ -27,7 +26,6 @@ if b'fatal' in stdoutput:
     print("Fatal error in commit, aborting script")
     sys.exit()
 else:
-    print(stderroutput)
     print("Commit successful")
 
 push = subprocess.Popen(["git", "push"], stdout=PIPE, stderr=PIPE)
@@ -54,17 +52,17 @@ def LastPostDate():
 print("Checking whether new post is on live site")
 print("First try...")
 if LastPostDate() == True:
-    print("Post published")
+    print("Post published!")
 else:
     time.sleep(30)
     print("Second try...")
     if LastPostDate() == True:
-        print("Post published")
+        print("Post published!")
     else:
         time.sleep(30)
         print("Third try...")
         if LastPostDate() == True:
-            print("Post published")
+            print("Post published!")
         else:
             print("Something went wrong. If only you'd written an actual unit test with exceptions!")
 
