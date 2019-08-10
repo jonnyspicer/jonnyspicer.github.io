@@ -21,6 +21,6 @@ With that being said, what is the correct course of action? Maybe it is to do sm
 things. To be mindful of the way I talk to and about women, to re-examine my own beliefs and
 biases, to try to do things better myself in the day to day, and see if others follow. That
 seems slow though, maybe bigger, bolder action is necessary, and seeing as I am by and large a
-~little bitch~ coward, writing this blog is about as big and bold as I get. But it feels diffifcult to do that in the right way, so it's difficult, so I feel uncomfortable and unsure doing it...
+~~little bitch~~ coward, writing this blog is about as big and bold as I get. But it feels diffifcult to do that in the right way, so it's difficult, so I feel uncomfortable and unsure doing it...
 
 Then again, maybe I should stop whining as per, and remember that once again, I am not the victim.
