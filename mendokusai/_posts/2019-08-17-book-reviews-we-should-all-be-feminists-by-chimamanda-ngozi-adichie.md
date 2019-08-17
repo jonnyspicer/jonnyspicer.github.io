@@ -1,7 +1,7 @@
 ---
 layout: mendokusai
 author: Jonny Spicer
-title: Book Reviews: We Should All Be Feminists by Chimamanda Ngozi Adichie
+title: Book Reviews&colon; We Should All Be Feminists by Chimamanda Ngozi Adichie
 tags: [ Feminism, Book Reviews ]
 ---
 In a bid to not wait 6 months in between actually finishing books, I decided to read something
