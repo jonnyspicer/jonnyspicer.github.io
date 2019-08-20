@@ -1,9 +1,13 @@
 ---
-layout: mendokusai
+layout: tartarus
 author: Jonny Spicer
 title: Treasured Memories
 tags: [ Wellbeing ]
 ---
+I originally only wrote this as a daily post, but upon reflection I like it too much, and it is the spiritual successor to [Success](/tartarus/2017/11/08/success) which is probably my favourite post on the blog. As such, I felt it deserved a place here instead.
+
+---
+
 While in the pub on Friday, I took it upon myself to try and stimulate some more interesting conversation amongst my male friends, instead of the usual soporific chat about work or cars or boats or some shit. In an effort to coax something vaguely resembling vulnerability out of them, I turned to my favourite source of disarming queries, the [36 questions for love](http://36questionsinlove.com/). I decided to have a crack at number 18 - “what is your most treasured memory?” - but was met with no substantive answer from any of the parties present. I find it hard to believe that it’s possible for somebody to have *no* treasured memories, so decided that they were perhaps merely reluctant to be forthcoming about them, and maybe if I offered some experiences of my own, they might be more willing to reciprocate. So, here are 10 of my most treasured memories, in  vaguely chronological order:
 
 ---
