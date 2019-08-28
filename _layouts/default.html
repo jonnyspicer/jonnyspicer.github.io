@@ -7,6 +7,7 @@
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <link href="{{ site.url }}" rel="alternate" type="application/atom+xml">
     {% feed_meta %}
     {% seo %}
     <link href="https://fonts.googleapis.com/css?family=Taviraj&display=swap" rel="stylesheet">
