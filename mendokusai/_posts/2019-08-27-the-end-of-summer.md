@@ -8,7 +8,7 @@ This morning I got up at 5:35am, to discover it was still dark outside. It was t
 waking in months, and I was hit by a sudden pang of [post-season melancholy](https://polly.gg/2019/08/26/new-year-new-me) - the
 summer is over, for another year.
 
-Part of the reason I am sad is because it's been quite the summer for me, possible the best of the past decade. I can't remember a
+Part of the reason I am sad is because it's been quite the summer for me, possibly the best of the past decade. I can't remember a
 year where I spent so much of it outside in the sun, spent so much time with my friends, or went swimming in the sea so often. I even
 have a bit of a tan, which is practically unheard of. 
 
