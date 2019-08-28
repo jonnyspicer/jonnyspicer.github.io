@@ -1,4 +1,191 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-20T18:23:01+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jonny Spicer | Thoughts From Tartarus</title><subtitle>Jonny Spicer's personal website and blog, where he writes about mental health, technology, esports, but primarily trash.</subtitle><entry><title type="html">Treasured Memories</title><link href="http://localhost:4000/mendokusai/2019/08/20/treasured-memories" rel="alternate" type="text/html" title="Treasured Memories" /><published>2019-08-20T00:00:00+01:00</published><updated>2019-08-20T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/08/20/treasured-memories</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/08/20/treasured-memories">&lt;p&gt;While in the pub on Friday, I took it upon myself to try and stimulate some more interesting conversation amongst my male friends, instead of the usual soporific chat about work or cars or boats or some shit. In an effort to coax something vaguely resembling vulnerability out of them, I turned to my favourite source of disarming queries, the &lt;a href=&quot;http://36questionsinlove.com/&quot;&gt;36 questions for love&lt;/a&gt;. I decided to have a crack at number 18 - “what is your most treasured memory?” - but was met with no substantive answer from any of the parties present. I find it hard to believe that it’s possible for somebody to have &lt;em&gt;no&lt;/em&gt; treasured memories, so decided that they were perhaps merely reluctant to be forthcoming about them, and maybe if I offered some experiences of my own, they might be more willing to reciprocate. So, here are 10 of my most treasured memories, in  vaguely chronological order:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>Jonny Spicer's personal website and blog, where he writes about mental health, technology, esports, but primarily trash.</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>The End of Summer</title>
+        <description>&lt;p&gt;This morning I got up at 5:35am, to discover it was still dark outside. It was the first time it’d been black outside my window upon
+waking in months, and I was hit by a sudden pang of &lt;a href=&quot;https://polly.gg/2019/08/26/new-year-new-me&quot;&gt;post-season melancholy&lt;/a&gt; - the
+summer is over, for another year.&lt;/p&gt;
+
+&lt;p&gt;Part of the reason I am sad is because it’s been quite the summer for me, possible the best of the past decade. I can’t remember a
+year where I spent so much of it outside in the sun, spent so much time with my friends, or went swimming in the sea so often. I even
+have a bit of a tan, which is practically unheard of.&lt;/p&gt;
+
+&lt;p&gt;I changed a lot as a person over the summer too. My confidence and self-esteem have grown to the point where I borderline love myself. I don’t hate having photos taken of me anymore (not as much at least). I feel more comfortable carrying a conversation,
+being myself, and looking in the mirror. It’s pretty neat. So maybe I do not need to reinvent myself in time for academic new year -
+I am pretty happy with where I am. I don’t need to set too many lofty goals or high expectations for the near future, and just enjoy
+things as they are.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Aug 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2019/08/27/the-end-of-summer</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2019/08/27/the-end-of-summer</guid>
+      </item>
+    
+      <item>
+        <title>TI9</title>
+        <description>&lt;p&gt;Yesterday saw the final of The International 9, the Dota2 World Championships, hosted for the first time in Asia, in the Mercedes-Benz Arena, Shanghai.&lt;/p&gt;
+
+&lt;p&gt;On one hand, TI has been a little repetitive over the past couple of years - the prizepool is huge, the format is complicated, there’s only so much you can do with an event of this nature, and Valve
+already appear to be doing it. On the other, the tournament will always have a special place in my heart, and the storylines it creates are always fantastical, no matter how the brackets might turn out.&lt;/p&gt;
+
+&lt;p&gt;This year was no different. World champions of two years ago, Team Liquid, were unceremoniously dumped into the lower bracket and had to fight through from the BO1 stage. EG broke their third place curse -
+by coming 5th. Home favourites PSG.LGD couldn’t quite make it to the finals, crashing out in third. Alliance and Navi both played in a TI for the first time since 2016, and heartbreakingly
+didn’t meet one another at any point in the tournament. VP imploded after having reached
+the upper bracket. NIP sucked, amidst their organisation being embroiled in a massive scandal
+outside of the server. I could go on and on and on.&lt;/p&gt;
+
+&lt;p&gt;The biggest story was of course OG, last year’s champions. After finishing only 10th in the Dota Pro Circuit, they barely made it to the event without having to go through the qualifiers
+again. Their wunderkind safelaner, Ana, had only returned to the team in March after having
+taken a break from competitive play. No team has ever won two TIs, but nobody seemed to have
+told OG that their Cinderella’s ball shouldn’t go on this long. They battled through the upper
+bracket, beating some of their old teammates on EG along the way and relegating PSG.LGD to
+the lower bracket final before coming up against Team Liquid, off the back of a miraculous lower bracket run, in the final.&lt;/p&gt;
+
+&lt;p&gt;And honestly, they kinda stomped them. The way they played was sublime. After this performance,
+they are arguably the greatest team in the history of the game. Ceb, the coach who was never
+meant to be a professional player, is now a two time world champion. N0tail, a player who
+I’ve followed since he was on Fnatic.eu in 2012, is now the highest earning esports player in
+the world, with just shy of $7 million in earnings. Jerax has gone from being on the QPad Red
+Pandas to being one of the best supports in the world. Topson has transitioned from pubstar
+into competitive monster. And Ana has managed to casually carry his team to victory on the
+game’s biggest stage twice, all while seemingly largely apathetic about the whole affair. They
+even made it &lt;a href=&quot;https://www.bbc.co.uk/news/technology-49471963&quot;&gt;onto the beeb&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Going to a TI is one of the foremost items on my bucket list, and it was announced that next
+year the event will be held in Stockholm, making it much more feasible for me to actually go.
+I’m full of hope.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Aug 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2019/08/26/ti9</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2019/08/26/ti9</guid>
+      </item>
+    
+      <item>
+        <title>Self Control</title>
+        <description>&lt;p&gt;It’s now been a week of trying to go without both meat and alcohol. I want to talk about it without being preachy about it, however sadly I’m not sure the two are compatible, so, sorry in advance.&lt;/p&gt;
+
+&lt;p&gt;The biggest reason I gave up both of them was to try and feel better about myself, which certainly does not make me think or feel like I’m better than anyone who consumes those two things. Losing weight
+is definitely a major driver in these changes, and I think cutting out alcohol is one of the best “easy” ways to meaningfully reduce my weekly calorie intake. Not eating meat, while not necessarily inherently
+cutting down on the number of calories I consume, will force me to make conscious decisions about what foods I eat, which I hope will in turn lead to better self control.&lt;/p&gt;
+
+&lt;p&gt;Speaking of self control, I think that is likely to be the biggest benefit to my new regime. Not feeling like I need to drink or binge-eat to regulate my emotions would be a huge step in the right direction,
+and already making only a handful of “good” choices (like getting a tap water in the pub last night) have left me feeling proud of myself for not capitulating to the desires of my monkey brain like I so often do.&lt;/p&gt;
+
+&lt;p&gt;I hope I can keep it up, at least until Christmas. I’ll report back later with how it’s going, fingers crossed for me.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 Aug 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2019/08/25/self-control</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2019/08/25/self-control</guid>
+      </item>
+    
+      <item>
+        <title>Pomegranates</title>
+        <description>&lt;p&gt;What on earth is the deal with pomegranates? They’re like
+an alien’s brain or some shit. And they take so much time
+for relatively little reward. Honestly a 4/10 fruit, must do better.&lt;/p&gt;
+
+&lt;p&gt;(I needed to write a blog today and I’m going to the pub in 5 minutes, leave me alone.
+)&lt;/p&gt;
+</description>
+        <pubDate>Sat, 24 Aug 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2019/08/24/pomegranates</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2019/08/24/pomegranates</guid>
+      </item>
+    
+      <item>
+        <title>Russian Superfinals</title>
+        <description>&lt;p&gt;Back in November I wrote about the &lt;a href=&quot;/mendokusai/2018/11/22/world-chess-championships&quot;&gt;World Chess Championships&lt;/a&gt; and mused that
+people were overreacting to there being so many draws, and that clamouring for format and rule changes was largely unwarranted.
+After the recent conclusion of the male and female editions of the Russian Superfinals, as well as with the ongoing Sinquefield Cup,
+now I am much less convinced.&lt;/p&gt;
+
+&lt;p&gt;The latter competition boasts some of the top players in the world, players who you would label as dynamic, aggressive, exciting
+players.  The tournament has already taken a step towards avoiding draws, one
+which the majority of top tier classical events have not, which is to not allow draws by agreement between the players, forcing
+them to play on until a result is achieved by some other mechanism. Regardless, in the first five rounds, there have been 4 decisive games and 26 split points - two rounds were completely peaceful affairs, at least from the point of view of the scoreboard. As an
+onlooker, what is the narrative here? Most players played about as expected. Very occasionally one player makes a natural, human mistake and loses. Yawn.&lt;/p&gt;
+
+&lt;p&gt;The open edition of the Russian Superfinal was much the same. The calibre of the field is only slightly weaker than that of the Sinquefield Cup, which is hardly surprising given Russia’s historical chess pedigree. Across 11 rounds, there were 23 games with
+a clear winner and 43 without, and it remained unclear until right at the end who the winner would be. For most of the tournament,
+all of the players were within a point of each other, which in some ways is exciting, but again, what is the narrative here? I’m
+not persuaded that it’s one of a nailbitingly close finish, especially when contrasted with the women’s event.&lt;/p&gt;
+
+&lt;p&gt;On average, the players in said event were 200 points lower rated than their male counterparts, so one could argue the standard of chess is objectively lower. However, looking at the results table, it was a perfect reverse of the men’s event - with 43 decisive games and only 23 draws. This one did have a narrative: Girya flew out the gates, Kosteniuk and Gunina struggled, Goryachkina desperately trying to stay in the hunt for
+the first half of the tournament. While Kosteniuk couldn’t catch a break, Gunina was resurgent, Pogonina suddenly emerged as frontrunner too, and when Goryachkina beat Girya in round 9, suddenly a miracle victory for her was possible. Girya
+was no longer guaranteed to take the top prize, with Pogonina and Gunina also not yet out of contention. It all came down to
+the final round, Girya took an early draw leaving a tiebreak a possibility, and Pogonina duly capitalised on it, before
+succumbing to Girya in a final round Armageddon match anyway. Simply put: the storyline was much better. As a fan, you
+could pick someone to root for (if you hadn’t guessed, I wanted Aleksandra Goryachkina to take the crown), and that added to the
+enjoyment of watching the event.&lt;/p&gt;
+
+&lt;p&gt;Draws in chess can still be wonderful, instructive, entertaining games, but perhaps the crux of it is how spectators engage
+with tournament matches. If you are following the game live, absolutely a draw can be thrilling, and a very enjoyable experience -
+if the game is interesting, the result is broadly irrelevant. However, when I go to check the results of tournament games I’ve not
+been able to watch, I am much more inclined to go over the moves from a win than a draw - I know there’s guaranteed to be blood that
+way.&lt;/p&gt;
+
+&lt;p&gt;Personally, until the best-in-the-world tournaments come up with a way to create a narrative, I’m going to skip watching the
+Sinquefield Cup in favour of watching the top women’s events. The computer might not approve of the moves as much, but at
+least they’ll put on a show.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Aug 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2019/08/23/russian-superfinals</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2019/08/23/russian-superfinals</guid>
+      </item>
+    
+      <item>
+        <title>GCSE Results</title>
+        <description>&lt;p&gt;Today is GCSE results day, and last night I was lucky enough to be able to help out with a &lt;a href=&quot;https://mystudentevents.com/&quot;&gt;MyStudentEvents&lt;/a&gt; livestream for students who would be opening the dreaded envelope today. It gave me the opportunity
+to relive a little of my own pre-results anticipation, but also to be able to survey the school examination landscape from a
+distance further afar than I’d previously been able.&lt;/p&gt;
+
+&lt;p&gt;The stream itself was an incredibly wholesome experience, and I was heartened to see how supportive people were of one another,
+with numerous examples of kindness and empathy suggesting years far more advanced than 16. With that being said, the overwhelming
+feeling I got from everybody participating was anxiety. Anybody getting their results today was clearly exceptionally nervous about
+it, with many of them worrying about their parents’ expectations, and a huge amount of pressure was evident across the board. Now
+I have some distance between myself and the events of results day, it feels difficult not to view the feeling that our exam system
+generates as ridiculous - these people are 16, they are still children. Is it fair to make them feel like this at such a young age,
+that they should all have to deal with so much so young?&lt;/p&gt;
+
+&lt;p&gt;On the other hand, perhaps it is good practice for growing up, a character-building experience and one that is inevitable at some
+point in life anyway. Either way, the academic chip on my shoulder feels more sore than ever.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Aug 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2019/08/22/gcse-results</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2019/08/22/gcse-results</guid>
+      </item>
+    
+      <item>
+        <title>rPi Plans</title>
+        <description>&lt;p&gt;As much as I loathe the Internet of Things, raspberry pis are pretty neat, so I have dutifully ordered one of the new model 4s. I have some pretty exciting plans for it, including but not limited to;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Setting it up as a &lt;a href=&quot;https://pi-hole.net/&quot;&gt;pi-hole&lt;/a&gt;;&lt;/li&gt;
+  &lt;li&gt;Setting up &lt;a href=&quot;https://openvpn.net/&quot;&gt;OpenVPN&lt;/a&gt;;&lt;/li&gt;
+  &lt;li&gt;Configuring it to allow my PC to wake-on-LAN, so I can power on and then remote into that machine via the Pi over the internet;&lt;/li&gt;
+  &lt;li&gt;Running a cron to check the status of this website;&lt;/li&gt;
+  &lt;li&gt;Configuring a cron that can send automated tweets on my behalf and hopefully do something funky and interesting, very much inspired by &lt;a href=&quot;https://www.youtube.com/watch?v=iAOOdYsK7MM&quot;&gt;Hunter Scott’s DefCon talk&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’ll open source any of the code that I end up writing, and probably do a write up of any progress I make/challenges I face here. Wish me luck!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Aug 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2019/08/21/rpi-plans</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2019/08/21/rpi-plans</guid>
+      </item>
+    
+      <item>
+        <title>Treasured Memories</title>
+        <description>&lt;p&gt;I originally only wrote this as a daily post, but upon reflection I like it too much, and it is the spiritual successor to &lt;a href=&quot;/tartarus/2017/11/08/success&quot;&gt;Success&lt;/a&gt; which is probably my favourite post on the blog. As such, I felt it deserved a place here instead.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;While in the pub on Friday, I took it upon myself to try and stimulate some more interesting conversation amongst my male friends, instead of the usual soporific chat about work or cars or boats or some shit. In an effort to coax something vaguely resembling vulnerability out of them, I turned to my favourite source of disarming queries, the &lt;a href=&quot;http://36questionsinlove.com/&quot;&gt;36 questions for love&lt;/a&gt;. I decided to have a crack at number 18 - “what is your most treasured memory?” - but was met with no substantive answer from any of the parties present. I find it hard to believe that it’s possible for somebody to have &lt;em&gt;no&lt;/em&gt; treasured memories, so decided that they were perhaps merely reluctant to be forthcoming about them, and maybe if I offered some experiences of my own, they might be more willing to reciprocate. So, here are 10 of my most treasured memories, in  vaguely chronological order:&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -8,7 +195,7 @@
 
 &lt;h3 id=&quot;first-kiss-with-rozelle&quot;&gt;First kiss with Rozelle&lt;/h3&gt;
 
-&lt;p&gt;Everyone has that one person they fall hopelessly in love with when they first go through puberty, and it’s all a bit of a mess. Rozelle was absolutely that person for me, and I was as besotted as only a teenager can be, and I still remember the first time she kissed me, up against the sadly-now-removed swing set outside the Peninsula Hotel, at goodness knows what time in the morning. I’ve been chasing the butterflies I felt then ever since, having success on only a handful of rare occasions.&lt;/p&gt;
+&lt;p&gt;Everyone has that one person they fall hopelessly in love with when they first go through puberty, and it’s all a bit of a mess. Rozelle was absolutely that person for me, I was as besotted as only a teenager can be, and I still remember the first time she kissed me, up against the sadly-now-removed swing set outside the Peninsula Hotel, at goodness knows what time in the morning. I’ve been chasing the butterflies I felt then ever since, having success on only a handful of rare occasions.&lt;/p&gt;
 
 &lt;h3 id=&quot;beating-toby-at-chess-10th-march-2009&quot;&gt;Beating Toby at chess, 10th March 2009&lt;/h3&gt;
 
@@ -16,15 +203,15 @@
 
 &lt;h3 id=&quot;beating-fareed-and-ben-in-the-debating-cup&quot;&gt;Beating Fareed and Ben in the Debating Cup&lt;/h3&gt;
 
-&lt;p&gt;My school-long rivalry with Fareed was pretty disgusting when I think about it, and something I am gently ashamed of, although I don’t think either of us could really be blamed for it. We were of course products of environment, and that environment very much encouraged competition and egoism, so we went to war, determined to show our teachers and peers that we were the quickest thinking, most silver tongued pretentious twats in the entire school. One of the greatest victories I ever scored against him was beating him in the semi final of the senior debating cup, having lost to him the year before. Sadly I can’t remember what the motion was, but I do remember shouting ‘come on!’ in celebration when our names were announced winners, as a true testament to my lack of composure in that moment.&lt;/p&gt;
+&lt;p&gt;My school-long rivalry with Fareed was pretty disgusting when I think about it, and something I am gently ashamed of, although I don’t think either of us could really be blamed for it. We were of course products of our environment, and that environment very much encouraged competition and egotism, so we went to war, determined to show our teachers and peers that we were the quickest thinking, most silver-tongued pretentious twats in the entire school. One of the greatest victories I ever scored against him was beating him in the semifinal of the senior debating cup, having lost to him the year before. Sadly I can’t remember what the motion was, but I do remember shouting ‘come on!’ in celebration when our names were announced winners, as a true testament to my lack of composure in that moment.&lt;/p&gt;
 
 &lt;h3 id=&quot;seeing-foo-fighters-with-jack&quot;&gt;Seeing Foo Fighters with Jack&lt;/h3&gt;
 
-&lt;p&gt;On the last night of Reading Festival 2012, I was lucky enough to watch the Foo Fighters headline the main stage with Jack. A few beers in, totally exhausted but determined to enjoy the dying hours of our weekend, things suddenly became very emotional when the rest of the band paused momentarily took a backseat as Dave Grohl strummed an acoustic guitar while recounting stories of being in Nirvana and knowing Kurt Cobain. As someone moved by Cobain’s story, that night felt like something special, as if we were all part of something much bigger, all connected through Grohl’s reminiscence.&lt;/p&gt;
+&lt;p&gt;On the last night of Reading Festival 2012, I was lucky enough to watch the Foo Fighters headline the main stage with Jack. A few beers in, totally exhausted but determined to enjoy the dying hours of our weekend, things suddenly became very emotional when the rest of the band momentarily took a backseat as Dave Grohl strummed an acoustic guitar while recounting stories of being in Nirvana and knowing Kurt Cobain. As someone moved by Cobain’s story, that night felt like something special, as if we were all part of something much bigger, all connected through Grohl’s reminiscence, and it’s stayed with me ever since.&lt;/p&gt;
 
 &lt;h3 id=&quot;beating-york-including-higgs-at-roses&quot;&gt;Beating York (including Higgs) at Roses&lt;/h3&gt;
 
-&lt;p&gt;When I fenced for the uni, I was always the weakest member on the strongest team, which meant I felt a lot of pressure to perform. The sabreurs always had to carry the weaker foilists and epeeists if we were to have any chance of winning, and our annual varsity match against York, dubbed Roses after the war over 550 years prior, was no different. Lancaster won the toss and so got to decide the match order, and as usual the sabre match would be last, and would decide the outcome of the entire day. When it came down to us, we needed to beat the York sabreurs by 45 to 8 or more in order to win, with 45-9 being a draw. On home soil, with a Lancaster crowd cheering us on, I managed to fight through my nerves and helped the team win 45-6, the biggest margin of victory I’d ever been part of in a team match. For the day, we were heroes, and the party afterwards was electric.&lt;/p&gt;
+&lt;p&gt;When I fenced for the uni, I was always the weakest member on the strongest team, which meant I felt a lot of pressure to perform. The sabreurs always had to carry the weaker foilists and epeeists if we were to have any chance of winning, and our annual varsity match against York, dubbed Roses after the war over 550 years prior, was no different. Lancaster won the toss and so got to decide the match order, and as usual the sabre match would be last, and would decide the outcome of the entire day. When it came down to us, we needed to beat the York sabreurs by 45 to 8 or more in order to win, with 45-9 being a draw. On home soil, with a Lancaster crowd cheering us on, I managed to fight through my nerves and helped the team win 45-6, the biggest margin of victory I’d ever been part of in a team match. For that night, we were heroes, and the party afterwards was electric.&lt;/p&gt;
 
 &lt;h3 id=&quot;driving-from-edinburgh-to-st-andrews-with-nick&quot;&gt;Driving from Edinburgh to St Andrews with Nick&lt;/h3&gt;
 
@@ -32,126 +219,74 @@
 
 &lt;h3 id=&quot;meditating-at-cheesters-with-ted-and-mica&quot;&gt;Meditating at Cheesters with Ted and Mica&lt;/h3&gt;
 
-&lt;p&gt;While living in Mexico in 2017 with Ted and Mica, we all at various points were engaged in some form of meditation challenge with one another. As a trio we were all determined to do at least 30 minutes a day, and so when an evening downpour trapped us beneath an umbrella in Cheesters restaurant, we elected to simply meditate there and then, until the storm had passed. The feeling of closing one’s eyes and remaining completely still for 30 minutes in the middle of a public space was exhilarating, I could feel my cheeks burning bright red and my heart pound. I had never been more aware of my place in relation to my surroundings, arguably the point of meditation. It was a unique experience which I would highly recommend.&lt;/p&gt;
+&lt;p&gt;While living in Mexico in 2017 with Ted and Mica, we all at various points were engaged in some form of meditation challenge with one another. As a trio we were all determined to do at least 30 minutes a day, and so when an evening downpour trapped us beneath an umbrella in Cheesters restaurant, we elected to simply meditate there and then, until the storm had passed. The feeling of closing one’s eyes and remaining completely still for 30 minutes in the middle of a public space was exhilarating, I could feel my cheeks burning bright red and my heart pounding. I had never been more aware of my place in relation to my surroundings, arguably the point of meditation. It was a unique experience which I would highly recommend.&lt;/p&gt;
 
 &lt;h3 id=&quot;seeing-car-seat-headrest-with-fi&quot;&gt;Seeing Car Seat Headrest with Fi&lt;/h3&gt;
 
-&lt;p&gt;I got the chance to see Car Seat Headrest live in Kentish Town on my birthday last year, with one of my oldest and dearest friends Fiona. CSH are a band that have meant a lot to me for several years, the music and lyrics of frontman Will Toledo are ones that I empathise strongly with, and have brought me a lot of comfort and hope during my time listening to them. To see Will and the boys in the flesh, with 1000 like minded fans screaming all the words alongside me, alongside someone I love and care about deeply, was the perfect birthday present for me.&lt;/p&gt;
+&lt;p&gt;I got the chance to see Car Seat Headrest live in Kentish Town on my birthday last year, with one of my oldest and dearest friends Fiona. CSH are a band that have meant a lot to me for several years, the music and lyrics of frontman Will Toledo are ones that I empathise strongly with, and have brought me a lot of comfort and hope during my time listening to them. To see Will and the boys in the flesh, with 1000 like-minded fans screaming all the words alongside me, alongside someone I love and care about deeply, was the perfect birthday present for me.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-brass-monkeysome-random-sports-bar-in-manhattanthe-subway-and-walk-back-to-astoria-with-polly&quot;&gt;The Brass Monkey/some random sports bar in Manhattan/the subway and walk back to Astoria with Polly&lt;/h3&gt;
 
 &lt;p&gt;My trip to New York earlier this year was a life changing experience, and picking just one moment from it for this list was very difficult, as I treasure the entire duration of the trip. Our
-last full day there was the pièce de résistance of our journey in my mind. Having spent 10 whole days together at this point, Polly and I had grown to know each other unusually well in such a short space of time, and already felt like best friends as we headed into Manhattan to sample more of its watering holes. The drinks flowed, radically honest conversations were had, we drunkenly held hands in the Brass Monkey, and she sung to me in the middle of the subway on the way home. It was the perfect end to the perfect trip.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Wellbeing" /><summary type="html">While in the pub on Friday, I took it upon myself to try and stimulate some more interesting conversation amongst my male friends, instead of the usual soporific chat about work or cars or boats or some shit. In an effort to coax something vaguely resembling vulnerability out of them, I turned to my favourite source of disarming queries, the 36 questions for love. I decided to have a crack at number 18 - “what is your most treasured memory?” - but was met with no substantive answer from any of the parties present. I find it hard to believe that it’s possible for somebody to have no treasured memories, so decided that they were perhaps merely reluctant to be forthcoming about them, and maybe if I offered some experiences of my own, they might be more willing to reciprocate. So, here are 10 of my most treasured memories, in vaguely chronological order:</summary></entry><entry><title type="html">Alcohol IV</title><link href="http://localhost:4000/mendokusai/2019/08/18/alcohol-iv" rel="alternate" type="text/html" title="Alcohol IV" /><published>2019-08-18T00:00:00+01:00</published><updated>2019-08-18T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/08/18/alcohol-iv</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/08/18/alcohol-iv">&lt;p&gt;When I have finished the (admittedly rather large) glass of wine on my desk, I will
-have drunk my supply of alcohol at home clean, and subsequently plan on giving up alcohol
-for the foreseeable future, although unlikely forever. Despite enjoying greatly the conversations and experiences it enables me to have, I am hopeful that it’s mere removal
-from my weekly routine will aid weight loss efforts, and there will surely be other health
-benefits too.&lt;/p&gt;
+last full day there was the pièce de résistance of our journey in my mind. Having spent 10 whole days together at this point, Polly and I had grown to know each other unusually well in such a short space of time, and already felt like best friends as we headed into Manhattan to sample more of its watering holes. The drinks flowed, radically honest conversations were had, we drunkenly held hands in the Brass Monkey, and she sung to me in the middle of the subway on the way home. It was the perfect end to the perfect trip.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Aug 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//tartarus/2019/08/20/treasured-memories</link>
+        <guid isPermaLink="true">http://localhost:4000//tartarus/2019/08/20/treasured-memories</guid>
+      </item>
+    
+      <item>
+        <title>Infest The Rats' Nest Review</title>
+        <description>&lt;p&gt;Last Friday, prolific genre-defying Aussie rockers released their 15th studio album, Infest The
+Rats’ Nest, their take on a rather old school heavy metal sound mixed with a remarkably topical and contemporary message.&lt;/p&gt;
 
-&lt;p&gt;It is going to make socialising different, and more effort, but perhaps this is not a bad thing. If I have inhibitions about expressing something, I am going to have to overcome
-them while stone cold sober. Vulnerability and radical honesty are the orders of the day,
-and now it’s time to get better at making them a habit, rather than just something after a 
-few drinks.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Wellbeing" /><category term="Health and Fitness" /><summary type="html">When I have finished the (admittedly rather large) glass of wine on my desk, I will have drunk my supply of alcohol at home clean, and subsequently plan on giving up alcohol for the foreseeable future, although unlikely forever. Despite enjoying greatly the conversations and experiences it enables me to have, I am hopeful that it’s mere removal from my weekly routine will aid weight loss efforts, and there will surely be other health benefits too.</summary></entry><entry><title type="html">Book Reviews&amp;amp;colon; We Should All Be Feminists by Chimamanda Ngozi Adichie</title><link href="http://localhost:4000/mendokusai/2019/08/17/book-reviews-we-should-all-be-feminists-by-chimamanda-ngozi-adichie" rel="alternate" type="text/html" title="Book Reviews&amp;colon; We Should All Be Feminists by Chimamanda Ngozi Adichie" /><published>2019-08-17T00:00:00+01:00</published><updated>2019-08-17T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/08/17/book-reviews-we-should-all-be-feminists-by-chimamanda-ngozi-adichie</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/08/17/book-reviews-we-should-all-be-feminists-by-chimamanda-ngozi-adichie">&lt;p&gt;In a bid to not wait 6 months in between actually finishing books, I decided to read something
-a lot shorter and less Russian, and was &lt;del&gt;forced&lt;/del&gt; recommended to read We Should All Be Feminists
-by Chimamanda Ngozi Adichi. Jokes aside, the book is not one I would normally have elected to read, but reading outside of one’s habitual literary bubble can be a good thing, and I think
-in this instance it certainly was.&lt;/p&gt;
+&lt;p&gt;KGATLW frequently have strong narratives running through their music and have produced a variety of concept albums, with this one being no difficult. The opening of the record describes humanity having made Earth uninhabitable, echoing the slogan popularised by Extinction Rebellion in the chorus of the opening track; “there is no Planet B”. The richest
+in society are able to afford passage to a now-terraformed Mars, while those that remain on
+Earth watch their world collapse on itself as society is ravaged by superbugs. A group of rebels attempt to journey to Venus, slingshotting themselves around the Sun in the process, but
+the first ship gets too close and is incinerated. The second ship makes it to Venus before quickly realising that it is hellaciously hot and unbearable to live there, so make the choice
+to make for Mars and invade - to infest the rats’ nest.&lt;/p&gt;
 
-&lt;p&gt;Despite the book’s brevity, it makes some excellent points, in a very succint way, and invited
-me to consider some of the issues involved in ways that I had not done so before. Firstly,
-gender inequality is far deeper ingrained in our society than I had previously thought, and
-often manifests itself in subtle ways that seem completely normal to me, but are in fact
-legitimately damaging to women. Many men (and perhaps even some women), myself included, are
-conditioned to turn a blind eye to these, but once you start looking for them, they’re everywhere, and permeate the vast majority of interactions and scenarios that one has.&lt;/p&gt;
+&lt;p&gt;The presumably conscious decision not to adopt the modern heavy metal sound but rather make it more a homage actually works remarkably well. Despite going in a completely different direction to any of their other work, their are still plenty of unmistakably King Gizz riffs, as well as some of Ambrose’s signature harmonica playing. The story that is being told is
+engrossing and compelling, and the dark and distorted music that it sits on top of complements
+its dystopian tone. The album grew a lot on me after several playthroughs, and while I don’t
+think it is going to be my favourite KGATLW album, it is very solid nonetheless: 8/10.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Aug 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2019/08/20/infest-the-rats-nest-review</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2019/08/20/infest-the-rats-nest-review</guid>
+      </item>
+    
+      <item>
+        <title>Changing The Dialogue</title>
+        <description>&lt;p&gt;I’ve been struggling recently with the feeling that I am getting good at talking on the blog about how I want to make changes/make
+a difference, but then taking no action in order to enact said change. Perhaps writing here does have some non-zero impact, but
+either way it’s certainly not enough. It seems natural to start with something small and then work my way up to something bigger,
+and over the weekend I realised what the first step should be.&lt;/p&gt;
 
-&lt;p&gt;The second was that feminism serves a purpose for men too. The role men are forced to play in
-society sucks, not as much as it does for women, but it still sucks nonetheless. Masculine
-expectations of bravado, stoicism and status hurt every man they touch, whether they realise
-it or not. I hate many aspects of the norms I feel compelled to conform to as a man. I want
-to paint my nails, to sing in falsetto, to wear pink, to wear eyeliner, to talk about my feelings, to be able to cry in public relatively unashamed, to have the option of giving up
-my career for my prospective children without being judged for it. Probably a million other things. Men are taught to be tough, impassable, pugnacious, proud creatures, but I am fundamentally brittle and sick of pretending otherwise. Feminism can help rid me of these
-things just as much as it can about positive change for women too.&lt;/p&gt;
+&lt;p&gt;Retaining your school friends as an adult is a bit of a rollercoaster. On one hand, you spent a lot of time in the same environment,
+on broadly similar paths, and have a lot of shared experiences together. On the other, as you get older, your paths diverge, your
+interests and priorities change, you have more unique experiences. Your relationship is often still cast in the mould that it was
+at school though - you still talk about the same things, in the same way. It becomes different to show your own growth in the context
+of your relationship with them, you remain stuck in place, a snapshot of your former self, for fear of entering the unknown and
+potentially losing a friendship that you’ve invested so much time and effort into.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;I think that last sentiment is simply the sunk cost fallacy in action - if my old friends don’t want to know the new me, then I
+do not want to keep investing in them further. And so, at the risk of alienating my old school chums, things must change.&lt;/p&gt;
 
-&lt;p&gt;Perhaps this is a selfish take on the book, but perhaps I am a selfish kinda guy. In the near
-future I’d like to write more about why men should be feminists, because I think I finally
-feel comfortable calling myself one. 9/10 book, and you can blitz through it in half an hour,
-absolutely recommended.&lt;/p&gt;
+&lt;p&gt;This means I must change - if anyone is going to catalyse an important change in the dialogue of the group then it may as well be me.
+Some of the things we say are problematic, moreover some of the things &lt;em&gt;I&lt;/em&gt; say when I’m with them are problematic, because I am
+still playing the same character I was 10 years ago. It’s no longer acceptable to be desperate for validation, willing to say
+anything wantonly offensive in order to get an easy laugh out of some teenagers. It’s no longer acceptable to bottle up my feelings
+and perpetuate the notion that men must be stoic and unwavering at all times, when I am filled with sadness, anger, shame and fear on
+a regular basis.&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;p&gt;Books read this year: 4/52&lt;/p&gt;
-
-&lt;p&gt;Next book (not that I ever stick to these): Women &amp;amp; Power, A Manifesto by Mary Beard&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Feminism" /><category term="Book Reviews" /><summary type="html">In a bid to not wait 6 months in between actually finishing books, I decided to read something a lot shorter and less Russian, and was forced recommended to read We Should All Be Feminists by Chimamanda Ngozi Adichi. Jokes aside, the book is not one I would normally have elected to read, but reading outside of one’s habitual literary bubble can be a good thing, and I think in this instance it certainly was.</summary></entry><entry><title type="html">Seeing Yourself II</title><link href="http://localhost:4000/mendokusai/2019/08/16/seeing-yourself-ii" rel="alternate" type="text/html" title="Seeing Yourself II" /><published>2019-08-16T00:00:00+01:00</published><updated>2019-08-16T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/08/16/seeing-yourself-ii</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/08/16/seeing-yourself-ii">&lt;p&gt;I feel a similar urge to Polly to disregard other’s opinions of myself - as acknowledged, it is widely touted as ‘good advice’, and 
-it’s even something I’ve written about before, for example when reviewing &lt;a href=&quot;/mendokusai/2019/01/13/book-reviews-models-by-mark-manson&quot;&gt;Models&lt;/a&gt; or talking about &lt;a href=&quot;/mendokusai/2018/12/10/i-miss-painting-my-nails&quot;&gt;painting my nails&lt;/a&gt;. It seems
-a noble, admirable goal - to have one’s self worth defined purely internally, to be unswayable in one’s resolve to love oneself, to be… oh no. To be stoic. My least favourite.&lt;/p&gt;
-
-&lt;p&gt;As we learn to tune out criticism, it’s similarly easy to learn to tune out positive feedback about ourselves too. Whenever one of
-my friends offers me something kind and loving about myself, I simply think “they have an obligation to be nice to me, they’re my
-friend, they don’t really mean it” or “they obviously don’t know me that well or they wouldn’t say that about me” or one of a myriad of other rationalisations. With those thoughts, I pay their words no further heed. The only problem is that every so often, someone close to me will say something so genuine and pure to me that I am not able to dismiss it in this manner, and instead I burst into tears. I suspect this is rarely the reaction the other party was seeking or expecting.&lt;/p&gt;
-
-&lt;p&gt;In every scenario we’re faced with, we present some version of ourselves, which to a greater or lesser extent represents our ‘true’
-selves. At work, or with strangers, we are very guarded, with a partner we are hopefully much more open. Some people put up more of 
-a facade with their friends and family than other people, largely unconsciously keeping their walls raised, myself included for the
-longest time. As these defences start to come down though, the feedback I get from people around me is a much more accurate reflection of who I am as a person - because I am more authentic in my relationships with those people who I’m vulnerable with.&lt;/p&gt;
-
-&lt;p&gt;I’m going to practise telling the people that I love, that I love them, and why. If someone who I’m open and honest with says
-something nice about me, I’m going to practice listening to and believing that as well.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Mental Health" /><category term="Wellbeing" /><summary type="html">I feel a similar urge to Polly to disregard other’s opinions of myself - as acknowledged, it is widely touted as ‘good advice’, and it’s even something I’ve written about before, for example when reviewing Models or talking about painting my nails. It seems a noble, admirable goal - to have one’s self worth defined purely internally, to be unswayable in one’s resolve to love oneself, to be… oh no. To be stoic. My least favourite.</summary></entry><entry><title type="html">Seeing Yourself</title><link href="http://localhost:4000/mendokusai/2019/08/15/seeing-yourself" rel="alternate" type="text/html" title="Seeing Yourself" /><published>2019-08-15T00:00:00+01:00</published><updated>2019-08-15T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/08/15/seeing-yourself</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/08/15/seeing-yourself">&lt;p&gt;In a first for the blog, today we have a guest writer. She is someone who continually inspires me and who I look up to immensely, and so I am beyond excited I managed to pester her into typing something up for me. On a topic that feels equally as relevant and important to me as it
-seems to be to her, it is of course the fabled Polly Thompson.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Something that we’re told a lot is that we should care less about what other people think about us. On one level I am totally onboard with this. Since leaving school I have spent a lot of time trying to build up my own identity and self-confidence in a way that relies less on other people’s validation. I think it has successfully made me more self-assured and maybe even happier. But I also find myself fearing compliments and the inevitable shallow ego boost they bring, reminding me how much progress I have to make.&lt;/p&gt;
-
-&lt;p&gt;Recently I’ve been thinking about lots of things I once thought of in black and white and realising that possibly nothing is actually so clear-cut. I have thought a lot about the impact of other people on how we see and define ourselves. Being self-aware is hugely important, but other people play such a big role in informing you of how you come across, how your actions impact others, and revealing those sides of you you’re desperately trying to ignore. I’ve always thought of this in terms of constructive criticism. Recently I’ve realised it’s true for compliments and affection too. Someone close to you won’t say something nice unless they really mean it. They’ve just handed you something to love about yourself on a plate (easier said than done). I wish I was better at articulating what I love about the people I care about. I wish they all loved themselves as much as I love them.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Guest Blogs" /><category term="Mental Health" /><category term="Wellbeing" /><summary type="html">In a first for the blog, today we have a guest writer. She is someone who continually inspires me and who I look up to immensely, and so I am beyond excited I managed to pester her into typing something up for me. On a topic that feels equally as relevant and important to me as it seems to be to her, it is of course the fabled Polly Thompson.</summary></entry><entry><title type="html">I love you iii</title><link href="http://localhost:4000/mendokusai/2019/08/14/i-love-you-iii" rel="alternate" type="text/html" title="I love you iii" /><published>2019-08-14T00:00:00+01:00</published><updated>2019-08-14T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/08/14/i-love-you-iii</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/08/14/i-love-you-iii">&lt;p&gt;It’s nice to be right about things, and &lt;a href=&quot;/mendokusai/2019/05/03/i-love-you-ii&quot;&gt;back in May&lt;/a&gt; I was indeed right about how I would feel
-this week. It’s important that some things are said, and all that’s important is that you say them, not what they might be met with.&lt;/p&gt;
-
-&lt;p&gt;But equally, hearing it back is a pretty special feeling too. I hope Mica finally got what she wanted.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Dating and Relationships" /><summary type="html">It’s nice to be right about things, and back in May I was indeed right about how I would feel this week. It’s important that some things are said, and all that’s important is that you say them, not what they might be met with.</summary></entry><entry><title type="html">Beware of Dog IV</title><link href="http://localhost:4000/mendokusai/2019/08/13/beware-of-dog-iv" rel="alternate" type="text/html" title="Beware of Dog IV" /><published>2019-08-13T00:00:00+01:00</published><updated>2019-08-13T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/08/13/beware-of-dog-iv</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/08/13/beware-of-dog-iv">&lt;p&gt;I saw &lt;a href=&quot;/mendokusai/2019/01/02/beware-of-dog-iii&quot;&gt;the dog&lt;/a&gt; again today, for the first time
-since January. No panic attack, no raised heartrate, no sweaty palms, nothing. A lot of progress has been made, and I’m glad I was reminded of that today.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Mental Health" /><summary type="html">I saw the dog again today, for the first time since January. No panic attack, no raised heartrate, no sweaty palms, nothing. A lot of progress has been made, and I’m glad I was reminded of that today.</summary></entry><entry><title type="html">Things I Wish I Knew When I Was Younger</title><link href="http://localhost:4000/mendokusai/2019/08/12/things-i-wish-i-knew-when-i-was-younger" rel="alternate" type="text/html" title="Things I Wish I Knew When I Was Younger" /><published>2019-08-12T00:00:00+01:00</published><updated>2019-08-12T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/08/12/things-i-wish-i-knew-when-i-was-younger</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/08/12/things-i-wish-i-knew-when-i-was-younger">&lt;p&gt;This post is in part written for my younger brother, and in part for my younger self. It contains some things I wish I’d known, or
-perhaps believed, when I was a teenager.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;perspective-is-everything&quot;&gt;Perspective is everything&lt;/h3&gt;
-
-&lt;p&gt;It is an awful cliché, but I think most such clichés are imbued with a drop of the truth, this one especially so. A sense of perspective is important for a happy life, and in order to achieve that, it’s necessary to constantly re-evaluate and be mindful
-of your current position. When faced with a seemingly impassable obstacle, it is easy to forget the previous occasions upon which
-you did in fact overcome such an obstacle, and instead become mired in doubt and self pity over whether or not the problem before
-you can be solved. The vast majority of your difficulties can and will be resolved - you just need to learn to take a step back and
-realise that.&lt;/p&gt;
-
-&lt;h3 id=&quot;be-as-honest-as-you-possibly-can&quot;&gt;Be as honest as you possibly can&lt;/h3&gt;
-
-&lt;p&gt;We’re not taught to be honest, especially about our feelings. We are taught from a young age that stoicism is the order of the day,
-and displays of emotion are displays of weakness. Things are slowly changing, but we need to change faster, to quick on the uptake and ahead of the curve. The prospect of honesty is often terrifying, and I know all too well the feeling of fear that accompanies the
-notion of being rejected by the people you care about once you reveal whatever it is that’s on your mind. Start small, but then get
-big. Go first - be vulnerable with the people around you, and the ones worth being close to will reciprocate. Don’t worry about the 
-other ones. Honesty will change your life immeasurably for the better.&lt;/p&gt;
-
-&lt;h3 id=&quot;feel-your-feelings&quot;&gt;Feel your feelings&lt;/h3&gt;
-
-&lt;p&gt;Negative emotions are scary, but they serve a purpose, and another thing that we’re not taught is to embrace them. Not only is it OK
-to feel sad or angry or lonely or anxious, it’s important, a necessary part of being a human. Those feelings will keep you from harm
-when you listen to them, but if you try to run from them, they’ll eventually catch up with you in unpleasant and uncouth ways. It really is OK to cry, just let it all out.&lt;/p&gt;
-
-&lt;h3 id=&quot;go-outside&quot;&gt;Go outside&lt;/h3&gt;
-
-&lt;p&gt;Going outside is &lt;em&gt;very&lt;/em&gt; underrated, especially in Guernsey. It’s so beautiful here, the fresh air will do you good, and if you go
-walking on the cliffs early in the morning, you won’t even come across any people who so peskily cause you anxiety. The vitamin D will stop you getting so tired. Maybe you’ll even get a tan?&lt;/p&gt;
-
-&lt;h3 id=&quot;itll-be-ok---really&quot;&gt;It’ll be ok - really&lt;/h3&gt;
-
-&lt;p&gt;It often feels like the world is feeling down on us - but it really isn’t. Our safety net is comically large, and more of a safety
-trampoline than anything. No matter how grim things may seem, there’s always a way out, and things will always get better. I promise.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Personal" /><summary type="html">This post is in part written for my younger brother, and in part for my younger self. It contains some things I wish I’d known, or perhaps believed, when I was a teenager.</summary></entry><entry><title type="html">How Many Sheep Crossed The Bridge?</title><link href="http://localhost:4000/mendokusai/2019/08/11/how-many-sheep-crossed-the-bridge" rel="alternate" type="text/html" title="How Many Sheep Crossed The Bridge?" /><published>2019-08-11T00:00:00+01:00</published><updated>2019-08-11T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/08/11/how-many-sheep-crossed-the-bridge</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/08/11/how-many-sheep-crossed-the-bridge">&lt;p&gt;After dinner this evening, we played a game involving two fields, a bridge, several sheep and a lot of clapping. On every turn, one player tells a short story about why
-the sheep are crossing the bridge to the other field this time, followed by pattern of claps (which can be of varying rhthyms and number), before asking the poor person
-who does not understand the game how many sheep have crossed the bridge. If you have not played the game before, it is fairly inevitable that you will not be able to
-grok the pattern without at least several tries, and the other players can choose to aid or hinder your ability to solve the problem.&lt;/p&gt;
-
-&lt;p&gt;It was immensely frustrating, and I was fortunate not to be the primary target of the chiding involved. After a progressively bigger series of clues (and one pretty
-big red herring), I finally figured it out, to no small amount of relief, and now I cannot wait to similarly taunt my own friends with the dumb sheep game.&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Misc" /><summary type="html">After dinner this evening, we played a game involving two fields, a bridge, several sheep and a lot of clapping. On every turn, one player tells a short story about why the sheep are crossing the bridge to the other field this time, followed by pattern of claps (which can be of varying rhthyms and number), before asking the poor person who does not understand the game how many sheep have crossed the bridge. If you have not played the game before, it is fairly inevitable that you will not be able to grok the pattern without at least several tries, and the other players can choose to aid or hinder your ability to solve the problem.</summary></entry><entry><title type="html">Super Meat Boy</title><link href="http://localhost:4000/mendokusai/2019/08/10/super-meat-boy" rel="alternate" type="text/html" title="Super Meat Boy" /><published>2019-08-10T00:00:00+01:00</published><updated>2019-08-10T00:00:00+01:00</updated><id>http://localhost:4000/mendokusai/2019/08/10/super-meat-boy</id><content type="html" xml:base="http://localhost:4000/mendokusai/2019/08/10/super-meat-boy">&lt;p&gt;Edmund McMillen’s 2010 indie platformer gem “Super Meat Boy” is almost certainly my favourite
-indie title ever, at the very least it is the one that I have sunk the most hours into.&lt;/p&gt;
-
-&lt;p&gt;It’s everything an indie game ought to be - relatively simple but exceptionally polished mechanics, great level design and a killer soundtrack. The minimal storyline doesn’t get in
-the way of the fact that SMB is all about the gameplay, and trying to conquer it’s often
-excruciatingly difficult selection of levels.&lt;/p&gt;
-
-&lt;p&gt;As I started it up again today, I was a little worried I’m going to get sucked in and sink another 100 hours into trying to 100% the Cotton Alley. If I start writing about how I haven’t been outside for days and can’t remember what any food other than ramen tastes like, send help…&lt;/p&gt;</content><author><name>Jonny Spicer</name></author><category term="Gaming" /><summary type="html">Edmund McMillen’s 2010 indie platformer gem “Super Meat Boy” is almost certainly my favourite indie title ever, at the very least it is the one that I have sunk the most hours into.</summary></entry></feed>
+&lt;p&gt;It will be uncomfortable, but they are my friends, I love them and I want us all to be better, healthier people, and so here begins
+my efforts to change our dialogues. Maybe if I can crack our rag-tag band, I can make progress with the world at large.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Aug 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2019/08/19/changing-the-dialogue</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2019/08/19/changing-the-dialogue</guid>
+      </item>
+    
+  </channel>
+</rss>
