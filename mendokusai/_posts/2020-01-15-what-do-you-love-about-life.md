@@ -4,24 +4,21 @@ author: Jonny Spicer
 title: What do you love about life?
 tags: [ Wellbeing ]
 ---
-After another break, we're once again back. Another last-longer is on the table, and my precious crypto is where my mouth is to prove that I can write a blog post every day until either Ted or myself die. The bet doesn't start until Saturday, but right now I think the biggest threat to my otherwise-inevitable victory would be simply forgetting what date it is, and not being in the habit of writing every day, failing to rack up even a single post before having to forfeit my ethereum. I think writing again will be good for me, and I (somewhat expectedly) have a mixture of excitement and apprehension about it. A lot has changed since I last wrote regularly, despite it being only a relatively short time ago. There's a lot to catch up on, a lot of difficult, messy thoughts to try and articulate concisely and honestly; a lot of fresh beans to spill.
+After another break, we're once again back. Another last-longer is on the table, and my precious crypto is where my mouth is to prove that I can write a blog post every day until either Ted or myself expire. The bet doesn't start until Saturday, but right now I think the biggest threat to my otherwise-inevitable victory would be simply forgetting what date it is, and not being in the habit of writing every day, failing to rack up even a single post before having to forfeit my ethereum. I think writing again will be good for me, and I (somewhat expectedly) have a mixture of excitement and apprehension about it. A lot has changed since I last wrote regularly, despite it being only a relatively short time ago. There's a lot to catch up on, a lot of difficult, messy thoughts to try and articulate concisely and honestly; a lot of fresh beans to spill.
 
 ---
 
 Last night I was invited for a drink by a new friend - something noteworthy in of itself, now I am old and bound by social constraint
-not the kind of vulnerability that might lead to some kind of emotional connection with strangers. More about him another time
-though, because this was the first time I had the pleasure of meeting his girlfriend, and that's what I want to write about today,
-because she got me at my own game - and she got me real good.
+not to show the kind of vulnerability that might lead to some kind of emotional connection with strangers. More about him another time though, because this was the first time I had the pleasure of meeting his girlfriend, and that's what I want to write about today, because she got me at my own game - and she got me real good.
 
 As the couple arrived, I was already sat at a table with a drink, so we exchanged the conventional pleasantries before the boyfriend
 excused himself to the bar to acquire beverages for himself and his partner, leaving her and I alone, knowing nothing more about
 each other than first names. I went for what I thought was a good opening gambit: "what're generic getting-to-know-one-another
 questions?" I mused semi-rhetorically before following up with "what do you do for work?". It was my attempt to be self-aware about
-the situation, trying to lean in to the potential awkward and uncomfortable position we were in, acknowledging the prescribed ritual
-we were about to partake in together without deviating from it.
+the situation; trying to lean in to the potentially awkward and uncomfortable position we were in; acknowledging the prescribed ritual we were about to partake in together without deviating from it.
 
 And then she promptly showed me how it was done. After responding that she worked as a guidance counsellor for young people, she
-reciprocated my gentle inquiry with the infinitely more disarming "what do you love about life?".
+reciprocated my gentle inquiry with the infinitely more disarming, "what do you love about life?".
 
 It was brilliant. Inspired. I was in awe.
 
