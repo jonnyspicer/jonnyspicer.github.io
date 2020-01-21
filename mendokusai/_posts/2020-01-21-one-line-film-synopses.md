@@ -1,7 +1,7 @@
 ---
 layout: mendokusai
 author: Jonny Spicer
-title: One Line Film Reviews
+title: One Line Film Synopses
 tags: [ Film and TV ]
 ---
 In my recent absence from blogging, I managed to make my way through a respectable number of films, and I thought it'd be fun to
