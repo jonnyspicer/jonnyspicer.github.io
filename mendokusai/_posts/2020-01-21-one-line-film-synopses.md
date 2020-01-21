@@ -37,7 +37,7 @@ you've been desensitised to the absurdity of the trilogy.
 A 25 year old highschool student accidentally kills his sister and subsequently becomes the earthly incarnation of Satan.
 
 ### Midsommar
-The penny finally drops for an American student that she deserves better than her boyfriend when she joins a pagan Swedish cult and they offer to murder him for her.
+The penny finally drops for an American student that she deserves better than her boyfriend when they join a pagan cult in rural Sweden and they offer to murder him for her.
 
 ### The Lighthouse
 Robert Pattinson suffers a psychotic break after extensive bullying by a seagull while Willem Defoe mistakenly believes this is an
