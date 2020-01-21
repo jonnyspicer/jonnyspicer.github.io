@@ -26,7 +26,7 @@ Weird fetish-horror-porn with no self awareness whatsoever; the dialogue was so 
 characters were sewn together so they could no longer speak.
 
 ### Human Centipede 2
-Weirder, more horrific horror-porn catering to an even nicher fetish, despite obviously knowing it's not real, probably more
+Weirder, more horrific horror-porn catering to an even nicher fetish; despite obviously knowing it's not real, probably more
 disturbing to me than any of the myriad of things I have seen on the internet that I am reasonably certain were real.
 
 ### Human Centipede 3
@@ -37,7 +37,7 @@ you've been desensitised to the absurdity of the trilogy.
 A 25 year old highschool student accidentally kills his sister and subsequently becomes the earthly incarnation of Satan.
 
 ### Midsommar
-The penny finally drops for an American student that she deserves better when she joins a cult and they offer to murder him for her.
+The penny finally drops for an American student that she deserves better than her boyfriend when she joins a pagan Swedish cult and they offer to murder him for her.
 
 ### The Lighthouse
 Robert Pattinson suffers a psychotic break after extensive bullying by a seagull while Willem Defoe mistakenly believes this is an
