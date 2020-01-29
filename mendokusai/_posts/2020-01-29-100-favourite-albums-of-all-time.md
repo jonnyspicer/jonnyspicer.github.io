@@ -21,7 +21,7 @@ managed to cull it down to a nice even hundo, and here they are in no particular
 1. Brand New - The Devil and God Are Raging Inside Me (2006, alt rock/emo/post-hardcore)
 1. Brand New - Daisy (2009, alt rock/post-hardcore)
 1. Brand New - Science Fiction (2017, alt rock/post-hardcore)
-1. The Front Bottoms - The Front Bottoms (indie rock/folk punk/emo)
+1. The Front Bottoms - The Front Bottoms (2011, indie rock/folk punk/emo)
 1. The Front Bottoms - Talon of the Hawk (2013, indie rock/folk punk)
 1. My Chemical Romance - Three Cheers For Sweet Revenge (2004, alt rock/post-hardcore/emo)
 1. My Chemical Romance - The Black Parade (2006, alt rock/post-hardcore/emo)
