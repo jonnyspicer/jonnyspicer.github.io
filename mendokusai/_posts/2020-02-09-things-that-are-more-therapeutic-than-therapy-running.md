@@ -1,7 +1,7 @@
 ---
 layout: mendokusai
 author: Jonny Spicer
-title: Things That Are More Therapeutic Than Therapy&colon Running
+title: Things That Are More Therapeutic Than Therapy&#58; Running
 tags: [ Running, Mental Health, Wellbeing ]
 ---
 During my very extensive experiences with things that aren't more therapy, and my not-quite-as-extensive-but-still-very-respectable degree of experiences with things that *are*
