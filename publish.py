@@ -2,10 +2,8 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import time
 import datetime
-import pyautogui
 import subprocess
 
-pyautogui.moveTo(1000, 2000)
 PIPE = subprocess.PIPE
 now = datetime.datetime.now()
 commitMessage = 'dp' + now.strftime('%y%m%d')
