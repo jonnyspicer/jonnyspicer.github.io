@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import datetime
 import subprocess
+
 PIPE = subprocess.PIPE
 now = datetime.datetime.now()
 commitMessage = 'dp' + now.strftime('%y%m%d')

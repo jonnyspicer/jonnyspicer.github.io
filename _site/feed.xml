@@ -7,308 +7,175 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>100 Favourite Albums of All Time</title>
-        <description>&lt;p&gt;I’ve been thinking a lot in the past few days about how music makes me really, really happy in a way that few other things do.
-Originally I was going to try and write a “top 10 favourite albums” post but that ended up bleeding into 50, which subsequently
-bled further into 100, which finally resulted in a list of roughly 150 albums. That seemed like a terrible number though, so I
-managed to cull it down to a nice even hundo, and here they are in no particular order.&lt;/p&gt;
+        <title>I also won and I will also win again</title>
+        <description>&lt;p&gt;Imagine thinking that you’d be able to win a last longer bet about blogs when it takes you &lt;a href=&quot;https://github.com/sted9000/sted9000.github.io/compare/558dbf8b7a...5b23b63e58&quot;&gt;six commits to even successfully publish one blog post…&lt;/a&gt; &lt;a href=&quot;https://github.com/sted9000/sted9000.github.io/commits/2271c53548d9dac93a50754c1af64c4a0aa56507/_includes&quot;&gt;Or six months to correctly spell your own name.&lt;/a&gt;&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;alexisonfire - alexisonfire (2002, post-hardcore)&lt;/li&gt;
-  &lt;li&gt;alexisonfire - Watch Out! (2004, post-hardcore)&lt;/li&gt;
-  &lt;li&gt;alexisonfire - Crisis (2006, post-hardcore)&lt;/li&gt;
-  &lt;li&gt;Bring Me The Horizon - Count Your Blessings (2006, deathcore)&lt;/li&gt;
-  &lt;li&gt;Bring Me The Horizon - Suicide Season (2008, metalcore)&lt;/li&gt;
-  &lt;li&gt;Car Seat Headrest - Teens of Denial (2016,  indie rock)&lt;/li&gt;
-  &lt;li&gt;Car Seat Headrest - Twin Fantasy (2011, indie rock)&lt;/li&gt;
-  &lt;li&gt;Brand New - Your Favourite Weapon (2001, pop punk/emo)&lt;/li&gt;
-  &lt;li&gt;Brand New - Deja Entendu (2003, alt rock/emo)&lt;/li&gt;
-  &lt;li&gt;Brand New - The Devil and God Are Raging Inside Me (2006, alt rock/emo/post-hardcore)&lt;/li&gt;
-  &lt;li&gt;Brand New - Daisy (2009, alt rock/post-hardcore)&lt;/li&gt;
-  &lt;li&gt;Brand New - Science Fiction (2017, alt rock/post-hardcore)&lt;/li&gt;
-  &lt;li&gt;The Front Bottoms - The Front Bottoms (2011, indie rock/folk punk/emo)&lt;/li&gt;
-  &lt;li&gt;The Front Bottoms - Talon of the Hawk (2013, indie rock/folk punk)&lt;/li&gt;
-  &lt;li&gt;My Chemical Romance - Three Cheers For Sweet Revenge (2004, alt rock/post-hardcore/emo)&lt;/li&gt;
-  &lt;li&gt;My Chemical Romance - The Black Parade (2006, alt rock/post-hardcore/emo)&lt;/li&gt;
-  &lt;li&gt;Modern Baseball - Sports (2012, emo)&lt;/li&gt;
-  &lt;li&gt;Modern Baseball - You’re Gonna Miss It All (2014, emo)&lt;/li&gt;
-  &lt;li&gt;Breaking Benjamin - Phobia (2006, alt metal)&lt;/li&gt;
-  &lt;li&gt;A Day To Remember - Homesick (2009, metalcore/pop punk/post-hardcore)&lt;/li&gt;
-  &lt;li&gt;Bombay Bicycle Club - I Had The Blues But I Shook Them Loose (2009, indie rock)&lt;/li&gt;
-  &lt;li&gt;System Of A Down - Mezmerize (2005, nu metal)&lt;/li&gt;
-  &lt;li&gt;Escape The Fate - Dying Is Your Latest Fashion (2006, emo/post-hardcore/metalcore)&lt;/li&gt;
-  &lt;li&gt;Say Anything - …Is A Real Boy (2004, emo/indie rock/pop punk)&lt;/li&gt;
-  &lt;li&gt;Say Anything - Say Anything (2009, emo/indie rock/pop punk)&lt;/li&gt;
-  &lt;li&gt;Trivium - Ascendancy (2005, metalcore/thrash)&lt;/li&gt;
-  &lt;li&gt;Joy Division - Unknown Pleasures (1979, post-punk)&lt;/li&gt;
-  &lt;li&gt;Panic! At The Disco - A Fever You Can’t Sweat Out (2005, emo/pop punk/alt rock)&lt;/li&gt;
-  &lt;li&gt;Streetlight Manifesto - Keasbey Nights (2006, ska punk)&lt;/li&gt;
-  &lt;li&gt;Streetlight Manifesto - Somewhere In The Between (2007, ska punk)&lt;/li&gt;
-  &lt;li&gt;Biffy Clyro - Only Revolutions (2009, alt rock)&lt;/li&gt;
-  &lt;li&gt;Marina and the Diamonds - The Family Jewels (2010, alt pop)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Caravan Palace - &amp;lt;&lt;/td&gt;
-          &lt;td&gt;°_°&lt;/td&gt;
-          &lt;td&gt;&amp;gt; (2015, electro swing)&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Three Days Grace - Three Days Grace (2003, alt metal)&lt;/li&gt;
-  &lt;li&gt;The White Stripes - Elephant (2003, blues rock)&lt;/li&gt;
-  &lt;li&gt;Darwin Deez - Darwin Deez (2010, indie rock)&lt;/li&gt;
-  &lt;li&gt;Joyce Manor - Joyce Manor (2011, emo)&lt;/li&gt;
-  &lt;li&gt;Joyce Manor - Never Hungover Again (2014, emo)&lt;/li&gt;
-  &lt;li&gt;Jeff Rosenstock - We Cool? (2015, punk/indie rock)&lt;/li&gt;
-  &lt;li&gt;Jeff Rosenstock - WORRY. (2016, punk/indie rock)&lt;/li&gt;
-  &lt;li&gt;blink-182 - blink-182 (2003, pop punk)&lt;/li&gt;
-  &lt;li&gt;blink-182 - Enema Of The State (1999, pop punk)&lt;/li&gt;
-  &lt;li&gt;blink-182 - Take Off Your Pants And Jacket (2001, pop punk)&lt;/li&gt;
-  &lt;li&gt;TTNG - 13.0.0.0.0 (2013, math rock)&lt;/li&gt;
-  &lt;li&gt;Neutral Milk Hotel - In The Aeroplane Over The Sea (1998, indie rock)&lt;/li&gt;
-  &lt;li&gt;Arcade Fire - Funeral (2004, indie rock)&lt;/li&gt;
-  &lt;li&gt;Modest Mouse - Good News For People Who Love Bad News (2004, alt rock)&lt;/li&gt;
-  &lt;li&gt;Weezer - Weezer (Blue Album) (1994, alt rock)&lt;/li&gt;
-  &lt;li&gt;Weezer - Pinkerton (1996, alt rock/emo)&lt;/li&gt;
-  &lt;li&gt;A Tribe Called Quest - The Low End Theory (1991, hip hop)&lt;/li&gt;
-  &lt;li&gt;Kanye West - The College Dropout (2004, hip hop)&lt;/li&gt;
-  &lt;li&gt;PUP - PUP (2013, punk)&lt;/li&gt;
-  &lt;li&gt;PUP - The Dream Is Over (2016, punk)&lt;/li&gt;
-  &lt;li&gt;Slipknot - All Hope Is Gone (2008, heavy metal)&lt;/li&gt;
-  &lt;li&gt;Arctic Monkeys - Whatever People Say I Am, That’s What I’m Not (2006, indie rock)&lt;/li&gt;
-  &lt;li&gt;Metronomy - The English Riviera (2011, new wave)&lt;/li&gt;
-  &lt;li&gt;Fall Out Boy - Take This To Your Grave (2003, pop punk/emo)&lt;/li&gt;
-  &lt;li&gt;Fall Out Boy - From Under The Cork Tree (2005, pop punk/emo)&lt;/li&gt;
-  &lt;li&gt;Veil of Maya - Matriarch (2015, djent)&lt;/li&gt;
-  &lt;li&gt;Mitski - Bury Me At Makeout Creek (2014, indie rock)&lt;/li&gt;
-  &lt;li&gt;Violent Soho - Hungry Ghost (2013, grunge)&lt;/li&gt;
-  &lt;li&gt;Tricot - T H E (2013, math rock)&lt;/li&gt;
-  &lt;li&gt;Glocca Morra - Just Married (2012, emo)&lt;/li&gt;
-  &lt;li&gt;Capn Jazz - Burritos, Inspiration Point, Fork Balloon Sports, Cards in the Spokes, Automatic Biographies, Kites, Kung Fu, Trophies, Banana Peels We’ve Slipped On and Egg Shells We’ve Tippy Toed Over (1995, emo)&lt;/li&gt;
-  &lt;li&gt;Remo Drive - Greatest Hits (2017, emo)&lt;/li&gt;
-  &lt;li&gt;Polyphia - New Levels New Devils (2018, prog metal)&lt;/li&gt;
-  &lt;li&gt;Epica - Design Your Universe (2009, symphonic metal)&lt;/li&gt;
-  &lt;li&gt;Covet - effloresce (2018, math rock)&lt;/li&gt;
-  &lt;li&gt;McCafferty - Beachboy (2013, dance punk)&lt;/li&gt;
-  &lt;li&gt;Mom Jeans. - Best Buds (2016, emo)&lt;/li&gt;
-  &lt;li&gt;Blue Sky, Black Death - Noir (2011, instrumental hip hop)&lt;/li&gt;
-  &lt;li&gt;DZ Deathrays - Black Rat (2014, dance punk)&lt;/li&gt;
-  &lt;li&gt;Graduating Life - An Introduction To Rock And Roll (2017, emo)&lt;/li&gt;
-  &lt;li&gt;Ceremony - Rohnert Park (2010, punk)&lt;/li&gt;
-  &lt;li&gt;Snowing - I Could Do Whatever I Wanted If I Wanted (2011, emo)&lt;/li&gt;
-  &lt;li&gt;Julien Baker - Sprained Ankle (2015, folk)&lt;/li&gt;
-  &lt;li&gt;IDLES - Joy as an Act of Resistance. (2018, punk)&lt;/li&gt;
-  &lt;li&gt;Protest The Hero - Kezia (2005, prog metal/mathcore)&lt;/li&gt;
-  &lt;li&gt;FIDLAR - FIDLAR (2013, skate punk)&lt;/li&gt;
-  &lt;li&gt;Enter Shikari - A Flash Flood of Colour (2012, post-hardcore)&lt;/li&gt;
-  &lt;li&gt;Alvvays - Antisocialites (2017, indie pop)&lt;/li&gt;
-  &lt;li&gt;Bonobo - Migration (2017, electronica)&lt;/li&gt;
-  &lt;li&gt;Bonobo - The North Borders (2013, electronica)&lt;/li&gt;
-  &lt;li&gt;I Kill Giants - I Kill Giants (2013, emo)&lt;/li&gt;
-  &lt;li&gt;King Gizzard And The Lizard Wizard - Nonagon Infinity (2016, pysch rock/prog rock)&lt;/li&gt;
-  &lt;li&gt;King Gizzard And The Lizard Wizard - Polygondwanaland (2017, psych rock/prog rock)&lt;/li&gt;
-  &lt;li&gt;Strawberry Girls - French Ghetto (2013, prog rock/math rock)&lt;/li&gt;
-  &lt;li&gt;Vulfpeck - The Beautiful Game (2016, funk)&lt;/li&gt;
-  &lt;li&gt;Forests - Sun Eat Moon Grave Party (2017, emo)&lt;/li&gt;
-  &lt;li&gt;black midi - Schlagenheim (2019, experimental rock/noise rock/post-punk/math rock)&lt;/li&gt;
-  &lt;li&gt;Title Fight - Floral Green (2012, emo/post-hardcore)&lt;/li&gt;
-  &lt;li&gt;Nekrogoblikon - Welcome to Bonkers (2018, melodic death metal/power metal)&lt;/li&gt;
-  &lt;li&gt;Prince Daddy And The Hyena - I Thought You Didn’t Even Like Leaving (2016, emo)&lt;/li&gt;
-  &lt;li&gt;Grimes - Art Angels (2015, synth-pop/art pop)&lt;/li&gt;
-  &lt;li&gt;Hobo Johnson - The Fall of Hobo Johnson (2019, emo rap)&lt;/li&gt;
-  &lt;li&gt;Totorro - Home Alone (2016, noise rock)&lt;/li&gt;
-  &lt;li&gt;Boards of Canada - Music Has The Right To Children (1998, electronica)&lt;/li&gt;
-  &lt;li&gt;Fall of Troy - Doppelgänger (2005, mathcore)&lt;/li&gt;
-  &lt;li&gt;Animals As Leaders - Animals As Leaders (2009, prog metal/djent)&lt;/li&gt;
-  &lt;li&gt;Animals As Leaders - The Joy of Motion (2014, prog metal/djent)&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/01/29/100-favourite-albums-of-all-time</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/01/29/100-favourite-albums-of-all-time</guid>
-      </item>
-    
-      <item>
-        <title>Teamwork</title>
-        <description>&lt;p&gt;This weekend is the Global Game Jam, and this year we have been infinitely more organised than last - we’ve got a full team of 6(!)
-before the event has even started, and we’ve already decided on an engine and a version control system. It will be fun to try and
-learn some Unity and make a game, but the thing I am most looking forward to is certainly the element of working in a team with
-five of my friends. We even have a name - I Can’t Believe It’s Not Beta - and you can follow any progress we make on &lt;a href=&quot;https://github.com/ICantBelieveItsNotBeta&quot;&gt;Github.&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/01/28/teamwork</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/01/28/teamwork</guid>
-      </item>
-    
-      <item>
-        <title>Correspondence Chess Tournaments</title>
-        <description>&lt;p&gt;This year is my third year playing in the Chess.com annual correspondence tournament, and I believe everywhere year has surpassed
-the previous iteration as the largest correspondence chess tournament in history. A remarkable 16831 players registered for the 2020
-edition, and at the time of writing, 3634 of those players remain, with myself amongst their number. For the past two years I’ve
-failed to make it past my first group (the format is quite brutal, with groups of 12 players yielding only a single one who will
-advance to the next round), despite being very close both times, and so this year I’m happy to report that I’ve finally broke my
-streak of poor form and made it through to round two, acquiring 21 wins and one loss in the process. It’s been a pleasant
-experience, both to feel part of something so big and also to feel relatively competent compared to others playing in the
-tournament, and while I think it is very unlikely I will progress any further as the standard will increase dramatically, I am
-nonetheless hopeful that numerous rabbits can be pulled out of hats and I’ll be able to cause some big upsets to make it to round
-three.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/01/27/correspondence-chess-tournaments</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/01/27/correspondence-chess-tournaments</guid>
-      </item>
-    
-      <item>
-        <title>Can Jonny Actually Read Challenge 2.0</title>
-        <description>&lt;p&gt;In 2018 I read no books whatsoever, and so last year I set myself the lofty goal of reading 52 in 52 weeks. Obviously, I failed, managing a measly 6, but at least that was
-an infinite improvement. This year I have decided to set a goal that is a little more achievable - to read a single book. The only problem is that that book is David Foster
-Wallace’s legendary epic, &lt;em&gt;Infinite Jest&lt;/em&gt;. At 1079 pages long, it may well compromise more than the sum of the 6 books that I read last year, and will most likely make for a
-much denser read. Still, that is the point of settings oneself a challenge right?&lt;/p&gt;
+&lt;p&gt;My favourite thing about poker was always hurting other people’s egos, the money was just a convenient corollary. Everyone knows
+you can’t just crush the fish or they’ll never play the game again, every so often you’ve got to lose a pot just to keep them on the
+hook…&lt;/p&gt;
 
-&lt;p&gt;Look forward to my review sometime around December…&lt;/p&gt;
+&lt;p&gt;Good luck buddy &amp;lt;3&lt;/p&gt;
 </description>
-        <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/01/26/can-jonny-actually-read-challenge-20</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/01/26/can-jonny-actually-read-challenge-20</guid>
+        <pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/02/11/i-also-won-and-i-will-also-win-again</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/11/i-also-won-and-i-will-also-win-again</guid>
       </item>
     
       <item>
-        <title>Home Games</title>
-        <description>&lt;p&gt;This evening I am delighted to report that I have the opportunity to play in a home game, which may in fact be the second most +EV spot I’ve ever been in - the first is naturally this bet. I can’t remember the
-last time I played holdem, and the format is going to be essentially hyper SNGs, but these people won’t even be able to spell ICM, and I smell blood in the water. Hopefully tomorrow I will be able to treat myself to
-a nice steak dinner with their money.&lt;/p&gt;
+        <title>Poker Hand Stories</title>
+        <description>&lt;p&gt;After talking to Ongun and Marisa this week, and describing an emotion wholly unrelated to poker through the analogy of a poker hand
+(much to Marisa’s dismay), I realised quite how powerful the emotions that poker hands carry with them. So much so that I find it
+easier to convey almost any feeling to another player simply by conjuring up a hand in which I would feel such a feeling as I am
+trying to describe, and knowing that they understand me better that way than they would should I try to express myself any other
+way. It’s quite funny to think about, and makes me feel happy and special to be able to share this esoteric connection with only
+a handful of people.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/01/25/home-games</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/01/25/home-games</guid>
+        <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/02/10/poker-hand-stories</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/10/poker-hand-stories</guid>
       </item>
     
       <item>
-        <title>Welcome Back to the Black Parade</title>
-        <description>&lt;p&gt;Tickets for My Chemical Romance’s first show in the UK since 2011 went on sale today at 9:30am. On the 20th June, the band will be
-playing in Milton Keynes as part of their reunion that started last month in LA. The ticket vendors’ sites struggled to keep up
-with demand, with one crashing pretty much immediately as the clock struck half past, with others placing would-be concert goers
-into queues in order to try to process them in an orderly manner. Unsurprisingly, the show sold out quickly. Fortunately, I got
-three tickets.&lt;/p&gt;
+        <title>Things That Are More Therapeutic Than Therapy&amp;#58; Running</title>
+        <description>&lt;p&gt;During my very extensive experiences with things that aren’t more therapy, and my not-quite-as-extensive-but-still-very-respectable degree of experiences with things that &lt;em&gt;are&lt;/em&gt;
+therapy, and in said experiences I have found several examples of the former to be far more effective at achieving the latter’s stated aim than the lattter itself. One such
+activity has been running.&lt;/p&gt;
 
-&lt;p&gt;In June, I am going to have the experience of standing in a crowd of tens of thousands of people as the band play the first note
-to their beyond iconic song, “Welcome to the Black Parade”, the legendary G note which is embedded deep within all of our psyches.
-I can’t think of the last time I was this excited about something.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/01/24/welcome-back-to-the-black-parade</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/01/24/welcome-back-to-the-black-parade</guid>
-      </item>
-    
-      <item>
-        <title>Goryachkina v Ju</title>
-        <description>&lt;p&gt;Today saw the 12th game of the FIDE Women’s World Championship match between Aleksandra Goryachkina and Wenjun Ju, and much
-like the 2018 men’s match between Carlsen and Caruana, after the classical portion of the match the score is tied at 6 points
-a piece. The huge difference between the two matches however, is that the women’s match has seen 6 decisive games, including
-Goryachkina spectacularly winning on demand today in round 12, compared to none whatsoever in the men’s match. I think
-the Russian almost certainly has the advantage going into the tie-breaks, both due to her momentum and morale from the last match,
-and also that she is now on home soil, playing in Vladivostock. After storming the Candidates’ match and winning with a whole round
-to spare, for the 21 year old to unseat the Chinese powerhouse would certainly have people to start to wonder how high Goryachkina’s
-ceiling is - she looks set to surpass 2600 rating this year, but can she surpass Hou Yifan? A 2700 rating? Even surpassing Judit
-Polgar’s rating and being able to compete in super-elite invitationals looks possible, albeit there is a very long way still to go
-in order to get there.&lt;/p&gt;
+&lt;p&gt;It has taken about 6 weeks for me to get over the Christmas-induced motivation-slump-and-caloric-intake-megaspike, but I think I am finally there. Today was the first time this
+year that I had gone for a training run without headphones - all I left the house with were my keys. By removing this most comfortable of distractions I had no choice but to
+entertain the din of thoughts circling my consciousness, with only the beauty of the Talbot Valley and a gentle pain in my calves to draw my attention elsewhere. As I have
+slowly cajoled myself into running regularly, I have found that my emotional state throughout is always a rollercoaster, though often a predictable one. Whatever unaddressed
+anxieties might be swirling round in my brain duly make themselves towards its forefront, leaving in their wake a dinstinctly unpleasant taste in the mouth of my consciousness,
+and much of my run is spent confronting and wrestling with whatever may have been bothering me, subconsciously or otherwise, rather than battling my legs and the pavement.&lt;/p&gt;
 
-&lt;p&gt;Once again, the ladies seem to be outclassing their male counterparts when it comes to producing entertaining games and storylines,
-and Dvorkovich’s decision to have both world championships follow the same format is looking to have paid off and then some. If
-Goryachkina does win then I think it could draw a decent amount of mainstream media attention, which would undoubtedly be a good
-thing for the game, and I am certainly looking forward to watching the rapid games at the weekend.&lt;/p&gt;
+&lt;p&gt;It’s painful, but bizarrely some clarity always seems to be found in the last kilometre or so - I suspect the endorphins and knowledge that the end is nigh lend themsevles to
+cultivating inner peace rather nicely. At the expense of sounding unnecessarily preachy, I’m sure spending the time outside, away from technology also helps a great deal. I
+have certainly noticed that I frequently accomplish a much more meaningful reduction of mental entropy in an hour of running than I do in an hour of therapy.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/01/23/goryachkina-v-ju</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/01/23/goryachkina-v-ju</guid>
+        <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/02/09/things-that-are-more-therapeutic-than-therapy-running</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/09/things-that-are-more-therapeutic-than-therapy-running</guid>
       </item>
     
       <item>
-        <title>Lunch &amp;&amp; Code</title>
-        <description>&lt;p&gt;Today saw the reincarnation of Guernsey techie meetup Lunch &amp;amp;&amp;amp; Code, sponsored by the wonderful
-company that employs yours truly. I have always felt a little uncomfortable at these kinds of events previously (perhaps this is
-the case for the majority of attendees, given their nature as software-type-people and their propensity for having poor social
-skills), but today I’m pleased to report I felt a lot more at home amongst their number. In part I think it is partially an easing
-of my anxiety in general (as discussed &lt;a href=&quot;/mendokusai/2020/01/20/say-yes&quot;&gt;recently&lt;/a&gt;) and in part because I have formed connections
-of some description with enough of the regulars that I can overcome some amount of initial awkwardness. My entire “professional”
-life I have struggled hugely with networking, habitually being struck by overwhelming nerves to the extent I’ve abhored and avoided
-the practice for years. Today though, I actually managed to have a couple of fairly reasonable conversations that could possibly
-be described as at least networking-adjacent… Progress?&lt;/p&gt;
+        <title>Pride</title>
+        <description>&lt;p&gt;It has been an odd day, cacophanous with feelings. But above all, possibly for one of the first times ever, I am genuinely proud of myself. Maybe not under the most glowing of
+circumstances, but progress has been clearly made today.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/01/22/lunch-code</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/01/22/lunch-code</guid>
+        <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/02/08/pride</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/08/pride</guid>
       </item>
     
       <item>
-        <title>One Line Film Synopses</title>
-        <description>&lt;p&gt;In my recent absence from blogging, I managed to make my way through a respectable number of films, and I thought it’d be fun to
-write one-line synopses for them all - these all have spoilers to some degree!&lt;/p&gt;
+        <title>The Prisoner's Dilemma</title>
+        <description>&lt;p&gt;It’s a cynical take, but the more I think about it, the more I think life is essentially the &lt;a href=&quot;https://en.wikipedia.org/wiki/Prisoner%27s_dilemma&quot;&gt;prisoner’s dilemma&lt;/a&gt;, but on a grand, recurring scale. In the purest prisoner’s dilemma, the optimal strategy is to
+always defect, and the best possible outcome is when the protagonist defects and the antagonist cooperates. In applied situations,
+one player can of course attempt to exert their influence on the other player to cooperate in order to increase their EV, as
+demonstrated here wonderfully by none other than &lt;a href=&quot;https://www.youtube.com/watch?v=y6GhbT-zEfc&quot;&gt;Liv Boeree&lt;/a&gt; (on another note - the
+comments on that video are hilarious/incredibly depressing depending on how you look at it).&lt;/p&gt;
+
+&lt;p&gt;And really, I think that is all life boils down to. Our systems are so broken and riddled with misaligned incentives, and why is
+that? It’s because people are trying to persuade us to cooperate, so they might defect and exploit others for their own gain. It’s
+inevitable in a capitalist society, where the stated aim is to maximise your own expected value (as seen through the lens of wealth), that
+eventually people will work out optimal strategies for this game and exact them upon the rest of us. The lengths to which they go
+to persuade us to cooperate is remarkable, and somewhat grim - it happens in every possible aspect of life. Even in schools, at a
+young age, we espouse to children the values of being kind, generous and, uhh, cooperative - leaving them vulnerable to be exploited
+by those who have no moral qualms about taking the defector’s path.&lt;/p&gt;
+
+&lt;p&gt;So it seems the correct strategy is to ignore those that would coerce you into cooperation and defect instead. I’ll let you know
+how it goes (although if it goes well, I’ll preach that it went horribly in order to raise my own EV further).&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/02/07/the-prisoners-dilemma</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/07/the-prisoners-dilemma</guid>
+      </item>
+    
+      <item>
+        <title>Publishing blogs is hard</title>
+        <description>&lt;p&gt;Perhaps this post should be entitled “leaving a job half done”. I have good very good at &lt;em&gt;writing&lt;/em&gt; a blog post every day, however it seems I am struggling to successfully
+publish them, despite having a python script that theoretically handles the whole thing for me. The problem is of course that I have done half a job writing it, and that it
+sort of does what I want, but the test is half written, and it has been left in a “good enough” state that frankly isn’t good enough, and it has already cost me 1 ETH, coming
+dangerously close to costing me a second today.&lt;/p&gt;
+
+&lt;p&gt;The good news is that I am going to spend my weekend writing it properly, and making sure I have a proper pipeline and alerting system too. Sorry Ted 😄.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/02/06/publishing-blogs-is-hard</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/06/publishing-blogs-is-hard</guid>
+      </item>
+    
+      <item>
+        <title>Lack of Time</title>
+        <description>&lt;p&gt;Once again I’ve not found enough time to be able to write properly about what has on my mind today, which I am a little frustrated with myself about. With that being said, here
+is what is hopefully to come in the following week on the blog:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Life, broken systems and the prisoner’s dilemma;&lt;/li&gt;
+  &lt;li&gt;Poker;&lt;/li&gt;
+  &lt;li&gt;Clean Language;&lt;/li&gt;
+  &lt;li&gt;Kobe/Jacob;&lt;/li&gt;
+  &lt;li&gt;Saving people and saving oneself.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now I have to dash to a social event which I organised, which includes an insane 14 person dinner reservation - almost certainly this is the biggest event that I have birthed
+and coordinated myself. Don’t these people have better things to do with their time?&lt;/p&gt;
+</description>
+        <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/02/05/lack-of-time</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/05/lack-of-time</guid>
+      </item>
+    
+      <item>
+        <title>Man Club</title>
+        <description>&lt;p&gt;Firstly I lost the bet - oops. Fortunately Ted is a degenerate and instantly accepted to run it twice, and so now I am going to
+Martingale the fuck out of him.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;train-to-busan&quot;&gt;Train to Busan&lt;/h3&gt;
-&lt;p&gt;Hot-shot stock trader has head so far up his own rectum it takes the literal apocalypse for him to realise that he should spend more
-time with his daughter.&lt;/p&gt;
+&lt;p&gt;Yesterday I attended the local men’s support group, descriptively titled “Man Club”, for the first time. In a social clime where
+historical masculine archetypes have been labelled as toxic and deemd to be unbefitting modern men, we have been left bereft of
+gender identity, with naught but a void in our psyche where stoicism once was - which is a little ironic when you think about it.&lt;/p&gt;
 
-&lt;h3 id=&quot;the-dead-dont-die&quot;&gt;The Dead Don’t Die&lt;/h3&gt;
-&lt;p&gt;Adam Driver and Bull Murray are weird, Tilda Swinton is extremely weird, Chloe Sevigny is the only person who reacts proportionately
-to anything that goes on in this film.&lt;/p&gt;
+&lt;p&gt;Perhaps I am over-egging it, of course being a man is still, in many ways, fine and great. But still, I think myself and a lot
+of other men are quite disillusioned with their own gender roles and places within our social structure. The idea of men’s groups
+is becoming more acceptable and appealing, and a men’s movement is gaining traction and legitimacy in our collective consciousness.&lt;/p&gt;
 
-&lt;h3 id=&quot;zombieland-2&quot;&gt;Zombieland 2&lt;/h3&gt;
-&lt;p&gt;Jesse Eisenberg’s continued romantic success with Emma Stone in this movie continues to perpetuate my own incredibly unrealistic
-expectations about beautiful girls reciprocating my affection.&lt;/p&gt;
+&lt;p&gt;The experience reminded me both of the GTO club and of group therapy, two things where I felt deeply connected and accepted by a
+group, and two threads of treasured memories. It was incredibly raw and vulnerable, in a way in which men aren’t in our day-to-day
+lives, and of course that is one of its stated aims.&lt;/p&gt;
 
-&lt;h3 id=&quot;human-centipede-1&quot;&gt;Human Centipede 1&lt;/h3&gt;
-&lt;p&gt;Weird fetish-horror-porn with no self awareness whatsoever; the dialogue was so bad I was honestly somewhat relieved when the
-characters were sewn together so they could no longer speak.&lt;/p&gt;
-
-&lt;h3 id=&quot;human-centipede-2&quot;&gt;Human Centipede 2&lt;/h3&gt;
-&lt;p&gt;Weirder, more horrific horror-porn catering to an even nicher fetish; despite obviously knowing it’s not real, probably more
-disturbing to me than any of the myriad of things I have seen on the internet that I am reasonably certain were real.&lt;/p&gt;
-
-&lt;h3 id=&quot;human-centipede-3&quot;&gt;Human Centipede 3&lt;/h3&gt;
-&lt;p&gt;The writers finally acquired some self-awareness, a budget, and Bree Olson, making this film actually somewhat enjoyable once
-you’ve been desensitised to the absurdity of the trilogy.&lt;/p&gt;
-
-&lt;h3 id=&quot;hereditary&quot;&gt;Hereditary&lt;/h3&gt;
-&lt;p&gt;A 25 year old highschool student accidentally kills his sister and subsequently becomes the earthly incarnation of Satan.&lt;/p&gt;
-
-&lt;h3 id=&quot;midsommar&quot;&gt;Midsommar&lt;/h3&gt;
-&lt;p&gt;The penny finally drops for an American student that she deserves better than her boyfriend when they join a pagan cult in rural Sweden and they offer to murder him for her.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-lighthouse&quot;&gt;The Lighthouse&lt;/h3&gt;
-&lt;p&gt;Robert Pattinson suffers a psychotic break after extensive bullying by a seagull while Willem Defoe mistakenly believes this is an
-adaptation of a Shakespeare tragedy.&lt;/p&gt;
+&lt;p&gt;It’s intense, but I’m hopeful about it.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/01/21/one-line-film-synopses</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/01/21/one-line-film-synopses</guid>
+        <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/02/04/man-club</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/04/man-club</guid>
       </item>
     
       <item>
-        <title>Say Yes</title>
-        <description>&lt;p&gt;Historically I have had a lot of trouble leaving my comfort zone, which has had a sort of self-perpetuating nature - the longer one remains in their comfort zone, the smaller it becomes. I’ve experienced generalised
-anxiety for the majority of my adult life to a greater or lesser degree, and it has at times been debilitating. It has certainly prevented me from doing a great many things that I might otherwise have done. Recently
-though I’ve somewhat made a breakthrough on this front, although perhaps not for the right reasons.&lt;/p&gt;
+        <title>Polyphia</title>
+        <description>&lt;p&gt;Today I booked tickets and flights to Birmingham to go see arguably the hottest prog metal band out there right now, Polyphia. I’ve also managed to schedule in a home game,
+an ale festival, and potentially another tattoo appointment into just 3 days, and now I am incredibly excited!&lt;/p&gt;
 
-&lt;p&gt;It’s become painfully clear to me now that actually there is great &lt;em&gt;dis&lt;/em&gt;comfort within my so-called comfort zone, and that pain is in fact comparable with my worst-case scenario were I to leave it and dive into
-whatever it is I might have anxiety about. It’s a very bizarre conclusion to come to, that what I had previously thought was the low risk, safe option is actually the high risk one, and subsequently any paths
-previously judged to be high risk are at worst equally dicey in comparison.&lt;/p&gt;
-
-&lt;p&gt;As a result, my anxiety has diminished a lot in recent weeks, although admittedly that changes seems to have been borne from a sense of nihilism. But so far, I have said yes to a handful of things that the old me
-would not have, and I’ve yet to have any go badly wrong. I want to keep saying yes, and forge a new comfort zone within the novel and unknown, embracing new experiences wherever I can, regardless of any fears I might
-have, even to some extent willing to take greater legitimate risks. I know that it won’t all go smoothly, and there will be some amount of pain incurred by this, but there will be pain on my previous path anyway,
-so what does it matter?&lt;/p&gt;
-
-&lt;p&gt;The next thing I have said yes to is going swimming in the sea at 7am on Thursday. Wish me luck.&lt;/p&gt;
+&lt;p&gt;Spending money on these kinds of experiences has slowly become more and more of a no-brainer to me. Everything else seems completely pointless where I to choose to continue to
+hoard it away, like Smaug on my pile of gold. Do you not think being a dragon under a mountain was an awfully lonely pursuit? I bet all he really wanted was someone to talk to.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/01/20/say-yes</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/01/20/say-yes</guid>
+        <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/02/02/polyphia</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/02/polyphia</guid>
+      </item>
+    
+      <item>
+        <title>Game Jam II</title>
+        <description>&lt;p&gt;This year I am once again participating in the &lt;a href=&quot;/mendokusai/2019/01/27/game-jam&quot;&gt;Global Game Jam&lt;/a&gt;, and after approximately 28 of our allotted 48 hours, we have already produced
+something leaps and bounds ahead of last year’s effort. It has been frankly exhausting, but this time I can say that I’m genuinely proud of the work that myself and our team
+have done and what we’ve been able to make in such a short period of time.&lt;/p&gt;
+
+&lt;p&gt;Tomorrow our game will theoretically be available to play on the internet, so I’ll post a link and write a little more about it after the event is over.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/02/01/game-jam-ii</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/01/game-jam-ii</guid>
       </item>
     
   </channel>
