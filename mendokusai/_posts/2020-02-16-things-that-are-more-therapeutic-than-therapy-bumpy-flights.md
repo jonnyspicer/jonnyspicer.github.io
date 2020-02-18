@@ -1,7 +1,7 @@
 ---
 layout: mendokusai
 author: Jonny Spicer
-title: Things That Are More Therapeutic Than Therapy&#58; Bumpy Flights
+title: Things That Are More Therapeutic Than Therapy III&#58; Bumpy Flights
 tags: [ Mental Health ]
 ---
 Having had to brave Storm Dennis from inside his bowels at approximately 24000ft in the air,
