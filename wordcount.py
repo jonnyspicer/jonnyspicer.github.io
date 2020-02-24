@@ -3,6 +3,8 @@ import re
 import csv
 import nltk
 import string
+import regex
+import pandas as pd
 from bs4 import BeautifulSoup
 
 # TODO:
@@ -12,20 +14,33 @@ from bs4 import BeautifulSoup
 
 directory = input('Which directory would you like a word count for?')
 wordcount = 0
-uniquewords = set([])
+uniquewords = dict()
 punctuationRemover = str.maketrans('', '', string.punctuation)
+linkRemover = regex.compile(r"(?|(?<txt>(?<url>(?:ht|f)tps?://\S+(?<=\PP)))|\(([^)]+)\)\[(\g<url>)])")
 
 for file in os.listdir(directory):
     filename = os.fsdecode(file)
     if filename.endswith(".md") or filename.endswith(".html"):
         with open(directory + '/' + filename, 'r') as file:
-            # This is a bit of a mouthful... it takes the raw text, uses BS4 to strip out
-            # html tags, replaces line endings to it's on a single line, then selects
-            # everything after the Jekyll front matter
+            # removes line endings
             text = file.read().replace('\n', '')
+
+            # selects only the portion of the file after the Jekyll front matter
             text = text.split('---', 2)
+
+            # removes html tags
             text = BeautifulSoup(text[2], features="html.parser").get_text()
+
+            # removes target=blank Markdown tags
+            text = text.replace("{:target=\"_blank\"}", '')
+
+            # removes Markdown links
+            text = regex.sub(linkRemover, '', text)
+
+            # removes anytthing that isn't an alphabetical character
             rec = re.compile('[^A-Za-z ]')
+
+            # casts the remaining string to lowercase
             text = re.sub(rec, ' ', text).lower()
 
             wordcount += len(text.split())
@@ -34,9 +49,12 @@ for file in os.listdir(directory):
             stemmer = nltk.stem.PorterStemmer()
             stemmed_tokens = map(lambda x: stemmer.stem(x), tokens)
 
-            # strips punctuation then splits by space
-            for words in stemmed_tokens:
-                uniquewords.add(words)
+            for token in stemmed_tokens:
+                if token in uniquewords:
+                    newVal = uniquewords.get(token) + 1
+                    uniquewords.update({token: newVal})
+                else:
+                    uniquewords.update({token: 1})
         continue
     else:
         print('That directory doesn\'t appear to have any posts in!')
@@ -45,8 +63,13 @@ for file in os.listdir(directory):
 print('Wordcount: ' + str(wordcount))
 print('Unique words: ' + str(len(uniquewords)))
 
-uniquewords = sorted(list(uniquewords))
-with open('words.csv', 'w') as result_file:
-    wr = csv.writer(result_file, dialect='excel')
-    for word in uniquewords:
-        wr.writerow([word, ])
+# sorting dictionaries is unnecessarily difficult in python
+
+sortedtuples = sorted(uniquewords.items(), reverse=True, key=lambda x: x[1])
+sortedwords=dict()
+
+for tuple in sortedtuples:
+    sortedwords.update({tuple[0] : tuple[1]})
+
+pd.DataFrame.from_dict(data=sortedwords, orient='index').to_csv(
+    'words.csv', header=False)
