@@ -8,14 +8,14 @@ import pandas as pd
 from bs4 import BeautifulSoup
 
 # TODO:
-# - strip markdown syntax (links etc)
-# - strip URLs
 # - correct the oodles of spelling mistakes this has uncovered
 
 directory = input('Which directory would you like a word count for?')
 wordcount = 0
 uniquewords = dict()
 punctuationRemover = str.maketrans('', '', string.punctuation)
+
+# huge shoutout to https://stackoverflow.com/questions/25109307/how-can-i-find-all-markdown-links-using-regular-expressions
 linkRemover = regex.compile(r"(?|(?<txt>(?<url>(?:ht|f)tps?://\S+(?<=\PP)))|\(([^)]+)\)\[(\g<url>)])")
 
 for file in os.listdir(directory):
@@ -37,7 +37,7 @@ for file in os.listdir(directory):
             # removes Markdown links
             text = regex.sub(linkRemover, '', text)
 
-            # removes anytthing that isn't an alphabetical character
+            # removes anything that isn't an alphabetical character
             rec = re.compile('[^A-Za-z ]')
 
             # casts the remaining string to lowercase
