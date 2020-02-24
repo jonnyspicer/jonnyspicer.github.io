@@ -1,5 +1,7 @@
 import os
+import re
 import csv
+import nltk
 import string
 from bs4 import BeautifulSoup
 
@@ -20,11 +22,20 @@ for file in os.listdir(directory):
             # This is a bit of a mouthful... it takes the raw text, uses BS4 to strip out
             # html tags, replaces line endings to it's on a single line, then selects
             # everything after the Jekyll front matter
-            text = BeautifulSoup(file.read().replace(
-                '\n', ''), features="html.parser").get_text().split('---', 2)
-            wordcount += len(text[2].split())
+            text = file.read().replace('\n', '')
+            text = text.split('---', 2)
+            text = BeautifulSoup(text[2], features="html.parser").get_text()
+            rec = re.compile('[^A-Za-z ]')
+            text = re.sub(rec, ' ', text).lower()
+
+            wordcount += len(text.split())
+
+            tokens = nltk.word_tokenize(text)
+            stemmer = nltk.stem.PorterStemmer()
+            stemmed_tokens = map(lambda x: stemmer.stem(x), tokens)
+
             # strips punctuation then splits by space
-            for words in text[2].lower().translate(punctuationRemover).split():
+            for words in stemmed_tokens:
                 uniquewords.add(words)
         continue
     else:
