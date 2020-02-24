@@ -6,11 +6,14 @@ import subprocess
 
 date = datetime.date.today().strftime('%Y-%m-%d')
 
+
 def get_all_substrings(input_string):
     length = len(input_string)
     return [input_string[0:i+1] for i in range(length)]
 
-blog_strings = get_all_substrings('mendokusai') + get_all_substrings('tartarus')
+
+blog_strings = get_all_substrings(
+    'mendokusai') + get_all_substrings('tartarus')
 
 blog_set = False
 while blog_set != True:
@@ -50,6 +53,7 @@ if os.path.exists(path):
     f.write('---\n')
     if sys.platform == "win32":
         os.startfile(path, 'open')
+    elif sys.platform == "darwin":
+        subprocess.call(('open', path))
     else:
-        opener = "open" if sys.platform == "darwin" else "xdg-open"
-        subprocess.call([opener, path])
+        subprocess.call(('xdg-open', path), shell=True)
