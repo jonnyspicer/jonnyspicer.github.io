@@ -4,9 +4,10 @@ author: Jonny Spicer
 title: Infinite Jest&#58; I've Written a Novel II
 tags: [ Books ]
 ---
-Not only have I written over 150,000 words on this blog, I have apparently used 21,674 unique ones -
-moreso than DFW did in Infinite Jest. Intuitively that seems incorrect however, and I think there
-are a number of possible reasons for my lexicon being inflated (in comparison to DFW);
+Not only have I written over 150,000 words on this blog, I have apparently used 20,161 unique ones -
+a mere 423 behind the 20,584 used by DFW in Infinite Jest. Intuitively that seems incorrect 
+however, and I think there are a number of possible reasons for my lexicon being inflated such 
+that it nears DFW's;
 
 - I write about a broader range of subjects, and therefor use more jargon and technical words;
 - The unique word count, unlike the raw word count, will be artificially increased by hyphenated
