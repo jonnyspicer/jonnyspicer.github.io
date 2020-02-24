@@ -6,25 +6,16 @@ import subprocess
 
 date = datetime.date.today().strftime('%Y-%m-%d')
 
-
-def get_all_substrings(input_string):
-    length = len(input_string)
-    return [input_string[0:i+1] for i in range(length)]
-
-
-blog_strings = get_all_substrings(
-    'mendokusai') + get_all_substrings('tartarus')
-
 blog_set = False
 while blog_set != True:
     flavour = input('Which blog are you writing in today?')
     flavour = flavour.lower()
-    if flavour in blog_strings:
+    if flavour in 'mendokusai':
+        flavour = 'mendokusai'
         blog_set = True
-        if flavour in get_all_substrings('mendokusai'):
-            flavour = 'mendokusai'
-        elif flavour in get_all_substrings('tartarus'):
-            flavour = 'tartarus'
+    elif flavour in 'tartarus':
+        flavour = 'tartarus'
+        blog_set = True
 
 name = input('What\'s the title of your blog post?')
 tags = input('What topics are you writing about today (separated by a comma)?')
