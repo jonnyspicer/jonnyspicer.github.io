@@ -1,5 +1,13 @@
 import os
+import csv
+import string
 from bs4 import BeautifulSoup
+
+# TODO:
+# - strip punctuation properly
+# - strip markdown syntax (links etc)
+# - strip URLs
+# - correct the oodles of spelling mistakes this has uncovered
 
 directory = input('Which directory would you like a word count for?')
 wordcount = 0
@@ -14,7 +22,9 @@ for file in os.listdir(directory):
             # everything after the Jekyll front matter
             text = BeautifulSoup(file.read().replace(
                 '\n', ''), features="html.parser").get_text().split('---', 2)
-            wordcount += len(text[2].split())
+            # attempts to strip punctuation put currently doesn't work
+            wordcount += len(text[2].translate(str.maketrans('',
+                                                             '', string.punctuation)).split())
             for words in text[2].lower().split():
                 uniquewords.add(words)
         continue
@@ -23,3 +33,9 @@ for file in os.listdir(directory):
 
 print('Wordcount: ' + str(wordcount))
 print('Unique words: ' + str(len(uniquewords)))
+
+uniquewords = sorted(list(uniquewords))
+with open('words.csv', 'w') as result_file:
+    wr = csv.writer(result_file, dialect='excel')
+    for word in uniquewords:
+        wr.writerow([word, ])
