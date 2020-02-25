@@ -8,16 +8,22 @@ import pandas as pd
 from bs4 import BeautifulSoup
 
 # TODO:
+# - strip anything in head/header/footer for old html posts
 # - correct the oodles of spelling mistakes this has uncovered
 
 directory = input('Which directory would you like a word count for?')
 wordcount = 0
 uniquewords = dict()
 nonalphabeticalremover = regex.compile('[^A-Za-z ]')
+headremover = regex.compile(r'<head.*?>(.*?)</head>', re.DOTALL, re.MULTILINE)
+headerremover = regex.compile(
+    r'<header.*?>(.*?)</header>', re.DOTALL, re.MULTILINE)
+footerremover = regex.compile(
+    r'<footer.*?>(.*?)</footer>', re.DOTALL, re.MULTILINE)
 
 # huge shoutout to https://stackoverflow.com/questions/25109307/how-can-i-find-all-markdown-links-using-regular-expressions
 linkremover = regex.compile(
-    r"(?|(?<txt>(?<url>(?:ht|f)tps?://\S+(?<=\PP)))|\(([^)]+)\)\[(\g<url>)])")
+    r"(?|(?<txt>(?<url>(?:ht|f)tps?://\S+(?<=\PP)))|\(([^)]+)\)\[(\g<url>)])", re.MULTILINE)
 
 for file in os.listdir(directory):
     filename = os.fsdecode(file)
@@ -30,8 +36,20 @@ for file in os.listdir(directory):
             # selects only the portion of the file after the Jekyll front matter
             text = text.split('---', 2)
 
+            # replace break tags with spaces
+            text = text[2].replace('<br />', ' ')
+
+            if regex.match(headremover, text) == True:
+                print(text)
+                break
+            text = regex.sub(headremover, '', text)
+            text = regex.sub(headerremover, '', text)
+            text = regex.sub(footerremover, '', text)
+
+            text = BeautifulSoup(text, features="html.parser")
+
             # removes html tags
-            text = BeautifulSoup(text[2], features="html.parser").get_text()
+            text = text.get_text()
 
             # removes target=blank Markdown tags
             text = text.replace("{:target=\"_blank\"}", '')
