@@ -7,7 +7,7 @@ tags: [ Running ]
 The Netflix documentary about [The Barkley Marathons](https://en.wikipedia.org/wiki/Barkley_Marathons) is subtitled 'The Race That Eats Its Children', 
 and after watching it, I entirely understand that choice. The ultramarathon covers a distance of '100.00M' - however ask any runner and they will say 
 it is likely close to 130M, and with 120000 feet of elevation change, it is the equivalent of climbing up Everest from sea level and back down again - twice - in just 60 hours. 
-The terrain is brutal, with every single competitiors legs getting slashed to pieces by briars all over the course. In order to prove that you've completed 
+The terrain is brutal, with every single competitors legs getting slashed to pieces by briars all over the course. In order to prove that you've completed 
 an entire loop (there are five in total - completing three is known as a 'Fun Run'), you have to tear out pages of books that correlate to your race number, placed 
 at various locations around the course. The race officially begins when the organizer lights his cigarette, which he does an hour after blowing a conch shell, 
 which can be done anytime between midnight and noon on race day. When you drop out, a bugler plays Taps to signal your 'death'. Every year, of the forty allocated 

@@ -16,7 +16,7 @@ fact rather sad to see her go. Ignoring the fact that all of her likely successo
 her decisions at many points in the Brexit process, I have come to admire her a great deal, even more so as a result of her speech today. I truly cannot think of any job 
 I would have wanted less than to be Prime Minister over the past three years - Mrs May's task was to unite a country that has never been more divided in living memory, 
 preserve democracy, strengthen an unstable economy, and restore faith in not just her government, but indeed the entire political system. I cannot even begin to imagine 
-the strains and the pressures that she must have felt as she tried to accomplish this insurmountable task while beseiged on all sides, yet at all times she remained 
+the strains and the pressures that she must have felt as she tried to accomplish this insurmountable task while besieged on all sides, yet at all times she remained 
 resolute, dignified and remained true to what she believed in, truly acting as a servant to her country, in the way that she believed was best. It was only today 
 that she finally cracked and displayed emotion publically, a reminder to the nation that she is as human as any of us, serving to really emphasise her resilience during 
 her time as leader.

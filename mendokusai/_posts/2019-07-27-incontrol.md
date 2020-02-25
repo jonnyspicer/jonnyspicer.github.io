@@ -16,4 +16,4 @@ obvious talents chose to lend them to that game in particular.
 
 Geoff was also a regular on State of the Game and produced arguably the two best moments in the entire series - first by laying down the law on [horses](https://www.youtube.com/watch?v=9iSb5-X_2do&t=1s) and then second by making [Day9 fall off his chair](https://www.youtube.com/watch?v=fEcsmUx8CzU). His demeanour and love of life was evident to all, and he was an inspiration to many in the community through his dedication to the game and relentless optimism.
 
-In recent years he has been the shining light on commentary panels, bringing unmatched humour and passion to each cast, uniting diehard fans and newcomers alike with his ability to analyse and simplify the intricacies of an exceptionally complex game. Future events simply won't be the same without him.
+In recent years he has been the shining light on commentary panels, bringing unmatched humour and passion to each cast, uniting die-hard fans and newcomers alike with his ability to analyse and simplify the intricacies of an exceptionally complex game. Future events simply won't be the same without him.

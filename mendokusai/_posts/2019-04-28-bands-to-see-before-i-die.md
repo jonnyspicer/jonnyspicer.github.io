@@ -24,6 +24,6 @@ bands on the list from as far as Japan, perhaps I'll have to travel a little fur
 - IDLES
 - Beach Bunny
 - Graduating Life
-- Mistki
+- Mitski
 - Car Seat Headrest, again
 - If they ever reform I'll drop my entire life to go see Modern Baseball live.

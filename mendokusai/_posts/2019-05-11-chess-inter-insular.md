@@ -5,7 +5,7 @@ title: Chess Inter Insular
 tags: [ Chess ]
 ---
 Today was the 82nd installation of the Channel Islands Inter-Insular; the annual chess match between Guernsey and Jersey, in recent years played 
-across 16 boards. Jersey could only field a weakend side, with many of their top players regrettably absent, which paved the way for a historic 
+across 16 boards. Jersey could only field a weakened side, with many of their top players regrettably absent, which paved the way for a historic 
 occasion (for me at least) - my first time being part of a winning team since 2010, our board two getting his 2nd individual win since his debut 
 in 1983, and Guernsey's biggest margin of victory since 1965.
 
