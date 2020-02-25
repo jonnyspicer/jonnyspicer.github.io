@@ -12,8 +12,8 @@ the most up-to-date version of python:
 - regex
 - pandas
 - nltk
-- Beautiful Soup
+- beautifulsoup4
 
 ```shell
-pip3 install regex pandas nltk beautifulsoup
+pip3 install regex pandas nltk beautifulsoup4
 ```
