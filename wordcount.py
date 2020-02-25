@@ -23,7 +23,7 @@ for file in os.listdir(directory):
     if filename.endswith(".md") or filename.endswith(".html"):
         with open(directory + '/' + filename, 'r') as file:
             # removes line endings
-            text = file.read().replace('\n', '')
+            text = file.read().replace('\n', ' ')
 
             # selects only the portion of the file after the Jekyll front matter
             text = text.split('---', 2)
