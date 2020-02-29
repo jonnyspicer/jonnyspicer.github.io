@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jonny Spicer | Thoughts From Tartarus
+title: Jonny Spicer
 email: spicerjonny@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Jonny Spicer's personal website and blog, where he writes about
@@ -36,11 +36,6 @@ collections:
 permalink: /:categories/:year/:month/:day/:title
 
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
   - scope:
       path: ""
       type: "posts"

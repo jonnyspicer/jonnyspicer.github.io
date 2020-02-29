@@ -1,9 +1,16 @@
 <header>
-  <button class="hamburger hamburger--slider" type="button" name="expand-menu-button">
-    <span class="hamburger-box">
-      <span class="hamburger-inner"></span>
-    </span>
-  </button>
+  <div class="mobile-header">
+    <div>
+      <a href="/">{{ site.title }}</a>
+    </div>
+    <div class="toggle">
+      <span>
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
+  </div>
   <nav class="desktop-nav">
     {% for item in site.data.navigation %}
       <a href="{{ item.link }}">

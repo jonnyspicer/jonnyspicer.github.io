@@ -39,12 +39,12 @@ for file in os.listdir(directory):
             # replace break tags with spaces
             text = text[2].replace('<br />', ' ')
 
-            if regex.match(headremover, text) == True:
-                print(text)
-                break
-            text = regex.sub(headremover, '', text)
-            text = regex.sub(headerremover, '', text)
-            text = regex.sub(footerremover, '', text)
+            # if regex.match(headremover, text) == True:
+            #     print(text)
+            #     break
+            # text = regex.sub(headremover, '', text)
+            # text = regex.sub(headerremover, '', text)
+            # text = regex.sub(footerremover, '', text)
 
             text = BeautifulSoup(text, features="html.parser")
 
@@ -56,6 +56,10 @@ for file in os.listdir(directory):
 
             # removes Markdown links
             text = regex.sub(linkremover, '', text)
+
+            text = regex.sub(headremover, '', text)
+            text = regex.sub(headerremover, '', text)
+            text = regex.sub(footerremover, '', text)
 
             # removes anything that isn't an alphabetical character and casts the remaining string to lowercase
             text = regex.sub(nonalphabeticalremover, ' ', text).lower()
