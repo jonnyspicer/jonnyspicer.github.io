@@ -20,7 +20,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   mental health, technology, esports, but primarily trash.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://jonnyspicer.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: junior_devloper
 github_username:  jonnyspicer
 
 sass:
