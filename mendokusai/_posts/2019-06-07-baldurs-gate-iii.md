@@ -5,7 +5,7 @@ title: Baldur's Gate III
 tags: [ Video Games ]
 ---
 Yesterday, Larian Studios [announced Baldur's Gate III](https://www.youtube.com/watch?v=OcP0WdH7rTs), 19 years after BGII was originally released.
-The original games were some of my favourite ever (in fact I already [mentioned them earlier this week](/mendokusai/2019/06/05/day9-daily-10)) and I
+The original games were some of my favourite ever (in fact I already [mentioned them earlier this week](/mendokusai/2019/06/05/day9-daily-100)) and I
 am *unbelievably* excited to finally make my return to the Sword Coast. With fifth edition AD&D rules in place for the new title, hopefully some of
 the more weird and wonderful kinks in the old school gameplay will have been ironed out and the randomness will have calmed down.
 

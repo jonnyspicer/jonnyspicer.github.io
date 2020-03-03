@@ -4,7 +4,7 @@ author: Jonny Spicer
 title: Failure II
 tags: [ Personal ]
 ---
-(A quick aside - the first time I wrote a blog post entitled failure, the result was [pitiful and hilarious](/mendokusai/2018/03/30/failure)).
+First, a quick aside - the first time I wrote a blog post entitled failure, the result was [pitiful and hilarious.](/mendokusai/2018/03/31/failure)
 
 Happiness is pretty great, and I would strongly recommend it to each and every one of you. In what has been described by critics as my first meaningful 
 foray into this particular emotion, I feel like I have found my stride pretty quickly, whistling down the street and smiling at strangers as if I'd 
