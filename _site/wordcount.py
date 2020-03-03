@@ -15,11 +15,6 @@ directory = input('Which directory would you like a word count for?')
 wordcount = 0
 uniquewords = dict()
 nonalphabeticalremover = regex.compile('[^A-Za-z ]')
-headremover = regex.compile(r'<head.*?>(.*?)</head>', re.DOTALL, re.MULTILINE)
-headerremover = regex.compile(
-    r'<header.*?>(.*?)</header>', re.DOTALL, re.MULTILINE)
-footerremover = regex.compile(
-    r'<footer.*?>(.*?)</footer>', re.DOTALL, re.MULTILINE)
 
 # huge shoutout to https://stackoverflow.com/questions/25109307/how-can-i-find-all-markdown-links-using-regular-expressions
 linkremover = regex.compile(
@@ -36,15 +31,9 @@ for file in os.listdir(directory):
             # selects only the portion of the file after the Jekyll front matter
             text = text.split('---', 2)
 
-            # replace break tags with spaces
+            # replace break and list tags with spaces
             text = text[2].replace('<br />', ' ')
-
-            # if regex.match(headremover, text) == True:
-            #     print(text)
-            #     break
-            # text = regex.sub(headremover, '', text)
-            # text = regex.sub(headerremover, '', text)
-            # text = regex.sub(footerremover, '', text)
+            text = text.replace('<li>', ' ')
 
             text = BeautifulSoup(text, features="html.parser")
 
@@ -56,10 +45,6 @@ for file in os.listdir(directory):
 
             # removes Markdown links
             text = regex.sub(linkremover, '', text)
-
-            text = regex.sub(headremover, '', text)
-            text = regex.sub(headerremover, '', text)
-            text = regex.sub(footerremover, '', text)
 
             # removes anything that isn't an alphabetical character and casts the remaining string to lowercase
             text = regex.sub(nonalphabeticalremover, ' ', text).lower()
