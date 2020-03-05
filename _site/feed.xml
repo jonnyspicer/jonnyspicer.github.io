@@ -7,6 +7,21 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Travis CI</title>
+        <description>&lt;p&gt;This week I have finally got Travic set up for this site, thanks a lot to &lt;a href=&quot;https://jacquesdonnelly.github.io/posts/travis-ci/&quot; target=&quot;_blank&quot;&gt;Jacques&lt;/a&gt; for the idea. For a free service
+it’s quite impressive, and it integrates nicely with Jekyll and GitHub Pages. At the moment
+all it does is run the generated static content through &lt;a href=&quot;https://github.com/gjtorikian/html-proofer&quot; target=&quot;_blank&quot;&gt;htmlproofer,&lt;/a&gt; but that’s already dug up some links in old posts
+that were broken.&lt;/p&gt;
+
+&lt;p&gt;The next step is going to be getting GitHubt Actions setup, and that really will be the nail
+in your ethereum coffin, slvrsluger.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/04/travis-ci</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/04/travis-ci</guid>
+      </item>
+    
+      <item>
         <title>Disco Elysium</title>
         <description>&lt;p&gt;The game that I choose to accompany me on my journey through the barren &lt;a href=&quot;/mendokusai/2020/03/01/life-without-wifi&quot;&gt;internetless wasteland&lt;/a&gt; was ZA/UM’s isometric RPG, &lt;a href=&quot;https://zaumstudio.com/&quot; target=&quot;_blank&quot;&gt;Disco Elysium.&lt;/a&gt; Had I realised earlier that it was heavily inspired by the  &lt;br /&gt;
 Infinity Engine games of yore, then I think I would’ve found time to play it sooner, especially
@@ -173,17 +188,6 @@ a hobby, it usually only occupies ten minutes of my day. So, perhaps, one day…
         <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
         <link>http://localhost:4000//mendokusai/2020/02/24/infinite-jest-ive-written-a-novel</link>
         <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/24/infinite-jest-ive-written-a-novel</guid>
-      </item>
-    
-      <item>
-        <title>The Great Game</title>
-        <description>&lt;p&gt;Today I received a welcome reminder as to why PLO is lovingly dubbed “The Great Game”, and all
-other variants are secondary to it. It’s simply this; in PLO, you can bluff and get called by
-worse hands. Can a game be any greater than that?&lt;/p&gt;
-</description>
-        <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/02/23/the-great-game</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/23/the-great-game</guid>
       </item>
     
   </channel>

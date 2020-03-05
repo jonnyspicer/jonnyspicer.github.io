@@ -1,4 +1,4 @@
 set -e # halt script on error
 
 bundle exec jekyll build
-bundle exec htmlproofer htmlproofer --check-html --internal-domains localhost:4000 --assume-extension --disable-external ./_site
+bundle exec htmlproofer --check-html --internal-domains localhost:4000 --assume-extension --disable-external ./_site
