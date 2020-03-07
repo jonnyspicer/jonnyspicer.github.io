@@ -7,6 +7,49 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Food is Food for the Soul</title>
+        <description>&lt;p&gt;A couple of my coworkers have started drinking &lt;a href=&quot;https://huel.com/&quot; target=&quot;_blank&quot;&gt;Huel&lt;/a&gt; as part of their diet, and for a while I seriously considered joining them. It seems like a way to
+regulate my caloric intake with relatively little mental effort required, and I still haven’t broken the habit of thinking that my self esteem is inversely proportional to my weight. After
+giving it some thought, I rejected the idea; life is far, far too short not to eat food. Even if in many ways I have an unhealthy relationship with food, that doesn’t mean that all of it is
+impure, unthinking and devoid of wholesomeness - perhaps recognising those moments and leaning into them more could even be a catalyst for better overall eating patterns?&lt;/p&gt;
+
+&lt;p&gt;Anyway, this post is really just my way of trying to justify to myself that I’ve been out for breakfast and lunch already today, and I’m going out for dinner later. I’m not even sorry.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/07/food-is-food-for-the-soul</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/07/food-is-food-for-the-soul</guid>
+      </item>
+    
+      <item>
+        <title>Puppeteer</title>
+        <description>&lt;p&gt;Today I finally had the chance to play around with Google’s &lt;a href=&quot;https://developers.google.com/web/tools/puppeteer/&quot; target=&quot;_blank&quot;&gt;Puppeteer,&lt;/a&gt; it’s nifty Node library for manipulating a Chrome browser via API, head
+optional. It’s a powerful tool for automation, and getting it hooked up
+to &lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/&quot; target=&quot;_blank&quot;&gt;Lighthouse&lt;/a&gt; in order to automate website audits was virtually
+painless. I’ll definitely be using it a lot more to write tests for
+my projects, expect to see some cools things in my repos soon.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/06/puppeteer</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/06/puppeteer</guid>
+      </item>
+    
+      <item>
+        <title>Sometimes Laziness Pays Off</title>
+        <description>&lt;p&gt;This morning it seems like Flybe are poised to immediately cease being
+an airline, and with it, thousands of promises to fly someone from A to
+B will vanish into the ether.&lt;/p&gt;
+
+&lt;p&gt;I am planning a lot of flights in the near future, but for once, my
+laziness has been a boon - I haven’t got round to booking any of them
+yet, unlike some of my friends, who have awoken this morning to find
+that they’re going to need to further dent their bank balance. Hehehe.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/05/sometimes-laziness-pays-off</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/05/sometimes-laziness-pays-off</guid>
+      </item>
+    
+      <item>
         <title>Travis CI</title>
         <description>&lt;p&gt;This week I have finally got Travic set up for this site, thanks a lot to &lt;a href=&quot;https://jacquesdonnelly.github.io/posts/travis-ci/&quot; target=&quot;_blank&quot;&gt;Jacques&lt;/a&gt; for the idea. For a free service
 it’s quite impressive, and it integrates nicely with Jekyll and GitHub Pages. At the moment
@@ -123,71 +166,6 @@ kind of person who might actually complete the infernal task a single time in th
         <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
         <link>http://localhost:4000//mendokusai/2020/02/27/the-barkley-marathons-ii</link>
         <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/27/the-barkley-marathons-ii</guid>
-      </item>
-    
-      <item>
-        <title>Ego in Chess II</title>
-        <description>&lt;p&gt;Last night I had the pleasure of playing &lt;a href=&quot;/mendokusai/2018/11/13/ego-in-chess&quot;&gt;this guy&lt;/a&gt; in the
-league once more. It wasn’t quite over in 18 moves… but it was close, only 22, and this time
-he wasn’t ill. He did still say something hilarious to me though, after my win (my third consecutively against him), “I don’t know what it is, I always seem to get compromised positions
-against you… I think you’re a bad stylistic matchup for me”.&lt;/p&gt;
-
-&lt;p&gt;Come on bro, just say I am better than you, it’s not going to hurt - at least not physically… 
-Once again it feels good to indulge in my own ego though.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/02/26/ego-in-chess-ii</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/26/ego-in-chess-ii</guid>
-      </item>
-    
-      <item>
-        <title>Miss Anthropocene Review</title>
-        <description>&lt;p&gt;After teasing the album for almost an entire year (which I think is ridiculous), Grimes &lt;em&gt;finally&lt;/em&gt;
-released her long-awaited followup to 2015 art-pop behemoth Art Angels in the form of her new LP,
-Miss Anthropocene. The title is in my book a winner, being a pun on misanthropy and the 
-anthropecene era, which naturally we are currently living through.&lt;/p&gt;
-
-&lt;p&gt;With the album having been in the works for so long, I had already listened to all of the singles
-quite a bit, and being 5 in number they contribute 50% of the total songs on the record (6/11 if
-you have the Japanese edition bonus track).&lt;/p&gt;
-
-&lt;p&gt;Overall, Miss Anthropocene feels like a natural evolution of Grimes’ style, forging into new
-territory while retaining all the quintessential trademarks of her music. The vast ambient
-soundscapes are difficult to liken to anything else I’ve heard - imagine if Aphex Twin were a
-post metal band, and you’ll be in the right ballpark. Her signature soprano vocals are mellifluous
-over the top of the rich layers beneath, and her songwriting and lyricism is, as always, far
-superior to most other pop artists. The only thing I really don’t like about it is the introduction
-to the final track, ‘IDORU’, which sounds &lt;em&gt;so&lt;/em&gt; much like a car alarm that I refuse to accept that
-it could be anything else.&lt;/p&gt;
-
-&lt;p&gt;Other than that the album is solid, and has already earned several repeat listens, although it’s
-doubtful to be a contender for my album of the year. 7.5/10 - now to wait and see what the baby
-is going to be called.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/02/25/miss-anthropocene-review</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/25/miss-anthropocene-review</guid>
-      </item>
-    
-      <item>
-        <title>Infinite Jest&amp;#58; I've Written a Novel</title>
-        <description>&lt;p&gt;Last year, Josh and I had a conversation about how we’d never write a novel, because we’d want it to
-be our own Infinite Jest, and neither of us are any David Foster Wallace. It seemed like a thankless
-creative endeavour as we would both set wholly unrealistic and unattainably high bars for ourselves,
-and so we would simply never even try.&lt;/p&gt;
-
-&lt;p&gt;Having said that, according to my &lt;a href=&quot;https://github.com/jonnyspicer/jonnyspicer.github.io/blob/master/wordcount.py&quot; target=&quot;_blank&quot;&gt;calculations&lt;/a&gt;, I’ve actually written enough words in the last 3 and a bit years to
-constitute a fairly beefy novel: approximately 150,862 (in reality it is probably higher as that
-script only splits words by spaces, and I quite like doing that-thing-where-you-hyphenate-all-the-words). According to &lt;a href=&quot;https://self-publishingschool.com/how-many-words-in-a-novel/&quot; target=&quot;_blank&quot;&gt;this completely arbitrary source&lt;/a&gt;, that’s more words than any
-category of non-technical book they list. Admittedly, it’s still not quite Infinite Jest, which,
-according to Ryan Compton, weighs in at a hefty &lt;a href=&quot;http://ryancompton.net/2014/06/06/statistical-features-of-infinite-jest/&quot; target=&quot;_blank&quot;&gt;577,608 words.&lt;/a&gt; Clearly a lot of my words are (exceptionally) low quality,
-but still, I clearly have it in me to write the kind of volume required for a novel, and in a
-reasonable amount of time, as I am demonstrably not a full time writer, nor do I consider blogging
-a hobby, it usually only occupies ten minutes of my day. So, perhaps, one day…&lt;/p&gt;
-</description>
-        <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/02/24/infinite-jest-ive-written-a-novel</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/24/infinite-jest-ive-written-a-novel</guid>
       </item>
     
   </channel>
