@@ -44,3 +44,10 @@ if os.path.exists(path):
     f.write('---\n')
 
     subprocess.call(('nano'), path)
+
+    # if sys.platform == "win32":
+    #     os.startfile(path, 'open')
+    # elif sys.platform == "darwin":
+    #     subprocess.call(('open', path))
+    # else:
+    #     subprocess.call(('xdg-open', path), shell=True)
