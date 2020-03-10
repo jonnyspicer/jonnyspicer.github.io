@@ -1,3 +1,4 @@
 *.vscode
 words.csv
 .sass-cache/
+*.patch
