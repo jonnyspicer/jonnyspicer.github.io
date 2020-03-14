@@ -7,6 +7,129 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Folding at Home</title>
+        <description>&lt;p&gt;I’ve deliberately refrained from writing about &lt;em&gt;la grippe du jour&lt;/em&gt; because it feels
+like it’s all anyone else is writing about and I am forever a contrarian, however
+today’s post is at least somewhat related.&lt;/p&gt;
+
+&lt;p&gt;Now that SETI@home has gone into ‘hibernation’ while Berkeley scientists focus on
+analysing their existing dataset, which admittedly must be pretty huge by now, and
+given cryptos recent swan dive back to pre-2017 prices, there’s huge swathes of GPUs
+simply idling across the globe, when they could all be doing their tiny little part
+to better society. One pretty neat way to do so is to join the &lt;a href=&quot;https://foldingathome.org&quot; target=&quot;_blank&quot;&gt;Folding@home&lt;/a&gt; party and put your spare processor cycles to
+work by simulating protein folding.&lt;/p&gt;
+
+&lt;p&gt;DeepMind recently brought &lt;a href=&quot;https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery&quot; target=&quot;_blank&quot;&gt;protein folding to the attention of the wider tech community&lt;/a&gt; and while I won’t
+pretend to understand any of the biochemistry involve, the computing aspect is pretty
+interesting, and it’s an application of modern technology that is refreshing not-evil.
+Sure, I might not have quite the hardware that Google are hooking DeepMind up with
+to achieve such stellar results, but the idea that the handful of proteins I can
+compute on my lowly GTX 970 might contribute to research into the &lt;em&gt;C-Word&lt;/em&gt; warms
+my soul a little.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/14/folding-at-home</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/14/folding-at-home</guid>
+      </item>
+    
+      <item>
+        <title>Hand Anger</title>
+        <description>&lt;p&gt;Last night I was enjoying the recent uptick in player liquidity on Run It Once and was happily clicking buttons when a particular hand made me really &lt;em&gt;angry&lt;/em&gt;. The nice thing about
+being a fun player is that now I can simply stop playing, take a step back and evaluate why exactly this hand irked me so much.&lt;/p&gt;
+
+&lt;p&gt;The hand went as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Folds to hero in CO with AhKhQc8d, raises to 3.5bb&lt;/li&gt;
+  &lt;li&gt;BTN calls, blinds fold&lt;/li&gt;
+  &lt;li&gt;flop Ks8s2x hero bets 4.5bb, villain calls&lt;/li&gt;
+  &lt;li&gt;turn Ks8s2xAs pot 16.5bb, hero checks, villain bets 11bb, hero calls&lt;/li&gt;
+  &lt;li&gt;river Ks8s2xAs2x pot 38.5bb hero pots, villain calls and tables…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;T663sssx.&lt;/p&gt;
+
+&lt;p&gt;My first reaction is to inwardly chastise villain for making such a bad play - I think preflop is definitely -EV and every other street is at best breakeven. Why am I so angry?
+It’s a sense of entitlement, one of the ways ego manifests itself in poker, because he made a ‘bad’ play, he doesn’t deserve to win my money. But maybe he had a sick read on me,
+he felt he could outplay me in position despite having mediocre holdings, perhaps my large lead OTR was actually a lot more exploitable than I had thought. It’s also a spot
+where in reality I think I am making a lot of EV, just in this case I happened to lose actual money. Even after a couple of million hands of poker, those spots still hurt.&lt;/p&gt;
+
+&lt;p&gt;I wonder how much my poker mental game is influenced by my mental health off the felt. If I needed less external validation, the kind I might get from winning money at poker and
+thus proving some kind of intellectual superiority, I can’t help but feel that these spots wouldn’t tilt me so much. The obvious &lt;em&gt;sequitur&lt;/em&gt; is that I should work on my IRL
+mental game and then things will fall into place at the tables, but perhaps the reverse might also be true?&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/13/hand-anger</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/13/hand-anger</guid>
+      </item>
+    
+      <item>
+        <title>Nietzsche Quotes</title>
+        <description>&lt;p&gt;Yesterday I was taking to a friend and referenced an aphorism which I then duly attributed to everybody’s favourite German
+cultural critic Friedrich Nietzsche. Except for the fact that I got it wrong, and missed out an important clause which
+added very necessary context. And I completely misinterpreted it.&lt;/p&gt;
+
+&lt;p&gt;The lesson here is to not try and quote Nietzsche to your friends (or to anyone for that matter) because the only possible
+outcome is that you end up looking like a pretentious twat.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/12/nietzsche-quotes</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/12/nietzsche-quotes</guid>
+      </item>
+    
+      <item>
+        <title>An Hour of Nothing</title>
+        <description>&lt;p&gt;First off, I am attempting to write this post in nano, and if that doesn’t make me a real developer then I don’t know what does.&lt;/p&gt;
+
+&lt;p&gt;Secondly, this week I am trying out a new rule for myself (rule sounds a little bit draconian - let’s call it a &lt;em&gt;heuristic&lt;/em&gt; instead). Every day I have to spend a whole hour
+doing something unproductive. No work, no exercise, no cooking, no cleaning, no writing a blog post, no nothing. A whole hour of being a vegetable in some way, shape or form,
+contributing nothing whatsoever to society.&lt;/p&gt;
+
+&lt;p&gt;I’m very excited about it.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/11/an-hour-of-nothing</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/11/an-hour-of-nothing</guid>
+      </item>
+    
+      <item>
+        <title>You're Welcome, Ted</title>
+        <description>&lt;p&gt;Imagine trying to write a blog post needling one of your friends, but then misspelling misstepped and
+not resizing any of your images so they all overflow their containers. It’s truly remarkable I managed
+to lose a bet to someone like that…&lt;/p&gt;
+
+&lt;p&gt;Anyway, you’re welcome, and don’t worry, I’ll be dining on your dollar in return soon enough.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/10/youre-welcome-ted</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/10/youre-welcome-ted</guid>
+      </item>
+    
+      <item>
+        <title>Open-Jaw Flights</title>
+        <description>&lt;p&gt;Extracting maximum value from flights seems to be something of a dark art, and there is a whole world
+of airmiles, alliances and error fares to try and wrap one’s head around. Airfare pricing in general
+still seems completely nonsenical to me, but today I discovered the existence of so-caled “open-jaw” 
+flights, which could prove to be an important piece of the affordable travel puzzle. For example, a
+direct flight from Edinburgh to NYC with Delta, one way - £1700. But a multi-city roundtrip, with
+the return flight from Las Vegas to London? £500 for both flights. I assume they make the one-way
+prices ridiculous to incentivise flying both ways on the same carrier, but still, 3.5x seems nuts.&lt;/p&gt;
+
+&lt;p&gt;I’m glad I’ve learned about this one small machination of the aviation industry. As I dive deeper
+down the rabbit hole, I’m sure I’ll provide more details of GTO flying.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/09/openjaw-flights</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/09/openjaw-flights</guid>
+      </item>
+    
+      <item>
         <title>Itachi Uchiha</title>
         <description>&lt;p&gt;I’ve been thinking a lot about what kind of man I want to be lately, and looking for suitable male role models in our post-feminist age. It struck me while running today that &lt;a href=&quot;https://en.wikipedia.org/wiki/Itachi_Uchiha&quot; target=&quot;_blank&quot;&gt;Itachi Uchicha&lt;/a&gt;, while not quite being a role model per se (not least because of his fictitious nature), embodies many qualities that I aspire
 to. He’s a man who is willing to do what must be done - one trait from old male archetypes I think worth still praising - he puts his brother before anything, has a bulletproof sense of 
@@ -60,106 +183,6 @@ that they’re going to need to further dent their bank balance. Hehehe.&lt;/p&g
         <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
         <link>http://localhost:4000//mendokusai/2020/03/05/sometimes-laziness-pays-off</link>
         <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/05/sometimes-laziness-pays-off</guid>
-      </item>
-    
-      <item>
-        <title>Travis CI</title>
-        <description>&lt;p&gt;This week I have finally got Travic set up for this site, thanks a lot to &lt;a href=&quot;https://jacquesdonnelly.github.io/posts/travis-ci/&quot; target=&quot;_blank&quot;&gt;Jacques&lt;/a&gt; for the idea. For a free service
-it’s quite impressive, and it integrates nicely with Jekyll and GitHub Pages. At the moment
-all it does is run the generated static content through &lt;a href=&quot;https://github.com/gjtorikian/html-proofer&quot; target=&quot;_blank&quot;&gt;htmlproofer,&lt;/a&gt; but that’s already dug up some links in old posts
-that were broken.&lt;/p&gt;
-
-&lt;p&gt;The next step is going to be getting GitHubt Actions setup, and that really will be the nail
-in your ethereum coffin, slvrsluger.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/04/travis-ci</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/04/travis-ci</guid>
-      </item>
-    
-      <item>
-        <title>Disco Elysium</title>
-        <description>&lt;p&gt;The game that I choose to accompany me on my journey through the barren &lt;a href=&quot;/mendokusai/2020/03/01/life-without-wifi&quot;&gt;internetless wasteland&lt;/a&gt; was ZA/UM’s isometric RPG, &lt;a href=&quot;https://zaumstudio.com/&quot; target=&quot;_blank&quot;&gt;Disco Elysium.&lt;/a&gt; Had I realised earlier that it was heavily inspired by the  &lt;br /&gt;
-Infinity Engine games of yore, then I think I would’ve found time to play it sooner, especially
-given its widespread critical acclaim.&lt;/p&gt;
-
-&lt;p&gt;This game is &lt;em&gt;beautiful&lt;/em&gt;. The art style is stunning (it’s quite reminiscent of Dishonored, another
-gorgeous game), the sound design is excellent, and the dialogue is hilarious - I can’t remember a
-game that has made me laugh out loud in the way Disco Elysium does. It’s self aware, meta AF and
-wholly unafraid of breaking the fourth wall, which means it feels a lot like playing with an actual
-DM. The gameplay is complex and challenging, and it genuinely feels like your choices matter as
-you navigate both the open world of Revichol and the unique skill tree.&lt;/p&gt;
-
-&lt;p&gt;As of today is has also been nominated for six BAFTAs, both best game and best game design, and
-I can absolutely see why. I will be sinking 100% of my free time into this until I have completed
-it, and I could not recommend it more strongly - 9.5/10.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/03/disco-elysium</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/03/disco-elysium</guid>
-      </item>
-    
-      <item>
-        <title>Victimhood Identity</title>
-        <description>&lt;p&gt;Recently I have got to know a certain &lt;a href=&quot;/mendokusai/2020/01/30/almost-smart&quot;&gt;almost smart&lt;/a&gt; individual even
-better, and one of the things that they fail to be self aware about is how much of their identity
-is built upon the notion that they are inherently a victim. Seeing it in another person was
-incredibly jarring, and made me desperate to ensure that I don’t allow myself to fall into the
-same trip (or at the very least - to not do so outwardly).&lt;/p&gt;
-
-&lt;p&gt;The problem though is that sometimes I still need to talk about Bad Stuff - man feelings, etc -
-but with a focus on doing so constructively and without self pity, I’ve suddenly found my
-previously flourishing lexicon to have been diminished significantly. So, today begins a new
-journey to learn a language to talk about such things again.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/02/victimhood-identity</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/02/victimhood-identity</guid>
-      </item>
-    
-      <item>
-        <title>Life Without Wifi</title>
-        <description>&lt;p&gt;Our ISP shit the bed today (again) and so we’re left without WiFi, at this point as much of a dietary staple as bread or coffee. In its absence, I found myself listing atop the ocean of distractions, teetering precariously on the brink of having to be alone
-with my own thoughts. In order to fill the void, I booted up my Steam library, and was soon marvelling at the abundance of wonderful choices that I had - there were so many games here I wanted to play, and thought I would derive great joy from each. But for
-some reason, whenever I have an internet connection, I always find something far less tangible to occupy me, something that seems to occupy a higher priority in my mind but is far more fleeting in nature. I truly believe video games are art, and I am
-determined to make more time in my schedule for their consumption.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/01/life-without-wifi</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/01/life-without-wifi</guid>
-      </item>
-    
-      <item>
-        <title>Diabotical</title>
-        <description>&lt;p&gt;This weekend is the first closed beta testing for Diabotical, the long-awaited (i.e. since 2013) arena FPS from former-Quake-pro-turned-esports-ass-turned-game-studio-owner,
-James ‘2GD’ Harding. I backed this game on Kickstarter in the late 18th century and have been dutiful awaiting its arrival ever since, all the while my expectations increasing
-inversely proportional to my hopes.&lt;/p&gt;
-
-&lt;p&gt;To my great surprise, Yames has actually delivered - Diabotical feels phenomenal. The engine, movement and weapon systems all flow smoothly and feel intuitive. The game manages
-to give the impression that its skill ceiling is stratospheric, while still being fun and accessible for an AFPS rookie such as myself. The matchmaking system is, currently,
-akin to being lit on fire and shot from a cannon into a vat of boiling pitch, but still, beggars can’t be choosers.&lt;/p&gt;
-
-&lt;p&gt;If they can fix the server issues (which admittedly is the whole point of the beta testing I’m currently participating in), Diabotical really could be a spiritual successor to
-Quake, shiny and polished for the modern audience. I’m excited to see how many former pros come out of the woodwork to try their hand once some moeny starts being thrown at
-tournaments, and I’m sure I’ll be tuning in to see the best in the world duke it out in Diabotical’s colourful frenzy.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/02/29/diabotical</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/29/diabotical</guid>
-      </item>
-    
-      <item>
-        <title>Satire's Golden Age</title>
-        <description>&lt;p&gt;We are living in a bizarro timeline where satire and authenticity are homogenous and indistinguishable, such that the former is wholly effortless, and I worry that satire-as-an
--artform is soon to be lost to the sands of time. I recently watched &lt;a href=&quot;https://www.youtube.com/watch?v=CEVdca9U9LM&quot; target=&quot;_blank&quot;&gt;We Like Sportz&lt;/a&gt;, a mere 11 years old, and
-it already feels a little forced and somewhat out of place amongst today’s ultra-meta satirical landscape (although I still think it’s hilarious).&lt;/p&gt;
-
-&lt;p&gt;Perhaps the barrier for legitimately excellent satire is simply much higher, now it is easier to come by in mediocrity… Maybe if I ever get round to writing my novel, it’ll
-be a caricaturish magnum opus. Did I mention I’m reading Infinite Jest?&lt;/p&gt;
-</description>
-        <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/02/28/satires-golden-age</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/02/28/satires-golden-age</guid>
       </item>
     
   </channel>

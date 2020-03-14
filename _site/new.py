@@ -42,9 +42,10 @@ if os.path.exists(path):
     f.write('title: ' + name + '\n')
     f.write('tags: [ ' + tags + ' ]\n')
     f.write('---\n')
-    if sys.platform == "win32":
-        os.startfile(path, 'open')
-    elif sys.platform == "darwin":
-        subprocess.call(('open', path))
-    else:
-        subprocess.call(('xdg-open', path), shell=True)
+
+# if sys.platform == "win32":
+#     os.startfile(path, 'open')
+# elif sys.platform == "darwin":
+#     subprocess.call(('open', path))
+# else:
+#     subprocess.call(('xdg-open', path), shell=True)
