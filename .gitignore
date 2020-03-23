@@ -2,3 +2,4 @@
 words.csv
 .sass-cache/
 *.patch
+_site
