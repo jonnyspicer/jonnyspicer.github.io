@@ -7,182 +7,244 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Folding at Home</title>
-        <description>&lt;p&gt;I’ve deliberately refrained from writing about &lt;em&gt;la grippe du jour&lt;/em&gt; because it feels
-like it’s all anyone else is writing about and I am forever a contrarian, however
-today’s post is at least somewhat related.&lt;/p&gt;
+        <title>Pretending II</title>
+        <description>&lt;p&gt;I have put off writing this post for several months now, probably since November. I’ve done so for a number of reasons, which we’ll get into in a little bit, but given that the current global pandemic has us all sitting inside, feeling alone and sorry for ourselves, I guess now seems like a good time to actually do it.&lt;/p&gt;
 
-&lt;p&gt;Now that SETI@home has gone into ‘hibernation’ while Berkeley scientists focus on
-analysing their existing dataset, which admittedly must be pretty huge by now, and
-given cryptos recent swan dive back to pre-2017 prices, there’s huge swathes of GPUs
-simply idling across the globe, when they could all be doing their tiny little part
-to better society. One pretty neat way to do so is to join the &lt;a href=&quot;https://foldingathome.org&quot; target=&quot;_blank&quot;&gt;Folding@home&lt;/a&gt; party and put your spare processor cycles to
-work by simulating protein folding.&lt;/p&gt;
+&lt;p&gt;This weekend I finished watching &lt;em&gt;The Witcher&lt;/em&gt; on Netflix, and to be perfectly candid, I really did not like it - I would even go so far as to say that it upset me greatly. I can’t offer a particularly good explanation as to why I decided to continue to consume all eight hour-long episodes, other than some sense of emotional masochism, or perhaps to fill me with righteous anger which I could then complain about in a blog… so here goes.&lt;/p&gt;
 
-&lt;p&gt;DeepMind recently brought &lt;a href=&quot;https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery&quot; target=&quot;_blank&quot;&gt;protein folding to the attention of the wider tech community&lt;/a&gt; and while I won’t
-pretend to understand any of the biochemistry involve, the computing aspect is pretty
-interesting, and it’s an application of modern technology that is refreshing not-evil.
-Sure, I might not have quite the hardware that Google are hooking DeepMind up with
-to achieve such stellar results, but the idea that the handful of proteins I can
-compute on my lowly GTX 970 might contribute to research into the &lt;em&gt;C-Word&lt;/em&gt; warms
-my soul a little.&lt;/p&gt;
+&lt;p&gt;The Witcher certainly bothered me for reasons other than simply shallow, predictable writing and an all-encompassing desperation to take itself incredibly seriously. The titular witcher, Geralt of Rivia, embodies the toxic male stereotype so strongly that one would be forgiven for assuming it was done with some sense of self-awareness, but alas, judging by the rest of the show, that seems to not be the case. Henry Cavill does his best Batman impression throughout, accompanied by his signature bulging muscles and chiseled jawline, as he vanquishes monsters by day before vanquishing beautiful women by night, all the while displaying Aurelian levels of stoicism. His character is puddle-deep, yet he is of course still the protagonist of a multi-million dollar Netflix original - have we not moved past this yet? Are there not different stories to tell, ones which would not be retreading the same ground for the thousandth time, in which the male characters actually have genuine human emotions that are complicated and messy and amount to more than having a big sword and a big dick?&lt;/p&gt;
+
+&lt;p&gt;Geralt irks me so because in many ways, I am desperate to be like him. The seed of his masculine ideal was planted in me when I was a child, and is constantly being watered by the world around me. Collective progress has been made towards rejecting these notions of men, with a large number of male mental health charities occupying a larger part of public consciousness in recent years, the Royal grandsons becoming more outspoken about their issues, a growing number of people realising James Bond should actually be far from idolised, etc etc. There’s still a long way to go though; I think for society in general but surely for myself. It’s ingrained within me that men have to be financially, emotionally, physically independent, that they are the protectors of society with ample brawn and unwavering bravery. They should be charismatic and strong and, contrary to the well-known poem, insular.&lt;/p&gt;
+
+&lt;p&gt;Perhaps I have taken all these things to heart more than I ought to, but regardless they now occupy a space deep within my psyche. I know consciously, rationally, that these standards are not beneficial to hold myself to, and that I do not want to be Geralt of Rivia, but still those core beliefs persist and he is very much the bar I set myself; anything less is… not good enough.&lt;/p&gt;
+
+&lt;p&gt;Trying to supplant this idea of manliness is not especially easy either, as male role models who embody qualities other than these while still remaining undeniably manly are difficult to come by. The people close to me who inspire me and who in many ways I want to emulate are almost exclusively women (although perhaps that belies that I have some kind of bias against men, which is a blog for another day). There are fictional characters who do a lot better than Geralt at being men worthy of exemplifying, like &lt;a href=&quot;/mendokusai/2020/03/08/itachi-uchiha&quot;&gt;Itachi Uchiha&lt;/a&gt; or &lt;a href=&quot;/mendokusai/2020/03/03/disco-elysium&quot;&gt;Harrier du Bois&lt;/a&gt;, both of whom wear their (profound) flaws on their sleeves. There are men further away who I look up to, like &lt;a href=&quot;/mendokusai/2018/02/16/twin-fantasy-2018&quot;&gt;Will Toledo&lt;/a&gt; or &lt;a href=&quot;/mendokusai/2019/06/05/day9-daily-100&quot;&gt;Sean Plott,&lt;/a&gt; but in their nature as semi-public figures, I am acutely aware that I only see a small slice of their true in the course of whatever parasocial relationship we may have; I think it’s a lot easier to be inspired by and emulate someone who you know deeply.&lt;/p&gt;
+
+&lt;p&gt;Recently I’ve felt the urgency to find a template for modern masculinity ramping up, as my younger brother is getting perilously close to legally being an adult. As much as I don’t want to be Geralt, I really, really don’t want &lt;em&gt;him&lt;/em&gt; to be Geralt, but I know that to steer him away from that path, I need to have a convincing alternative to offer in his black-clad, golden-eyed place. Which I guess is why I have to write about the rest of this stuff.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I haven’t talked in anything other than euphemisms about my mental health on the blog for several months now, and I wish that I could say that was because I’ve had no issues with it, because that sadly is not the case. I’ve slipped back into &lt;a href=&quot;/mendokusai/2020/03/20/pretending&quot;&gt;pretending&lt;/a&gt; that everything is fine, when of course it is not. Part of it is my desire to fulfill that role of the male stereotype described above, to need no one else and not ask for help, for doing so would diminish my perpetually fragile gender identity. Part of it is to avoid crying wolf - if I ask for help too often and the people close to me make sacrifices for my benefit, what if there comes a time when their support is not so forthcoming, but I am in more dire need of it than before? In a similar vein, part of it is because I am desperate to avoid inflicting compassion fatigue on those around me - propping someone up emotionally is exhausting and clearly unhealthy for any extended length of time, and I am reticent to ask anyone to do so unless it is absolutely necessary.&lt;/p&gt;
+
+&lt;p&gt;These things make it difficult to talk about depression though. When faced with the greeting of my generation, “hey, how’s it going?”, I often feel at a total loss for how to respond. I don’t want to sugarcoat things, or out-and-out lie, to pretend everything is fine and dandy, but equally I feel like I need to set some kind of threshold for how bad things have to get before I start immediately admitting that’s the case. My depression has been around a long time and clearly looks unlikely to be disappearing anytime soon, and that means that nine times out of ten when you ask me how I am, the true answer ranges from gently melancholic to in full-blown emotional turmoil and anguish. Were I to say that those nine times, I am terrified that eventually people would simply stop asking me how I am. I am even more terrified that my depression may become my whole personality or identity, and that I fail to have anything to offer to others other than negativity - I still want to make people smile, laugh, feel good about themselves and the world, even if I struggle with those things myself.&lt;/p&gt;
+
+&lt;p&gt;Over time, I’ve learned to split my thoughts and feelings into two camps; those which are proportional to reality, and those which aren’t. Or, more accurately; those which seem congruent with how the majority of other people ostensibly experience reality, and those which seem incongruent - because all of them are congruent with how I experience it. The pretending is easy once the distinction becomes clear; you simply don’t acknowledge the things that you feel that you don’t think others would feel in the same situation. So that is what I do; I put everything else in a box, and I sweep the box under the proverbial rug, and sometimes I vaguely allude to the box - but I never talk about what’s in the box. I never take the box out and show it to anybody, let alone open it and show them what’s inside.&lt;/p&gt;
+
+&lt;p&gt;Obviously that doesn’t make it disappear though, and not acknowledging those feelings does not prevent me from feeling them. Even knowing that they are not proportional to reality - that they are not ‘real’ - that I should be mindful and sit on a riverbank as I watch them drift out past - does not prevent me from feeling them either. Sometimes they occupy a fraction of my consciousness, but sometimes they consume it whole, and yet outwardly I do my best to maintain the same façade regardless of what is going on behind my eyes. That is where the real fear I have about my mental health lies - that one day I will truly disconnect from reality, and be consumed by those thoughts.&lt;/p&gt;
+
+&lt;p&gt;I am unhealthily and unhelpfully ashamed about a lot of aspects of myself, this cornucopia of disproportion very much included. Fortunately, I think shame is one of the very few emotions that you can, to some degree, will out of existence, if you choose to own your flaws and accept them as an important part of your identity.&lt;/p&gt;
+
+&lt;p&gt;I’ve written about it before and touched on it today, but I am exceptionally uncomfortable in my own skin - I don’t really like the way I look at all, and even hate many parts of my own appearance. I don’t talk about it, or downplay it when I do though, because I’m ashamed and worry that it’s unmanly.&lt;/p&gt;
+
+&lt;p&gt;Not having an undergraduate degree constantly makes me feel inadequate - I’m not sure if I’ve ever even admitted that to anyone. I don’t feel as skilled as I think I should be, I am terrified my career won’t take the trajectory I want it to, the fact that I earn less than most of my friends also makes me feel like I am not good enough to be friends with them. Again, not something I ever talk about, shame, lack of machismo, necessity to act like I belong, etc.&lt;/p&gt;
+
+&lt;p&gt;I struggle a lot with loneliness, both romantically and otherwise. The few romantic relationships I have had, while some had their fair share of tumult, brought me a sense of peace, security and joy that few other things in my life have. The vast majority of my close friends are also in relationships, and I am jealous to some greater or lesser degree every time they are mentioned. Even platonically, often I struggle to find the sense of connection that I am desperate for - likely because I invest so much energy in being afraid of what the other person thinks about me, or perhaps what they might think about me were I more open and truthful with them. In my mind though, men are not lonely; we need only our own company to be happy. So, I don’t talk about this either.&lt;/p&gt;
+
+&lt;p&gt;All of these things might not be the appropriate response to my situation. Most people have it a lot worse than me in a lot of ways, and perhaps I ought to be more grateful for what I &lt;em&gt;do&lt;/em&gt; have - which is a lot. Perhaps all those things are overrated; I won’t love how I look if I was 10kg lighter, doubling my salary wouldn’t double my happiness, a girlfriend would only be an attempt to duct-tape over my low self-esteem rather than a more structurally sound solution. In a way though, I don’t know if that matters, and I don’t know if I care - because all that stuff is how I feel, every day, even if I try really, really hard not to - which I do. It’s all painful; sometimes the pain is more a gentle discomfort, a slight soreness, and sometimes it feels unbearable; like a slew of broken bones, my body and mind desperate for it all to stop.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;One of the pillars of being a New Man which I would like to erect is the concept of taking responsibility, and rather than merely complain, take action to remedy whatever problems I might have. I think this makes it easier to talk to people about these topics as well - having someone share their difficult feelings with you for the sake of catharsis and support rather than because they’re turning to you for a definitive solution is far more manageable and sustainable. So… what next?&lt;/p&gt;
+
+&lt;p&gt;I have a lot of learned behaviours that I need to unlearn, which has thus far proven difficult, but I am reliably informed that consistency is key, so I will keep trying. I’m not so naïve to think that I could give up all pretence in one fell swoop, but I can certainly chip away at it, and learn how to talk about the box under the rug, even if I need to learn a new vocabulary with which to do so. I can keep looking for male role models, and hopefully if I search hard and long enough, I will find some, and try to cast myself in their image - and if not, perhaps I will just have to make up my own version of modern masculinity and try to be at peace with that.&lt;/p&gt;
+
+&lt;p&gt;Given the present situation, this seems like the perfect time to try and work on myself, so here goes. And as always; wish me luck.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/14/folding-at-home</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/14/folding-at-home</guid>
+        <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//tartarus/2020/03/29/pretending-ii</link>
+        <guid isPermaLink="true">http://localhost:4000//tartarus/2020/03/29/pretending-ii</guid>
       </item>
     
       <item>
-        <title>Hand Anger</title>
-        <description>&lt;p&gt;Last night I was enjoying the recent uptick in player liquidity on Run It Once and was happily clicking buttons when a particular hand made me really &lt;em&gt;angry&lt;/em&gt;. The nice thing about
-being a fun player is that now I can simply stop playing, take a step back and evaluate why exactly this hand irked me so much.&lt;/p&gt;
+        <title>The recipe for success II</title>
+        <description>&lt;p&gt;&lt;a href=&quot;mendokusai/2017/10/27/the-recipe-for-success&quot;&gt;A long time ago&lt;/a&gt; I gave my three ingredients for success as
+self-awareness, patience and work ethic. I would like to think that I have improved on all three fronts in
+the two and a half years since writing that, but now I think there is fairly clearly some components of the
+formula which I omitted; namely self-respect, knowledge of the market, networking &amp;amp; communication soft skills,
+and of course, a huge amount of luck.&lt;/p&gt;
 
-&lt;p&gt;The hand went as follows:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Folds to hero in CO with AhKhQc8d, raises to 3.5bb&lt;/li&gt;
-  &lt;li&gt;BTN calls, blinds fold&lt;/li&gt;
-  &lt;li&gt;flop Ks8s2x hero bets 4.5bb, villain calls&lt;/li&gt;
-  &lt;li&gt;turn Ks8s2xAs pot 16.5bb, hero checks, villain bets 11bb, hero calls&lt;/li&gt;
-  &lt;li&gt;river Ks8s2xAs2x pot 38.5bb hero pots, villain calls and tables…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;…&lt;/p&gt;
-
-&lt;p&gt;…&lt;/p&gt;
-
-&lt;p&gt;…&lt;/p&gt;
-
-&lt;p&gt;T663sssx.&lt;/p&gt;
-
-&lt;p&gt;My first reaction is to inwardly chastise villain for making such a bad play - I think preflop is definitely -EV and every other street is at best breakeven. Why am I so angry?
-It’s a sense of entitlement, one of the ways ego manifests itself in poker, because he made a ‘bad’ play, he doesn’t deserve to win my money. But maybe he had a sick read on me,
-he felt he could outplay me in position despite having mediocre holdings, perhaps my large lead OTR was actually a lot more exploitable than I had thought. It’s also a spot
-where in reality I think I am making a lot of EV, just in this case I happened to lose actual money. Even after a couple of million hands of poker, those spots still hurt.&lt;/p&gt;
-
-&lt;p&gt;I wonder how much my poker mental game is influenced by my mental health off the felt. If I needed less external validation, the kind I might get from winning money at poker and
-thus proving some kind of intellectual superiority, I can’t help but feel that these spots wouldn’t tilt me so much. The obvious &lt;em&gt;sequitur&lt;/em&gt; is that I should work on my IRL
-mental game and then things will fall into place at the tables, but perhaps the reverse might also be true?&lt;/p&gt;
+&lt;p&gt;Admittedly the success I was desirous of at the time was that found in poker, so I’ll forgive a little of my
+naïveté, but now I am in software and so naturally the definition of success has changed (although I think
+that all the other skills are equally as applicable to poker, they’re just less obviously so). I think my
+knowledge of the market is passable, and my luck seems to be boundless, however the others all have a long
+way to go.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/13/hand-anger</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/13/hand-anger</guid>
+        <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/28/the-recipe-for-success-ii</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/28/the-recipe-for-success-ii</guid>
       </item>
     
       <item>
-        <title>Nietzsche Quotes</title>
-        <description>&lt;p&gt;Yesterday I was taking to a friend and referenced an aphorism which I then duly attributed to everybody’s favourite German
-cultural critic Friedrich Nietzsche. Except for the fact that I got it wrong, and missed out an important clause which
-added very necessary context. And I completely misinterpreted it.&lt;/p&gt;
+        <title>Lockdown II</title>
+        <description>&lt;p&gt;It’s been a week of working from home and leaving my flat solely to exercise, bar one trip to the supermarket on Monday
+which was intended to last two weeks. I was frankly expecting to be incredibly depressed by this point, and there is
+certainly still plenty of time for that to happen, but at least so far I’m actually… not?&lt;/p&gt;
 
-&lt;p&gt;The lesson here is to not try and quote Nietzsche to your friends (or to anyone for that matter) because the only possible
-outcome is that you end up looking like a pretentious twat.&lt;/p&gt;
+&lt;p&gt;Some mixture of the improved weather, newfound extra time allowing for new acts of self-care in my routine, and extra
+effort being made by a lot of my friends to keep in touch is keeping my afloat. Naturally I hope the pandemic can be
+stemmed as soon as possible, but after this week, I’m glad that I feel somewhat more prepared to deal with the eventuality
+that it continues for longer than we’d all like.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/12/nietzsche-quotes</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/12/nietzsche-quotes</guid>
+        <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/27/lockdown-ii</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/27/lockdown-ii</guid>
       </item>
     
       <item>
-        <title>An Hour of Nothing</title>
-        <description>&lt;p&gt;First off, I am attempting to write this post in nano, and if that doesn’t make me a real developer then I don’t know what does.&lt;/p&gt;
+        <title>Don't Take Work Personally</title>
+        <description>&lt;p&gt;I often find myself getting emotionally sucked into my work, and I think a lot of us do. It’s natural; we spent most of
+our waking hours on it five days a week, interact with our coworkers very frequently (sometimes more than family or friends),
+and even define ourselves by it in many situations - when you meet someone, after asking their name, what is the second
+thing which you ask?&lt;/p&gt;
 
-&lt;p&gt;Secondly, this week I am trying out a new rule for myself (rule sounds a little bit draconian - let’s call it a &lt;em&gt;heuristic&lt;/em&gt; instead). Every day I have to spend a whole hour
-doing something unproductive. No work, no exercise, no cooking, no cleaning, no writing a blog post, no nothing. A whole hour of being a vegetable in some way, shape or form,
-contributing nothing whatsoever to society.&lt;/p&gt;
+&lt;p&gt;I think this emotional involvement with one’s job can be a double edged sword. On one hand, if you are invested then
+successes bring with them a greater feeling of accomplishment, and one can find fulfillment and a sense of esteem by
+taking pride in what they do and excelling at it. The flipside of course is that the incentives of employers rarely
+line up with those of employees, and of course the former (ostensibly) has the balance of power in their favour and
+can duly exert said power on an employee, with potentially negative emotional effects on the latter.&lt;/p&gt;
 
-&lt;p&gt;I’m very excited about it.&lt;/p&gt;
+&lt;p&gt;An employment contract is essentially a mutual value proposition; you will provide your skills to an employer for a fee,
+and the value of the output of said skills will ideally be slightly higher than said fee, and in return they will pay
+you, provide training and opportunities to build career capital, and other perks (like making you 8 cups of tea a day).
+In a similar vein to &lt;a href=&quot;/mendokusai/2020/02/07/the-prisoners-dilemma&quot;&gt;the prisoner’s dilemma,&lt;/a&gt; it’s also in both parties
+interest to try to use their influence on the other in order to get a better deal for themselves. Whether it is something
+inherent in the employer/employee dynamic or more something to do with my personality (by which I mean, low self esteem
+and imposter syndrome), I often completely forget myself, especially because I really do care about my work, and lose
+myself in a spiral of pushing harder and harder to appease my employer, with little real benefit to myself even if I
+do meaningfully increase my output.&lt;/p&gt;
+
+&lt;p&gt;Instead, I think the unspoken contract should be in a constant state of renegotiation - and it can indeed become verbal
+if needs be - to ensure both parties are still in a mutually beneficial agreement. Furthermore, it is important to remember
+that just as much as you need to be a valuable asset to your company, your continued employment with them has to make
+sense as the optimal business decision &lt;em&gt;for you as well&lt;/em&gt;. Seeing the situation through the lens of business and career
+development for myself, rather than emotionally (often being desperate to have my work and skills validated) is something
+that I have worked on a lot in the past, but think I am going to revisit in the coming months.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/11/an-hour-of-nothing</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/11/an-hour-of-nothing</guid>
+        <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/26/dont-take-work-personally</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/26/dont-take-work-personally</guid>
       </item>
     
       <item>
-        <title>You're Welcome, Ted</title>
-        <description>&lt;p&gt;Imagine trying to write a blog post needling one of your friends, but then misspelling misstepped and
-not resizing any of your images so they all overflow their containers. It’s truly remarkable I managed
-to lose a bet to someone like that…&lt;/p&gt;
+        <title>Governmental Exercise Rationing</title>
+        <description>&lt;p&gt;My run today was quite unlike any other I have ever been on. It is the first day of Guernsey in full-blown lockdown,
+during which individuals are permitted to leave their homes for exercise purposes once per day, for a maximum of two
+hours. Given that the weather has now turned from frequent storms to glorious, crisp sunshine, and my natural desire
+not to go crazy, I laced up my shoes and went for a 10km jaunt, assuming there’s no way I’d be longer than 2 hours.&lt;/p&gt;
 
-&lt;p&gt;Anyway, you’re welcome, and don’t worry, I’ll be dining on your dollar in return soon enough.&lt;/p&gt;
+&lt;p&gt;Fortunately I was right about the last part, but it was a bizarre experience nonetheless. I don’t think I’ve ever seen
+so few cars on the road in Guernsey during the day, nor so few people out when the sun is as uninhibited as it was today.
+The lengths to which people were going to avoid each other - venturing into the middle of the road when a fellow pedestrian
+would cross their path on the pavement - is of course prudent and necessary given the situation, but will still take a
+little getting used to.&lt;/p&gt;
+
+&lt;p&gt;The whole experience felt very prescribed - everyone I ran past I got the impression they were also out for the sole
+purpose of fulfilling their exercise quota and staving off cabin fever. While we all went out of our way to maintain
+the appropriate distance from one another, in doing so there was a sense of camaraderie, of mutual acknowledgement, that
+I have rarely felt so many times while out for a run before.&lt;/p&gt;
+
+&lt;p&gt;If this is the new normal, then at least it’s not all bad.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/10/youre-welcome-ted</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/10/youre-welcome-ted</guid>
+        <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/25/governmental-exercise-rationing</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/25/governmental-exercise-rationing</guid>
       </item>
     
       <item>
-        <title>Open-Jaw Flights</title>
-        <description>&lt;p&gt;Extracting maximum value from flights seems to be something of a dark art, and there is a whole world
-of airmiles, alliances and error fares to try and wrap one’s head around. Airfare pricing in general
-still seems completely nonsenical to me, but today I discovered the existence of so-caled “open-jaw” 
-flights, which could prove to be an important piece of the affordable travel puzzle. For example, a
-direct flight from Edinburgh to NYC with Delta, one way - £1700. But a multi-city roundtrip, with
-the return flight from Las Vegas to London? £500 for both flights. I assume they make the one-way
-prices ridiculous to incentivise flying both ways on the same carrier, but still, 3.5x seems nuts.&lt;/p&gt;
+        <title>Lockdown</title>
+        <description>&lt;p&gt;Today lockdown in Guernsey was announced and tomorrow it begins, leaving me exceptionally glad that I already froze a
+batch of burritos today. A lot of friends have already been in contact though and that has left me feeling strangely
+optimistic, perhaps it really will bring us all closer together in the end?&lt;/p&gt;
 
-&lt;p&gt;I’m glad I’ve learned about this one small machination of the aviation industry. As I dive deeper
-down the rabbit hole, I’m sure I’ll provide more details of GTO flying.&lt;/p&gt;
+&lt;p&gt;Either way, again I am reminded how lucky I am to work in software and that I can continue to work seamlessly from home.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/09/openjaw-flights</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/09/openjaw-flights</guid>
+        <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/24/lockdown</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/24/lockdown</guid>
       </item>
     
       <item>
-        <title>Itachi Uchiha</title>
-        <description>&lt;p&gt;I’ve been thinking a lot about what kind of man I want to be lately, and looking for suitable male role models in our post-feminist age. It struck me while running today that &lt;a href=&quot;https://en.wikipedia.org/wiki/Itachi_Uchiha&quot; target=&quot;_blank&quot;&gt;Itachi Uchicha&lt;/a&gt;, while not quite being a role model per se (not least because of his fictitious nature), embodies many qualities that I aspire
-to. He’s a man who is willing to do what must be done - one trait from old male archetypes I think worth still praising - he puts his brother before anything, has a bulletproof sense of 
-loyalty and honour, he’s smart, and he’s an insanely powerful ninja who can set things on fire with his eyes.&lt;/p&gt;
+        <title>WFH Day 1</title>
+        <description>&lt;p&gt;Well, day 1 was not actually a total disaster. I put jeans on at 8am, meditated for a bit and got to work. My tidy desk,
+complete with plants, is actually a pretty peaceful environment, especially when complete with rain sounds and ambient
+music. I still went for a run, and I had a hot lunch. We had our first all-hands video conference on Microsoft Teams,
+which is thusfar proving to be a thoroughly middle-of-the-road piece of software. I actually got quite a bit of work
+done, with no coworkers to distract me (and likely more than said coworkers, who are now beset with children).&lt;/p&gt;
 
-&lt;p&gt;Perhaps the last one is less than attainable, but I quite like the rest of them.&lt;/p&gt;
+&lt;p&gt;I am incredibly lucky to be able to transition to working from home relatively seamlessly, in a time when so many others
+can’t do so or can only do so under great stress, I am doing my best to be as grateful as possible.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/08/itachi-uchiha</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/08/itachi-uchiha</guid>
+        <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/23/wfh-day-1</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/23/wfh-day-1</guid>
       </item>
     
       <item>
-        <title>Food is Food for the Soul</title>
-        <description>&lt;p&gt;A couple of my coworkers have started drinking &lt;a href=&quot;https://huel.com/&quot; target=&quot;_blank&quot;&gt;Huel&lt;/a&gt; as part of their diet, and for a while I seriously considered joining them. It seems like a way to
-regulate my caloric intake with relatively little mental effort required, and I still haven’t broken the habit of thinking that my self esteem is inversely proportional to my weight. After
-giving it some thought, I rejected the idea; life is far, far too short not to eat food. Even if in many ways I have an unhealthy relationship with food, that doesn’t mean that all of it is
-impure, unthinking and devoid of wholesomeness - perhaps recognising those moments and leaning into them more could even be a catalyst for better overall eating patterns?&lt;/p&gt;
+        <title>Thoughts Before Working From Home</title>
+        <description>&lt;p&gt;Tomorrow is not the first day I have ever worked from home, however it marks the start of the first extended stretch
+of working from home (at least that I have had while working in software). I thought it’d be interesting to write
+down some of my expectations and plans on how to stay sane in the upcoming months.&lt;/p&gt;
 
-&lt;p&gt;Anyway, this post is really just my way of trying to justify to myself that I’ve been out for breakfast and lunch already today, and I’m going out for dinner later. I’m not even sorry.&lt;/p&gt;
+&lt;p&gt;Firstly, I’ve tidied up my desk, which previously was a huge mess. Admittedly all that really means is that I’ve
+relocated the mess elsewhere in my apartment, but at least my working area is now clean.&lt;/p&gt;
+
+&lt;p&gt;Secondly, I plan on having work clothes and not-work clothes - essentially the former are jeans and the latter anything
+but jeans. I hate jeans. But I think wearing them will be a nice way of mentally separating between the two modes of
+existence.&lt;/p&gt;
+
+&lt;p&gt;Thirdly, routine and exercise I think are going to be crucial. I’m going to try and keep up running as much as possible,
+as well as do some kind of at-home workout, even if it’s only a couple of sets of push-ups each day. Having my productive
+hours as 9-5 like usual and trying to have some kind of pre-work and post-work ritual are all parts of the plan.&lt;/p&gt;
+
+&lt;p&gt;Fourth, a common piece of advice seems to be to overcommunicate with your team - tell them when you’re at your desk working
+first thing in the morning, when you’re taking a break, what the best way is to contact you, what you’re working on today,
+etc etc. That seems like quite a lot but I’ll do my best; I’m sure I can easily tone it down if it’s too much. I’m also
+obviously going to try to be as social as possible, as I’m sure we all are, to try and stave off loneliness in our
+seclusion.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I’m both excited and apprehensive about quarantine; on one hand, I think I could potentially be very productive from
+home given the lack of people to distract me, as well as the extra flexibility I’ll have. I’ll be able to cook hot
+lunches for myself, or go for a run on my lunchbreak and have a shower on my return, options I wouldn’t have at the
+office, and my hours can also be more flexible.&lt;/p&gt;
+
+&lt;p&gt;The flip side will of course be lack of human interaction and how that’ll affect me. I don’t think there’s any point
+dwelling on it though, as it’s not llike I have a choice; I’ll just have to do my best.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/07/food-is-food-for-the-soul</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/07/food-is-food-for-the-soul</guid>
+        <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/22/thoughts-before-working-from-home</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/22/thoughts-before-working-from-home</guid>
       </item>
     
       <item>
-        <title>Puppeteer</title>
-        <description>&lt;p&gt;Today I finally had the chance to play around with Google’s &lt;a href=&quot;https://developers.google.com/web/tools/puppeteer/&quot; target=&quot;_blank&quot;&gt;Puppeteer,&lt;/a&gt; it’s nifty Node library for manipulating a Chrome browser via API, head
-optional. It’s a powerful tool for automation, and getting it hooked up
-to &lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/&quot; target=&quot;_blank&quot;&gt;Lighthouse&lt;/a&gt; in order to automate website audits was virtually
-painless. I’ll definitely be using it a lot more to write tests for
-my projects, expect to see some cools things in my repos soon.&lt;/p&gt;
+        <title>Stubborness</title>
+        <description>&lt;p&gt;To be honest, I really don’t want to write a blog post today. But I am stubborn, and as much as I don’t want to write
+anything, I want Ted to win my money even less. We’ll see how long this stubbornness persists.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 06 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/06/puppeteer</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/06/puppeteer</guid>
+        <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/21/stubborness</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/21/stubborness</guid>
       </item>
     
       <item>
-        <title>Sometimes Laziness Pays Off</title>
-        <description>&lt;p&gt;This morning it seems like Flybe are poised to immediately cease being
-an airline, and with it, thousands of promises to fly someone from A to
-B will vanish into the ether.&lt;/p&gt;
+        <title>Pretending</title>
+        <description>&lt;p&gt;It’s pretty jarring to see someone else exhibit some kind of negative behaviour that you know you
+yourself are prone to, and last night I had that experience in spades.&lt;/p&gt;
 
-&lt;p&gt;I am planning a lot of flights in the near future, but for once, my
-laziness has been a boon - I haven’t got round to booking any of them
-yet, unlike some of my friends, who have awoken this morning to find
-that they’re going to need to further dent their bank balance. Hehehe.&lt;/p&gt;
+&lt;p&gt;This person was pretending that everything that everything was fine and well and healthy and happy, and to their credit (or perhaps
+not) they were doing an excellent job. But they were betrayed by multiple things around them, and I suspect they knew it, but still
+the act continued. I wonder how much they thought they were putting on a show for other people, when it was pretty clear they were
+pretending for their own sake.&lt;/p&gt;
+
+&lt;p&gt;It was strange to see it so strongly in someone else. Usually in these situations I gain some amount of clarity on my own patterns
+and feel the urge to break them, but in this case it was a little different. I felt a lot of empathy for the other person, and a
+kind of sadness that the world works in such a way that they feel like they have to act like that. Part of me would love to end by
+saying that I’d love to pretend less, and that I’d love for the world to pretend less, but I think that’s a pretty futile hope.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/05/sometimes-laziness-pays-off</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/05/sometimes-laziness-pays-off</guid>
+        <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/20/pretending</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/20/pretending</guid>
       </item>
     
   </channel>
