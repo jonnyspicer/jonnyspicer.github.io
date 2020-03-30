@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Summer League
-tags: [ chess ]
+tags: [ Chess ]
 ---
 The Guernsey Chess Club's summer league has officially started, and has made me realise quite how much fun the game can be. In the absence
 of any kind of pressure to get results (other than that applied by my own ego) I am free to play spuriously, speculatively and hopefully spectacularly,
