@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/authors/jonny</loc>
-<lastmod>2020-03-30T19:28:36+01:00</lastmod>
+<lastmod>2020-04-01T20:34:35+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/tartarus/2017/02/20/the-depths-of-the-blog</loc>
@@ -2583,6 +2583,14 @@
 <url>
 <loc>http://localhost:4000/tartarus/2020/03/29/pretending-ii</loc>
 <lastmod>2020-03-29T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/mendokusai/2020/03/30/know-the-risk</loc>
+<lastmod>2020-03-30T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/mendokusai/2020/03/31/sea-mine-spotted</loc>
+<lastmod>2020-03-31T00:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/404</loc>

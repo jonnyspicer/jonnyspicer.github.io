@@ -7,6 +7,37 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Sea Mine Spotted</title>
+        <description>&lt;p&gt;While out running today I set myself the challenge of getting lost, which I duly succeeded in. As I was meandering
+through some lanes in a fairly nice part of the island, the lawns were manicured, there were Mercedes’ parked in driveways,
+and freshly painted detached houses glistened in the sun. Oh, and one of them had a fucking sea mine as a garden ornament,
+right by the road, painted bright red. What is wrong with people?&lt;/p&gt;
+
+&lt;p&gt;At the expense of probably being preachy (some things never change), I’ve found running to be a pretty cool way to see
+where you live in a new light. I’ve got to explore and go places I’ve never been, despite having lived virtually my
+whole life here, and these places are often within a kilometre or two of where I live - I’d just never bothered to
+venture down many unknown roads.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Mar 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/31/sea-mine-spotted</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/31/sea-mine-spotted</guid>
+      </item>
+    
+      <item>
+        <title>Know the Risk</title>
+        <description>&lt;p&gt;One of the best pieces of advice that I have heard with regard to dealing with the current pandemic
+is to know the risk - to educate yourself on what, specifically, is the risk to yourself, your family
+and your friends. Doing so means you’ll panic less, and can form actionable steps to take towards
+protecting yourself and those close to you. Knowledge will breed peace of mind, and cutting through
+the noise is easier than I had first thought, once I actually applied myself to the task and asked
+some friends for help.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 Mar 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/03/30/know-the-risk</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/30/know-the-risk</guid>
+      </item>
+    
+      <item>
         <title>Pretending II</title>
         <description>&lt;p&gt;I have put off writing this post for several months now, probably since November. I’ve done so for a number of reasons, which we’ll get into in a little bit, but given that the current global pandemic has us all sitting inside, feeling alone and sorry for ourselves, I guess now seems like a good time to actually do it.&lt;/p&gt;
 
@@ -215,36 +246,6 @@ dwelling on it though, as it’s not llike I have a choice; I’ll just have to 
         <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
         <link>http://localhost:4000//mendokusai/2020/03/22/thoughts-before-working-from-home</link>
         <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/22/thoughts-before-working-from-home</guid>
-      </item>
-    
-      <item>
-        <title>Stubborness</title>
-        <description>&lt;p&gt;To be honest, I really don’t want to write a blog post today. But I am stubborn, and as much as I don’t want to write
-anything, I want Ted to win my money even less. We’ll see how long this stubbornness persists.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/21/stubborness</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/21/stubborness</guid>
-      </item>
-    
-      <item>
-        <title>Pretending</title>
-        <description>&lt;p&gt;It’s pretty jarring to see someone else exhibit some kind of negative behaviour that you know you
-yourself are prone to, and last night I had that experience in spades.&lt;/p&gt;
-
-&lt;p&gt;This person was pretending that everything that everything was fine and well and healthy and happy, and to their credit (or perhaps
-not) they were doing an excellent job. But they were betrayed by multiple things around them, and I suspect they knew it, but still
-the act continued. I wonder how much they thought they were putting on a show for other people, when it was pretty clear they were
-pretending for their own sake.&lt;/p&gt;
-
-&lt;p&gt;It was strange to see it so strongly in someone else. Usually in these situations I gain some amount of clarity on my own patterns
-and feel the urge to break them, but in this case it was a little different. I felt a lot of empathy for the other person, and a
-kind of sadness that the world works in such a way that they feel like they have to act like that. Part of me would love to end by
-saying that I’d love to pretend less, and that I’d love for the world to pretend less, but I think that’s a pretty futile hope.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/20/pretending</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/20/pretending</guid>
       </item>
     
   </channel>
