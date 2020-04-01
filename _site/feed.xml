@@ -7,6 +7,32 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Three Things to be Grateful For</title>
+        <description>&lt;p&gt;Inspired (as always) by Polly, today I wanted to follow her lead and share three things which I am
+grateful for, in a time when gratitude seems necessary to remain afloat.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Being able to talk to her despite the distance between us, to laugh and joke, to try to find silver
+linings and to make plans to look forward to, once this is all over;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Being able to run in the sunshine, to enjoy nature and forget about my worries and the worries of
+the world fora while;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The &lt;a href=&quot;https://podcasts.apple.com/us/podcast/slow-burn/id1315040130&quot; target=&quot;_blank&quot;&gt;Slow Burn podcast&lt;/a&gt;
+for educating and entertaining me all day, keeping me company while I’m working on my own and contextualising
+some of the greatest political scandals in modern history.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 01 Apr 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/04/01/three-things-to-be-grateful-for</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/04/01/three-things-to-be-grateful-for</guid>
+      </item>
+    
+      <item>
         <title>Sea Mine Spotted</title>
         <description>&lt;p&gt;While out running today I set myself the challenge of getting lost, which I duly succeeded in. As I was meandering
 through some lanes in a fairly nice part of the island, the lawns were manicured, there were Mercedes’ parked in driveways,
@@ -208,44 +234,6 @@ can’t do so or can only do so under great stress, I am doing my best to be as 
         <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
         <link>http://localhost:4000//mendokusai/2020/03/23/wfh-day-1</link>
         <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/23/wfh-day-1</guid>
-      </item>
-    
-      <item>
-        <title>Thoughts Before Working From Home</title>
-        <description>&lt;p&gt;Tomorrow is not the first day I have ever worked from home, however it marks the start of the first extended stretch
-of working from home (at least that I have had while working in software). I thought it’d be interesting to write
-down some of my expectations and plans on how to stay sane in the upcoming months.&lt;/p&gt;
-
-&lt;p&gt;Firstly, I’ve tidied up my desk, which previously was a huge mess. Admittedly all that really means is that I’ve
-relocated the mess elsewhere in my apartment, but at least my working area is now clean.&lt;/p&gt;
-
-&lt;p&gt;Secondly, I plan on having work clothes and not-work clothes - essentially the former are jeans and the latter anything
-but jeans. I hate jeans. But I think wearing them will be a nice way of mentally separating between the two modes of
-existence.&lt;/p&gt;
-
-&lt;p&gt;Thirdly, routine and exercise I think are going to be crucial. I’m going to try and keep up running as much as possible,
-as well as do some kind of at-home workout, even if it’s only a couple of sets of push-ups each day. Having my productive
-hours as 9-5 like usual and trying to have some kind of pre-work and post-work ritual are all parts of the plan.&lt;/p&gt;
-
-&lt;p&gt;Fourth, a common piece of advice seems to be to overcommunicate with your team - tell them when you’re at your desk working
-first thing in the morning, when you’re taking a break, what the best way is to contact you, what you’re working on today,
-etc etc. That seems like quite a lot but I’ll do my best; I’m sure I can easily tone it down if it’s too much. I’m also
-obviously going to try to be as social as possible, as I’m sure we all are, to try and stave off loneliness in our
-seclusion.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;I’m both excited and apprehensive about quarantine; on one hand, I think I could potentially be very productive from
-home given the lack of people to distract me, as well as the extra flexibility I’ll have. I’ll be able to cook hot
-lunches for myself, or go for a run on my lunchbreak and have a shower on my return, options I wouldn’t have at the
-office, and my hours can also be more flexible.&lt;/p&gt;
-
-&lt;p&gt;The flip side will of course be lack of human interaction and how that’ll affect me. I don’t think there’s any point
-dwelling on it though, as it’s not llike I have a choice; I’ll just have to do my best.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/22/thoughts-before-working-from-home</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/22/thoughts-before-working-from-home</guid>
       </item>
     
   </channel>
