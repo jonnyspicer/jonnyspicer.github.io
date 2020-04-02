@@ -4,7 +4,7 @@ author: Jonny Spicer
 title: The recipe for success II
 tags: [ Career ]
 ---
-[A long time ago](mendokusai/2017/10/27/the-recipe-for-success) I gave my three ingredients for success as
+[A long time ago](/mendokusai/2017/10/27/the-recipe-for-success) I gave my three ingredients for success as
 self-awareness, patience and work ethic. I would like to think that I have improved on all three fronts in
 the two and a half years since writing that, but now I think there is fairly clearly some components of the
 formula which I omitted; namely self-respect, knowledge of the market, networking & communication soft skills,

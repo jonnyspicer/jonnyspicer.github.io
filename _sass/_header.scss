@@ -131,6 +131,7 @@ header {
       transition: height 0.5s;
 
       a {
+        text-decoration: none;
         div {
           text-align: unset;
           padding: 0 0 0 20px;
@@ -143,15 +144,23 @@ header {
 
           p {
             color: $color_dark_blue;
+            display: none;
           }
 
           &:last-child {
             border-right: none;
           }
         }
+      }
 
-        &:last-child {
-          div{
+      &.expanded {
+        height: 50px;
+        margin: 0 0 -20px;
+        z-index: 100;
+        width: calc(100% - 20px);
+
+        a:last-child{
+          div {
             padding-bottom: 20px;
             position: relative;
 
@@ -165,16 +174,13 @@ header {
             }
           }
         }
-      }
-
-      &.expanded {
-        height: 50px;
-        margin: 0 0 -20px;
-        z-index: 100;
-        width: calc(100% - 20px);
 
         div {
           opacity: 1;
+          p{
+            display: inline;
+            text-decoration: none;
+          }
         }
       }
     }

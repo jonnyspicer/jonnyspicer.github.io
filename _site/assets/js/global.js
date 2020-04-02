@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 
-  // Mobile hamburger menu
+  // Mobile menu toggle
   document.querySelector('.toggle').addEventListener('click', function(event){
     document.querySelector('.toggle').classList.toggle('is-active');
     document.querySelector('.desktop-nav').classList.toggle('expanded');
