@@ -21,7 +21,8 @@ else:
 add = subprocess.Popen(["git", "add", "-A"])
 stdoutput, stderroutput = add.communicate()
 
-commit = subprocess.Popen(["git", "commit", "-m", commitMessage])
+commit = subprocess.Popen(
+    ["git", "commit", "-m", commitMessage], stdout=PIPE, stderr=PIPE)
 stdoutput, stderroutput = commit.communicate()
 
 if b'fatal' in stdoutput:
