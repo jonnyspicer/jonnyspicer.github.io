@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import datetime
 import subprocess
+import sys
 
 PIPE = subprocess.PIPE
 now = datetime.datetime.now()
