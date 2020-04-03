@@ -1,4 +1,15 @@
 .post{
+
+  h1{
+    margin-bottom: 0;
+  }
+
+  p:first-of-type{
+    margin-top: 0;
+    font-style: italic;
+    font-size: 0.9em;
+  }
+
   ul{
     padding-inline-end:40px;
     padding-inline-start: 20px;
@@ -37,4 +48,11 @@
 
 .PageNavigation .next {
   text-align: right;
+}
+
+.tag-wrapper{
+  font-style: italic;
+  > * {
+    font-size: 0.8em;
+  }
 }

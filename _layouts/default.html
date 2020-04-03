@@ -10,6 +10,9 @@
     <link href="{{ site.url }}" rel="alternate" type="application/atom+xml">
     {% feed_meta %}
     {% seo %}
+    {% if site.tags != "" %}
+      {% include collecttags.html %}
+    {% endif %}
     <link href="https://fonts.googleapis.com/css?family=Taviraj&?family=Questrial&?family=Lato&display=swap"
       rel="stylesheet">
   </head>

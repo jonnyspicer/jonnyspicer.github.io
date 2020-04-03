@@ -7,6 +7,22 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>New Students</title>
+        <description>&lt;p&gt;The whole world is looking for new indoor activities with which to amuse themselves, and it seems a lot of people are
+turning to chess - just take a quick look at chess.com’s &lt;a href=&quot;https://www.chess.com/blog/erik/chess-com-during-this-global-stay-home-moment&quot; target=&quot;_blank&quot;&gt;server load&lt;/a&gt;
+if you don’t believe me. It seems some of these new students are looking for masters and a couple of my friends have
+even reached out to me for lessons (not that I am a master, especially not so in the strict chess sense).&lt;/p&gt;
+
+&lt;p&gt;Given that I’m used to playing almost exclusively with players &amp;gt; 2x my age, it’ll be quite nice to be able to talk
+about the game with people who are in the same place in life as me, and it’ll be doubly good to have my ego stroked
+as I do my best to impart unto them what little chess wisdom I’ve gleaned over the years.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/04/02/new-students</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/04/02/new-students</guid>
+      </item>
+    
+      <item>
         <title>Three Things to be Grateful For</title>
         <description>&lt;p&gt;Inspired (as always) by Polly, today I wanted to follow her lead and share three things which I am
 grateful for, in a time when gratitude seems necessary to remain afloat.&lt;/p&gt;
@@ -218,22 +234,6 @@ optimistic, perhaps it really will bring us all closer together in the end?&lt;/
         <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
         <link>http://localhost:4000//mendokusai/2020/03/24/lockdown</link>
         <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/24/lockdown</guid>
-      </item>
-    
-      <item>
-        <title>WFH Day 1</title>
-        <description>&lt;p&gt;Well, day 1 was not actually a total disaster. I put jeans on at 8am, meditated for a bit and got to work. My tidy desk,
-complete with plants, is actually a pretty peaceful environment, especially when complete with rain sounds and ambient
-music. I still went for a run, and I had a hot lunch. We had our first all-hands video conference on Microsoft Teams,
-which is thusfar proving to be a thoroughly middle-of-the-road piece of software. I actually got quite a bit of work
-done, with no coworkers to distract me (and likely more than said coworkers, who are now beset with children).&lt;/p&gt;
-
-&lt;p&gt;I am incredibly lucky to be able to transition to working from home relatively seamlessly, in a time when so many others
-can’t do so or can only do so under great stress, I am doing my best to be as grateful as possible.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/23/wfh-day-1</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/23/wfh-day-1</guid>
       </item>
     
   </channel>
