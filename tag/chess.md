@@ -1,11 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: chess"
-tag: chess
-robots: noindex
----
----
-layout: tagpage
+permalink: /tag/chess
 title: "Tag: Chess"
 tag: Chess
 robots: noindex

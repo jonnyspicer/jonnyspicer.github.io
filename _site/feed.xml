@@ -7,6 +7,23 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Three More Things To Be Grateful For</title>
+        <description>&lt;p&gt;After a rough couple of days, some more things that I’m grateful for seem like they’d be useful to segue into a more positive weekend;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I’m grateful for Ted for putting in the work to get tags working in our Jekyll blogs, and submitting his pull requests to me;&lt;/li&gt;
+  &lt;li&gt;I’m grateful for the sea, for always putting things in perspective;&lt;/li&gt;
+  &lt;li&gt;I’m grateful for the lady at the checkout in the Co-op today who pointed out that the ice cream which I’d only bought one of us was in fact on offer, and I could get twice as much for the same price.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The first two are alright, but to be honest the third one &lt;em&gt;really&lt;/em&gt; made my day. Also be sure to check out tags now they are finally working!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 03 Apr 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/04/03/three-more-things-to-be-grateful-for</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/04/03/three-more-things-to-be-grateful-for</guid>
+      </item>
+    
+      <item>
         <title>New Students</title>
         <description>&lt;p&gt;The whole world is looking for new indoor activities with which to amuse themselves, and it seems a lot of people are
 turning to chess - just take a quick look at chess.com’s &lt;a href=&quot;https://www.chess.com/blog/erik/chess-com-during-this-global-stay-home-moment&quot; target=&quot;_blank&quot;&gt;server load&lt;/a&gt;
@@ -221,19 +238,6 @@ I have rarely felt so many times while out for a run before.&lt;/p&gt;
         <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
         <link>http://localhost:4000//mendokusai/2020/03/25/governmental-exercise-rationing</link>
         <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/25/governmental-exercise-rationing</guid>
-      </item>
-    
-      <item>
-        <title>Lockdown</title>
-        <description>&lt;p&gt;Today lockdown in Guernsey was announced and tomorrow it begins, leaving me exceptionally glad that I already froze a
-batch of burritos today. A lot of friends have already been in contact though and that has left me feeling strangely
-optimistic, perhaps it really will bring us all closer together in the end?&lt;/p&gt;
-
-&lt;p&gt;Either way, again I am reminded how lucky I am to work in software and that I can continue to work seamlessly from home.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/24/lockdown</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/24/lockdown</guid>
       </item>
     
   </channel>
