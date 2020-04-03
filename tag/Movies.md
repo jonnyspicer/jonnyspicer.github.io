@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-permalink: /tag/movies
+permalink: /tag/movies/
 title: "Tag: Movies"
 tag: Movies
 robots: noindex

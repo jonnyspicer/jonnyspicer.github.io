@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-permalink: /tag/game_theory
+permalink: /tag/game_theory/
 title: "Tag: Game Theory"
 tag: Game Theory
 robots: noindex

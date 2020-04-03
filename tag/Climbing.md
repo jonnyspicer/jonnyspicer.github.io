@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-permalink: /tag/climbing
+permalink: /tag/climbing/
 title: "Tag: Climbing"
 tag: Climbing
 robots: noindex

@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-permalink: /tag/feminism
+permalink: /tag/feminism/
 title: "Tag: Feminism"
 tag: Feminism
 robots: noindex

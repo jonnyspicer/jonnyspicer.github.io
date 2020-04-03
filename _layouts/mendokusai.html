@@ -9,9 +9,9 @@ layout: default
     {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
       {% if forloop.last == true %}
-        <a href="/tag/{{ tag_name | replace: " ", "_" | downcase }}">{{ tag_name }}</a>
+        <a href="/tag/{{ tag_name | replace: " ", "_" | downcase }}/">{{ tag_name }}</a>
       {% else %}
-        <a href="/tag/{{ tag_name | replace: " ", "_" | downcase }}">{{ tag_name }}</a> /
+        <a href="/tag/{{ tag_name | replace: " ", "_" | downcase }}/">{{ tag_name }}</a> /
       {% endif %}
     {% endfor %}
   </p>

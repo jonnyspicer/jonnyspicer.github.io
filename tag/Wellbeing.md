@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-permalink: /tag/wellbeing
+permalink: /tag/wellbeing/
 title: "Tag: Wellbeing"
 tag: Wellbeing
 robots: noindex

@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-permalink: /tag/anime
+permalink: /tag/anime/
 title: "Tag: Anime"
 tag: Anime
 robots: noindex

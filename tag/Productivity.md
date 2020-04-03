@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-permalink: /tag/productivity
+permalink: /tag/productivity/
 title: "Tag: Productivity"
 tag: Productivity
 robots: noindex

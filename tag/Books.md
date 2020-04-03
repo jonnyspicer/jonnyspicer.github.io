@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-permalink: /tag/books
+permalink: /tag/books/
 title: "Tag: Books"
 tag: Books
 robots: noindex

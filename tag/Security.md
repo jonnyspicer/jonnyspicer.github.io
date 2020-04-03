@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-permalink: /tag/security
+permalink: /tag/security/
 title: "Tag: Security"
 tag: Security
 robots: noindex
