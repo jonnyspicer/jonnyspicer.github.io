@@ -11,10 +11,14 @@ Repo: https://github.com/qian256/qian256.github.io/blob/master/tag_generator.py
 import glob
 import os
 
-post_dir = 'mendokusai/_posts/'
+post_dirs = ['mendokusai/_posts/', 'tartarus/_posts/']
 tag_dir = 'tag/'
 
-filenames = glob.glob(post_dir + '*md')
+filenames = list()
+
+for post_dir in post_dirs:
+    filenames.extend(glob.glob(post_dir + '*md'))
+    filenames.extend(glob.glob(post_dir + '*html'))
 
 total_tags = []
 for filename in filenames:
