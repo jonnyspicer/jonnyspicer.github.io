@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Infinite Jest for the Wrong Reasons
-tags: [ Literature ]
+tags: [ Books ]
 ---
 Today I began [my new year's reading resolution](/mendokusai/2020/01/26/can-jonny-actually-read-challenge-20) and cracked open Infinite Jest on my kindle. The edition I'm reading, rather hilariously, begins with a foreword which attempts to allay any fears the reader might have about
 the levels of complexity and subsequent inpenetrability of the novel - which ironically only served to heighten my own. Nonetheless, it added to the sense that I am setting off on a spiritual

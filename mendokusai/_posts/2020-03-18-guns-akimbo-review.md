@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Guns Akimbo Review
-tags: [ Movies ]
+tags: [ Film and TV ]
 ---
 After presumably having made more money than one human being could ever spend in a lifetime, Daniel Radcliffe seems to have
 decided that he is only going to do ridiculous, goofy, *bad* movies that are entertaining to him, and frankly, I think

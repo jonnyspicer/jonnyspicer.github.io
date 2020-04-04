@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Lunch && Code
-tags: [ Technology, Software Engineering ]
+tags: [ Technology, Software Development ]
 ---
 Today saw the reincarnation of Guernsey techie meetup Lunch && Code, sponsored by the wonderful
 company that employs yours truly. I have always felt a little uncomfortable at these kinds of events previously (perhaps this is

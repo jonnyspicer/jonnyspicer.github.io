@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: GCSE Results
-tags: [ Academia ]
+tags: [ Career, Wellbeing ]
 ---
 Today is GCSE results day, and last night I was lucky enough to be able to help out with a [MyStudentEvents](https://mystudentevents.com/) livestream for students who would be opening the dreaded envelope today. It gave me the opportunity
 to relive a little of my own pre-results anticipation, but also to be able to survey the school examination landscape from a

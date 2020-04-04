@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Publishing blogs is hard
-tags: [ Software Engineering ]
+tags: [ Software Development ]
 ---
 Perhaps this post should be entitled "leaving a job half done". I have good very good at *writing* a blog post every day, however it seems I am struggling to successfully
 publish them, despite having a python script that theoretically handles the whole thing for me. The problem is of course that I have done half a job writing it, and that it

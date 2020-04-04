@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Game Jam II
-tags: [ Gaming, Programming, Technology ]
+tags: [ Video Games, Software Development, Technology ]
 ---
 This year I am once again participating in the [Global Game Jam](/mendokusai/2019/01/27/game-jam), and after approximately 28 of our allotted 48 hours, we have already produced
 something leaps and bounds ahead of last year's effort. It has been frankly exhausting, but this time I can say that I'm genuinely proud of the work that myself and our team

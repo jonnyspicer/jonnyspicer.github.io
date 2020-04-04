@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Build All The Things IV
-tags: [ Software Engineering, Web Development ]
+tags: [ Software Development ]
 ---
 I'm super lazy about checking whether or not these posts actually get published successfully, I essentially run `git push` and then go do something else with my life. Despite doing this every day, it turns out that I am incapable of doing it correctly consistently, and frequently receive messages from concerned readers that I have not published a post for that day or the previous.
 

@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: The Joy of Starting Over
-tags: [ Career, Technology, Software Engineering ]
+tags: [ Career, Technology, Software Development ]
 ---
 Starting from an entirely new tech stack this week has been challenging for reasons both numerous and obvious, but thusfar I am 
 relishing the opportunity. Switching from *nix-like to Windows, PHP to C#, functional to object-oriented, AWS to Azure, jQuery to 

@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: The Prisoner's Dilemma
-tags: [ Game Theory, Wellbeing ]
+tags: [ Poker and Gambling, Wellbeing ]
 ---
 It's a cynical take, but the more I think about it, the more I think life is essentially the [prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma), but on a grand, recurring scale. In the purest prisoner's dilemma, the optimal strategy is to
 always defect, and the best possible outcome is when the protagonist defects and the antagonist cooperates. In applied situations,

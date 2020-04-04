@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: The New York Knicks
-tags: [ Sports ]
+tags: [ Travel ]
 ---
 Last night we saw the Knicks get battered by the Pistons at Madison Square Garden,
 in what I thought was going to be a 40 point game for most of the night. Fortunately

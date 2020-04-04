@@ -27,7 +27,7 @@ for filename in filenames:
     for line in f:
         if crawl:
             if line.startswith('tags:'):
-                stripped_tags = line[8:-3].split(',')
+                stripped_tags = line.strip('tags:').strip().replace('[', '').replace(']', '').split(',')
                 for tag in stripped_tags:
                     total_tags.append(tag.strip())
                 crawl = False
@@ -48,6 +48,8 @@ for tag in old_tags:
 
 if not os.path.exists(tag_dir):
     os.makedirs(tag_dir)
+
+total_tags = list(filter(None, total_tags))
 
 for tag in total_tags:
     tag_filename = tag_dir + tag.replace(' ', '_').lower() + '.md'

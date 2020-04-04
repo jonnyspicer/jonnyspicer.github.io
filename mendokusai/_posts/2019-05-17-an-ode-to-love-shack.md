@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: An Ode to the Love Shack
-tags: [ Fine Dining ]
+tags: [ Food ]
 ---
 > If you see a faded sign at the end of the road that says
 > "15 miles to the 

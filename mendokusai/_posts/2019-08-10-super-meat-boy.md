@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Super Meat Boy
-tags: [ Gaming ]
+tags: [ Video Games ]
 ---
 Edmund McMillen's 2010 indie platformer gem "Super Meat Boy" is almost certainly my favourite
 indie title ever, at the very least it is the one that I have sunk the most hours into.

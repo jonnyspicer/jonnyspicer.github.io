@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: The Sri Chinmoy Self Transcendence Race
-tags: [ Running, Spirituality ]
+tags: [ Running, Meditation and Spirituality ]
 ---
 The [Sri Chinmoy Self Transcendence Race](https://3100.srichinmoyraces.org/) is probably the dumbest thing I've ever heard of,
 and so naturally also one of the greatest. Participants run 3100 miles around the ~800m course, naturally a block in Queens, NYC,

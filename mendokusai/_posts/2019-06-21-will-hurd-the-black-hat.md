@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Will Hurd the Black Hat
-tags: [ Politics, Security ]
+tags: [ Politics, Hacking and Security ]
 ---
 Today, Black Hat Conference announced that they'd [canned Congressman Will Hurd as keynote](https://techcrunch.com/2019/06/14/black-hat-will-hurd-keynote/) after backlash
 from attendees. Taking a brief flick through Hurd's record, it seems fair to say he is a misogynistic asshole, but it is a pretty weird step by Black Hat to rescind his

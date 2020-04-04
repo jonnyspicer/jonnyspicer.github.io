@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Adjusting For Your Own Biases
-tags: [ Psychology ]
+tags: [ Personal Development ]
 ---
 One of the things I am wholly indebted to the poker lifestyle for is an awareness of my own biases. A lot of the discussion surrounding
 poker's mental game revolves around how to identify and correct for biases in your decision making, in order to improve said decisions,

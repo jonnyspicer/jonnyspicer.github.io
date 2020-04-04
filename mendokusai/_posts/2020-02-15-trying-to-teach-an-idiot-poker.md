@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Trying to Teach an Idiot Poker
-tags: [ Poker ]
+tags: [ Poker and Gambling ]
 ---
 For starters, "idiot" was his choice of word and not mine, I think he is plainly very intelligent.
 Really, attempting to teach Josh some of the basics of poker made me feel like the idiot, as I was

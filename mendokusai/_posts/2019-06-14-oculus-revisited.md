@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Oculus Revisited
-tags: [ Gaming ]
+tags: [ Video Games ]
 ---
 After 3 months of arduous back and forth with Oculus support (the result of which means I am never going to recommend their products to anyone, ever), my replacement controller has
 *finally* arrived. As frustrated at disappointed as I am with their customer support, I do have that kid in a candy shop feeling all over again, of being able to dive back in to VR

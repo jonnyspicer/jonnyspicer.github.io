@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: 50 Ways To Show Someone You Love Them Without Having Sex
-tags: [ Wellbeing, Relationships ]
+tags: [ Wellbeing, Dating and Relationships ]
 ---
 I've never spoken especially highly of the sex education I received at school, as frankly I feel like it left me wholly unprepared for the complex, emotional realities of sex itself. At the fairly young age of 13 or so, I distinctly remember the inhabitants of our
 all male form being handed out purple leaflets, emblazoned with the religion-reminiscent heading '50 ways to show someone you love them without having sex'. 

@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: RSS Has Landed
-tags: [ Web Development ]
+tags: [ Software Development ]
 ---
 Today is the first time in a long time that the blog has a new feature, one which is long overdue (but equally is probably
 on the verge of extinction too) - an RSS feed. Its sister sites have had pull requests to add the feed opened as well, so soon

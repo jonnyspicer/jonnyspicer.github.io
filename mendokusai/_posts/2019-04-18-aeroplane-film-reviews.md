@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Aeroplane Film Reviews
-tags: [ Films ]
+tags: [ Film and TV ]
 ---
 As I am currently stuck in Gatwick Airport unable to even check in for another three
 hours, I thought it would be a good time to review some of the films that I watched

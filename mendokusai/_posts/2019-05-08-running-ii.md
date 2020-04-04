@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Running II
-tags: [ Health and Fitness ]
+tags: [ Diet and Fitness, Running ]
 ---
 After covering 17km in 3 days, surely a massive personal best for me, my body *hurts*. My calves are aching and tight, and my 
 feet have been pummeled, my arches ache even to walk and my blisters are truly vile. Today I took the day off, and I will likely 

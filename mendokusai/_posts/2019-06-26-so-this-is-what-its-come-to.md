@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: So This is What It's Come To
-tags: [ Privacy, Technology ]
+tags: [ Hacking and Security, Technology ]
 ---
 Apparently, [this](https://blog.mozilla.org/firefox/hey-advertisers-track-this/) is now the way that we're fighting aggressive ad
 tracking practices. Now, I know it's mostly a joke - and also it's not like a huge amount of Mozilla dev time has gone into this, I'm

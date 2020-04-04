@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Poker Hand Stories
-tags: [ Poker ]
+tags: [ Poker and Gambling ]
 ---
 After talking to Ongun and Marisa this week, and describing an emotion wholly unrelated to poker through the analogy of a poker hand
 (much to Marisa's dismay), I realised quite how powerful the emotions that poker hands carry with them. So much so that I find it

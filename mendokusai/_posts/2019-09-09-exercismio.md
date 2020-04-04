@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: exercism.io
-tags: [ Software Engineering, Career ]
+tags: [ Software Development, Career ]
 ---
 In the past week I've been trying out [exercism.io](https://exercism.io), and so far I've been really impressed. It sits in between
 the Leetcode-style of completing coding challenges and Codecademy or similar progressive learning of a language, with the very nice

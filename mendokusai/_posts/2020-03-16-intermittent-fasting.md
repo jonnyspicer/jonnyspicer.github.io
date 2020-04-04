@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Intermittent Fasting
-tags: [ Wellbeing, Health and Fitness ]
+tags: [ Wellbeing, Diet and Fitness ]
 ---
 Yesterday I mused for the millionth time upon what changes I was going to make to my diet in order to achieve the desired result, without falling pray to the notion that if I simply
 repeat previous efforts, something will magically be different this time. Perhaps it seems a little foolish but I think it is important to keep trying, and furthermore to keep

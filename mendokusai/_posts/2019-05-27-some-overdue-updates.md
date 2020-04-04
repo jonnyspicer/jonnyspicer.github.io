@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Some Overdue Updates
-tags: [ Web Development ]
+tags: [ Software Development ]
 ---
 This site has finally undergone some minor, but much-needed cosmetic surgery. A quick changelog:
 

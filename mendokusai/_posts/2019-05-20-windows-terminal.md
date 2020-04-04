@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Windows Terminal
-tags: [ Technology, Windows ]
+tags: [ Technology, Software Development ]
 ---
 [Windows Terminal](https://github.com/microsoft/terminal) is on the way and I am very excited for it, because that means 
 there will *finally* be a CLI I can use on Windows which has tabs... seriously, how did it take so long?! For me, PowerShell 

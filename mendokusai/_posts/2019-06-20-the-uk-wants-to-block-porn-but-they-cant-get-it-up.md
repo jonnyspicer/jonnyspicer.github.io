@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: The UK wants to block porn, but they can't get it up
-tags: [ Censorship ]
+tags: [ Politics ]
 ---
 The UK government's controversial attempt to impose an age block on pornographic content drags on, with the news coming today that they had not adequately
 notified the EU of the planned changes, which would cause a delay of a minimum of 6 months. There is so much irony there I'm not even going to bother to comment on it,

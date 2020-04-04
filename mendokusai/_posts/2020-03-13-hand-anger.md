@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Hand Anger
-tags: [ Poker ]
+tags: [ Poker and Gambling ]
 ---
 Last night I was enjoying the recent uptick in player liquidity on Run It Once and was happily clicking buttons when a particular hand made me really *angry*. The nice thing about
 being a fun player is that now I can simply stop playing, take a step back and evaluate why exactly this hand irked me so much.

@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Alcohol IV
-tags: [ Wellbeing, Health and Fitness ]
+tags: [ Wellbeing, Diet and Fitness ]
 ---
 When I have finished the (admittedly rather large) glass of wine on my desk, I will
 have drunk my supply of alcohol at home clean, and subsequently plan on giving up alcohol

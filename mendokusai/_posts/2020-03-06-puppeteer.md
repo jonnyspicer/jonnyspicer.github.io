@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Puppeteer
-tags: [ Software Engineering ]
+tags: [ Software Development ]
 ---
 Today I finally had the chance to play around with Google's [Puppeteer,](https://developers.google.com/web/tools/puppeteer/){:target="_blank"} it's nifty Node library for manipulating a Chrome browser via API, head
 optional. It's a powerful tool for automation, and getting it hooked up

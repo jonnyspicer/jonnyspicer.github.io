@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Hack The Box
-tags: [ Pen Testing ]
+tags: [ Hacking and Security ]
 ---
 Yesterday I managed to [hack the first box](https://www.hackthebox.eu), that being the invite code for Hack The Box. I say 'hack' in the loosest sense of
 the word because I have no idea what I was doing (also every step was basically the most obvious thing to try). Now I'm in, and I've spent a couple of hours
