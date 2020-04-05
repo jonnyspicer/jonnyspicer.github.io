@@ -117,3 +117,7 @@ pre[class*="language-"] {
 .token.entity {
     cursor: help;
 }
+
+div[class*="language-"] ~ h3{
+    margin-block-start: 4em;
+}

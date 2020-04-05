@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Jonny Spicer" />
+    <meta name="description" content="Jonny Spicer's personal website and blog, where he writes about mental health, technology, esports, but primarily trash." />
+    <title>30 Days of Leetcode&#58; Days 1 to 5</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link href="http://localhost:4000" rel="alternate" type="application/atom+xml">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jonny Spicer" />
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>30 Days of Leetcode: Days 1 to 5 | Jonny Spicer</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="30 Days of Leetcode: Days 1 to 5" />
+<meta name="author" content="Jonny Spicer" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="There’s quite a few 30-days-of-code challenges popping up this week, given that April looks set to be the first full month in which the entire world is forbidden from leaving our houses. As I already have a Leetcode account and have done a very small number of the easy problems on there, I thought I’d take a stab at theirs, and will share some or all of my solutions here. April 1st - Single Number Today’s problem is very simple; given a non-empty array of integers, every element appears twice except for one. Find that single one. For example; Input: [4,1,2,1,2] Output: 4 I’d actually already completed this problem on Leetcode a few months ago, however I’d used a Linq query which aren’t exactly the most performant things in the world: public class Solution { public int SingleNumber(int[] nums) { // I think this is pretty self explanatory! return nums.GroupBy(e =&gt; e) .Where(e =&gt; e.Count() == 1) .Select(e =&gt; e.First()) .First(); } } I decided to retry without using Linq (at least until the end), and this solution works (and works faster than its predecessor), however I think it nicely illustrates one of the points I made in yesterday’s blog, because I have made a pretty embarrassing oversight here - exists should simply be a List, and then rather than incrementing an index’s count if it already exists, I should remove it from the list instead, which would leave only one number left. Ultimately, this is why doing these kinds of problems are useful - it’s quick and easy to compare your code to others’ afterwards, and making silly mistakes like this one in a sandbox environment are much loss costly than making them in a professional context. public class Solution { public int SingleNumber(int[] nums) { // create a Dictionary for every number in the array // and how many times it appears Dictionary&lt;int, int&gt; exists = new Dictionary&lt;int, int&gt;(); foreach (int i in nums){ if (!exists.ContainsKey(i)){ exists.Add(i, 1); } else { exists[i] += 1; } } return exists.FirstOrDefault(x =&gt; x.Value == 1).Key; } } There is actually a much simpler solution to this using bitwise XOR, but I think it’s a lot less intuitive, and from the discussions I’ve seen around this question it seems like you essentially have to know that you should use XOR here rather than be able to figure it out. This works based off the idea that XOR of a number with itself is 0, and XOR of a number with 0 is the original number - so as we go through the list, each number will cancel itself out, until only the unpaired one remains in the result value. public class Solution { public int SingleNumber(int[] nums) { int result = 0; foreach (var i in nums) result ^= i; return result; } } April 2nd - Happy Number The problem statement here is simply to write an algorithm that returns true if a number is “happy”, and false otherwise. As per the problem itself: “a happy number is a number defined by the following process: starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which process ends in 1 are happy numbers.” And the example given: Input: 19 Output: true Explanation: 1^2 + 9^2 = 82 8^2 + 2^2 = 68 6^2 + 8^2 = 100 1^2 + 0^2 + 0^2 = 1 For this one I managed to think a little deeper before beginning to type, and realised that once any number has been repeated in a cycle, the cycle will loop endlessly, therefore the number cannot be happy (and conversely, were the cycle to never repeat, obviously eventually it would hit 1). public class Solution { public bool IsHappy(int n) { List&lt;int&gt; seen = new List&lt;int&gt;(); while (n != 1){ // j is the value into which we are calculating the // sum of the squares of digits int j = 0; while (n &gt; 0){ // using modulus, we can process each digit on // its own rather than doing something ham-fisted // like splitting the int into a char[] j += ((n % 10) * (n % 10)); n -= (n % 10); n /= 10; } if(seen.Contains(j)){ return false; } else { seen.Add(j); } n = j; } return true; } } April 3rd - Maximum Subarray For today’s entry we must take an array of integers and find the contiguous subarray with the largest sum, which we must then return. This is also one that I feel like I did a little clumsily (and indeed one it took me significantly longer than the first two problems to solve), but the consensus is that the optimal solution (which implements Kadane’s Algorithm,) is again fairly hard to intuit. Example: Input: [-2,1,-3,4,-1,2,1,-5,4], Output: 6 Explanation: [4,-1,2,1] has the largest sum = 6. Using nested for loops always makes me feel a little queasy, and I knew while doing it that this brute force method of checking every possible subarray was not going to be the most efficient way to solve the problem - but it does solve the problem. public class Solution { public int MaxSubArray(int[] nums) { int currentMax = nums[0]; // for every int in nums... for(int i = 0; i &lt; nums.Length; i++ ){ int j = 0; //...check every subarray by moving // forward in the nums array... for (int k = 0; k &lt; (nums.Length - i); k++){ j += nums[k + i]; // ...and see what&#39;s biggest if(currentMax &lt; j) currentMax = j; } } return currentMax; } } An implementation of Kadane’s Algorithm, both easier to grok for humans as well as more efficient for machines: public class Solution{ public int MaxSubArray(int[] nums){ int current = 0; int currentMax = nums[0] for(int i = 0; i &lt; nums.Length; i++){ // add this value in the array to the current sum current += nums[i]; // if this value in the array is bigger than // the current sum... if(nums[i] &gt; current){ //...then this value becomes the current sum current = nums[i]; } if(current &gt; currentMax){ currentMax = current; } } return currentMax; } } April 4th - Move Zeroes Another short and sweet problem statement: “given an array nums, write a function to move all 0’s to the end of it while maintaing the relative orrder of the non-zero elements. Example: Input: [0,1,0,3,12] Output: [1,3,12,0,0] This one seems simple, but I ended up wrestling with it for hours - again, largely because I did not fully think through the problem before I began writing code to try and solve it, and then became stuck viewing the problem only through the lens of the code I’d already written. For example, I spent a long time checking to see whether or not a value was 0 in the array rather than was not, and similarly it took me an embarassingly long time to realise that I had j &gt; zeroCount instead of j &gt;= zeroCount in the second for loop. Still, I got there in the end. public class Solution { public void MoveZeroes(int[] nums) { int zeroCount = 0; for(int i = 0; i &lt; nums.Length; i++){ //if a value isn&#39;t 0... if(nums[i] != 0){ //move it to the next available index nums[zeroCount++] = nums[i]; } } // fill the rest of the array with 0s for (int j = nums.Length - 1; j &gt;= zeroCount; j--){ nums[j] = 0; } } } April 5th - Best Time To Buy And Sell Stock II Today’s problem: design an algorithm to find the maximum profit from buying and selling stocks from an array in which each element corresponds to the stock price for that day. Any number of transactions can be made, however only one transaction can be made at a time (eg once you have bought once, you must sell once before you can buy again). Example: Input: [7,1,5,3,6,4] Output: 7 Explanation: Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-1 = 4. Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6-3 = 3. This is the first problem I solved after yesterday’s blog, and consequently the first one which I was determined to consider for a meaningful amount of time before writing any code. It may be a fluke, or possibly this was an easier problem than the previous two days’, however it seemed to pay off as I solved this one basically instantly. The important thing to realise here is that we have the gift of omniscience, and at every point in time we can know what is happening at every other point in time - including seeing into the future by reading the rest of the array! public class Solution { public int MaxProfit(int[] prices) { bool bought = false; int profit = 0; int buyPrice = 0; for(int i = 0; i &lt; prices.Length; i++){ if(bought == false){ // we want to buy the dip; if we know the price // is going to go up tomorrow, we should buy now! // (unless there ominously is no tomorrow) if((i + 1) &lt; prices.Length &amp;&amp; prices[i + 1] &gt; prices[i]) { bought = true; buyPrice = prices[i]; } } else { // similarly, if the price is about to go down, // it&#39;s time to dump our whole portfolio // (which we should also do if the world // is about to end) if((i + 1) == prices.Length || ((i + 1) &lt; prices.Length &amp;&amp; prices[i + 1] &lt; prices[i])) { bought = false; profit += (prices[i] - buyPrice); } } } return profit; } } If you made it this far, thank you for reading! I will be endeavouring to do all 30 days of the challenge and plan to keep writing up my solutions in this blog every few days or so." />
+<meta property="og:description" content="There’s quite a few 30-days-of-code challenges popping up this week, given that April looks set to be the first full month in which the entire world is forbidden from leaving our houses. As I already have a Leetcode account and have done a very small number of the easy problems on there, I thought I’d take a stab at theirs, and will share some or all of my solutions here. April 1st - Single Number Today’s problem is very simple; given a non-empty array of integers, every element appears twice except for one. Find that single one. For example; Input: [4,1,2,1,2] Output: 4 I’d actually already completed this problem on Leetcode a few months ago, however I’d used a Linq query which aren’t exactly the most performant things in the world: public class Solution { public int SingleNumber(int[] nums) { // I think this is pretty self explanatory! return nums.GroupBy(e =&gt; e) .Where(e =&gt; e.Count() == 1) .Select(e =&gt; e.First()) .First(); } } I decided to retry without using Linq (at least until the end), and this solution works (and works faster than its predecessor), however I think it nicely illustrates one of the points I made in yesterday’s blog, because I have made a pretty embarrassing oversight here - exists should simply be a List, and then rather than incrementing an index’s count if it already exists, I should remove it from the list instead, which would leave only one number left. Ultimately, this is why doing these kinds of problems are useful - it’s quick and easy to compare your code to others’ afterwards, and making silly mistakes like this one in a sandbox environment are much loss costly than making them in a professional context. public class Solution { public int SingleNumber(int[] nums) { // create a Dictionary for every number in the array // and how many times it appears Dictionary&lt;int, int&gt; exists = new Dictionary&lt;int, int&gt;(); foreach (int i in nums){ if (!exists.ContainsKey(i)){ exists.Add(i, 1); } else { exists[i] += 1; } } return exists.FirstOrDefault(x =&gt; x.Value == 1).Key; } } There is actually a much simpler solution to this using bitwise XOR, but I think it’s a lot less intuitive, and from the discussions I’ve seen around this question it seems like you essentially have to know that you should use XOR here rather than be able to figure it out. This works based off the idea that XOR of a number with itself is 0, and XOR of a number with 0 is the original number - so as we go through the list, each number will cancel itself out, until only the unpaired one remains in the result value. public class Solution { public int SingleNumber(int[] nums) { int result = 0; foreach (var i in nums) result ^= i; return result; } } April 2nd - Happy Number The problem statement here is simply to write an algorithm that returns true if a number is “happy”, and false otherwise. As per the problem itself: “a happy number is a number defined by the following process: starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which process ends in 1 are happy numbers.” And the example given: Input: 19 Output: true Explanation: 1^2 + 9^2 = 82 8^2 + 2^2 = 68 6^2 + 8^2 = 100 1^2 + 0^2 + 0^2 = 1 For this one I managed to think a little deeper before beginning to type, and realised that once any number has been repeated in a cycle, the cycle will loop endlessly, therefore the number cannot be happy (and conversely, were the cycle to never repeat, obviously eventually it would hit 1). public class Solution { public bool IsHappy(int n) { List&lt;int&gt; seen = new List&lt;int&gt;(); while (n != 1){ // j is the value into which we are calculating the // sum of the squares of digits int j = 0; while (n &gt; 0){ // using modulus, we can process each digit on // its own rather than doing something ham-fisted // like splitting the int into a char[] j += ((n % 10) * (n % 10)); n -= (n % 10); n /= 10; } if(seen.Contains(j)){ return false; } else { seen.Add(j); } n = j; } return true; } } April 3rd - Maximum Subarray For today’s entry we must take an array of integers and find the contiguous subarray with the largest sum, which we must then return. This is also one that I feel like I did a little clumsily (and indeed one it took me significantly longer than the first two problems to solve), but the consensus is that the optimal solution (which implements Kadane’s Algorithm,) is again fairly hard to intuit. Example: Input: [-2,1,-3,4,-1,2,1,-5,4], Output: 6 Explanation: [4,-1,2,1] has the largest sum = 6. Using nested for loops always makes me feel a little queasy, and I knew while doing it that this brute force method of checking every possible subarray was not going to be the most efficient way to solve the problem - but it does solve the problem. public class Solution { public int MaxSubArray(int[] nums) { int currentMax = nums[0]; // for every int in nums... for(int i = 0; i &lt; nums.Length; i++ ){ int j = 0; //...check every subarray by moving // forward in the nums array... for (int k = 0; k &lt; (nums.Length - i); k++){ j += nums[k + i]; // ...and see what&#39;s biggest if(currentMax &lt; j) currentMax = j; } } return currentMax; } } An implementation of Kadane’s Algorithm, both easier to grok for humans as well as more efficient for machines: public class Solution{ public int MaxSubArray(int[] nums){ int current = 0; int currentMax = nums[0] for(int i = 0; i &lt; nums.Length; i++){ // add this value in the array to the current sum current += nums[i]; // if this value in the array is bigger than // the current sum... if(nums[i] &gt; current){ //...then this value becomes the current sum current = nums[i]; } if(current &gt; currentMax){ currentMax = current; } } return currentMax; } } April 4th - Move Zeroes Another short and sweet problem statement: “given an array nums, write a function to move all 0’s to the end of it while maintaing the relative orrder of the non-zero elements. Example: Input: [0,1,0,3,12] Output: [1,3,12,0,0] This one seems simple, but I ended up wrestling with it for hours - again, largely because I did not fully think through the problem before I began writing code to try and solve it, and then became stuck viewing the problem only through the lens of the code I’d already written. For example, I spent a long time checking to see whether or not a value was 0 in the array rather than was not, and similarly it took me an embarassingly long time to realise that I had j &gt; zeroCount instead of j &gt;= zeroCount in the second for loop. Still, I got there in the end. public class Solution { public void MoveZeroes(int[] nums) { int zeroCount = 0; for(int i = 0; i &lt; nums.Length; i++){ //if a value isn&#39;t 0... if(nums[i] != 0){ //move it to the next available index nums[zeroCount++] = nums[i]; } } // fill the rest of the array with 0s for (int j = nums.Length - 1; j &gt;= zeroCount; j--){ nums[j] = 0; } } } April 5th - Best Time To Buy And Sell Stock II Today’s problem: design an algorithm to find the maximum profit from buying and selling stocks from an array in which each element corresponds to the stock price for that day. Any number of transactions can be made, however only one transaction can be made at a time (eg once you have bought once, you must sell once before you can buy again). Example: Input: [7,1,5,3,6,4] Output: 7 Explanation: Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-1 = 4. Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6-3 = 3. This is the first problem I solved after yesterday’s blog, and consequently the first one which I was determined to consider for a meaningful amount of time before writing any code. It may be a fluke, or possibly this was an easier problem than the previous two days’, however it seemed to pay off as I solved this one basically instantly. The important thing to realise here is that we have the gift of omniscience, and at every point in time we can know what is happening at every other point in time - including seeing into the future by reading the rest of the array! public class Solution { public int MaxProfit(int[] prices) { bool bought = false; int profit = 0; int buyPrice = 0; for(int i = 0; i &lt; prices.Length; i++){ if(bought == false){ // we want to buy the dip; if we know the price // is going to go up tomorrow, we should buy now! // (unless there ominously is no tomorrow) if((i + 1) &lt; prices.Length &amp;&amp; prices[i + 1] &gt; prices[i]) { bought = true; buyPrice = prices[i]; } } else { // similarly, if the price is about to go down, // it&#39;s time to dump our whole portfolio // (which we should also do if the world // is about to end) if((i + 1) == prices.Length || ((i + 1) &lt; prices.Length &amp;&amp; prices[i + 1] &lt; prices[i])) { bought = false; profit += (prices[i] - buyPrice); } } } return profit; } } If you made it this far, thank you for reading! I will be endeavouring to do all 30 days of the challenge and plan to keep writing up my solutions in this blog every few days or so." />
+<link rel="canonical" href="http://localhost:4000/mendokusai/2020/04/05/30-days-of-leetcode-days-1-to-5" />
+<meta property="og:url" content="http://localhost:4000/mendokusai/2020/04/05/30-days-of-leetcode-days-1-to-5" />
+<meta property="og:site_name" content="Jonny Spicer" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-04-05T00:00:00+01:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"http://localhost:4000/mendokusai/2020/04/05/30-days-of-leetcode-days-1-to-5","headline":"30 Days of Leetcode: Days 1 to 5","dateModified":"2020-04-05T00:00:00+01:00","datePublished":"2020-04-05T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/mendokusai/2020/04/05/30-days-of-leetcode-days-1-to-5"},"author":{"@type":"Person","name":"Jonny Spicer"},"description":"There’s quite a few 30-days-of-code challenges popping up this week, given that April looks set to be the first full month in which the entire world is forbidden from leaving our houses. As I already have a Leetcode account and have done a very small number of the easy problems on there, I thought I’d take a stab at theirs, and will share some or all of my solutions here. April 1st - Single Number Today’s problem is very simple; given a non-empty array of integers, every element appears twice except for one. Find that single one. For example; Input: [4,1,2,1,2] Output: 4 I’d actually already completed this problem on Leetcode a few months ago, however I’d used a Linq query which aren’t exactly the most performant things in the world: public class Solution { public int SingleNumber(int[] nums) { // I think this is pretty self explanatory! return nums.GroupBy(e =&gt; e) .Where(e =&gt; e.Count() == 1) .Select(e =&gt; e.First()) .First(); } } I decided to retry without using Linq (at least until the end), and this solution works (and works faster than its predecessor), however I think it nicely illustrates one of the points I made in yesterday’s blog, because I have made a pretty embarrassing oversight here - exists should simply be a List, and then rather than incrementing an index’s count if it already exists, I should remove it from the list instead, which would leave only one number left. Ultimately, this is why doing these kinds of problems are useful - it’s quick and easy to compare your code to others’ afterwards, and making silly mistakes like this one in a sandbox environment are much loss costly than making them in a professional context. public class Solution { public int SingleNumber(int[] nums) { // create a Dictionary for every number in the array // and how many times it appears Dictionary&lt;int, int&gt; exists = new Dictionary&lt;int, int&gt;(); foreach (int i in nums){ if (!exists.ContainsKey(i)){ exists.Add(i, 1); } else { exists[i] += 1; } } return exists.FirstOrDefault(x =&gt; x.Value == 1).Key; } } There is actually a much simpler solution to this using bitwise XOR, but I think it’s a lot less intuitive, and from the discussions I’ve seen around this question it seems like you essentially have to know that you should use XOR here rather than be able to figure it out. This works based off the idea that XOR of a number with itself is 0, and XOR of a number with 0 is the original number - so as we go through the list, each number will cancel itself out, until only the unpaired one remains in the result value. public class Solution { public int SingleNumber(int[] nums) { int result = 0; foreach (var i in nums) result ^= i; return result; } } April 2nd - Happy Number The problem statement here is simply to write an algorithm that returns true if a number is “happy”, and false otherwise. As per the problem itself: “a happy number is a number defined by the following process: starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which process ends in 1 are happy numbers.” And the example given: Input: 19 Output: true Explanation: 1^2 + 9^2 = 82 8^2 + 2^2 = 68 6^2 + 8^2 = 100 1^2 + 0^2 + 0^2 = 1 For this one I managed to think a little deeper before beginning to type, and realised that once any number has been repeated in a cycle, the cycle will loop endlessly, therefore the number cannot be happy (and conversely, were the cycle to never repeat, obviously eventually it would hit 1). public class Solution { public bool IsHappy(int n) { List&lt;int&gt; seen = new List&lt;int&gt;(); while (n != 1){ // j is the value into which we are calculating the // sum of the squares of digits int j = 0; while (n &gt; 0){ // using modulus, we can process each digit on // its own rather than doing something ham-fisted // like splitting the int into a char[] j += ((n % 10) * (n % 10)); n -= (n % 10); n /= 10; } if(seen.Contains(j)){ return false; } else { seen.Add(j); } n = j; } return true; } } April 3rd - Maximum Subarray For today’s entry we must take an array of integers and find the contiguous subarray with the largest sum, which we must then return. This is also one that I feel like I did a little clumsily (and indeed one it took me significantly longer than the first two problems to solve), but the consensus is that the optimal solution (which implements Kadane’s Algorithm,) is again fairly hard to intuit. Example: Input: [-2,1,-3,4,-1,2,1,-5,4], Output: 6 Explanation: [4,-1,2,1] has the largest sum = 6. Using nested for loops always makes me feel a little queasy, and I knew while doing it that this brute force method of checking every possible subarray was not going to be the most efficient way to solve the problem - but it does solve the problem. public class Solution { public int MaxSubArray(int[] nums) { int currentMax = nums[0]; // for every int in nums... for(int i = 0; i &lt; nums.Length; i++ ){ int j = 0; //...check every subarray by moving // forward in the nums array... for (int k = 0; k &lt; (nums.Length - i); k++){ j += nums[k + i]; // ...and see what&#39;s biggest if(currentMax &lt; j) currentMax = j; } } return currentMax; } } An implementation of Kadane’s Algorithm, both easier to grok for humans as well as more efficient for machines: public class Solution{ public int MaxSubArray(int[] nums){ int current = 0; int currentMax = nums[0] for(int i = 0; i &lt; nums.Length; i++){ // add this value in the array to the current sum current += nums[i]; // if this value in the array is bigger than // the current sum... if(nums[i] &gt; current){ //...then this value becomes the current sum current = nums[i]; } if(current &gt; currentMax){ currentMax = current; } } return currentMax; } } April 4th - Move Zeroes Another short and sweet problem statement: “given an array nums, write a function to move all 0’s to the end of it while maintaing the relative orrder of the non-zero elements. Example: Input: [0,1,0,3,12] Output: [1,3,12,0,0] This one seems simple, but I ended up wrestling with it for hours - again, largely because I did not fully think through the problem before I began writing code to try and solve it, and then became stuck viewing the problem only through the lens of the code I’d already written. For example, I spent a long time checking to see whether or not a value was 0 in the array rather than was not, and similarly it took me an embarassingly long time to realise that I had j &gt; zeroCount instead of j &gt;= zeroCount in the second for loop. Still, I got there in the end. public class Solution { public void MoveZeroes(int[] nums) { int zeroCount = 0; for(int i = 0; i &lt; nums.Length; i++){ //if a value isn&#39;t 0... if(nums[i] != 0){ //move it to the next available index nums[zeroCount++] = nums[i]; } } // fill the rest of the array with 0s for (int j = nums.Length - 1; j &gt;= zeroCount; j--){ nums[j] = 0; } } } April 5th - Best Time To Buy And Sell Stock II Today’s problem: design an algorithm to find the maximum profit from buying and selling stocks from an array in which each element corresponds to the stock price for that day. Any number of transactions can be made, however only one transaction can be made at a time (eg once you have bought once, you must sell once before you can buy again). Example: Input: [7,1,5,3,6,4] Output: 7 Explanation: Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-1 = 4. Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6-3 = 3. This is the first problem I solved after yesterday’s blog, and consequently the first one which I was determined to consider for a meaningful amount of time before writing any code. It may be a fluke, or possibly this was an easier problem than the previous two days’, however it seemed to pay off as I solved this one basically instantly. The important thing to realise here is that we have the gift of omniscience, and at every point in time we can know what is happening at every other point in time - including seeing into the future by reading the rest of the array! public class Solution { public int MaxProfit(int[] prices) { bool bought = false; int profit = 0; int buyPrice = 0; for(int i = 0; i &lt; prices.Length; i++){ if(bought == false){ // we want to buy the dip; if we know the price // is going to go up tomorrow, we should buy now! // (unless there ominously is no tomorrow) if((i + 1) &lt; prices.Length &amp;&amp; prices[i + 1] &gt; prices[i]) { bought = true; buyPrice = prices[i]; } } else { // similarly, if the price is about to go down, // it&#39;s time to dump our whole portfolio // (which we should also do if the world // is about to end) if((i + 1) == prices.Length || ((i + 1) &lt; prices.Length &amp;&amp; prices[i + 1] &lt; prices[i])) { bought = false; profit += (prices[i] - buyPrice); } } } return profit; } } If you made it this far, thank you for reading! I will be endeavouring to do all 30 days of the challenge and plan to keep writing up my solutions in this blog every few days or so.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    
+      
+
+
+
+
+
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Taviraj&?family=Questrial&?family=Lato&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <header>
+  <div class="mobile-header">
+    <div>
+      <a href="/">Jonny Spicer</a>
+    </div>
+    <div class="toggle">
+      <span>
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
+  </div>
+  <nav class="desktop-nav">
+    
+      <a href="/">
+        <div>
+          <p>
+            Home
+          </p>
+        </div>
+      </a>
+    
+      <a href="/about">
+        <div>
+          <p>
+            About
+          </p>
+        </div>
+      </a>
+    
+      <a href="/mendokusai">
+        <div>
+          <p>
+            Mendokusai
+          </p>
+        </div>
+      </a>
+    
+      <a href="/tartarus">
+        <div>
+          <p>
+            Tartarus
+          </p>
+        </div>
+      </a>
+    
+  </nav>
+</header>
+    <div class="wrapper">
+      <div class="post post-mendokusai">
+  <h1>30 Days of Leetcode&#58; Days 1 to 5</h1>
+
+  <p>
+    Published 05 Apr 2020 in 
+    
+      
+      
+        <a href="/tag/software_development/">Software Development</a>
+      
+    
+  </p>
+
+  <p>There’s quite a few 30-days-of-code challenges popping up this week, given that April looks set
+to be the first full month in which the entire world is forbidden from leaving our houses. As
+I already have a Leetcode account and have done a very small number of the easy problems on
+there, I thought I’d take a stab at <a href="https://leetcode.com/discuss/general-discussion/551411/30-Day-LeetCoding-Challenge" target="_blank">theirs</a>, and will share some or all of my solutions here.</p>
+
+<h3 id="april-1st---single-number">April 1st - <a href="https://leetcode.com/problems/single-number/" target="_blank">Single Number</a></h3>
+
+<p>Today’s problem is very simple; given a non-empty array of integers, every element appears twice except for one. Find that single one.
+For example;</p>
+
+<pre><code class="language-none">    Input: [4,1,2,1,2]
+    Output: 4
+</code></pre>
+
+<p>I’d actually already completed this problem on Leetcode a few months ago, however I’d used a Linq query which aren’t exactly the most performant things in the world:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
+    <span class="k">public</span> <span class="kt">int</span> <span class="nf">SingleNumber</span><span class="p">(</span><span class="kt">int</span><span class="p">[]</span> <span class="n">nums</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// I think this is pretty self explanatory!</span>
+        <span class="k">return</span> <span class="n">nums</span><span class="p">.</span><span class="nf">GroupBy</span><span class="p">(</span><span class="n">e</span> <span class="p">=&gt;</span> <span class="n">e</span><span class="p">)</span>
+                   <span class="p">.</span><span class="nf">Where</span><span class="p">(</span><span class="n">e</span> <span class="p">=&gt;</span> <span class="n">e</span><span class="p">.</span><span class="nf">Count</span><span class="p">()</span> <span class="p">==</span> <span class="m">1</span><span class="p">)</span>
+                   <span class="p">.</span><span class="nf">Select</span><span class="p">(</span><span class="n">e</span> <span class="p">=&gt;</span> <span class="n">e</span><span class="p">.</span><span class="nf">First</span><span class="p">())</span>
+                   <span class="p">.</span><span class="nf">First</span><span class="p">();</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>I decided to retry without using Linq (at least until the end), and this solution works (and works faster than its predecessor), however I think it nicely illustrates one of the points I
+made in <a href="/mendokusai/2020/04/04/think-deeply-about-simple-things" target="_blank">yesterday’s blog,</a> because I have made a pretty embarrassing oversight here - <code class="language-plaintext highlighter-rouge">exists</code> should simply
+be a List, and then rather than incrementing an index’s count if it already exists, I should remove it from the list instead, which would leave only one number left. Ultimately, this is why
+doing these kinds of problems are useful - it’s quick and easy to compare your code to others’ afterwards, and making silly mistakes like this one in a sandbox environment are much loss
+costly than making them in a professional context.</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
+    <span class="k">public</span> <span class="kt">int</span> <span class="nf">SingleNumber</span><span class="p">(</span><span class="kt">int</span><span class="p">[]</span> <span class="n">nums</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// create a Dictionary for every number in the array</span>
+        <span class="c1">// and how many times it appears</span>
+        <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="p">&gt;</span> <span class="n">exists</span> <span class="p">=</span>
+            <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="p">&gt;();</span>
+        <span class="k">foreach</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="k">in</span> <span class="n">nums</span><span class="p">){</span>
+            <span class="k">if</span> <span class="p">(!</span><span class="n">exists</span><span class="p">.</span><span class="nf">ContainsKey</span><span class="p">(</span><span class="n">i</span><span class="p">)){</span>
+                <span class="n">exists</span><span class="p">.</span><span class="nf">Add</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="m">1</span><span class="p">);</span>
+            <span class="p">}</span>
+            <span class="k">else</span> <span class="p">{</span>
+                <span class="n">exists</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">+=</span> <span class="m">1</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">exists</span><span class="p">.</span><span class="nf">FirstOrDefault</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span><span class="p">.</span><span class="n">Value</span> <span class="p">==</span> <span class="m">1</span><span class="p">).</span><span class="n">Key</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>There is actually a much simpler solution to this using bitwise XOR, but I think it’s a lot less intuitive, and from the discussions I’ve seen around this question it seems like
+you essentially have to know that you should use XOR here rather than be able to figure it out. This works based off the idea that XOR of a number with itself is 0, and XOR of a number
+with 0 is the original number - so as we go through the list, each number will cancel itself out, until only the unpaired one remains in the result value.</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
+    <span class="k">public</span> <span class="kt">int</span> <span class="nf">SingleNumber</span><span class="p">(</span><span class="kt">int</span><span class="p">[]</span> <span class="n">nums</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">result</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+        <span class="k">foreach</span> <span class="p">(</span><span class="kt">var</span> <span class="n">i</span> <span class="k">in</span> <span class="n">nums</span><span class="p">)</span>
+            <span class="n">result</span> <span class="p">^=</span> <span class="n">i</span><span class="p">;</span>
+        <span class="k">return</span> <span class="n">result</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="april-2nd---happy-number">April 2nd - <a href="https://leetcode.com/problems/happy-number" target="_blank">Happy Number</a></h3>
+
+<p>The problem statement here is simply to write an algorithm that returns true if a number is “happy”, and false otherwise. As per the problem itself: “a happy number is a number defined by the
+following process: starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it
+loops endlessly in a cycle which does not include 1. Those numbers for which process ends in 1 are happy numbers.”</p>
+
+<p>And the example given:</p>
+
+<pre><code class="language-none">Input: 19
+Output: true
+Explanation:
+1^2 + 9^2 = 82
+8^2 + 2^2 = 68
+6^2 + 8^2 = 100
+1^2 + 0^2 + 0^2 = 1
+</code></pre>
+
+<p>For this one I managed to think a little deeper before beginning to type, and realised that once any number has been repeated in a cycle, the cycle will loop endlessly, therefore the number
+cannot be happy (and conversely, were the cycle to never repeat, obviously eventually it would hit 1).</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
+    <span class="k">public</span> <span class="kt">bool</span> <span class="nf">IsHappy</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">List</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">seen</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;();</span>
+        <span class="k">while</span> <span class="p">(</span><span class="n">n</span> <span class="p">!=</span> <span class="m">1</span><span class="p">){</span>
+            <span class="c1">// j is the value into which we are calculating the</span>
+            <span class="c1">// sum of the squares of digits</span>
+            <span class="kt">int</span> <span class="n">j</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+            <span class="k">while</span> <span class="p">(</span><span class="n">n</span> <span class="p">&gt;</span> <span class="m">0</span><span class="p">){</span>
+                <span class="c1">// using modulus, we can process each digit on</span>
+                <span class="c1">// its own rather than doing something ham-fisted</span>
+                <span class="c1">// like splitting the int into a char[]</span>
+                <span class="n">j</span> <span class="p">+=</span> <span class="p">((</span><span class="n">n</span> <span class="p">%</span> <span class="m">10</span><span class="p">)</span> <span class="p">*</span> <span class="p">(</span><span class="n">n</span> <span class="p">%</span> <span class="m">10</span><span class="p">));</span>
+                <span class="n">n</span> <span class="p">-=</span> <span class="p">(</span><span class="n">n</span> <span class="p">%</span> <span class="m">10</span><span class="p">);</span>
+                <span class="n">n</span> <span class="p">/=</span> <span class="m">10</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">seen</span><span class="p">.</span><span class="nf">Contains</span><span class="p">(</span><span class="n">j</span><span class="p">)){</span>
+                <span class="k">return</span> <span class="k">false</span><span class="p">;</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="n">seen</span><span class="p">.</span><span class="nf">Add</span><span class="p">(</span><span class="n">j</span><span class="p">);</span>
+            <span class="p">}</span>
+            <span class="n">n</span> <span class="p">=</span> <span class="n">j</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="k">true</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="april-3rd---maximum-subarray">April 3rd - <a href="https://leetcode.com/problems/maximum-subarray" target="_blank">Maximum Subarray</a></h3>
+
+<p>For today’s entry we must take an array of integers and find the contiguous subarray with the largest sum, which we must then return. This is also one that I feel like I did a
+little clumsily (and indeed one it took me significantly longer than the first two problems to solve), but the consensus is that the optimal solution (which implements <a href="https://algorithms.tutorialhorizon.com/kadanes-algorithm-maximum-subarray-problem/" target="_blank">Kadane’s Algorithm,</a>) is again fairly hard to intuit.</p>
+
+<p>Example:</p>
+
+<pre><code class="language-none">Input: [-2,1,-3,4,-1,2,1,-5,4],
+Output: 6
+Explanation: [4,-1,2,1] has the largest sum = 6.
+</code></pre>
+
+<p>Using nested for loops always makes me feel a little queasy, and I knew while doing it that this brute force method of checking every possible subarray was not going to be the most efficient
+way to solve the problem - but it does solve the problem.</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
+    <span class="k">public</span> <span class="kt">int</span> <span class="nf">MaxSubArray</span><span class="p">(</span><span class="kt">int</span><span class="p">[]</span> <span class="n">nums</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">currentMax</span> <span class="p">=</span> <span class="n">nums</span><span class="p">[</span><span class="m">0</span><span class="p">];</span>
+       <span class="c1">// for every int in nums...</span>
+        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">nums</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span> <span class="n">i</span><span class="p">++</span> <span class="p">){</span>
+            <span class="kt">int</span> <span class="n">j</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+            <span class="c1">//...check every subarray by moving</span>
+            <span class="c1">// forward in the nums array...</span>
+            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">k</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">k</span> <span class="p">&lt;</span> <span class="p">(</span><span class="n">nums</span><span class="p">.</span><span class="n">Length</span> <span class="p">-</span> <span class="n">i</span><span class="p">);</span> <span class="n">k</span><span class="p">++){</span>
+                <span class="n">j</span> <span class="p">+=</span> <span class="n">nums</span><span class="p">[</span><span class="n">k</span> <span class="p">+</span> <span class="n">i</span><span class="p">];</span>
+                <span class="c1">// ...and see what's biggest</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">currentMax</span> <span class="p">&lt;</span> <span class="n">j</span><span class="p">)</span>
+                    <span class="n">currentMax</span> <span class="p">=</span> <span class="n">j</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">currentMax</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>An implementation of Kadane’s Algorithm, both easier to grok for humans as well as more efficient for machines:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">Solution</span><span class="p">{</span>
+    <span class="k">public</span> <span class="kt">int</span> <span class="nf">MaxSubArray</span><span class="p">(</span><span class="kt">int</span><span class="p">[]</span> <span class="n">nums</span><span class="p">){</span>
+        <span class="kt">int</span> <span class="n">current</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+        <span class="kt">int</span> <span class="n">currentMax</span> <span class="p">=</span> <span class="n">nums</span><span class="p">[</span><span class="m">0</span><span class="p">]</span>
+
+        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">nums</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span> <span class="n">i</span><span class="p">++){</span>
+            <span class="c1">// add this value in the array to the current sum</span>
+            <span class="n">current</span> <span class="p">+=</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+            <span class="c1">// if this value in the array is bigger than</span>
+            <span class="c1">// the current sum...</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">&gt;</span> <span class="n">current</span><span class="p">){</span>
+                <span class="c1">//...then this value becomes the current sum</span>
+                <span class="n">current</span> <span class="p">=</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+            <span class="p">}</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">current</span> <span class="p">&gt;</span> <span class="n">currentMax</span><span class="p">){</span>
+                <span class="n">currentMax</span> <span class="p">=</span> <span class="n">current</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">currentMax</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="april-4th---move-zeroes">April 4th - <a href="https://leetcode.com/problems/move-zeroes/" target="_blank">Move Zeroes</a></h3>
+
+<p>Another short and sweet problem statement: “given an array <code class="language-plaintext highlighter-rouge">nums</code>, write a function to move all <code class="language-plaintext highlighter-rouge">0</code>’s to the end of it while maintaing the relative orrder of the non-zero elements.</p>
+
+<p>Example:</p>
+
+<pre><code class="language-none">Input: [0,1,0,3,12]
+Output: [1,3,12,0,0]
+</code></pre>
+
+<p>This one seems simple, but I ended up wrestling with it for hours - again, largely because I did not fully think through the problem before I began writing code to try and solve it, and then
+became stuck viewing the problem only through the lens of the code I’d already written. For example, I spent a long time checking to see whether or not a value <em>was</em> 0 in the array rather
+than was <em>not</em>, and similarly it took me an embarassingly long time to realise that I had <code class="language-plaintext highlighter-rouge">j &gt; zeroCount</code> instead of <code class="language-plaintext highlighter-rouge">j &gt;= zeroCount</code> in the second for loop. Still, I got there in the
+end.</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">MoveZeroes</span><span class="p">(</span><span class="kt">int</span><span class="p">[]</span> <span class="n">nums</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">zeroCount</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">nums</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span> <span class="n">i</span><span class="p">++){</span>
+            <span class="c1">//if a value isn't 0...</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">!=</span> <span class="m">0</span><span class="p">){</span>
+                <span class="c1">//move it to the next available index</span>
+                <span class="n">nums</span><span class="p">[</span><span class="n">zeroCount</span><span class="p">++]</span> <span class="p">=</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="c1">// fill the rest of the array with 0s</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="p">=</span> <span class="n">nums</span><span class="p">.</span><span class="n">Length</span> <span class="p">-</span> <span class="m">1</span><span class="p">;</span> <span class="n">j</span> <span class="p">&gt;=</span> <span class="n">zeroCount</span><span class="p">;</span> <span class="n">j</span><span class="p">--){</span>
+            <span class="n">nums</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="april-5th---best-time-to-buy-and-sell-stock-ii">April 5th - <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/" target="_blank">Best Time To Buy And Sell Stock II</a></h3>
+
+<p>Today’s problem: design an algorithm to find the maximum profit from buying and selling stocks from an array in which each element corresponds to the stock price for that day. Any number
+of transactions can be made, however only one transaction can be made at a time (eg once you have bought once, you must sell once before you can buy again).</p>
+
+<p>Example:</p>
+
+<pre><code class="language-none">Input: [7,1,5,3,6,4]
+Output: 7
+Explanation: Buy on day 2 (price = 1)
+             and sell on day 3 (price = 5),
+             profit = 5-1 = 4.
+
+             Then buy on day 4 (price = 3)
+             and sell on day 5 (price = 6),
+             profit = 6-3 = 3.
+</code></pre>
+
+<p>This is the first problem I solved after yesterday’s blog, and consequently the first one which I was determined to consider for a meaningful amount of time before writing any code. It may
+be a fluke, or possibly this was an easier problem than the previous two days’, however it seemed to pay off as I solved this one basically instantly. The important thing to realise here is
+that we have the gift of omniscience, and at every point in time we can know what is happening at every other point in time - including seeing into the future by reading the rest of the array!</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
+    <span class="k">public</span> <span class="kt">int</span> <span class="nf">MaxProfit</span><span class="p">(</span><span class="kt">int</span><span class="p">[]</span> <span class="n">prices</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">bool</span> <span class="n">bought</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
+        <span class="kt">int</span> <span class="n">profit</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+        <span class="kt">int</span> <span class="n">buyPrice</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+
+        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">prices</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span> <span class="n">i</span><span class="p">++){</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">bought</span> <span class="p">==</span> <span class="k">false</span><span class="p">){</span>
+                <span class="c1">// we want to buy the dip; if we know the price</span>
+                <span class="c1">// is going to go up tomorrow, we should buy now!</span>
+                <span class="c1">// (unless there ominously is no tomorrow)</span>
+                <span class="k">if</span><span class="p">((</span><span class="n">i</span> <span class="p">+</span> <span class="m">1</span><span class="p">)</span> <span class="p">&lt;</span> <span class="n">prices</span><span class="p">.</span><span class="n">Length</span> <span class="p">&amp;&amp;</span>
+                <span class="n">prices</span><span class="p">[</span><span class="n">i</span> <span class="p">+</span> <span class="m">1</span><span class="p">]</span> <span class="p">&gt;</span> <span class="n">prices</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+                <span class="p">{</span>
+                    <span class="n">bought</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+                    <span class="n">buyPrice</span> <span class="p">=</span> <span class="n">prices</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+                <span class="p">}</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="c1">// similarly, if the price is about to go down,</span>
+                <span class="c1">// it's time to dump our whole portfolio</span>
+                <span class="c1">// (which we should also do if the world</span>
+                <span class="c1">// is about to end)</span>
+                <span class="k">if</span><span class="p">((</span><span class="n">i</span> <span class="p">+</span> <span class="m">1</span><span class="p">)</span> <span class="p">==</span> <span class="n">prices</span><span class="p">.</span><span class="n">Length</span> <span class="p">||</span>
+                <span class="p">((</span><span class="n">i</span> <span class="p">+</span> <span class="m">1</span><span class="p">)</span> <span class="p">&lt;</span> <span class="n">prices</span><span class="p">.</span><span class="n">Length</span> <span class="p">&amp;&amp;</span>
+                <span class="n">prices</span><span class="p">[</span><span class="n">i</span> <span class="p">+</span> <span class="m">1</span><span class="p">]</span> <span class="p">&lt;</span> <span class="n">prices</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span>
+                <span class="p">{</span>
+                    <span class="n">bought</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
+                    <span class="n">profit</span> <span class="p">+=</span> <span class="p">(</span><span class="n">prices</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">-</span> <span class="n">buyPrice</span><span class="p">);</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="k">return</span> <span class="n">profit</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>If you made it this far, thank you for reading! I will be endeavouring to do all 30 days of the challenge and plan to keep writing up my solutions in this blog every few days or so.</p>
+
+  <div class="PageNavigation">
+    
+      <a class="prev" href="/mendokusai/2020/04/04/think-deeply-about-simple-things">&laquo; Think Deeply About Simple Things</a>
+    
+    
+  </div>
+</div>
+
+    </div>
+    <footer>
+  &#169; Jonny Spicer 2020 | <a href="/feed.xml">RSS</a> | Licensed under
+  GPL-3.0
+</footer>
+    <script type="text/javascript" src="/assets/js/global.js"></script>
+  </body>
+</html>
