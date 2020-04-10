@@ -7,6 +7,363 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>30 Days of Leetcode&amp;#58; Days 6 to 10</title>
+        <description>&lt;p&gt;Another five days of &lt;a href=&quot;https://leetcode.com/discuss/general-discussion/551411/30-Day-LeetCoding-Challenge&quot; target=&quot;_blank&quot;&gt;Leetcoding&lt;/a&gt; are in the books, by and large without too much difficulty. The only
+problem I spent longer than 30 minutes on was the first one in today’s write-up, “Group Anagrams”
+from April 6th, and the rest I found fairly straightforward, so much so that I would say some of
+them (most notably today’s problem, “Min Stack”) are potentially a little too easy.&lt;/p&gt;
+
+&lt;p&gt;The experience of completing the challenge in C# is also not especially endearing me to the
+language, now I can see quite how slow it is in comparison to others (even with comparatively
+well-optimised code), with all my solutions taking over 200ms to execute. Combined with the
+bloat that comes with both Windows and Visual Studio, I can’t help but feel the language is
+sluggish, and that feeling is certainly making me consider investing more of my time
+into Python instead, although naturally that has its issues as well. Anyway, onto the problems:&lt;/p&gt;
+
+&lt;h3 id=&quot;april-6th---group-anagrams&quot;&gt;April 6th - &lt;a href=&quot;https://leetcode.com/problems/group-anagrams/&quot; target=&quot;_blank&quot;&gt;Group Anagrams&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;In my opinion the most interesting of this set of five problems, and certainly the one that
+took me the most time, this challenge has a fairly simple problem statement; “given an array
+of strings, group anagrams together.” Here’s the example that’s given:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-none&quot;&gt;Input: [&quot;eat&quot;, &quot;tea&quot;, &quot;tan&quot;, &quot;ate&quot;, &quot;nat&quot;, &quot;bat&quot;],
+Output:
+[
+  [&quot;ate&quot;,&quot;eat&quot;,&quot;tea&quot;],
+  [&quot;nat&quot;,&quot;tan&quot;],
+  [&quot;bat&quot;]
+]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A couple of things in this problem took me a long time to figure out; namely the concept of using a Dictionary to map the value before constructing the final list after having completed iteration over the initial
+array, and secondly (and more embarrassingly) to realise that I needed to use the string() constructor on each char array rather than just trying to compare the latter directly.&lt;/p&gt;
+
+&lt;div class=&quot;language-csharp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Solution&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;IList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;GroupAnagrams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;strs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;IList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;anagrams&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;gt;();&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;// initialise a temporary dictionary to use as a map&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;Dictionary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+         &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Dictionary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;gt;();&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;// for every string in the original array&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;strs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;++){&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// rearrange the string in the original array&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;//into alphabetically ordered characters&lt;/span&gt;
+            &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;initialCharArray&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;strs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ToCharArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;initialCharArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;orderedString&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;initialCharArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ContainsKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;orderedString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)){&lt;/span&gt;
+                &lt;span class=&quot;c1&quot;&gt;// if the map contains the ordered string,&lt;/span&gt;
+                &lt;span class=&quot;c1&quot;&gt;//add this iteration of the anagram&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;orderedString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;c1&quot;&gt;// if not, add the new ordered string,&lt;/span&gt;
+                &lt;span class=&quot;c1&quot;&gt;//along with its first anagram&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;orderedString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]});&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;// transfer the map to the results List&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;anagrams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;anagrams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;april-7th---counting-elements&quot;&gt;April 7th - &lt;a href=&quot;https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3289/&quot; target=&quot;_blank&quot;&gt;Counting Elements&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Today’s challenge was quite straightforward, although a version of me from the not-so-distant past wouldn’t have been familiar enough with HashSets to reach for one straightaway when tackling
+this kind of problem. The task is as follows: “Given an integer array &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arr&lt;/code&gt;, count element &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; such that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x + 1&lt;/code&gt; is also in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arr&lt;/code&gt;. If there are duplicates in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arr&lt;/code&gt;, count them
+separately.” This was also the first problem of the challenge so far to be completely new to Leetcode, with more to come - hopefully the rest are a little harder than this one!&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-none&quot;&gt;Input: arr = [1,3,2,3,5,0]
+Output: 3
+Explanation: 0, 1 and 2 are counted cause 1, 2 and 3 are in arr.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Not too much to say about this one, hopefully the code speaks for itself.&lt;/p&gt;
+
+&lt;div class=&quot;language-csharp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Solution&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;CountElements&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// create a deduplicated set of numbers&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;//  which we can reference&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;HashSet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ints&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HashSet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;();&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;ints&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;// loop over the initial array again,&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// and use our reference to see&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// which values we should return&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ints&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Contains&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;++;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;april-8th---middle-of-the-linked-list&quot;&gt;April 8th - &lt;a href=&quot;https://leetcode.com/problems/middle-of-the-linked-list&quot; target=&quot;_blank&quot;&gt;Middle of the Linked List&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This one took me a little longer than the previous day’s, if only because I hadn’t come across a linked list before, so I had to familiarise myself with that concept before attempting the problem. My newfound
+understanding is that they are a collection of nodes, where each node holds both a value and a memory address at which the next node can be found. The goal is simply to return the middle node of such a linked
+list, as shown in the example below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-none&quot;&gt;Input: [1,2,3,4,5]
+Output: Node 3 from this list (Serialization: [3,4,5])
+The returned node has value 3.  
+(The judge's serialization of this node is [3,4,5]).
+Note that we returned a ListNode object ans, such that:
+ans.val = 3, ans.next.val = 4, ans.next.next.val = 5,
+and ans.next.next.next = NULL.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In order to find the middle of such a list, there are two
+approaches; either traverse the entire list in order to deduce its length and then re-traverse it up until the midpoint, or a 2-pointer, fast and slow approach. I implemented the first for the actual challenge
+and then became aware of the second, more efficient method after I’d already submitted my answer.&lt;/p&gt;
+
+&lt;p&gt;The traverse-twice approach:&lt;/p&gt;
+
+&lt;div class=&quot;language-csharp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cm&quot;&gt;/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     public ListNode(int x) { val = x; }
+ * }
+ */&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Solution&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;MiddleNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;resultNode&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;// traverse the list to find the count&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;resultNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;resultNode&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;resultNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;++;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;// find the midpoint - the question requires that&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// if there are two midpoints we take the second one&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;midpoint&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Ceiling&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;// traverse again, but stop at halfway&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;midpoint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;++){&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And the fast-and-slow approach, which is a little more readable:&lt;/p&gt;
+
+&lt;div class=&quot;language-csharp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Solution&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;MiddleNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;// fast moves two steps for everyone one slow step,&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// until it reaches the end of the list, at which&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// point it is null.&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;april-9th---backspace-string-compare&quot;&gt;April 9th - &lt;a href=&quot;https://leetcode.com/problems/backspace-string-compare&quot; target=&quot;_blank&quot;&gt;Backspace String Compare&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Backspace String Compare is my favourite of all the problems so far, because of it’s clear practical application and also because I feel fairly comfortable with string manipulation, so this one was warm
+and cozy. The problem statement reads: “given two strings &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;S&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;T&lt;/code&gt;, return if they are equal when both are typed into empty text editors. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; means a backspace character.”&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-none&quot;&gt;Input: S = &quot;a##c&quot;, T = &quot;#a#c&quot;
+Output: true
+Explanation: Both S and T become &quot;c&quot;.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I actually started off on the wrong foot on this one, and began attempting to solve with the regex &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@&quot;[a-z]{1}\#&quot;&lt;/code&gt; before realising that of course, you can press backspace multiple times consecutively. Given
+that char arrays were already fresh in my mind from the Group Anagrams challenge, that was my next idea, which worked rather nicely.&lt;/p&gt;
+
+&lt;div class=&quot;language-csharp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Solution&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;BackspaceCompare&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;S&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sca&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;S&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ToCharArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tca&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ToCharArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;// create empty strings to write to&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Empty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Empty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sca&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'#'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Length&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                    &lt;span class=&quot;c1&quot;&gt;// if backspace is pressed, remove the&lt;/span&gt;
+                    &lt;span class=&quot;c1&quot;&gt;// last character of our new string&lt;/span&gt;
+                    &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Length&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;c1&quot;&gt;// if it's an alphabetical character,&lt;/span&gt;
+                &lt;span class=&quot;c1&quot;&gt;// append it to the new string&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tca&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'#'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Length&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                    &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Length&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;april-10th---min-stack&quot;&gt;April 10th - &lt;a href=&quot;https://leetcode.com/problems/min-stack&quot; target=&quot;_blank&quot;&gt;Min Stack&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Another problem that admittedly I thought was quite easy - possibly too easy for day 10 of the challenge, which presumably is going to get progressively harder - although my implementation is definitely not
+the most optimal. The task is to design a stack that supports push, pop, top and retrieving the minimum element of the stack, which in C# essentially boils down to whether or not you can construct a class correctly,
+and fortunately, I can.&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-none&quot;&gt;MinStack minStack = new MinStack();
+minStack.push(-2);
+minStack.push(0);
+minStack.push(-3);
+minStack.getMin();   --&amp;gt; Returns -3.
+minStack.pop();
+minStack.top();      --&amp;gt; Returns 0.
+minStack.getMin();   --&amp;gt; Returns -2.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Lists aren’t especially fast and some of the methods I used to manipulate them are even slower, but I do think their redeeming qualities here is that the code is incredibly readable.&lt;/p&gt;
+
+&lt;div class=&quot;language-csharp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MinStack&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;();&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;MinStack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;RemoveAt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Count&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;GetMin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;in-conclusion&quot;&gt;In conclusion&lt;/h3&gt;
+
+&lt;p&gt;The past five days have certainly been less of a grind than the first five, which is hopefully a sign that I am improving, both in my knowledge of C# and in my methodology for approaching these
+kinds of problems. I am hoping the next five days will see a meaningful increase in difficulty though as I’m keen to keep challenging myself, but either way, expect to see 5 more solutions
+published and discussed here on April 15th!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Apr 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/04/10/30-days-of-leetcode-days-6-to-10</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/04/10/30-days-of-leetcode-days-6-to-10</guid>
+      </item>
+    
+      <item>
+        <title>Virtual Pub Quizzes</title>
+        <description>&lt;p&gt;Last night I took part in my first virtual pub quiz, and soon realised that I know far less than I thought I did. At least
+about famous pubs, children’s stories and exotic animals.&lt;/p&gt;
+
+&lt;p&gt;Despite having my ego bruised, it was a lot of fun, retaining a lot of the atmosphere of a bona fide pub quiz. Most importantly,
+it was a welcome example of the “new normal”, and a reassuring moment of connection in the midst of a tumultuous week.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Apr 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/04/09/virtual-pub-quizzes</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/04/09/virtual-pub-quizzes</guid>
+      </item>
+    
+      <item>
+        <title>Psychosomaticity</title>
+        <description>&lt;p&gt;When I get stressed, the skin on my face gets really dry, and it gets red and blotchy and kinda gross. Previously I have
+hated it, because it always feels like salt in the wound - not only are you having a bad time, but you look dumb while
+doing it now too. But there is something pretty neat about psychosomaticity; you can’t rationalise it away. As much as
+you want to tell yourself you’re fine, you’ll get some rest at the weekend, you’ll do this next little bit and then
+call it a night etc etc, if your is telling a different story then you kinda have to listen.&lt;/p&gt;
+
+&lt;p&gt;On that note, I am &lt;em&gt;determined&lt;/em&gt; to watch a bunch of films this weekend and severely stymie myself from writing any code.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Apr 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/04/08/psychosomaticity</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/04/08/psychosomaticity</guid>
+      </item>
+    
+      <item>
+        <title>Fight Club</title>
+        <description>&lt;p&gt;Back in the day, I used to quite like UFC, and a few years ago I’d even stay up to ungodly Greenwich Meridian hours in
+order to watch the big fights. Today, I am much less keen on it though, given Dana White ludicrously announced that he
+is in the process of &lt;a href=&quot;https://www.tmz.com/2020/04/06/dana-white-ufc-249-private-island-fights-joe-rogan/&quot; target=&quot;_blank&quot;&gt;acquiring the use of a private island&lt;/a&gt;
+in order to host weekly events there…. what the actual fuck. There is a literal global crisis, and rich people are
+paying people to fly to some jurisdictionless spit of land so they can beat the shit out of each other for the
+entertainment of the masses? What kind of dystopian nightmare is this?&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Apr 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/04/07/fight-club</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/04/07/fight-club</guid>
+      </item>
+    
+      <item>
+        <title>Infinite Jest&amp;#58; A Painful Hero</title>
+        <description>&lt;p&gt;The more of Infinite Jest I read, and the more interviews and clips of David Foster Wallace that I listen to and watch, the more in awe I am of him. Having &lt;a href=&quot;https://jonnyspicer.com/tartarus/2020/03/29/pretending-ii&quot; target=&quot;_blank&quot;&gt;recently mused&lt;/a&gt; about both male role models and what kind of man I might like to be, DFW is a serious contender for the former and a
+very plausible template for the latter. He is everything I think a modern man should be; kind, attentive, remarkably patient and wholly unpretentious despite being an intellectual juggernaut.
+When he talks about social structure, about media or addiction, about a framework within which to live one’s life, his ability to think deeply on a subject becomes wondrously apparent, and he
+seems to cut through every single layer of assumption and bias a mere mortal might have with an almostly unsettling sense of perception and clarity. There is no doubt in my mind that he was
+a genius, a unique talent, one of an exceptional few who managed to see through society’s veil and understand the true nature of the modern human reality.&lt;/p&gt;
+
+&lt;p&gt;When I think about not being &lt;em&gt;insert-adjective-here&lt;/em&gt;-enough, DFW is around the arbitrary thresholds which I have set myself. I want to be that kind, that articulate, that patient, that
+smart. Even before I started learning about him and his works, all the qualities he has are qualities I aspired to, moreover often qualities I thought I &lt;em&gt;should&lt;/em&gt; have. But the deeper down the
+rabbit hole I go, the more painful it becomes - despite, in my eyes, being more in touch with reality and having a better grasp on a meaningful life than anyone else I can think of, Wallace
+still chose to end his.&lt;/p&gt;
+
+&lt;p&gt;I would be lying if I said there wasn’t part of me that hoped Infinite Jest might give me some clue as to the answer for some Question, inarticulated yet still deserving of a capital letter. I
+even &lt;a href=&quot;/mendokusai/2020/02/13/infinite-jest-for-the-wrong-reasons&quot; target=&quot;_blank&quot;&gt;wrote previously&lt;/a&gt; that I was anticipating some kind of spiritual experience, with the implication that by
+the end, I would achieve some slice of enlightenment. DFW seems to have walked all the way down the path which I would’ve thought had the solutions; he sat under the Bodhi tree for 49 days,
+but he found himself as mortal and in pain as the rest of us.&lt;/p&gt;
+
+&lt;p&gt;If it didn’t work out for him, perhaps I need to seriously consider walking a different path myself.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Apr 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//mendokusai/2020/04/06/infinite-jest-a-painful-hero</link>
+        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/04/06/infinite-jest-a-painful-hero</guid>
+      </item>
+    
+      <item>
         <title>30 Days of Leetcode&amp;#58; Days 1 to 5</title>
         <description>&lt;p&gt;There’s quite a few 30-days-of-code challenges popping up this week, given that April looks set
 to be the first full month in which the entire world is forbidden from leaving our houses. As
@@ -391,121 +748,6 @@ some of the greatest political scandals in modern history.&lt;/p&gt;
         <pubDate>Wed, 01 Apr 2020 00:00:00 +0100</pubDate>
         <link>http://localhost:4000//mendokusai/2020/04/01/three-things-to-be-grateful-for</link>
         <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/04/01/three-things-to-be-grateful-for</guid>
-      </item>
-    
-      <item>
-        <title>Sea Mine Spotted</title>
-        <description>&lt;p&gt;While out running today I set myself the challenge of getting lost, which I duly succeeded in. As I was meandering
-through some lanes in a fairly nice part of the island, the lawns were manicured, there were Mercedes’ parked in driveways,
-and freshly painted detached houses glistened in the sun. Oh, and one of them had a fucking sea mine as a garden ornament,
-right by the road, painted bright red. What is wrong with people?&lt;/p&gt;
-
-&lt;p&gt;At the expense of probably being preachy (some things never change), I’ve found running to be a pretty cool way to see
-where you live in a new light. I’ve got to explore and go places I’ve never been, despite having lived virtually my
-whole life here, and these places are often within a kilometre or two of where I live - I’d just never bothered to
-venture down many unknown roads.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 31 Mar 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/31/sea-mine-spotted</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/31/sea-mine-spotted</guid>
-      </item>
-    
-      <item>
-        <title>Know the Risk</title>
-        <description>&lt;p&gt;One of the best pieces of advice that I have heard with regard to dealing with the current pandemic
-is to know the risk - to educate yourself on what, specifically, is the risk to yourself, your family
-and your friends. Doing so means you’ll panic less, and can form actionable steps to take towards
-protecting yourself and those close to you. Knowledge will breed peace of mind, and cutting through
-the noise is easier than I had first thought, once I actually applied myself to the task and asked
-some friends for help.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 30 Mar 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/30/know-the-risk</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/30/know-the-risk</guid>
-      </item>
-    
-      <item>
-        <title>Pretending II</title>
-        <description>&lt;p&gt;I have put off writing this post for several months now, probably since November. I’ve done so for a number of reasons, which we’ll get into in a little bit, but given that the current global pandemic has us all sitting inside, feeling alone and sorry for ourselves, I guess now seems like a good time to actually do it.&lt;/p&gt;
-
-&lt;p&gt;This weekend I finished watching &lt;em&gt;The Witcher&lt;/em&gt; on Netflix, and to be perfectly candid, I really did not like it - I would even go so far as to say that it upset me greatly. I can’t offer a particularly good explanation as to why I decided to continue to consume all eight hour-long episodes, other than some sense of emotional masochism, or perhaps to fill me with righteous anger which I could then complain about in a blog… so here goes.&lt;/p&gt;
-
-&lt;p&gt;The Witcher certainly bothered me for reasons other than simply shallow, predictable writing and an all-encompassing desperation to take itself incredibly seriously. The titular witcher, Geralt of Rivia, embodies the toxic male stereotype so strongly that one would be forgiven for assuming it was done with some sense of self-awareness, but alas, judging by the rest of the show, that seems to not be the case. Henry Cavill does his best Batman impression throughout, accompanied by his signature bulging muscles and chiseled jawline, as he vanquishes monsters by day before vanquishing beautiful women by night, all the while displaying Aurelian levels of stoicism. His character is puddle-deep, yet he is of course still the protagonist of a multi-million dollar Netflix original - have we not moved past this yet? Are there not different stories to tell, ones which would not be retreading the same ground for the thousandth time, in which the male characters actually have genuine human emotions that are complicated and messy and amount to more than having a big sword and a big dick?&lt;/p&gt;
-
-&lt;p&gt;Geralt irks me so because in many ways, I am desperate to be like him. The seed of his masculine ideal was planted in me when I was a child, and is constantly being watered by the world around me. Collective progress has been made towards rejecting these notions of men, with a large number of male mental health charities occupying a larger part of public consciousness in recent years, the Royal grandsons becoming more outspoken about their issues, a growing number of people realising James Bond should actually be far from idolised, etc etc. There’s still a long way to go though; I think for society in general but surely for myself. It’s ingrained within me that men have to be financially, emotionally, physically independent, that they are the protectors of society with ample brawn and unwavering bravery. They should be charismatic and strong and, contrary to the well-known poem, insular.&lt;/p&gt;
-
-&lt;p&gt;Perhaps I have taken all these things to heart more than I ought to, but regardless they now occupy a space deep within my psyche. I know consciously, rationally, that these standards are not beneficial to hold myself to, and that I do not want to be Geralt of Rivia, but still those core beliefs persist and he is very much the bar I set myself; anything less is… not good enough.&lt;/p&gt;
-
-&lt;p&gt;Trying to supplant this idea of manliness is not especially easy either, as male role models who embody qualities other than these while still remaining undeniably manly are difficult to come by. The people close to me who inspire me and who in many ways I want to emulate are almost exclusively women (although perhaps that belies that I have some kind of bias against men, which is a blog for another day). There are fictional characters who do a lot better than Geralt at being men worthy of exemplifying, like &lt;a href=&quot;/mendokusai/2020/03/08/itachi-uchiha&quot;&gt;Itachi Uchiha&lt;/a&gt; or &lt;a href=&quot;/mendokusai/2020/03/03/disco-elysium&quot;&gt;Harrier du Bois&lt;/a&gt;, both of whom wear their (profound) flaws on their sleeves. There are men further away who I look up to, like &lt;a href=&quot;/mendokusai/2018/02/16/twin-fantasy-2018&quot;&gt;Will Toledo&lt;/a&gt; or &lt;a href=&quot;/mendokusai/2019/06/05/day9-daily-100&quot;&gt;Sean Plott,&lt;/a&gt; but in their nature as semi-public figures, I am acutely aware that I only see a small slice of their true in the course of whatever parasocial relationship we may have; I think it’s a lot easier to be inspired by and emulate someone who you know deeply.&lt;/p&gt;
-
-&lt;p&gt;Recently I’ve felt the urgency to find a template for modern masculinity ramping up, as my younger brother is getting perilously close to legally being an adult. As much as I don’t want to be Geralt, I really, really don’t want &lt;em&gt;him&lt;/em&gt; to be Geralt, but I know that to steer him away from that path, I need to have a convincing alternative to offer in his black-clad, golden-eyed place. Which I guess is why I have to write about the rest of this stuff.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;I haven’t talked in anything other than euphemisms about my mental health on the blog for several months now, and I wish that I could say that was because I’ve had no issues with it, because that sadly is not the case. I’ve slipped back into &lt;a href=&quot;/mendokusai/2020/03/20/pretending&quot;&gt;pretending&lt;/a&gt; that everything is fine, when of course it is not. Part of it is my desire to fulfill that role of the male stereotype described above, to need no one else and not ask for help, for doing so would diminish my perpetually fragile gender identity. Part of it is to avoid crying wolf - if I ask for help too often and the people close to me make sacrifices for my benefit, what if there comes a time when their support is not so forthcoming, but I am in more dire need of it than before? In a similar vein, part of it is because I am desperate to avoid inflicting compassion fatigue on those around me - propping someone up emotionally is exhausting and clearly unhealthy for any extended length of time, and I am reticent to ask anyone to do so unless it is absolutely necessary.&lt;/p&gt;
-
-&lt;p&gt;These things make it difficult to talk about depression though. When faced with the greeting of my generation, “hey, how’s it going?”, I often feel at a total loss for how to respond. I don’t want to sugarcoat things, or out-and-out lie, to pretend everything is fine and dandy, but equally I feel like I need to set some kind of threshold for how bad things have to get before I start immediately admitting that’s the case. My depression has been around a long time and clearly looks unlikely to be disappearing anytime soon, and that means that nine times out of ten when you ask me how I am, the true answer ranges from gently melancholic to in full-blown emotional turmoil and anguish. Were I to say that those nine times, I am terrified that eventually people would simply stop asking me how I am. I am even more terrified that my depression may become my whole personality or identity, and that I fail to have anything to offer to others other than negativity - I still want to make people smile, laugh, feel good about themselves and the world, even if I struggle with those things myself.&lt;/p&gt;
-
-&lt;p&gt;Over time, I’ve learned to split my thoughts and feelings into two camps; those which are proportional to reality, and those which aren’t. Or, more accurately; those which seem congruent with how the majority of other people ostensibly experience reality, and those which seem incongruent - because all of them are congruent with how I experience it. The pretending is easy once the distinction becomes clear; you simply don’t acknowledge the things that you feel that you don’t think others would feel in the same situation. So that is what I do; I put everything else in a box, and I sweep the box under the proverbial rug, and sometimes I vaguely allude to the box - but I never talk about what’s in the box. I never take the box out and show it to anybody, let alone open it and show them what’s inside.&lt;/p&gt;
-
-&lt;p&gt;Obviously that doesn’t make it disappear though, and not acknowledging those feelings does not prevent me from feeling them. Even knowing that they are not proportional to reality - that they are not ‘real’ - that I should be mindful and sit on a riverbank as I watch them drift out past - does not prevent me from feeling them either. Sometimes they occupy a fraction of my consciousness, but sometimes they consume it whole, and yet outwardly I do my best to maintain the same façade regardless of what is going on behind my eyes. That is where the real fear I have about my mental health lies - that one day I will truly disconnect from reality, and be consumed by those thoughts.&lt;/p&gt;
-
-&lt;p&gt;I am unhealthily and unhelpfully ashamed about a lot of aspects of myself, this cornucopia of disproportion very much included. Fortunately, I think shame is one of the very few emotions that you can, to some degree, will out of existence, if you choose to own your flaws and accept them as an important part of your identity.&lt;/p&gt;
-
-&lt;p&gt;I’ve written about it before and touched on it today, but I am exceptionally uncomfortable in my own skin - I don’t really like the way I look at all, and even hate many parts of my own appearance. I don’t talk about it, or downplay it when I do though, because I’m ashamed and worry that it’s unmanly.&lt;/p&gt;
-
-&lt;p&gt;Not having an undergraduate degree constantly makes me feel inadequate - I’m not sure if I’ve ever even admitted that to anyone. I don’t feel as skilled as I think I should be, I am terrified my career won’t take the trajectory I want it to, the fact that I earn less than most of my friends also makes me feel like I am not good enough to be friends with them. Again, not something I ever talk about, shame, lack of machismo, necessity to act like I belong, etc.&lt;/p&gt;
-
-&lt;p&gt;I struggle a lot with loneliness, both romantically and otherwise. The few romantic relationships I have had, while some had their fair share of tumult, brought me a sense of peace, security and joy that few other things in my life have. The vast majority of my close friends are also in relationships, and I am jealous to some greater or lesser degree every time they are mentioned. Even platonically, often I struggle to find the sense of connection that I am desperate for - likely because I invest so much energy in being afraid of what the other person thinks about me, or perhaps what they might think about me were I more open and truthful with them. In my mind though, men are not lonely; we need only our own company to be happy. So, I don’t talk about this either.&lt;/p&gt;
-
-&lt;p&gt;All of these things might not be the appropriate response to my situation. Most people have it a lot worse than me in a lot of ways, and perhaps I ought to be more grateful for what I &lt;em&gt;do&lt;/em&gt; have - which is a lot. Perhaps all those things are overrated; I won’t love how I look if I was 10kg lighter, doubling my salary wouldn’t double my happiness, a girlfriend would only be an attempt to duct-tape over my low self-esteem rather than a more structurally sound solution. In a way though, I don’t know if that matters, and I don’t know if I care - because all that stuff is how I feel, every day, even if I try really, really hard not to - which I do. It’s all painful; sometimes the pain is more a gentle discomfort, a slight soreness, and sometimes it feels unbearable; like a slew of broken bones, my body and mind desperate for it all to stop.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;One of the pillars of being a New Man which I would like to erect is the concept of taking responsibility, and rather than merely complain, take action to remedy whatever problems I might have. I think this makes it easier to talk to people about these topics as well - having someone share their difficult feelings with you for the sake of catharsis and support rather than because they’re turning to you for a definitive solution is far more manageable and sustainable. So… what next?&lt;/p&gt;
-
-&lt;p&gt;I have a lot of learned behaviours that I need to unlearn, which has thus far proven difficult, but I am reliably informed that consistency is key, so I will keep trying. I’m not so naïve to think that I could give up all pretence in one fell swoop, but I can certainly chip away at it, and learn how to talk about the box under the rug, even if I need to learn a new vocabulary with which to do so. I can keep looking for male role models, and hopefully if I search hard and long enough, I will find some, and try to cast myself in their image - and if not, perhaps I will just have to make up my own version of modern masculinity and try to be at peace with that.&lt;/p&gt;
-
-&lt;p&gt;Given the present situation, this seems like the perfect time to try and work on myself, so here goes. And as always; wish me luck.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//tartarus/2020/03/29/pretending-ii</link>
-        <guid isPermaLink="true">http://localhost:4000//tartarus/2020/03/29/pretending-ii</guid>
-      </item>
-    
-      <item>
-        <title>The recipe for success II</title>
-        <description>&lt;p&gt;&lt;a href=&quot;/mendokusai/2017/10/27/the-recipe-for-success&quot;&gt;A long time ago&lt;/a&gt; I gave my three ingredients for success as
-self-awareness, patience and work ethic. I would like to think that I have improved on all three fronts in
-the two and a half years since writing that, but now I think there is fairly clearly some components of the
-formula which I omitted; namely self-respect, knowledge of the market, networking &amp;amp; communication soft skills,
-and of course, a huge amount of luck.&lt;/p&gt;
-
-&lt;p&gt;Admittedly the success I was desirous of at the time was that found in poker, so I’ll forgive a little of my
-naïveté, but now I am in software and so naturally the definition of success has changed (although I think
-that all the other skills are equally as applicable to poker, they’re just less obviously so). I think my
-knowledge of the market is passable, and my luck seems to be boundless, however the others all have a long
-way to go.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/28/the-recipe-for-success-ii</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/28/the-recipe-for-success-ii</guid>
-      </item>
-    
-      <item>
-        <title>Lockdown II</title>
-        <description>&lt;p&gt;It’s been a week of working from home and leaving my flat solely to exercise, bar one trip to the supermarket on Monday
-which was intended to last two weeks. I was frankly expecting to be incredibly depressed by this point, and there is
-certainly still plenty of time for that to happen, but at least so far I’m actually… not?&lt;/p&gt;
-
-&lt;p&gt;Some mixture of the improved weather, newfound extra time allowing for new acts of self-care in my routine, and extra
-effort being made by a lot of my friends to keep in touch is keeping my afloat. Naturally I hope the pandemic can be
-stemmed as soon as possible, but after this week, I’m glad that I feel somewhat more prepared to deal with the eventuality
-that it continues for longer than we’d all like.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000//mendokusai/2020/03/27/lockdown-ii</link>
-        <guid isPermaLink="true">http://localhost:4000//mendokusai/2020/03/27/lockdown-ii</guid>
       </item>
     
   </channel>
