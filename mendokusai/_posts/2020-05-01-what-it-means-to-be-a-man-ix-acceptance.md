@@ -1,7 +1,7 @@
 ---
 layout: mendokusai
 author: Jonny Spicer
-title: What it Means to be a Man IX Acceptance
+title: What it Means to be a Man IX&#58; Acceptance
 tags: [ Feminism ]
 ---
 I didn't grow up in the most accepting of places - Guernsey is about as white and cishet as it gets. When I was a kid, everyone looked the same, acted the same, and to
