@@ -1,7 +1,7 @@
 ---
 layout: mendokusai
 author: Jonny Spicer
-title: What it Means to be a Man XII In Conclusion
+title: What it Means to be a Man XII&#58; In Conclusion
 tags: [ Feminism ]
 ---
 Good news - this is the last part of the series! For now at least. I promise tomorrow I will actually write about something
