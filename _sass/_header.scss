@@ -90,31 +90,17 @@ header {
     grid-template-rows: minmax(50px, 1fr);
     grid-template-columns: repeat(4, 1fr);
 
-    div {
+    a {
+      color: $color_white;
       text-align: center;
-      height: 100%;
-
-      p {
-        display: inline-block;
-        color: $color_white;
-        font-size: 16px;
-        line-height: 50px;
-        padding: 0;
-        margin: 0;
-      }
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 50px;
 
       &:hover,
       &:focus,
       &:active {
-        p {
-          color: $color_yellow;
-        }
-      }
-
-      a {
-        &:active div p {
-          color: $color_yellow;
-        }
+        color: $color_yellow;
       }
     }
 
@@ -127,60 +113,48 @@ header {
     nav.desktop-nav {
       display: block;
       position: absolute;
-      height: 0;
-      transition: height 0.5s;
+      max-height: 0;
+      transition: max-height 0.5s;
 
       a {
         text-decoration: none;
-        div {
-          text-align: unset;
-          padding: 0 0 0 20px;
-          border-left: none;
-          display: block;
-          background-color: $color_white;
-          opacity: 0;
-          transition: opacity 0.5s;
-          width: 100%;
+        text-align: unset;
+        padding: 0 0 0 20px;
+        border-left: none;
+        display: block;
+        background-color: $color_white;
+        opacity: 0;
+        transition: opacity 0.5s;
+        width: 100%;
+        color: $color_dark_blue;
 
-          p {
-            color: $color_dark_blue;
-            display: none;
-          }
-
-          &:last-child {
-            border-right: none;
-          }
+        &:last-child {
+          border-right: none;
         }
       }
 
       &.expanded {
-        height: 50px;
+        max-height: 100%;
         margin: 0 0 -20px;
         z-index: 100;
         width: calc(100% - 20px);
 
-        a:last-child{
-          div {
-            padding-bottom: 20px;
-            position: relative;
+        a:last-child {
+          padding-bottom: 20px;
+          position: relative;
 
-            &::after {
-              content: '';
-              position: absolute;
-              top: 55px;
-              left: calc(50% - 64px);
-              right: calc(50% - 64px);
-              border: solid 1px $color_grey_very_light;
-            }
+          &::after {
+            content: '';
+            position: absolute;
+            top: 55px;
+            left: calc(50% - 64px);
+            right: calc(50% - 64px);
+            border: solid 1px $color_grey_very_light;
           }
         }
 
-        div {
+        a {
           opacity: 1;
-          p{
-            display: inline;
-            text-decoration: none;
-          }
         }
       }
     }
