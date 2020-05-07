@@ -6,6 +6,7 @@ import string
 import regex
 import pandas as pd
 from bs4 import BeautifulSoup
+from textblob import TextBlob
 
 # TODO:
 # - strip anything in head/header/footer for old html posts
@@ -15,6 +16,7 @@ directory = input('Which directory would you like a word count for?')
 wordcount = 0
 uniquewords = dict()
 nonalphabeticalremover = regex.compile('[^A-Za-z ]')
+sentiments = dict()
 
 # huge shoutout to https://stackoverflow.com/questions/25109307/how-can-i-find-all-markdown-links-using-regular-expressions
 linkremover = regex.compile(
@@ -49,6 +51,10 @@ for file in os.listdir(directory):
             # removes anything that isn't an alphabetical character and casts the remaining string to lowercase
             text = regex.sub(nonalphabeticalremover, ' ', text).lower()
 
+            blob = TextBlob(text)
+
+            sentiments.update({ filename: blob.sentiment.polarity})
+
             wordcount += len(text.split())
 
             # nltk stemming/token magic from http://ryancompton.net/2014/06/06/statistical-features-of-infinite-jest/
@@ -79,3 +85,6 @@ for tuple in sortedtuples:
 
 pd.DataFrame.from_dict(data=sortedwords, orient='index').to_csv(
     'words.csv', header=False)
+
+pd.DataFrame.from_dict(data=sentiments, orient='index').to_csv(
+    'sentiments.csv', header=False)
