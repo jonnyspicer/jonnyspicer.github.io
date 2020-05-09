@@ -3,3 +3,4 @@
 .sass-cache/
 *.patch
 _site/
+test.html
