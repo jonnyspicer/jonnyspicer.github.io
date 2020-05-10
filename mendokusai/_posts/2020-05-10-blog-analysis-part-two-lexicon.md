@@ -25,8 +25,8 @@ is outdone by "think" with 692, perhaps something that's reflective on my tenden
 in bronze, with "he" not too far behind by "her" having been lapped, with roughly a third as many uses as "he". I've used my own name six times, while Ted has got 18 mentions, clearly making him my favourite person.
 He's not quite my most used proper noun though, that honour goes to "Guernsey" which I have apparently bemoaned a whole 52 times.
 
-"One" is the most common numberword, with 717 appearances, "two" is second with 143 and "three" third with 52. Here the pattern stops though as "four" and it's 17 uses has to concede to "five" and its superior
-26. "Shit", along with its comrades "bullshit", "shitty", "shitshow", "shitpost", "shitfest" and "shittier" have a combined total of 61, while "fuck" and the gang of "fucking", "fucked", "motherfucker", "fuckerberg"
+"One" is the most common numberword, with 717 appearances, "two" is second with 143 and "three" third with 52. Here the pattern stops though as "four" and it's 17 uses has to concede to "five" and its superior 26.
+"Shit", along with its comrades "bullshit", "shitty", "shitshow", "shitpost", "shitfest" and "shittier" have a combined total of 61, while "fuck" and the gang of "fucking", "fucked", "motherfucker", "fuckerberg"
 (amazingly I've used that one twice) and "fuckers" have notched up a dominating 92 in comparison. I've never used the word "cunt" in the blog, until just now. Sorry Mum.
 
 As established yesterday, I don't really know the best way to extract meaningful data from this, but it's cool to know that I now have a dataset of a decent size from which maybe I could derive some kind of deep
