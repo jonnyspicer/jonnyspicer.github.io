@@ -8,7 +8,7 @@ Having looked at the feelings behind the words in this blog yesterday, today I w
 176,219 words across 685 posts - which makes it about twice the length of the average novel. The mean length of a post is 256.319708 words, the median 165, and the mode
 is 207 words, with there being 8 posts of that length. Assuming a reasonably generous reading speed of 250 words per minute, the average post takes a hair over 60 seconds to
 consume, but the entire corpus (is describing this blog as a "corpus" disgustingly narcissistic?) would take roughly eleven hours and 45 minutes to get through. The longest post
-I've written to date is [An open letter to all my friends, ever](tartarus/2018/10/27/an-open-letter-to-all-my-friends-ever){:target="_blank"} at a hefty 4,861 words, making it
+I've written to date is [An open letter to all my friends, ever](/tartarus/2018/10/27/an-open-letter-to-all-my-friends-ever){:target="_blank"} at a hefty 4,861 words, making it
 longer than any essay I ever wrote at any point during my academic career. Twenty one of my posts have been over 1,000 words long, and 207 posts are above the mean length. The
 shortest post I ever wrote is this little cutie, [Duerme,](/mendokusai/2017/12/10/duerme){:target="_blank"} which isn't going to be winning any Spanish literary awards any time
 soon and only barely qualifies as a blog post at all under the stipulations of the original bet (namely that each post must be a minimum of two sentences in length).
