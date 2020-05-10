@@ -15,6 +15,7 @@ from textblob import TextBlob
 # directory = input('Which directory would you like a word count for?')
 wordcount = 0
 uniquewords = dict()
+wordsperpost = dict()
 stems = dict()
 nonalphabeticalremover = regex.compile('[^A-Za-z ]')
 sentiments = dict()
@@ -58,6 +59,7 @@ for directory in dirs:
                 blob = TextBlob(text)
 
                 sentiments.update({ filename: blob.sentiment.polarity})
+                wordsperpost.update({ filename: len(text.split())})
 
                 wordcount += len(text.split())
 
@@ -103,3 +105,6 @@ pd.DataFrame.from_dict(data=stems, orient='index').to_csv(
 
 pd.DataFrame.from_dict(data=sentiments, orient='index').to_csv(
     'sentiments.csv', header=False)
+
+pd.DataFrame.from_dict(data=wordsperpost, orient='index').to_csv(
+    'wordsperpost.csv', header=False)
