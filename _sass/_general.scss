@@ -8,14 +8,31 @@ body{
   flex-direction: column;
 }
 
+h1{
+  display: inline;
+  background-size: 100% 0.4em;
+  background-repeat: no-repeat;
+  background-position: 0 0.9em;
+  background-image: linear-gradient($color_yellow, $color_yellow);
+}
+
+h1 + p:first-of-type{
+  //sorry this is pretty gross
+  //feels less gross than putting a wrapper round every h1 though
+  // ¯\_(ツ)_/¯
+  padding-top: 20px;
+}
+
 h1, h2{
   font-family: $font-stack-header;
   color: $color_black;
+  font-weight: normal;
 }
 
 h3, h4, h5, h6 {
   font-family: $font-stack-subheader;
   color: $color_grey_dark;
+  font-weight: normal;
 }
 
 p, a, footer, span, li, blockquote {
@@ -36,7 +53,7 @@ blockquote{
   max-width: 600px;
   margin: 0 auto;
   flex: 1 0 auto;
-  padding: 20px;
+  padding: 40px 20px 20px;
 }
 
 footer{
@@ -95,16 +112,8 @@ blockquote{
   quotes: "\201C""\201D""\2018""\2019";
   line-height: 0.1em;
   &:before{
-    color: $color_grey_light;
+    color: $color_green;
     content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
-  }
-  &:after{
-    color: $color_grey_light;
-    content: close-quote;
     font-size: 4em;
     line-height: 0.1em;
     margin-right: 0.25em;

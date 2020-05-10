@@ -1,12 +1,11 @@
 footer{
   text-align: center;
   padding: 20px;
-  background-color: $color_dark_blue;
-  color: $color_white;
+  color: $color_black;
   font-size: 12px;
 
   a{
-    color: $color_white;
+    color: $color_black;
     text-decoration: none;
     &:hover{
       text-decoration: underline;
