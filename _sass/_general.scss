@@ -1,14 +1,15 @@
-html, body{
-  height:100%;
+html,
+body {
+  height: 100%;
   margin: 0;
 }
 
-body{
+body {
   display: flex;
   flex-direction: column;
 }
 
-h1{
+h1 {
   display: inline;
   background-size: 100% 0.4em;
   background-repeat: no-repeat;
@@ -16,39 +17,48 @@ h1{
   background-image: linear-gradient($color_yellow, $color_yellow);
 }
 
-h1 + p:first-of-type{
+h1+p:first-of-type {
   //sorry this is pretty gross
   //feels less gross than putting a wrapper round every h1 though
   // ¯\_(ツ)_/¯
   padding-top: 20px;
 }
 
-h1, h2{
+h1,
+h2 {
   font-family: $font-stack-header;
   color: $color_black;
   font-weight: normal;
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   font-family: $font-stack-subheader;
   color: $color_grey_dark;
   font-weight: normal;
 }
 
-p, a, footer, span, li, blockquote {
+p,
+a,
+footer,
+span,
+li,
+blockquote {
   font-family: $font-stack-copy;
   color: $color_black;
 }
 
-label{
-  display:none;
+label {
+  display: none;
 }
 
-blockquote{
+blockquote {
   font-style: italic;
 }
 
-.wrapper{
+.wrapper {
   width: calc(100% - 40px);
   max-width: 600px;
   margin: 0 auto;
@@ -56,45 +66,60 @@ blockquote{
   padding: 40px 20px 20px;
 }
 
-footer{
+footer {
   flex-shrink: 0;
 }
 
-a{
+a {
   color: $color_black;
   text-decoration: underline;
   text-decoration-color: $color_pink;
-  &:hover, &:focus{
+
+  &:hover,
+  &:focus {
     color: $color_pink;
   }
 }
 
-p, span{
+p,
+span {
   padding: 10px 0;
   font-size: 18px;
   line-height: 1.4;
-  &:first-of-type{
+
+  &:first-of-type {
     padding: 0;
   }
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
-li{
+ul ul,
+ol ol {
+  li:first-child {
+    padding-top: 20px;
+  }
+
+  li:last-child {
+    padding-bottom: 0;
+  }
+}
+
+li {
   padding-bottom: 20px;
 }
 
-h4{
+h4 {
   font-size: 20px;
 }
 
-hr{
+hr {
   width: 50%;
 }
 
-code{
+code {
   background-color: #dcdcdc;
   font-family: monospace;
   border-radius: 4px;
@@ -102,16 +127,17 @@ code{
   padding: 10px;
 }
 
-pre code{
+pre code {
   display: block;
 }
 
-blockquote{
+blockquote {
   // margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
   line-height: 0.1em;
-  &:before{
+
+  &:before {
     color: $color_green;
     content: open-quote;
     font-size: 4em;
@@ -119,7 +145,8 @@ blockquote{
     margin-right: 0.25em;
     vertical-align: -0.4em;
   }
-  p{
+
+  p {
     display: inline;
   }
 }
