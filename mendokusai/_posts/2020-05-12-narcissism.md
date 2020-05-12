@@ -25,7 +25,7 @@ I have talked a lot about narcissism before, and very frequently try to draw att
 as a narcissist or actually being one - but both make me feel queasy. It's a quality that I can't stand in other people and so I do my best to distance myself from it. Or at least, I thought
 it was my best.
 
-DFW is right, as he always seems to be. It's a sentence I have turned over and over in my mind since hearing it, something that sounds so simple and obvious in retrospect, yet still never
+It's a sentence I have turned over and over in my mind since hearing it, something that sounds so simple and obvious in retrospect, yet still never
 occured to me and presumably a lot of other people either. I pour so much time, effort and energy into my own low self-esteem, thinking about it, talking about it, wallowing in it. But surely
 the only way to justify pouring so many of my available resources into it, I must think I am the most important thing in the world? DFW has pointed out on other occasions the fetishization of
 being the protagonist of our magnum opus, an ideal that is sold to us for our entire lives. But does it make us happier? He says, and I believe him when he does so, that there is great
