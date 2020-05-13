@@ -4,8 +4,8 @@ author: Jonny Spicer
 title: Narcissism
 tags: [ Personal ]
 ---
-At the weekend I watched [Contrapoints'](/mendokusai/2019/03/16/contrapoints){:target="blank"} latest video essay, [Cringe](https://www.youtube.com/watch?v=vRBsaJPkt2Q){:target="blank"} and 
-was really struck by the the last point she makes, not least because it featured David Foster Wallace, and it's always heartwarming to see the intersection of the Venn diagram of people you 
+At the weekend I watched [Contrapoints'](/mendokusai/2019/03/16/contrapoints){:target="blank"} latest video essay, [Cringe,](https://www.youtube.com/watch?v=vRBsaJPkt2Q){:target="blank"} and
+was really struck by the the last point she makes, not least because it featured David Foster Wallace, and it's always heartwarming to see the intersection of the Venn diagram of people you
 admire. In Natalie's words:
 
 > Recently I was listening to a David Foster Wallace interview - yeah, I know, cringe - and he attacked me mercilessly and unprovoked.
