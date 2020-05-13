@@ -150,3 +150,15 @@ blockquote {
     display: inline;
   }
 }
+
+.circular-image {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  margin: 40px auto;
+
+  img {
+    width: 200px;
+  }
+}
