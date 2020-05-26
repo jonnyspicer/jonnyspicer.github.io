@@ -9,7 +9,7 @@ repeat previous efforts, something will magically be different this time. Perhap
 trying different things, and eventually something will stick.
 
 I am happy to report that I think I have a pretty good strategy this time, which is to take something that already works and apply it in a broader context - in this case
-intermittent fasting. Having integrated the 16:8 into my lfiestyle fairly comfortable over the past couple of years, I think making the switch to OMAD 5x/week is going to
+intermittent fasting. Having integrated the 16:8 into my lifestyle fairly comfortable over the past couple of years, I think making the switch to OMAD 5x/week is going to
 be both a logical transition and one that is best placed to combat the emotional/addictive behaviours I have around food.
 
 I'm writing this with about an hour to go until dinnertime on day 1, and so far it's felt like relatively smooth sailing - let's see how long that lasts.
