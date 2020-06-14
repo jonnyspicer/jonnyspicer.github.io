@@ -20,7 +20,7 @@ finally cracked it.
 ### Instructions
 
 - Liberally apply mayonnaise to one side of each piece of bread - really push the boat out, get your slather on
-- Place on piece mayo side down in a cold pan, then turn to medium heat
+- Place one piece mayo side down in a cold pan, then turn to medium heat
 - Add grated cheese to bread in pan. You can press the cheese together a little so that it sticks and is easier to handle
 - Lay apple sauce on top of cheese
 - Lay sliced jalapeños on top of the apple sauce, which will help keep them in place
