@@ -29,4 +29,8 @@ cache: bundler # caching bundler gem packages will speed up build
 
 # Optional: disable email notifications about the outcome of your builds
 notifications:
-  email: spicerjonny@gmail.com
+  email: 
+    recipients: 
+      - spicerjonny@gmail.com
+    on_success: always
+    on_failure: always
