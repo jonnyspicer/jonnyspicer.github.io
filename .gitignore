@@ -1,6 +1,7 @@
 *.vscode
 *.csv
 .sass-cache/
+__pycache__
 *.patch
 _site/
 test.html
