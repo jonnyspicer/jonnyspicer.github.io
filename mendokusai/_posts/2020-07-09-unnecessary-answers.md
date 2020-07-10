@@ -22,7 +22,7 @@ is a huge testament to its truth. He was someone who was far more intelligent th
 eloquently about depression and very much intellectualised the problem. By lapping up as much of I can of his thoughts on the subject,
 part of me is very much hoping is going to offer me some kind of previously unattainable insight into my own psyche, into my own
 problems, and offer a potential solution; I want a silver bullet on a silver platter. And obviously, that's dumb. (Also, I read
-[this great article](https://thecorrespondent.com/570/knowing-our-mad-ancestors-why-its-time-to-look-again-at-mental-illness-in-history/11609851770-06725f17){:target="_blank"}) earlier
+[this great article](https://thecorrespondent.com/570/knowing-our-mad-ancestors-why-its-time-to-look-again-at-mental-illness-in-history/11609851770-06725f17){:target="_blank"} earlier
 in which the author acknowledges that a big part of the reason she was drawn to Sylvia Plath was due to the nature of her death,
 and how that inherently invites a huge amount of projection and is unlikely to be helpful for her. It's pretty much the exact
 same story with me and DFW. Also also, it made me read some of Plath's poetry for the first time, and made me feel a great fool
