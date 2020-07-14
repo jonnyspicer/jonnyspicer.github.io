@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Things I Hate&#58; James Bond
-tags: [ Feminism ]
+tags: [ Feminism, Film and TV ]
 ---
 In this exciting new series (exciting for me anyway) I plan to just complain a lot about things and
 try to emulate the great Charlie Brooker so that it's hopefully either funny or gets across a
