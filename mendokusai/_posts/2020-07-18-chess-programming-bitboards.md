@@ -13,7 +13,9 @@ now they are being cast into a multidimensional array to be written to my consol
 
 So, how do you tell if there is, for example, a white rook on a certain square, just by looking at a 64 bit integer? Take the white rook bitboard for the starting position:
 
+```csharp
 0000000000000000000000000000000000000000000000000000000010000001
+```
 
 Well, it turns out you can do some neat stuff with bitwise operators (which seems to be a big theme in writing performant chess engines from what I can tell). If we think of each
 digit in the bitboard as a square on a chessboard, obviously each time the digit is a '1', that means a white rook is on that square. In order to check every square, we can write a
