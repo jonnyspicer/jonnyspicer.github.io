@@ -1,8 +1,8 @@
 ---
 layout: mendokusai
 author: Jonny Spicer
-title: Chess Programming Bitboards
-tags: [ Chess, Software Engineering ]
+title: Chess Programming&#58; Bitboards
+tags: [ Chess, Software Development ]
 ---
 Today the engine work began in earnest, and I've already made some decent progress. It can already hold a representation of a chessboard in memory, and tell you the position of
 the pieces on it - it can "see" the board if you will. It still has no idea about any of the rules of the game but, you know, baby steps.
@@ -13,11 +13,11 @@ now they are being cast into a multidimensional array to be written to my consol
 
 So, how do you tell if there is, for example, a white rook on a certain square, just by looking at a 64 bit integer? Take the white rook bitboard for the starting position:
 
-```0000000000000000000000000000000000000000000000000000000010000001```
+0000000000000000000000000000000000000000000000000000000010000001
 
 Well, it turns out you can do some neat stuff with bitwise operators (which seems to be a big theme in writing performant chess engines from what I can tell). If we think of each
 digit in the bitboard as a square on a chessboard, obviously each time the digit is a '1', that means a white rook is on that square. In order to check every square, we can write a
-for loop that right-shifts each square one at a time, and then checks to see if a one is present by using the logical and operator ```&``` to see if the relevant digit is a '1', like 
+for loop that right-shifts each square one at a time, and then checks to see if a one is present by using the logical and operator ```&``` to see if the relevant digit is a '1', like
 so:
 
 ```csharp
@@ -25,7 +25,7 @@ for (int i = 0; i < 64; i++)
     {
         if (((wRook >> i) & 1) == 1)
         {
-            Console.WriteLine("There's a white rook on this square!");
+            Console.WriteLine("There's a white rook here!");
         } else
         {
             Console.WriteLine("No white rook to be found...)
