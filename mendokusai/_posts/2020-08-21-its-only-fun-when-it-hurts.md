@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: It&#39;s Only Fun When It Hurts
-tags: [ Poker ]
+tags: [ Poker and Gambling ]
 ---
 I think I am a favourite to one day get the words "no gamble, no future" tattooed somewhere on my body. While I don't
 really play much poker any more, some of the sayings were pretty neat, and as we all know by now, the game is wonderfully
