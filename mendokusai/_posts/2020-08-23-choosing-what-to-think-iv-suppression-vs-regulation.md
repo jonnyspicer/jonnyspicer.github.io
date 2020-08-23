@@ -1,7 +1,7 @@
 ---
 layout: mendokusai
 author: Jonny Spicer
-title: Choosing What To Think IV&#58 Suppression vs Regulation;
+title: Choosing What To Think IV&#58 Suppression vs Regulation
 tags: [ Mental Health ]
 ---
 I've come across another piece of the "choose what to think" puzzle. Sometimes, things happen that make you sad, and it's healthy and important to allow yourself to feel that sadness.
