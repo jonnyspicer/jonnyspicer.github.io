@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Ice Cream Victories
-tags: [ Diet & Fitness ]
+tags: [ Diet and Fitness ]
 ---
 Ever since I've bought my own food, ice cream has been my go-to binging staple. I can't remember a time in my adult life when I have bought a tub of Ben & Jerry's and not consumed it
 in a single sitting. During a particularly bad week, that could even be a daily occurence, one which would leave me feeling awful afterwards but equally one which I felt wholly
