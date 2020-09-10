@@ -21,7 +21,7 @@ I couldn't keep doing the same thing if I wasn't happy. I have to take risks, be
 me from actually doing them the way it once did.
 
 It's been a really rough twelve months, but I've tried really hard to get through it, I think you'd be proud of me. I had so many festivals lined up this summer, you would've been so
-jealous, I had to cancel them all though so you would've had the last laugh. I still have big plans for the future though. Fraser, Vicky, Alex and I shared stories about you in Albion
-on Boxing Day, I hope your ears weren't burning too much - clearly I'm not the only one that thought highly of you.
+jealous, I had to cancel them all though so you would've had the last laugh. I still have big plans for the future though. I finally got my first tattoo, after all those conversations
+we had about it, and I thought about you while I was in the chair. Fraser, Vicky, Alex and I shared stories about you in Albion on Boxing Day, I hope your ears weren't burning too much - clearly I'm not the only one that thought highly of you.
 
 Wherever you are, I hope you're doing good buddy. I miss you.
