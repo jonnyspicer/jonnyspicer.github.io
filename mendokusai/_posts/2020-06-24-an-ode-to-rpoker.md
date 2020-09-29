@@ -7,7 +7,7 @@ tags: [ Poker and Gambling ]
 Sometimes I hate the internet. I think a lot of people feel the same. Sometimes I hate Reddit, especially. Sometimes I hate poker - if you have spent any meaningful amount of time playing the game and have never hated it at any point, then I gravely concerned about
 your soundness of mind.
 
-However when these things collide, in the form of the [poker subreddit,](https://reddit.com/r/poker){:target="blank"} they form something almost indescribably beautiful, although I shall try regardless. I have never once, not even for a single second, hated r/poker. It
+However when these things collide, in the form of the [poker subreddit,](https://reddit.com/r/poker){:target="_blank"} they form something almost indescribably beautiful, although I shall try regardless. I have never once, not even for a single second, hated r/poker. It
 is really, truly, a masterpiece co-authored by thousands, and for that I believe it should be cherished.
 
 In our modern era, where our lives are so dominated by social media, satire is easy. It is not the art form it once was, it requires far less skill than it did just twenty years ago; often one can simply repurpose the actual truth as satirical
@@ -28,4 +28,4 @@ The two opposing forces are in a complete balance - a Nash equilibrium if you wi
 Ungenuiness Principle - Schrödinger's Bad Beat Story if you will. It brings me
 unadulterated joy.
 
-[Case in point.](https://www.reddit.com/r/poker/comments/he8jad/how_do_i_explain_to_my_grandpa_that_hes_not/){:target="blank"} Enjoy.
+[Case in point.](https://www.reddit.com/r/poker/comments/he8jad/how_do_i_explain_to_my_grandpa_that_hes_not/){:target="_blank"} Enjoy.

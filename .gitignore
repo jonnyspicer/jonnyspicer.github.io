@@ -5,3 +5,4 @@ __pycache__
 *.patch
 _site/
 test.html
+data.txt

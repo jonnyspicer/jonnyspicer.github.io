@@ -5,7 +5,7 @@ title: Return of the Snark
 tags: [ Blogging, Personal ]
 ---
 As of last night I've given the site a new lick of paint, and I'm pretty happy with the way it turned out. I think it looks less dense than before, subtler and more refined, elegant and
-ultimately more readable, which is the sole objective of a blogging site. I also rewrote a lot of the copy, on the home page, the [about](/about){:target="blank"} page and the blog intros.
+ultimately more readable, which is the sole objective of a blogging site. I also rewrote a lot of the copy, on the home page, the [about](/about){:target="_blank"} page and the blog intros.
 
 For however long now (I guess roughly a year) I've had copy there that intentionally avoided self-deprecation, and I attempted to come across as positively as possible. And I hated it,
 every time I read it I would cringe painfully, I couldn't even make it through my whole about page without having to take a break to suppress my nausea. It wasn't my thoughts, it wasn't my
