@@ -2,6 +2,7 @@ import os
 import re
 import string
 import regex
+from bs4 import BeautifulSoup
 
 # a datacleaning script so blog posts can be fed into an RNN
 
@@ -19,7 +20,8 @@ for directory in dirs:
             with open(directory + '/' + filename, 'r') as file:
 
                 # removes line endings
-                text = file.read().replace('\n', ' ')
+                # text = file.read().replace('\n', ' ')
+                text = file.read()
 
                 # selects only the portion of the file after the Jekyll front matter
                 text = text.split('---', 2)
@@ -38,11 +40,13 @@ for directory in dirs:
 
                 # removes Markdown links
                 # text = regex.sub(linkremover, '', text)
-                print(md_link.findall(text))
-
                 text = regex.sub(md_link, '\g<1>', text)
 
                 # todo: replace code blocks, hashes, HRs
+
+                text = regex.sub(r"```(.*)```", '', text)
+                text = regex.sub(r"#{2,}", '', text)
+                text = text.replace("___", '').replace("---", '')
 
                 textfile = open('data.txt', 'a')
                 textfile.write(text)
