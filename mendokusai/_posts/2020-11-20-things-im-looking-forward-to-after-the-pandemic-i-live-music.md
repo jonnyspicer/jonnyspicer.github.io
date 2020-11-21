@@ -1,7 +1,7 @@
 ---
 layout: mendokusai
 author: Jonny Spicer
-title: Things I'm Looking Forward To After The Pandemic IX&#58; Live Music
+title: Things I'm Looking Forward To After The Pandemic I&#58; Live Music
 tags: [ Music ]
 ---
 Just like everyone else, there are a lot of things I'm looking forward to once some semblance of normality returns to the world. I've not wanted to get my hopes up previously, given
