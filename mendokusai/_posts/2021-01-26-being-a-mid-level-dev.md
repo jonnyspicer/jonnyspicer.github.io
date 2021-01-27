@@ -2,7 +2,7 @@
 layout: mendokusai
 author: Jonny Spicer
 title: Being a Mid Level Dev
-tags: [ Career, Software Engineering ]
+tags: [ Career, Software Development ]
 ---
 As of last week I am now supposedly a mid-level dev, rather than a junior one. It's weird in a sense because it has reinforced how arbitrary the distinction is - I am clearly exactly
 the same human being as I was when I was a junior. If anything I feel *more* junior now, because I'm working with a whole new tech stack, and I don't know how any of it works, so I'm
