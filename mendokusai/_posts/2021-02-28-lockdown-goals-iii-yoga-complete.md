@@ -1,7 +1,7 @@
 ---
 layout: mendokusai
 author: Jonny Spicer
-title: Lockdown Goals III Yoga Complete
+title: Lockdown Goals III&#58 Yoga Complete
 tags: [ Diet and Fitness ]
 ---
 Contrary to form, I have actually complete one of my goals, and did indeed manage to do some kind of yoga every day for the entirety of February. I only did a little each day,
