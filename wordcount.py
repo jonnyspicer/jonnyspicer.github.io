@@ -14,6 +14,7 @@ from textblob import TextBlob
 
 # directory = input('Which directory would you like a word count for?')
 wordcount = 0
+postcount = 0
 uniquewords = dict()
 wordsperpost = dict()
 stems = dict()
@@ -63,6 +64,8 @@ for directory in dirs:
 
                 wordcount += len(text.split())
 
+                postcount += 1
+
                 # nltk stemming/token magic from http://ryancompton.net/2014/06/06/statistical-features-of-infinite-jest/
                 tokens = nltk.word_tokenize(text)
                 stemmer = nltk.stem.PorterStemmer()
@@ -89,6 +92,8 @@ else:
     print('Wordcount: ' + str(wordcount))
     print('Unique words: ' + str(len(uniquewords)))
     print('Unique stems: ' + str(len(stems)))
+
+print('postcount:' + str(postcount))
 
 # sorting dictionaries is unnecessarily difficult in python
 sortedtuples = sorted(uniquewords.items(), reverse=True, key=lambda x: x[1])
