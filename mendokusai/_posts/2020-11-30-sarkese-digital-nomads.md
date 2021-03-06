@@ -13,4 +13,4 @@ digital nomad wishlist, and while I was double checking what year they ditched t
 to save you a click), I remembered quite how socially and legally backwards it is and was, and quite how involved the Barclay brothers are with the administration of the island, but
 who knows.
 
-I for one would *love* to see a couple of grindhouses set up there. If you got a couple of [cumicon](https://www.pokernews.com/news/2017/11/online-crusher-cumicon-retires-graph-29420.htm){:target="_blanks"} to hole up there for a few years, who knows. Maybe they could put Sark on the map?
+I for one would *love* to see a couple of grindhouses set up there. If you got a couple of [cumicon](https://www.pokernews.com/news/2017/11/online-crusher-cumicon-retires-graph-29420.htm){:target="_blank"} to hole up there for a few years, who knows. Maybe they could put Sark on the map?
